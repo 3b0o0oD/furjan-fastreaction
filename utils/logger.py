@@ -32,7 +32,7 @@ def get_logger(name: str, level: str = "INFO", enable_file_logging: bool = True)
         return logger
     
     # Set level
-    log_level = getattr(logging, level.upper(), logging.INFO)
+    log_level = getattr(logging, level.upper(), logging.DEBUG)
     logger.setLevel(log_level)
     
     # Create console handler
@@ -99,11 +99,11 @@ def create_file_handler(log_level: int) -> Optional[logging.FileHandler]:
         )
         file_handler.setFormatter(file_formatter)
         
-        print(f"📁 Log file created: {log_filepath}")
+        print(f" Log file created: {log_filepath}")
         return file_handler
         
     except Exception as e:
-        print(f"❌ Failed to create file handler: {e}")
+        print(f" Failed to create file handler: {e}")
         return None
 
 
