@@ -73,7 +73,7 @@ class UIConfig:
 class SerialConfig:
     """Serial communication configuration settings"""
     enabled: bool = False  # Enable/disable serial communication
-    port: str = "/dev/pts/5"  # Default serial port (Linux)
+    port: str = "/dev/pts/6"  # Default serial port (Linux)
     # port: str = "COM3"  # Windows example
     baudrate: int = 9600  # Communication speed
     timeout: int = 1  # Read timeout in seconds
