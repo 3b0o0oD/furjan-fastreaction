@@ -1781,7 +1781,8 @@ class Active_screen(QWidget):
         self.Background.setGeometry(QtCore.QRect(0, 0, 1920*self.scale, 1080*self.scale))
         self.Background.setText("")
         self.Background.setScaledContents(True)
-
+        self.Background.setMovie(self.movie)
+        self.movie.start()
        
         
 
@@ -1836,8 +1837,7 @@ class Active_screen(QWidget):
             logger.error(f" Error setting up circular timer widget: {e}")
         
         
-        self.Background.setMovie(self.movie)
-        self.movie.start()
+        
         
         # Game timer
         self.TimerGame = QTimer(MainWindow)
