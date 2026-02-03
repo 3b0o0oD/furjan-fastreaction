@@ -1,0 +1,30 @@
+{
+  "team_name": "VOSTOK TEAM 58",
+  "timestamp": "2025-11-04 16:07:19",
+  "total_score": 6100,
+  "backend_payload": {
+    "gameResultID": "1205144a-7176-404f-ab78-5c48de2eae19",
+    "individualScore": [
+      {
+        "userID": "7168834a-6700-4acd-82aa-5bc8fd9d48e8",
+        "nodeID": 1,
+        "score": 1525
+      },
+      {
+        "userID": "f2091279-c7c8-46aa-9cec-f9e03ced5cb7",
+        "nodeID": 2,
+        "score": 1525
+      },
+      {
+        "userID": "f7583da2-ff62-40cf-8dd7-1f5d1cdef7dd",
+        "nodeID": 3,
+        "score": 1525
+      },
+      {
+        "userID": "5906803e-8fa4-4607-8d67-a8001de6531a",
+        "nodeID": 4,
+        "score": 1525
+      }
+    ]
+  }
+}

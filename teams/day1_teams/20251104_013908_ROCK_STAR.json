@@ -1,0 +1,30 @@
+{
+  "team_name": "ROCK STAR",
+  "timestamp": "2025-11-04 01:39:08",
+  "total_score": 5900,
+  "backend_payload": {
+    "gameResultID": "59f94dcb-6522-4a6c-a694-1a45d4437e54",
+    "individualScore": [
+      {
+        "userID": "6846a935-e726-43b5-b50b-b3af08d65791",
+        "nodeID": 1,
+        "score": 1475
+      },
+      {
+        "userID": "9ab09309-2c78-46bd-b5e6-7bab1f98ffa1",
+        "nodeID": 2,
+        "score": 1475
+      },
+      {
+        "userID": "ff77a88e-068d-496a-907f-e5f411dc7eac",
+        "nodeID": 3,
+        "score": 1475
+      },
+      {
+        "userID": "614b8bb1-bc8d-4280-a432-95db6c8d2c2c",
+        "nodeID": 4,
+        "score": 1475
+      }
+    ]
+  }
+}

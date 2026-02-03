@@ -1,0 +1,30 @@
+{
+  "team_name": "ATM1",
+  "timestamp": "2025-11-05 14:49:12",
+  "total_score": 2625,
+  "backend_payload": {
+    "gameResultID": "76b81ca0-ee67-4a35-af9b-c022b8199912",
+    "individualScore": [
+      {
+        "userID": "12f17434-15d3-4626-bca3-9475a312e1b2",
+        "nodeID": 1,
+        "score": 657
+      },
+      {
+        "userID": "47a76886-e569-4ea6-901f-fa41d8d6f7b3",
+        "nodeID": 2,
+        "score": 656
+      },
+      {
+        "userID": "5b170e2d-50e5-4515-adcf-ddfa4e443e09",
+        "nodeID": 3,
+        "score": 656
+      },
+      {
+        "userID": "b7584c74-cc5b-4393-8abe-03bf13c81922",
+        "nodeID": 4,
+        "score": 656
+      }
+    ]
+  }
+}

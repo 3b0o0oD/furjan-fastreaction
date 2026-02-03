@@ -1,0 +1,30 @@
+{
+  "team_name": "DP - D34  - NAD1",
+  "timestamp": "2025-11-07 00:54:53",
+  "total_score": 0,
+  "backend_payload": {
+    "gameResultID": "9e5a79ae-8cfd-433e-91a5-cb634696581c",
+    "individualScore": [
+      {
+        "userID": "779e1b25-3a04-4945-950c-8120004ba174",
+        "nodeID": 1,
+        "score": 0
+      },
+      {
+        "userID": "1c00d065-b5a1-4f40-9885-cb04e141dc52",
+        "nodeID": 2,
+        "score": 0
+      },
+      {
+        "userID": "b783e704-cd8e-489f-979d-0d4a67b075ce",
+        "nodeID": 3,
+        "score": 0
+      },
+      {
+        "userID": "a295c5ef-7052-4f85-9099-79f50e681478",
+        "nodeID": 4,
+        "score": 0
+      }
+    ]
+  }
+}

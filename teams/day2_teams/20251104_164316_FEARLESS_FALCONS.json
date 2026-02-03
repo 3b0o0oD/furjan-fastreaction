@@ -1,0 +1,30 @@
+{
+  "team_name": "FEARLESS FALCONS",
+  "timestamp": "2025-11-04 16:43:16",
+  "total_score": 5425,
+  "backend_payload": {
+    "gameResultID": "f8e414a6-a949-4a9f-88e7-586bfd5afe87",
+    "individualScore": [
+      {
+        "userID": "d648e7fb-47c2-4b46-ae27-a55d02493ac1",
+        "nodeID": 1,
+        "score": 1357
+      },
+      {
+        "userID": "004921e9-c62d-467d-90b3-cad14bc704db",
+        "nodeID": 2,
+        "score": 1356
+      },
+      {
+        "userID": "314afafc-dfed-4461-9cbd-814c6ad172e2",
+        "nodeID": 3,
+        "score": 1356
+      },
+      {
+        "userID": "7702b0fe-6092-40b4-bb52-61381f183fa1",
+        "nodeID": 4,
+        "score": 1356
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "team_name": "TEAM VTS",
+  "timestamp": "2025-11-04 23:20:03",
+  "total_score": 5575,
+  "backend_payload": {
+    "gameResultID": "cd8bd1d5-ed96-47e1-9361-815d0fc48087",
+    "individualScore": [
+      {
+        "userID": "87b15b03-40a1-4c71-877d-8e52acf2e3fa",
+        "nodeID": 1,
+        "score": 1396
+      },
+      {
+        "userID": "88efb58a-2885-410b-9932-ded5321e3814",
+        "nodeID": 2,
+        "score": 1393
+      },
+      {
+        "userID": "ee5ba5b9-d0e1-41cc-bf5b-7541ba9b349c",
+        "nodeID": 3,
+        "score": 1393
+      },
+      {
+        "userID": "1ade8b3f-d313-4afb-8c5b-a1db95bb7ac0",
+        "nodeID": 4,
+        "score": 1393
+      }
+    ]
+  }
+}

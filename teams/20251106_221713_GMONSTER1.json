@@ -1,0 +1,30 @@
+{
+  "team_name": "GMONSTER1",
+  "timestamp": "2025-11-06 22:17:13",
+  "total_score": 8025,
+  "backend_payload": {
+    "gameResultID": "d601ef58-a0e3-4775-990f-3cc2a966148e",
+    "individualScore": [
+      {
+        "userID": "0b1fc982-6716-4985-b60a-b93655823e0e",
+        "nodeID": 1,
+        "score": 2007
+      },
+      {
+        "userID": "0b69cbd4-c5f2-4111-adfa-e29c6b32de49",
+        "nodeID": 2,
+        "score": 2006
+      },
+      {
+        "userID": "b2fb42e2-50a7-4a2c-9970-2dafa13c8080",
+        "nodeID": 3,
+        "score": 2006
+      },
+      {
+        "userID": "1e842902-c495-4f20-a3e9-53d69c0f283b",
+        "nodeID": 4,
+        "score": 2006
+      }
+    ]
+  }
+}

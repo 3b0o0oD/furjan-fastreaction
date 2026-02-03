@@ -1,0 +1,30 @@
+{
+  "team_name": "IT ROCKS",
+  "timestamp": "2025-11-04 22:21:53",
+  "total_score": 6175,
+  "backend_payload": {
+    "gameResultID": "b014f00e-57a8-430e-86c1-cf8502bfb7b3",
+    "individualScore": [
+      {
+        "userID": "9112fa6e-dc29-478c-8d14-0b5544211d09",
+        "nodeID": 1,
+        "score": 1546
+      },
+      {
+        "userID": "77bfae6c-a831-4129-99c5-6e94ed05d120",
+        "nodeID": 2,
+        "score": 1543
+      },
+      {
+        "userID": "9e434830-9ec3-4af3-997c-375391c18fa4",
+        "nodeID": 3,
+        "score": 1543
+      },
+      {
+        "userID": "cd3bf2db-732a-4c01-937a-50da14d0a456",
+        "nodeID": 4,
+        "score": 1543
+      }
+    ]
+  }
+}

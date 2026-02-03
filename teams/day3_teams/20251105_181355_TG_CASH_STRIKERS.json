@@ -1,0 +1,30 @@
+{
+  "team_name": "TG CASH STRIKERS",
+  "timestamp": "2025-11-05 18:13:55",
+  "total_score": 2525,
+  "backend_payload": {
+    "gameResultID": "bcc19c91-f511-4f77-b0c9-eed050d78e7f",
+    "individualScore": [
+      {
+        "userID": "7b947bb0-faf8-42ee-9ba1-484ab225412e",
+        "nodeID": 1,
+        "score": 632
+      },
+      {
+        "userID": "7d87f89c-7a50-4ca4-b655-566ae73150d0",
+        "nodeID": 2,
+        "score": 631
+      },
+      {
+        "userID": "3b15dac1-9f64-4c9a-8bf2-17aed012ca90",
+        "nodeID": 3,
+        "score": 631
+      },
+      {
+        "userID": "b5cfa1cd-f612-4ace-934f-d4f601232924",
+        "nodeID": 4,
+        "score": 631
+      }
+    ]
+  }
+}

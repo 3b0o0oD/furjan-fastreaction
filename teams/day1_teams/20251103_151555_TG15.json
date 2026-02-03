@@ -1,0 +1,30 @@
+{
+  "team_name": "TG15",
+  "timestamp": "2025-11-03 15:15:55",
+  "total_score": 1200,
+  "backend_payload": {
+    "gameResultID": "70eba990-4d4f-46aa-8043-9b4eb04dd771",
+    "individualScore": [
+      {
+        "userID": "415394e4-569d-4521-ae94-d8f54f00c208",
+        "nodeID": 1,
+        "score": 300
+      },
+      {
+        "userID": "64e8f3c8-6862-4749-a679-b4d01881c67a",
+        "nodeID": 2,
+        "score": 300
+      },
+      {
+        "userID": "d646465b-29c8-4ff6-9dbc-274404ff7a81",
+        "nodeID": 3,
+        "score": 300
+      },
+      {
+        "userID": "a256fc2a-a0ab-47d3-b355-1c343110a8a1",
+        "nodeID": 4,
+        "score": 300
+      }
+    ]
+  }
+}

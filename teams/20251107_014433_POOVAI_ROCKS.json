@@ -1,0 +1,30 @@
+{
+  "team_name": "POOVAI ROCKS",
+  "timestamp": "2025-11-07 01:44:33",
+  "total_score": 0,
+  "backend_payload": {
+    "gameResultID": "1f2c8549-a5c3-44f4-ad4a-34d6dc86cf45",
+    "individualScore": [
+      {
+        "userID": "ddb11412-5d14-4f29-a44b-3af71c859e33",
+        "nodeID": 1,
+        "score": 0
+      },
+      {
+        "userID": "acc14b09-bf4a-4455-ba23-6aa062d06efd",
+        "nodeID": 2,
+        "score": 0
+      },
+      {
+        "userID": "fe7fa29e-631b-4ef1-b32e-fb218411214b",
+        "nodeID": 3,
+        "score": 0
+      },
+      {
+        "userID": "f01e2062-7496-48e0-9a6b-f6fb5ee74e27",
+        "nodeID": 4,
+        "score": 0
+      }
+    ]
+  }
+}

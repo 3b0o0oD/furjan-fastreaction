@@ -1,0 +1,30 @@
+{
+  "team_name": "NASSAR",
+  "timestamp": "2025-11-06 16:35:59",
+  "total_score": 0,
+  "backend_payload": {
+    "gameResultID": "2a85c9b6-7b7a-4cae-8bf2-eaa0a8252842",
+    "individualScore": [
+      {
+        "userID": "537cebbd-d5f2-4625-bcc2-eb955bb807a1",
+        "nodeID": 1,
+        "score": 0
+      },
+      {
+        "userID": "805f4c03-fce9-4834-ad6b-d40e27d4143a",
+        "nodeID": 2,
+        "score": 0
+      },
+      {
+        "userID": "48d9af9a-45ad-4a9c-af78-af4c98826af7",
+        "nodeID": 3,
+        "score": 0
+      },
+      {
+        "userID": "442fc117-bf9a-4863-a7ba-fd54b6846d81",
+        "nodeID": 4,
+        "score": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "team_name": "M MUSA",
+  "timestamp": "2025-11-04 19:11:56",
+  "total_score": 2500,
+  "backend_payload": {
+    "gameResultID": "eb636e56-e327-4857-a79a-dee39ec0340c",
+    "individualScore": [
+      {
+        "userID": "486004e9-1d13-45d4-b89d-0abeb0e6c46c",
+        "nodeID": 1,
+        "score": 625
+      },
+      {
+        "userID": "7489ee8c-6408-4f27-acc6-aa332f6500e1",
+        "nodeID": 2,
+        "score": 625
+      },
+      {
+        "userID": "ec46aebe-80d0-4668-bb98-b9c80fd9a369",
+        "nodeID": 3,
+        "score": 625
+      },
+      {
+        "userID": "1a59c927-94e1-42a8-835b-be19e5aff7ba",
+        "nodeID": 4,
+        "score": 625
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "team_name": "TKL",
+  "timestamp": "2025-11-06 23:54:33",
+  "total_score": 13525,
+  "backend_payload": {
+    "gameResultID": "37a710cd-59ed-4a39-a70a-576bf4642052",
+    "individualScore": [
+      {
+        "userID": "c3ab6e5a-07f3-4bf4-a339-a500ecd95238",
+        "nodeID": 1,
+        "score": 3382
+      },
+      {
+        "userID": "7eb7961b-cdbb-48fc-90f7-da14cd208b2d",
+        "nodeID": 2,
+        "score": 3381
+      },
+      {
+        "userID": "9bf27ae5-cee9-4afe-8d2c-74d69abe58a9",
+        "nodeID": 3,
+        "score": 3381
+      },
+      {
+        "userID": "4f267e30-86ad-4a04-b1b0-086d963d0b05",
+        "nodeID": 4,
+        "score": 3381
+      }
+    ]
+  }
+}

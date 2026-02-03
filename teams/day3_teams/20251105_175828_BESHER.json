@@ -1,0 +1,30 @@
+{
+  "team_name": "BESHER",
+  "timestamp": "2025-11-05 17:58:28",
+  "total_score": 0,
+  "backend_payload": {
+    "gameResultID": "92212af9-8136-42b2-9485-78723733beb3",
+    "individualScore": [
+      {
+        "userID": "9b9cb793-7f5b-4e55-afb3-ed72e5447c02",
+        "nodeID": 1,
+        "score": 0
+      },
+      {
+        "userID": "96be1cdd-1626-4221-8a00-9ae923c039d4",
+        "nodeID": 2,
+        "score": 0
+      },
+      {
+        "userID": "5ba408a5-e2d3-4df5-86ed-25b2ec32cc9d",
+        "nodeID": 3,
+        "score": 0
+      },
+      {
+        "userID": "ac0892e1-3798-4279-9160-57d3f81338c6",
+        "nodeID": 4,
+        "score": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "team_name": "ARKAN WHIE",
+  "timestamp": "2025-11-04 20:55:23",
+  "total_score": 3825,
+  "backend_payload": {
+    "gameResultID": "448080c4-d83a-4825-a7ad-68fed9904613",
+    "individualScore": [
+      {
+        "userID": "c60fd0cb-0c48-4ad9-9910-665ea486efaa",
+        "nodeID": 1,
+        "score": 957
+      },
+      {
+        "userID": "0cdf8eaa-a8f1-4910-9adc-c0591cafee8e",
+        "nodeID": 2,
+        "score": 956
+      },
+      {
+        "userID": "dfbb6406-aca4-4163-ae8e-d946a74366ac",
+        "nodeID": 3,
+        "score": 956
+      },
+      {
+        "userID": "07403659-69e0-469c-aa2e-77e59064215f",
+        "nodeID": 4,
+        "score": 956
+      }
+    ]
+  }
+}

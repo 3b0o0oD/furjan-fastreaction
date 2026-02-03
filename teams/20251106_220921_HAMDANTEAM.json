@@ -1,0 +1,30 @@
+{
+  "team_name": "HAMDANTEAM",
+  "timestamp": "2025-11-06 22:09:21",
+  "total_score": 5075,
+  "backend_payload": {
+    "gameResultID": "a9e66d78-ac8f-4867-8265-75448264075f",
+    "individualScore": [
+      {
+        "userID": "3e05e780-74f4-4f5b-bd84-8dff41679227",
+        "nodeID": 1,
+        "score": 1271
+      },
+      {
+        "userID": "64379311-5bc7-4580-9861-3c7b057085a0",
+        "nodeID": 2,
+        "score": 1268
+      },
+      {
+        "userID": "8ed244d0-a465-40c4-99c7-4a9aec68a882",
+        "nodeID": 3,
+        "score": 1268
+      },
+      {
+        "userID": "c8e0aed3-eaeb-421e-a95c-7d9f231c8cb3",
+        "nodeID": 4,
+        "score": 1268
+      }
+    ]
+  }
+}

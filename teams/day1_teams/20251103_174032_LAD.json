@@ -1,0 +1,30 @@
+{
+  "team_name": "LAD",
+  "timestamp": "2025-11-03 17:40:32",
+  "total_score": 7500,
+  "backend_payload": {
+    "gameResultID": "837328cc-ab40-4d06-815a-5898fb07e05d",
+    "individualScore": [
+      {
+        "userID": "43b962a7-16a5-46d9-aa8f-82379bc531da",
+        "nodeID": 1,
+        "score": 1875
+      },
+      {
+        "userID": "dc27d082-7135-4c01-8165-0736469f8ab4",
+        "nodeID": 2,
+        "score": 1875
+      },
+      {
+        "userID": "c13a822a-c1f6-4e8a-ae0d-689b76835e61",
+        "nodeID": 3,
+        "score": 1875
+      },
+      {
+        "userID": "58300301-541f-4af0-8b7e-6e046ebc799f",
+        "nodeID": 4,
+        "score": 1875
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "team_name": "JUNAID ",
+  "timestamp": "2025-11-06 23:29:31",
+  "total_score": 3075,
+  "backend_payload": {
+    "gameResultID": "9119f367-5189-4826-9181-8cdcac8eb754",
+    "individualScore": [
+      {
+        "userID": "383f8067-dc60-475b-8487-fe0895eeddc9",
+        "nodeID": 1,
+        "score": 771
+      },
+      {
+        "userID": "6b43a7ca-2e30-4fc8-adf4-d378a1d0a9e6",
+        "nodeID": 2,
+        "score": 768
+      },
+      {
+        "userID": "bce8740b-0589-4907-8bb4-be6fbc1ad2d8",
+        "nodeID": 3,
+        "score": 768
+      },
+      {
+        "userID": "4b49927b-4d0a-4ca2-833e-ba433576c19c",
+        "nodeID": 4,
+        "score": 768
+      }
+    ]
+  }
+}

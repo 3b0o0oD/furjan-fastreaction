@@ -1,0 +1,30 @@
+{
+  "team_name": "ARC EVENT SECURITY LLC",
+  "timestamp": "2025-11-06 15:55:05",
+  "total_score": 3875,
+  "backend_payload": {
+    "gameResultID": "663f3b02-fc5f-4821-98f8-69469d01430e",
+    "individualScore": [
+      {
+        "userID": "87d62f66-b902-4634-951f-80a09fc6c1dc",
+        "nodeID": 1,
+        "score": 971
+      },
+      {
+        "userID": "8d2d834f-ae84-4317-b0a5-af0488edd056",
+        "nodeID": 2,
+        "score": 968
+      },
+      {
+        "userID": "8720e435-d755-4b26-81dd-2cd9bb91771e",
+        "nodeID": 3,
+        "score": 968
+      },
+      {
+        "userID": "c055ac36-a34c-4b4e-9bc3-75afdd3ef907",
+        "nodeID": 4,
+        "score": 968
+      }
+    ]
+  }
+}

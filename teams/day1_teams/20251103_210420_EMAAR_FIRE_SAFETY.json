@@ -1,0 +1,30 @@
+{
+  "team_name": "EMAAR FIRE SAFETY",
+  "timestamp": "2025-11-03 21:04:20",
+  "total_score": 4600,
+  "backend_payload": {
+    "gameResultID": "fa602d6f-ef1c-48fb-8cfd-f22ec2a7b832",
+    "individualScore": [
+      {
+        "userID": "9cfb19f0-4ad3-4505-b77c-f6b4bfce4121",
+        "nodeID": 1,
+        "score": 1150
+      },
+      {
+        "userID": "746ebefc-87b3-4d95-a639-0982323e09e0",
+        "nodeID": 2,
+        "score": 1150
+      },
+      {
+        "userID": "b56d059e-ab4e-4712-9b57-174b15c109f6",
+        "nodeID": 3,
+        "score": 1150
+      },
+      {
+        "userID": "29c90ea3-f09e-4876-adf1-1a9ecbd15f8f",
+        "nodeID": 4,
+        "score": 1150
+      }
+    ]
+  }
+}

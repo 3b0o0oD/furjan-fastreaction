@@ -1,0 +1,30 @@
+{
+  "team_name": "NAPOLI",
+  "timestamp": "2025-11-05 21:00:02",
+  "total_score": 2175,
+  "backend_payload": {
+    "gameResultID": "df6475ca-4032-4973-b856-821fa36c4e90",
+    "individualScore": [
+      {
+        "userID": "37d49fbf-f0a4-41f4-bdd4-ef4d33887d66",
+        "nodeID": 1,
+        "score": 546
+      },
+      {
+        "userID": "2b5647a8-0a2a-4a28-9899-577ccf99cf6d",
+        "nodeID": 2,
+        "score": 543
+      },
+      {
+        "userID": "d024f234-dd6e-4325-9182-dc0449d20bd5",
+        "nodeID": 3,
+        "score": 543
+      },
+      {
+        "userID": "4d72a001-069b-4b57-ad71-73c713f2b793",
+        "nodeID": 4,
+        "score": 543
+      }
+    ]
+  }
+}

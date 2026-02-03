@@ -1,0 +1,30 @@
+{
+  "team_name": "SALEM MOVES",
+  "timestamp": "2025-11-04 14:54:56",
+  "total_score": 3150,
+  "backend_payload": {
+    "gameResultID": "6380cb83-d372-4a8d-a80b-fdfa4e4d4f98",
+    "individualScore": [
+      {
+        "userID": "03b70445-5c5b-4f21-848a-4e36d92439ed",
+        "nodeID": 1,
+        "score": 789
+      },
+      {
+        "userID": "82a9d89d-0622-40f0-928c-8d36153ff512",
+        "nodeID": 2,
+        "score": 787
+      },
+      {
+        "userID": "b104a621-54eb-49e3-82ba-9ef411827158",
+        "nodeID": 3,
+        "score": 787
+      },
+      {
+        "userID": "4a49c2d2-aad0-4595-bb75-bb8d0f36033b",
+        "nodeID": 4,
+        "score": 787
+      }
+    ]
+  }
+}

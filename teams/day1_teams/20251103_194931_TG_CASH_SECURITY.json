@@ -1,0 +1,30 @@
+{
+  "team_name": "TG CASH SECURITY",
+  "timestamp": "2025-11-03 19:49:31",
+  "total_score": 50,
+  "backend_payload": {
+    "gameResultID": "b77adb22-f492-4173-9a3b-8ccaa97ee26b",
+    "individualScore": [
+      {
+        "userID": "48b9573e-6041-4bd5-b456-090ff9eba131",
+        "nodeID": 1,
+        "score": 14
+      },
+      {
+        "userID": "e2b4786b-1a93-43eb-a780-d4db09a3fbf0",
+        "nodeID": 2,
+        "score": 12
+      },
+      {
+        "userID": "78fe10fd-d100-4a07-a876-65b0cdaf1ab2",
+        "nodeID": 3,
+        "score": 12
+      },
+      {
+        "userID": "12bbd673-4a62-4cea-ac04-0f542a7eda0f",
+        "nodeID": 4,
+        "score": 12
+      }
+    ]
+  }
+}

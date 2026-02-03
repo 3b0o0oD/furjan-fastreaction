@@ -1,0 +1,30 @@
+{
+  "team_name": "LEGAL AFFAIRS DEPARTMENT",
+  "timestamp": "2025-11-03 16:52:56",
+  "total_score": 9475,
+  "backend_payload": {
+    "gameResultID": "2b949491-0636-4cf3-a9c2-9c5348ef8331",
+    "individualScore": [
+      {
+        "userID": "206376dd-1530-4de4-bb9e-a67d5688d103",
+        "nodeID": 1,
+        "score": 2371
+      },
+      {
+        "userID": "599662e7-28c8-4bfa-b91b-0a928fabbc98",
+        "nodeID": 2,
+        "score": 2368
+      },
+      {
+        "userID": "1af145c8-4672-4395-abe9-4cdaa507617d",
+        "nodeID": 3,
+        "score": 2368
+      },
+      {
+        "userID": "9b130096-9518-4ea5-9061-7e71ece41ddc",
+        "nodeID": 4,
+        "score": 2368
+      }
+    ]
+  }
+}

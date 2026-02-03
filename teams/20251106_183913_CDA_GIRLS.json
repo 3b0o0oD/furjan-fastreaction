@@ -1,0 +1,30 @@
+{
+  "team_name": "CDA GIRLS",
+  "timestamp": "2025-11-06 18:39:13",
+  "total_score": 825,
+  "backend_payload": {
+    "gameResultID": "e290b9d8-eabb-4e6e-8682-84fea3dae4b9",
+    "individualScore": [
+      {
+        "userID": "ba2c2877-0c4a-412e-9c77-0e9f8e8ee976",
+        "nodeID": 1,
+        "score": 207
+      },
+      {
+        "userID": "9cad83d3-8fd3-441c-b131-b2812338c3c0",
+        "nodeID": 2,
+        "score": 206
+      },
+      {
+        "userID": "1c59013a-fc86-4c28-8117-b0ab3b8a11db",
+        "nodeID": 3,
+        "score": 206
+      },
+      {
+        "userID": "954efc44-0a21-4c4f-a30c-efef7dd4e5ae",
+        "nodeID": 4,
+        "score": 206
+      }
+    ]
+  }
+}

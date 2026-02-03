@@ -1,0 +1,30 @@
+{
+  "team_name": "SAFIULLAH",
+  "timestamp": "2025-11-05 00:13:47",
+  "total_score": 3175,
+  "backend_payload": {
+    "gameResultID": "2f1d21cc-fb6e-4370-8baf-e1d99195fa7a",
+    "individualScore": [
+      {
+        "userID": "122f8729-b589-4370-a368-b1bafe6696fd",
+        "nodeID": 1,
+        "score": 796
+      },
+      {
+        "userID": "6bdf0f5c-6ff6-4ef5-a9f8-3549047d7158",
+        "nodeID": 2,
+        "score": 793
+      },
+      {
+        "userID": "a2658ebb-a3a4-430f-b50d-e10bb1306e77",
+        "nodeID": 3,
+        "score": 793
+      },
+      {
+        "userID": "e50eef5f-be5b-42df-8eba-b2ce6b9ed920",
+        "nodeID": 4,
+        "score": 793
+      }
+    ]
+  }
+}

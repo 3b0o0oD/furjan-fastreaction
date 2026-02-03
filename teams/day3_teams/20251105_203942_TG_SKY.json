@@ -1,0 +1,30 @@
+{
+  "team_name": "TG SKY",
+  "timestamp": "2025-11-05 20:39:42",
+  "total_score": 9675,
+  "backend_payload": {
+    "gameResultID": "9eb99cb8-b6cd-40ba-b375-b584555667a3",
+    "individualScore": [
+      {
+        "userID": "90513e87-8fc3-4f31-899c-1b4e87d94e8c",
+        "nodeID": 1,
+        "score": 2421
+      },
+      {
+        "userID": "cc433543-7bd1-41b9-b7ef-9edadc575bbb",
+        "nodeID": 2,
+        "score": 2418
+      },
+      {
+        "userID": "9d4991a6-0009-46dc-b743-8a89dfc4ebf7",
+        "nodeID": 3,
+        "score": 2418
+      },
+      {
+        "userID": "48b4c8eb-03cc-4c9b-a4e7-34ae729b149d",
+        "nodeID": 4,
+        "score": 2418
+      }
+    ]
+  }
+}

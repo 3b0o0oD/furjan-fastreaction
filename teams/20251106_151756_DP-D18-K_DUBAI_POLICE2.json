@@ -1,0 +1,30 @@
+{
+  "team_name": "DP-D18-K DUBAI POLICE2",
+  "timestamp": "2025-11-06 15:17:56",
+  "total_score": 1500,
+  "backend_payload": {
+    "gameResultID": "78b74754-d940-4d81-83b4-12ae64f5fd35",
+    "individualScore": [
+      {
+        "userID": "264e1921-ec7e-46f9-9c20-0d2d491c8f46",
+        "nodeID": 1,
+        "score": 375
+      },
+      {
+        "userID": "83612e50-e2b2-4774-9cf9-45a897bc9f2d",
+        "nodeID": 2,
+        "score": 375
+      },
+      {
+        "userID": "af0c8348-ff1b-4b46-8530-912ceec3df15",
+        "nodeID": 3,
+        "score": 375
+      },
+      {
+        "userID": "f1447c27-2b1c-4237-90fc-217d650bfb9a",
+        "nodeID": 4,
+        "score": 375
+      }
+    ]
+  }
+}

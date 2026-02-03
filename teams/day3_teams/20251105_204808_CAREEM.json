@@ -1,0 +1,30 @@
+{
+  "team_name": "CAREEM",
+  "timestamp": "2025-11-05 20:48:08",
+  "total_score": 3775,
+  "backend_payload": {
+    "gameResultID": "e95353b9-cf12-462b-97bf-5a596ba51dd1",
+    "individualScore": [
+      {
+        "userID": "dabd4abd-85e8-4f67-9c92-af8802555d90",
+        "nodeID": 1,
+        "score": 946
+      },
+      {
+        "userID": "3aadd9cb-1e6b-4992-9b07-ed09999e0159",
+        "nodeID": 2,
+        "score": 943
+      },
+      {
+        "userID": "ae5ece99-f0ed-4d6f-84e2-b22b055dbe36",
+        "nodeID": 3,
+        "score": 943
+      },
+      {
+        "userID": "82cc3be7-d8fe-408b-ae33-52f1dbde3b9f",
+        "nodeID": 4,
+        "score": 943
+      }
+    ]
+  }
+}

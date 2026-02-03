@@ -1,0 +1,30 @@
+{
+  "team_name": "CR7",
+  "timestamp": "2025-11-06 20:05:24",
+  "total_score": 0,
+  "backend_payload": {
+    "gameResultID": "e840f951-54f7-4cb3-9d8b-dbec52d04671",
+    "individualScore": [
+      {
+        "userID": "37d49fbf-f0a4-41f4-bdd4-ef4d33887d66",
+        "nodeID": 1,
+        "score": 0
+      },
+      {
+        "userID": "2b5647a8-0a2a-4a28-9899-577ccf99cf6d",
+        "nodeID": 2,
+        "score": 0
+      },
+      {
+        "userID": "d024f234-dd6e-4325-9182-dc0449d20bd5",
+        "nodeID": 3,
+        "score": 0
+      },
+      {
+        "userID": "4d72a001-069b-4b57-ad71-73c713f2b793",
+        "nodeID": 4,
+        "score": 0
+      }
+    ]
+  }
+}

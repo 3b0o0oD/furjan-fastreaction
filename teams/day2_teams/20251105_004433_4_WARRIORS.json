@@ -1,0 +1,30 @@
+{
+  "team_name": "4 WARRIORS",
+  "timestamp": "2025-11-05 00:44:33",
+  "total_score": 8175,
+  "backend_payload": {
+    "gameResultID": "e6aa1b81-ae25-43b1-95b8-b3e53785240a",
+    "individualScore": [
+      {
+        "userID": "c634d04d-7ba3-4900-8089-9cbe9c2c92e4",
+        "nodeID": 1,
+        "score": 2046
+      },
+      {
+        "userID": "e78d3df7-b613-444d-9ac1-a509822b6c3a",
+        "nodeID": 2,
+        "score": 2043
+      },
+      {
+        "userID": "7c0db271-1dd2-494b-98a4-be6fafbebc84",
+        "nodeID": 3,
+        "score": 2043
+      },
+      {
+        "userID": "95fccb88-e8e6-4c9d-899e-5290285b0f05",
+        "nodeID": 4,
+        "score": 2043
+      }
+    ]
+  }
+}

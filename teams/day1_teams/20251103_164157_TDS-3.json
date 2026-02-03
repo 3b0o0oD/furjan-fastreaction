@@ -1,0 +1,30 @@
+{
+  "team_name": "TDS-3",
+  "timestamp": "2025-11-03 16:41:57",
+  "total_score": 3000,
+  "backend_payload": {
+    "gameResultID": "0c7c3fe1-11a9-464a-9b19-5fee11263080",
+    "individualScore": [
+      {
+        "userID": "43dbdad9-d32d-476e-b3e5-f40b5a9a0265",
+        "nodeID": 1,
+        "score": 750
+      },
+      {
+        "userID": "b02465d9-cde6-4512-af06-69d2b2e9ff18",
+        "nodeID": 2,
+        "score": 750
+      },
+      {
+        "userID": "0b8e0529-bbb8-4afe-b9ed-2297567b3b9e",
+        "nodeID": 3,
+        "score": 750
+      },
+      {
+        "userID": "76ad7aac-f428-4d9f-a364-7d32ece5b469",
+        "nodeID": 4,
+        "score": 750
+      }
+    ]
+  }
+}

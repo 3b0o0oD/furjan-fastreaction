@@ -1,0 +1,30 @@
+{
+  "team_name": "LUCKY BOYS",
+  "timestamp": "2025-11-05 23:09:40",
+  "total_score": 8875,
+  "backend_payload": {
+    "gameResultID": "63caf6d5-825f-4fb1-9926-f55811afe1af",
+    "individualScore": [
+      {
+        "userID": "cf9c44b3-55e8-46d5-9de2-ff8b832339e0",
+        "nodeID": 1,
+        "score": 2221
+      },
+      {
+        "userID": "6d1d446e-3517-4bc4-ae0a-ca218103ea7a",
+        "nodeID": 2,
+        "score": 2218
+      },
+      {
+        "userID": "3152b5c8-172a-4d2d-94cf-5fe5da9c9cb6",
+        "nodeID": 3,
+        "score": 2218
+      },
+      {
+        "userID": "dffcb7e4-6727-46f4-8cff-87b6704e0227",
+        "nodeID": 4,
+        "score": 2218
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "team_name": "SHAR WINNER",
+  "timestamp": "2025-11-04 00:25:30",
+  "total_score": 7325,
+  "backend_payload": {
+    "gameResultID": "108e36bc-8594-402e-8adb-c08d820484ee",
+    "individualScore": [
+      {
+        "userID": "5fceda5f-6dbe-4bdc-a217-5d2db5b28723",
+        "nodeID": 1,
+        "score": 1832
+      },
+      {
+        "userID": "c761056c-d55d-47ec-acb3-7e8e8ff31763",
+        "nodeID": 2,
+        "score": 1831
+      },
+      {
+        "userID": "888ea4ef-832b-46a6-8296-bf425229986a",
+        "nodeID": 3,
+        "score": 1831
+      },
+      {
+        "userID": "8d6e7967-39c5-4382-8ac3-2dcedcc9f871",
+        "nodeID": 4,
+        "score": 1831
+      }
+    ]
+  }
+}

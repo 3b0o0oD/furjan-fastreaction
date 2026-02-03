@@ -1,0 +1,30 @@
+{
+  "team_name": "TG MAVERICKS",
+  "timestamp": "2025-11-03 16:37:40",
+  "total_score": 4175,
+  "backend_payload": {
+    "gameResultID": "115f4bac-51aa-4cd2-9e71-b5d3983d5837",
+    "individualScore": [
+      {
+        "userID": "9ba5e5bb-92f6-4d60-94b5-c6d40628d1b1",
+        "nodeID": 1,
+        "score": 1046
+      },
+      {
+        "userID": "007af6b1-baa3-423f-8bb0-3ed3affc8607",
+        "nodeID": 2,
+        "score": 1043
+      },
+      {
+        "userID": "b833c89f-bc19-436b-8c9d-39c1cfdcb278",
+        "nodeID": 3,
+        "score": 1043
+      },
+      {
+        "userID": "0313032b-2744-4be5-912c-ffa1f3d53780",
+        "nodeID": 4,
+        "score": 1043
+      }
+    ]
+  }
+}

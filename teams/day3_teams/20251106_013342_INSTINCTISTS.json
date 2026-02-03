@@ -1,0 +1,30 @@
+{
+  "team_name": "INSTINCTISTS",
+  "timestamp": "2025-11-06 01:33:42",
+  "total_score": 0,
+  "backend_payload": {
+    "gameResultID": "80e9168c-7658-4f37-be98-5e7981536d95",
+    "individualScore": [
+      {
+        "userID": "639ae411-4685-4108-87e0-2b45bdf01fff",
+        "nodeID": 1,
+        "score": 0
+      },
+      {
+        "userID": "76b5a4d6-6521-4c51-b89b-7b1b5a4e1e11",
+        "nodeID": 2,
+        "score": 0
+      },
+      {
+        "userID": "f9d1dcd4-eed5-4df1-8e3c-8972d2c4122f",
+        "nodeID": 3,
+        "score": 0
+      },
+      {
+        "userID": "e432a8f3-d2bd-4276-8246-e092c0fc9766",
+        "nodeID": 4,
+        "score": 0
+      }
+    ]
+  }
+}

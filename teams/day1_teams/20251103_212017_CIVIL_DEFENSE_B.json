@@ -1,0 +1,30 @@
+{
+  "team_name": "CIVIL DEFENSE B",
+  "timestamp": "2025-11-03 21:20:17",
+  "total_score": 5975,
+  "backend_payload": {
+    "gameResultID": "af688b25-da7a-485f-afbb-0e16ecc3ca43",
+    "individualScore": [
+      {
+        "userID": "11432183-31fd-4a28-9bd9-dba4eb7a1af8",
+        "nodeID": 1,
+        "score": 1496
+      },
+      {
+        "userID": "fb0de1b6-28a5-43fc-a3e1-2a1a99513b2f",
+        "nodeID": 2,
+        "score": 1493
+      },
+      {
+        "userID": "d394987f-4e79-4ea4-99bf-04da727c1713",
+        "nodeID": 3,
+        "score": 1493
+      },
+      {
+        "userID": "912d2f5b-3339-4f5e-a9f0-5ca352650783",
+        "nodeID": 4,
+        "score": 1493
+      }
+    ]
+  }
+}

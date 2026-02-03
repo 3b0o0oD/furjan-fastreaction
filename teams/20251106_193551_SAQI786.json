@@ -1,0 +1,30 @@
+{
+  "team_name": "SAQI786",
+  "timestamp": "2025-11-06 19:35:51",
+  "total_score": 7075,
+  "backend_payload": {
+    "gameResultID": "93ea4330-7cc0-4f52-a0ea-401722fd5e18",
+    "individualScore": [
+      {
+        "userID": "d70640df-d0a0-4eac-b916-ca63b8c0fdc8",
+        "nodeID": 1,
+        "score": 1771
+      },
+      {
+        "userID": "f094712d-be6f-40bb-9a03-834b2f33211a",
+        "nodeID": 2,
+        "score": 1768
+      },
+      {
+        "userID": "565f6a79-8587-461f-b464-e040fd0a7b51",
+        "nodeID": 3,
+        "score": 1768
+      },
+      {
+        "userID": "0bd9c29a-a8e6-4d79-8e32-eca368658adc",
+        "nodeID": 4,
+        "score": 1768
+      }
+    ]
+  }
+}

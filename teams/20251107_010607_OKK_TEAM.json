@@ -1,0 +1,30 @@
+{
+  "team_name": "OKK TEAM",
+  "timestamp": "2025-11-07 01:06:07",
+  "total_score": 6725,
+  "backend_payload": {
+    "gameResultID": "a31e9ddb-4d72-4222-8dfd-f6f47d6b1b9f",
+    "individualScore": [
+      {
+        "userID": "86b35b81-da3d-4a71-9db5-c1179c6676e0",
+        "nodeID": 1,
+        "score": 1682
+      },
+      {
+        "userID": "9dfad399-80eb-45fd-bc7e-28a8235e22f6",
+        "nodeID": 2,
+        "score": 1681
+      },
+      {
+        "userID": "f92adb2b-08e0-4053-91bc-f4ed28a0b369",
+        "nodeID": 3,
+        "score": 1681
+      },
+      {
+        "userID": "81383a1f-dab3-43d5-af5a-bc2558cf5430",
+        "nodeID": 4,
+        "score": 1681
+      }
+    ]
+  }
+}

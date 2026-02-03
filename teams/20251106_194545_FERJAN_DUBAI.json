@@ -1,0 +1,30 @@
+{
+  "team_name": "FERJAN DUBAI",
+  "timestamp": "2025-11-06 19:45:45",
+  "total_score": 6950,
+  "backend_payload": {
+    "gameResultID": "d450cdd3-3bc5-485f-b287-73bc302645bc",
+    "individualScore": [
+      {
+        "userID": "15a90bc6-58cc-444c-888c-dc50535e3bf7",
+        "nodeID": 1,
+        "score": 1739
+      },
+      {
+        "userID": "33c3da60-cb42-482c-8a3a-678019386809",
+        "nodeID": 2,
+        "score": 1737
+      },
+      {
+        "userID": "db975701-9d8a-4093-9a8a-9932936363f5",
+        "nodeID": 3,
+        "score": 1737
+      },
+      {
+        "userID": "6eb8ef29-4e8c-46c2-831c-bb4eae1a1905",
+        "nodeID": 4,
+        "score": 1737
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "team_name": "TRANS GUARD CASH TEAM 15",
+  "timestamp": "2025-11-06 19:19:36",
+  "total_score": 11200,
+  "backend_payload": {
+    "gameResultID": "63c98705-1328-4355-9758-f12211e90f19",
+    "individualScore": [
+      {
+        "userID": "252887fa-1f60-4704-ac98-09e09a383d65",
+        "nodeID": 1,
+        "score": 2800
+      },
+      {
+        "userID": "3ebaaf3c-5397-45d2-992e-27a37fce72c2",
+        "nodeID": 2,
+        "score": 2800
+      },
+      {
+        "userID": "1dcc035d-6fe4-4dc8-8154-9d94544fd72f",
+        "nodeID": 3,
+        "score": 2800
+      },
+      {
+        "userID": "a90c3216-6e65-4862-8151-1fa5e38d852b",
+        "nodeID": 4,
+        "score": 2800
+      }
+    ]
+  }
+}

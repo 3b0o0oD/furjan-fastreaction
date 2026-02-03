@@ -1,0 +1,30 @@
+{
+  "team_name": "DCD997 A",
+  "timestamp": "2025-11-07 00:28:28",
+  "total_score": 9700,
+  "backend_payload": {
+    "gameResultID": "3797a20e-67d1-421f-8fde-50dab3abb917",
+    "individualScore": [
+      {
+        "userID": "4ce4ea68-7b7b-44a2-b243-625efd3bbdd8",
+        "nodeID": 1,
+        "score": 2425
+      },
+      {
+        "userID": "085f6082-c092-47bd-9b60-221789fd7f6d",
+        "nodeID": 2,
+        "score": 2425
+      },
+      {
+        "userID": "ce0b8813-b211-489d-9d18-3f10b89b9db7",
+        "nodeID": 3,
+        "score": 2425
+      },
+      {
+        "userID": "b2ad28d3-408b-4e67-9c83-09af8c5fa824",
+        "nodeID": 4,
+        "score": 2425
+      }
+    ]
+  }
+}

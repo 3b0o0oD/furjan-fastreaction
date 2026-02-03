@@ -1,0 +1,30 @@
+{
+  "team_name": "OSTHI MAMAE",
+  "timestamp": "2025-11-04 19:36:00",
+  "total_score": 4700,
+  "backend_payload": {
+    "gameResultID": "cab168be-c021-4368-b4d5-ed78dff906ee",
+    "individualScore": [
+      {
+        "userID": "517dd274-2df8-4da1-ab42-c8bc499e769f",
+        "nodeID": 1,
+        "score": 1175
+      },
+      {
+        "userID": "4844e113-9f27-49f6-bfc4-d1120e31c550",
+        "nodeID": 2,
+        "score": 1175
+      },
+      {
+        "userID": "8a7bd84a-8d30-4b4e-9595-d723c19495bb",
+        "nodeID": 3,
+        "score": 1175
+      },
+      {
+        "userID": "09fe8782-6e2e-4507-911d-c55c473e6a52",
+        "nodeID": 4,
+        "score": 1175
+      }
+    ]
+  }
+}

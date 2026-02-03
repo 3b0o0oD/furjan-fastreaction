@@ -1,0 +1,30 @@
+{
+  "team_name": "UXE MARKETING",
+  "timestamp": "2025-11-06 15:59:06",
+  "total_score": 3000,
+  "backend_payload": {
+    "gameResultID": "26cd80f7-338a-4c42-8f35-7150dee3e871",
+    "individualScore": [
+      {
+        "userID": "8631f2a2-6f27-49b8-85ef-f67639e57ed6",
+        "nodeID": 1,
+        "score": 750
+      },
+      {
+        "userID": "8f23ee97-bd5d-4c61-94ca-30b7b86f2015",
+        "nodeID": 2,
+        "score": 750
+      },
+      {
+        "userID": "09ff9bd1-46e8-45d8-86d6-014e1e4baf8b",
+        "nodeID": 3,
+        "score": 750
+      },
+      {
+        "userID": "a6ae3089-3c2b-4801-8ab0-8a2068385857",
+        "nodeID": 4,
+        "score": 750
+      }
+    ]
+  }
+}

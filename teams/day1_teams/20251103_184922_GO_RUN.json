@@ -1,0 +1,30 @@
+{
+  "team_name": "GO RUN",
+  "timestamp": "2025-11-03 18:49:22",
+  "total_score": 2575,
+  "backend_payload": {
+    "gameResultID": "c1bf49b8-94ae-495a-aa4e-084a97dab584",
+    "individualScore": [
+      {
+        "userID": "4aa45ae5-3482-497d-895d-482c6f0515c7",
+        "nodeID": 1,
+        "score": 646
+      },
+      {
+        "userID": "6a9a59f7-f23e-4da0-927f-cbfc365dabf0",
+        "nodeID": 2,
+        "score": 643
+      },
+      {
+        "userID": "4ad43fdb-9978-4568-83db-773f5d8c313a",
+        "nodeID": 3,
+        "score": 643
+      },
+      {
+        "userID": "4e1e957a-e686-460c-8aa2-4108be6b7ab3",
+        "nodeID": 4,
+        "score": 643
+      }
+    ]
+  }
+}

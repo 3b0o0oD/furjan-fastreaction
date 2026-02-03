@@ -1,0 +1,30 @@
+{
+  "team_name": "TN SMART",
+  "timestamp": "2025-11-06 23:22:23",
+  "total_score": 11700,
+  "backend_payload": {
+    "gameResultID": "1bd4d204-c755-4310-8a7b-8e92a4c4bc97",
+    "individualScore": [
+      {
+        "userID": "6d1d446e-3517-4bc4-ae0a-ca218103ea7a",
+        "nodeID": 1,
+        "score": 2925
+      },
+      {
+        "userID": "0f161e03-a0dc-48cd-85e2-ddae8895455c",
+        "nodeID": 2,
+        "score": 2925
+      },
+      {
+        "userID": "fd55908f-cd59-49ff-ac92-51d86986c16b",
+        "nodeID": 3,
+        "score": 2925
+      },
+      {
+        "userID": "a96499a0-1109-4f78-99fd-996195f8b852",
+        "nodeID": 4,
+        "score": 2925
+      }
+    ]
+  }
+}

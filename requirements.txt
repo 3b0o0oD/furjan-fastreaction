@@ -1,0 +1,102 @@
+# UXE Games 2025 - Requirements File
+# Generated for all 4 games: CAGE, FalconGrasp, FastReaction, CubeGame
+
+# Core Python Libraries
+numpy>=1.21.0
+requests>=2.25.1
+opencv-python>=4.5.0
+paho-mqtt>=1.5.1
+
+# PyQt5 Framework (GUI and Multimedia)
+PyQt5>=5.15.0
+PyQt5-Qt5>=5.15.0
+PyQt5-sip>=12.8.0
+
+# HTTP Client Libraries
+urllib3>=1.26.0
+
+# Data Processing & Machine Learning
+joblib>=1.0.0
+scikit-learn>=1.0.0
+
+# Serial Communication
+pyserial>=3.5
+
+# Optional Dependencies (may be required depending on system)
+# For audio/video codec support
+# ffmpeg-python>=0.2.0
+
+# For better HTTP connection handling
+certifi>=2021.5.25
+
+# Development/Testing (optional)
+# pytest>=6.2.0
+# pytest-qt>=4.0.0
+
+# ============================================================================
+# SYSTEM REQUIREMENTS & EXTERNAL DEPENDENCIES
+# ============================================================================
+
+# MQTT Broker (Required for all games)
+# You need to install and run Mosquitto MQTT Broker:
+#
+# Ubuntu/Debian:
+#   sudo apt-get update
+#   sudo apt-get install mosquitto mosquitto-clients
+#   sudo systemctl start mosquitto
+#   sudo systemctl enable mosquitto
+#
+# Windows:
+#   1. Download from: https://mosquitto.org/download/
+#   2. Install and start the service
+#
+# macOS:
+#   brew install mosquitto
+#   brew services start mosquitto
+#
+# Test MQTT connection:
+#   mosquitto_pub -h localhost -t test/topic -m "Hello MQTT"
+#   mosquitto_sub -h localhost -t test/topic
+
+# Virtual Serial Ports (Required for Game4 - CubeGame)
+# Windows - Com0Com (Virtual Serial Port Driver):
+#   1. Download from: http://com0com.sourceforge.net/
+#   2. Install the signed driver version
+#   3. Create virtual serial port pairs (e.g., COM3<->COM4)
+#   4. Configure your application to use these ports
+#   5. Alternative: Use com2tcp for network-to-serial bridging
+#
+# Linux - socat (Virtual Serial Ports):
+#   sudo apt-get install socat
+#   # Create virtual serial port pair:
+#   socat -d -d pty,raw,echo=0 pty,raw,echo=0
+#
+# Qt5 Development Libraries
+# Ubuntu/Debian:
+#   sudo apt-get install python3-pyqt5 python3-pyqt5.qtmultimedia python3-pyqt5.qtquick
+#
+# Windows: 
+#   PyQt5 wheel should include necessary Qt libraries
+#
+# macOS:
+#   brew install pyqt5
+
+# ============================================================================
+# INSTALLATION & SETUP
+# ============================================================================
+
+# 1. Install Python dependencies:
+#    pip install -r requirements.txt
+#
+# 2. Install MQTT Broker (see instructions above)
+#
+# 3. For Game4 (CubeGame): Install virtual serial ports (see instructions above)
+#
+# 4. Start MQTT broker before running games:
+#    sudo systemctl start mosquitto  # Linux
+#    net start mosquitto             # Windows (if installed as service)
+#
+# 5. Test setup:
+#    python -c "import paho.mqtt.client as mqtt; print('MQTT OK')"
+#    python -c "import serial; print('Serial OK')"
+#    python -c "import PyQt5; print('PyQt5 OK')"

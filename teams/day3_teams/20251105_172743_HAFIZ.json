@@ -1,0 +1,30 @@
+{
+  "team_name": "HAFIZ",
+  "timestamp": "2025-11-05 17:27:43",
+  "total_score": 4350,
+  "backend_payload": {
+    "gameResultID": "5ff67a7a-49b8-471c-b925-775e7e057066",
+    "individualScore": [
+      {
+        "userID": "cadc0089-25d8-4cfe-a5bc-37a8c2aa838d",
+        "nodeID": 1,
+        "score": 1089
+      },
+      {
+        "userID": "a727a969-c857-41fb-a6da-aa0636fa4ddb",
+        "nodeID": 2,
+        "score": 1087
+      },
+      {
+        "userID": "e4400446-1aed-4670-9642-d59c2c8a3c7a",
+        "nodeID": 3,
+        "score": 1087
+      },
+      {
+        "userID": "c6c73656-dccc-44e7-8652-3b180d96154a",
+        "nodeID": 4,
+        "score": 1087
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "team_name": "THURSDAY TEAM ",
+  "timestamp": "2025-11-06 22:28:55",
+  "total_score": 8750,
+  "backend_payload": {
+    "gameResultID": "b0892101-a059-4985-8855-ef15f51174a1",
+    "individualScore": [
+      {
+        "userID": "29d17a68-2072-47c9-b561-5a225145270d",
+        "nodeID": 1,
+        "score": 2189
+      },
+      {
+        "userID": "e26d1094-349b-4990-9f6c-108c2a6d47cb",
+        "nodeID": 2,
+        "score": 2187
+      },
+      {
+        "userID": "64ec9d78-0bde-442f-91e8-c9c3060fc669",
+        "nodeID": 3,
+        "score": 2187
+      },
+      {
+        "userID": "dfa0b740-8cdc-470e-bd59-45cc2433a00c",
+        "nodeID": 4,
+        "score": 2187
+      }
+    ]
+  }
+}

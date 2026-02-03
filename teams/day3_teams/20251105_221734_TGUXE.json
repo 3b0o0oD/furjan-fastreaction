@@ -1,0 +1,30 @@
+{
+  "team_name": "TGUXE",
+  "timestamp": "2025-11-05 22:17:34",
+  "total_score": 15625,
+  "backend_payload": {
+    "gameResultID": "204e469d-9900-4fba-a171-832a5f2a2907",
+    "individualScore": [
+      {
+        "userID": "faf1c43b-6c29-4ba9-bfdc-d4acb2bd0f4f",
+        "nodeID": 1,
+        "score": 3907
+      },
+      {
+        "userID": "584cc179-e48e-48fb-b2b4-1a47b66633fe",
+        "nodeID": 2,
+        "score": 3906
+      },
+      {
+        "userID": "551f5b44-f790-4068-a66e-f60ecff6e1cf",
+        "nodeID": 3,
+        "score": 3906
+      },
+      {
+        "userID": "10494842-981d-4658-b2bd-40e42a003975",
+        "nodeID": 4,
+        "score": 3906
+      }
+    ]
+  }
+}

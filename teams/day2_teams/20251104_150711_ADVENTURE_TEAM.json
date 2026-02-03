@@ -1,0 +1,30 @@
+{
+  "team_name": "ADVENTURE TEAM",
+  "timestamp": "2025-11-04 15:07:11",
+  "total_score": 6450,
+  "backend_payload": {
+    "gameResultID": "1ab48baf-803a-4ebf-ba22-367815881828",
+    "individualScore": [
+      {
+        "userID": "f39ed2cd-4b82-435d-a75e-68f715515d4f",
+        "nodeID": 1,
+        "score": 1614
+      },
+      {
+        "userID": "3e9a465b-fd91-4845-aa55-d46124fa9764",
+        "nodeID": 2,
+        "score": 1612
+      },
+      {
+        "userID": "1ee749b9-343e-4702-9418-7d4f538a0bd8",
+        "nodeID": 3,
+        "score": 1612
+      },
+      {
+        "userID": "6b85982c-eedf-4298-b8bd-1f249bb28cee",
+        "nodeID": 4,
+        "score": 1612
+      }
+    ]
+  }
+}

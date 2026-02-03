@@ -1,0 +1,30 @@
+{
+  "team_name": "UXE IMPACT",
+  "timestamp": "2025-11-05 23:35:29",
+  "total_score": 4625,
+  "backend_payload": {
+    "gameResultID": "33679d26-4821-4211-96c7-18ed8adf6602",
+    "individualScore": [
+      {
+        "userID": "5d79c12e-2ecc-4043-ade5-0dca1ce93141",
+        "nodeID": 1,
+        "score": 1157
+      },
+      {
+        "userID": "58a0dab2-3101-4e20-94a3-a53828e9b6a4",
+        "nodeID": 2,
+        "score": 1156
+      },
+      {
+        "userID": "d5536a3b-89ed-474b-8f91-89203bf7f61f",
+        "nodeID": 3,
+        "score": 1156
+      },
+      {
+        "userID": "919f3ecd-a884-45c9-a45d-84126c09d971",
+        "nodeID": 4,
+        "score": 1156
+      }
+    ]
+  }
+}

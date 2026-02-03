@@ -1,0 +1,30 @@
+{
+  "team_name": "DUBAI HEALTH AUTHORITY",
+  "timestamp": "2025-11-03 17:44:39",
+  "total_score": 3975,
+  "backend_payload": {
+    "gameResultID": "494b55f8-0c43-4d3a-a746-1c45ef260916",
+    "individualScore": [
+      {
+        "userID": "f04c6174-85a6-420c-a25f-4a6d02870901",
+        "nodeID": 1,
+        "score": 996
+      },
+      {
+        "userID": "932f9fa4-243a-4220-8684-81c3d978d31b",
+        "nodeID": 2,
+        "score": 993
+      },
+      {
+        "userID": "aea5a314-4f70-4210-bfa1-ec6093de8965",
+        "nodeID": 3,
+        "score": 993
+      },
+      {
+        "userID": "e773a397-a7fc-4301-8eca-1ae78d6b8c92",
+        "nodeID": 4,
+        "score": 993
+      }
+    ]
+  }
+}

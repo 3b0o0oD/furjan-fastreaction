@@ -1,0 +1,30 @@
+{
+  "team_name": "TEAM BUDOTS",
+  "timestamp": "2025-11-06 19:29:56",
+  "total_score": 1175,
+  "backend_payload": {
+    "gameResultID": "11d0b8af-2b3e-426a-83fb-a030b307be0b",
+    "individualScore": [
+      {
+        "userID": "723b0c17-febc-4ca6-82c2-aa76768746dc",
+        "nodeID": 1,
+        "score": 296
+      },
+      {
+        "userID": "c9984388-c6fe-46af-a985-3fc5b732c790",
+        "nodeID": 2,
+        "score": 293
+      },
+      {
+        "userID": "cafb62ea-76e5-4626-a35b-068081dd131e",
+        "nodeID": 3,
+        "score": 293
+      },
+      {
+        "userID": "5f2a1758-ff66-4fab-b8bd-07813a4afef7",
+        "nodeID": 4,
+        "score": 293
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "team_name": "BASRAH GROUP",
+  "timestamp": "2025-11-03 22:30:13",
+  "total_score": 11750,
+  "backend_payload": {
+    "gameResultID": "40b8b1b3-92c2-457a-8f2a-c6a33db19fee",
+    "individualScore": [
+      {
+        "userID": "eb40d51f-fa11-48b8-8dce-29dc52c95f1f",
+        "nodeID": 1,
+        "score": 2939
+      },
+      {
+        "userID": "9124cc4f-a061-49c6-b18c-eed3f4cee3ba",
+        "nodeID": 2,
+        "score": 2937
+      },
+      {
+        "userID": "653afb83-a4a5-49c4-b44b-9331c4a5533c",
+        "nodeID": 3,
+        "score": 2937
+      },
+      {
+        "userID": "0260c59f-5949-4fa8-aa10-7a722565745c",
+        "nodeID": 4,
+        "score": 2937
+      }
+    ]
+  }
+}

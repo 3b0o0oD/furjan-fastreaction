@@ -1,0 +1,30 @@
+{
+  "team_name": "GWD",
+  "timestamp": "2025-11-07 00:39:54",
+  "total_score": 11825,
+  "backend_payload": {
+    "gameResultID": "b1b1f9f8-8fc6-4813-a07a-9044fc0298fb",
+    "individualScore": [
+      {
+        "userID": "afdbbdda-d651-40af-bfaf-080d7c585435",
+        "nodeID": 1,
+        "score": 2957
+      },
+      {
+        "userID": "2798e653-b9fd-4327-bc19-925f2314a389",
+        "nodeID": 2,
+        "score": 2956
+      },
+      {
+        "userID": "06a08b27-b4ad-4a32-a188-6e4639e9caba",
+        "nodeID": 3,
+        "score": 2956
+      },
+      {
+        "userID": "f7d9e7b9-026c-44f9-9b88-77aaa3010512",
+        "nodeID": 4,
+        "score": 2956
+      }
+    ]
+  }
+}

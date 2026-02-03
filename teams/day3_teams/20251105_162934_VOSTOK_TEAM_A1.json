@@ -1,0 +1,30 @@
+{
+  "team_name": "VOSTOK TEAM A1",
+  "timestamp": "2025-11-05 16:29:34",
+  "total_score": 0,
+  "backend_payload": {
+    "gameResultID": "3b08811d-555a-411f-bcef-15419e1d2305",
+    "individualScore": [
+      {
+        "userID": "d500c610-92cb-44a8-986d-afc43bb5fccc",
+        "nodeID": 1,
+        "score": 0
+      },
+      {
+        "userID": "bcaa5d51-f634-4fb3-a33c-32f9f333b515",
+        "nodeID": 2,
+        "score": 0
+      },
+      {
+        "userID": "77acdfbb-6e28-46b4-a974-ddf40d5e4ce5",
+        "nodeID": 3,
+        "score": 0
+      },
+      {
+        "userID": "0e1d9379-43d5-4f91-b592-188a91323975",
+        "nodeID": 4,
+        "score": 0
+      }
+    ]
+  }
+}

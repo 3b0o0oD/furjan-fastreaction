@@ -1,0 +1,30 @@
+{
+  "team_name": "CS SECURITY",
+  "timestamp": "2025-11-06 20:20:44",
+  "total_score": 1750,
+  "backend_payload": {
+    "gameResultID": "12736ddc-3d14-42c4-953c-046e25ac8ede",
+    "individualScore": [
+      {
+        "userID": "48b9573e-6041-4bd5-b456-090ff9eba131",
+        "nodeID": 1,
+        "score": 439
+      },
+      {
+        "userID": "cef02d8a-31db-4d55-9d95-dfba052a92ca",
+        "nodeID": 2,
+        "score": 437
+      },
+      {
+        "userID": "fd1da542-3c95-4b64-8793-7f22b9a31728",
+        "nodeID": 3,
+        "score": 437
+      },
+      {
+        "userID": "b8dd0bb4-9abc-4d08-a952-af72db4e1ae1",
+        "nodeID": 4,
+        "score": 437
+      }
+    ]
+  }
+}

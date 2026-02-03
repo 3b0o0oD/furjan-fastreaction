@@ -1,0 +1,30 @@
+{
+  "team_name": "ALL SPORTS DXB",
+  "timestamp": "2025-11-03 16:25:31",
+  "total_score": 8050,
+  "backend_payload": {
+    "gameResultID": "ad172cb8-696d-4d54-9c6d-c0191f03df11",
+    "individualScore": [
+      {
+        "userID": "c5b574fc-a8d2-4e1e-a763-d80fc4e000fb",
+        "nodeID": 1,
+        "score": 2014
+      },
+      {
+        "userID": "e1939a9c-8db0-4de0-8387-6c918cd807e5",
+        "nodeID": 2,
+        "score": 2012
+      },
+      {
+        "userID": "814eb645-726b-49c4-a25e-38a394cf2511",
+        "nodeID": 3,
+        "score": 2012
+      },
+      {
+        "userID": "a031cdd0-121d-4f03-b0d3-4bfcf72b7754",
+        "nodeID": 4,
+        "score": 2012
+      }
+    ]
+  }
+}

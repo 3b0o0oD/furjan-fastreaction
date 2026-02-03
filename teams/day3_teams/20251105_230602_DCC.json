@@ -1,0 +1,30 @@
+{
+  "team_name": "DCC",
+  "timestamp": "2025-11-05 23:06:02",
+  "total_score": 8200,
+  "backend_payload": {
+    "gameResultID": "6a5cc40b-ae0b-4805-83ed-c9ce2eeb8984",
+    "individualScore": [
+      {
+        "userID": "bc027dee-b5e9-4b60-ac5b-fff4f4ee6dd8",
+        "nodeID": 1,
+        "score": 2050
+      },
+      {
+        "userID": "c1056b89-3e4d-46ad-8fa8-313ed1b99011",
+        "nodeID": 2,
+        "score": 2050
+      },
+      {
+        "userID": "94fe6c61-6739-4422-8304-72c814113efd",
+        "nodeID": 3,
+        "score": 2050
+      },
+      {
+        "userID": "4b05bcf2-0597-4f61-b515-de3a53c2ad94",
+        "nodeID": 4,
+        "score": 2050
+      }
+    ]
+  }
+}

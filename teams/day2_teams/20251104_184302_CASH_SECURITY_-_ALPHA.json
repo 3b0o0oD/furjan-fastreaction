@@ -1,0 +1,30 @@
+{
+  "team_name": "CASH SECURITY - ALPHA",
+  "timestamp": "2025-11-04 18:43:02",
+  "total_score": 3325,
+  "backend_payload": {
+    "gameResultID": "ebc3107b-34c3-48ed-b4ed-11157489b943",
+    "individualScore": [
+      {
+        "userID": "48b9573e-6041-4bd5-b456-090ff9eba131",
+        "nodeID": 1,
+        "score": 832
+      },
+      {
+        "userID": "d4d6452a-f475-4c41-b923-2b4596f01ea0",
+        "nodeID": 2,
+        "score": 831
+      },
+      {
+        "userID": "db2f41a5-5807-4dd1-91c4-0224df590a8d",
+        "nodeID": 3,
+        "score": 831
+      },
+      {
+        "userID": "a9969375-fc5a-4f79-8ae9-b3b1a2df77eb",
+        "nodeID": 4,
+        "score": 831
+      }
+    ]
+  }
+}

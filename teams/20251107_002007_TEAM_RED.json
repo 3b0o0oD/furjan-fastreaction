@@ -1,0 +1,30 @@
+{
+  "team_name": "TEAM RED",
+  "timestamp": "2025-11-07 00:20:07",
+  "total_score": 12225,
+  "backend_payload": {
+    "gameResultID": "903fa159-0699-4001-90b7-e98529fea5f7",
+    "individualScore": [
+      {
+        "userID": "649a9f77-9141-4f95-ac01-c9c42dfa639d",
+        "nodeID": 1,
+        "score": 3057
+      },
+      {
+        "userID": "e08caa9a-70e0-47bc-85b6-0963660dff45",
+        "nodeID": 2,
+        "score": 3056
+      },
+      {
+        "userID": "36cdae5d-5d19-4344-b121-f80cc91c7dc9",
+        "nodeID": 3,
+        "score": 3056
+      },
+      {
+        "userID": "df2d1be8-bd34-4565-9f9f-6ed7b2e655e7",
+        "nodeID": 4,
+        "score": 3056
+      }
+    ]
+  }
+}

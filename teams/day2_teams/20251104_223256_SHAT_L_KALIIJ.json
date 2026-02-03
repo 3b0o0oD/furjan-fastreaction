@@ -1,0 +1,30 @@
+{
+  "team_name": "SHAT L KALIIJ",
+  "timestamp": "2025-11-04 22:32:56",
+  "total_score": 175,
+  "backend_payload": {
+    "gameResultID": "216a4fe8-37a1-43fc-b427-3fb8663b33a7",
+    "individualScore": [
+      {
+        "userID": "47410af3-2be5-4113-a44c-cbd6844573f6",
+        "nodeID": 1,
+        "score": 46
+      },
+      {
+        "userID": "85a6d9e8-3f0f-45f0-8a1e-b0fc0f9a7521",
+        "nodeID": 2,
+        "score": 43
+      },
+      {
+        "userID": "1e775444-010e-4273-a93f-a9477e6edba6",
+        "nodeID": 3,
+        "score": 43
+      },
+      {
+        "userID": "f5a2a55e-af74-48b3-ba97-103b7e2f0e5f",
+        "nodeID": 4,
+        "score": 43
+      }
+    ]
+  }
+}

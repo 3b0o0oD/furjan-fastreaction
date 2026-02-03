@@ -1,0 +1,30 @@
+{
+  "team_name": "V 4",
+  "timestamp": "2025-11-04 22:47:53",
+  "total_score": 2850,
+  "backend_payload": {
+    "gameResultID": "25ac5dbc-c25b-4a26-87b7-b5c656791393",
+    "individualScore": [
+      {
+        "userID": "a7cee663-81b6-42d0-8772-4cfcfb6499eb",
+        "nodeID": 1,
+        "score": 714
+      },
+      {
+        "userID": "05cfe5ba-89c4-481f-8129-9e6b5ba85b1c",
+        "nodeID": 2,
+        "score": 712
+      },
+      {
+        "userID": "9625bb4b-0b46-4639-9054-32083a544bba",
+        "nodeID": 3,
+        "score": 712
+      },
+      {
+        "userID": "b7b41164-deac-4de4-bc4f-508eda150733",
+        "nodeID": 4,
+        "score": 712
+      }
+    ]
+  }
+}

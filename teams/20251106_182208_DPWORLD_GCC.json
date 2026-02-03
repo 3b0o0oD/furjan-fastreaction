@@ -1,0 +1,30 @@
+{
+  "team_name": "DPWORLD GCC",
+  "timestamp": "2025-11-06 18:22:08",
+  "total_score": 6800,
+  "backend_payload": {
+    "gameResultID": "461ed9ed-ee25-44ae-90bd-c53e32c764ab",
+    "individualScore": [
+      {
+        "userID": "53355a64-ac5f-4251-85d3-1914302d800d",
+        "nodeID": 1,
+        "score": 1700
+      },
+      {
+        "userID": "43bae9ac-ce18-45ca-85e5-6a862cbcfcbf",
+        "nodeID": 2,
+        "score": 1700
+      },
+      {
+        "userID": "e08ac87d-4c36-412f-9eb2-087c927f6ede",
+        "nodeID": 3,
+        "score": 1700
+      },
+      {
+        "userID": "6e0899d0-6911-4482-ae3c-9a7765c9686f",
+        "nodeID": 4,
+        "score": 1700
+      }
+    ]
+  }
+}

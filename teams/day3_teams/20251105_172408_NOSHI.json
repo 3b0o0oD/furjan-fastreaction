@@ -1,0 +1,30 @@
+{
+  "team_name": "NOSHI",
+  "timestamp": "2025-11-05 17:24:08",
+  "total_score": 2100,
+  "backend_payload": {
+    "gameResultID": "95252857-bdaf-4793-8354-905a596c0d32",
+    "individualScore": [
+      {
+        "userID": "c8d6369d-9936-4fc6-8c70-910f0a1ddfc1",
+        "nodeID": 1,
+        "score": 525
+      },
+      {
+        "userID": "535e3f42-b76c-46af-97c3-9447d3d93ffd",
+        "nodeID": 2,
+        "score": 525
+      },
+      {
+        "userID": "94a96f7a-9d72-4975-9385-63f96480a955",
+        "nodeID": 3,
+        "score": 525
+      },
+      {
+        "userID": "c3f88af3-d3a4-49a0-bc7e-fe726cec4a6d",
+        "nodeID": 4,
+        "score": 525
+      }
+    ]
+  }
+}

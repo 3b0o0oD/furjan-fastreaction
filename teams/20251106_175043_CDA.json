@@ -1,0 +1,30 @@
+{
+  "team_name": "CDA",
+  "timestamp": "2025-11-06 17:50:43",
+  "total_score": 3650,
+  "backend_payload": {
+    "gameResultID": "9a7497d2-796f-4167-873e-ede626762517",
+    "individualScore": [
+      {
+        "userID": "cb2b4e2f-8013-4e13-a3f1-09b142e92e5b",
+        "nodeID": 1,
+        "score": 914
+      },
+      {
+        "userID": "f4c75249-3d63-4cf3-a2c6-d105721a59ce",
+        "nodeID": 2,
+        "score": 912
+      },
+      {
+        "userID": "f0357bcb-76b1-45bc-9238-25e16f2cc11d",
+        "nodeID": 3,
+        "score": 912
+      },
+      {
+        "userID": "55b4c46a-12f7-4054-867a-87e2392987e5",
+        "nodeID": 4,
+        "score": 912
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "team_name": "TEAM BURDUBAI",
+  "timestamp": "2025-11-06 00:01:04",
+  "total_score": 7325,
+  "backend_payload": {
+    "gameResultID": "0ec077de-be96-4926-83ad-00fd4a12580b",
+    "individualScore": [
+      {
+        "userID": "f8cac3db-11e4-40dd-a188-e2b74886476f",
+        "nodeID": 1,
+        "score": 1832
+      },
+      {
+        "userID": "48536ce6-f349-4660-adaf-e6555d1b9d81",
+        "nodeID": 2,
+        "score": 1831
+      },
+      {
+        "userID": "9a7d9ec4-e997-4287-8ae8-0def4a81998c",
+        "nodeID": 3,
+        "score": 1831
+      },
+      {
+        "userID": "f2091279-c7c8-46aa-9cec-f9e03ced5cb7",
+        "nodeID": 4,
+        "score": 1831
+      }
+    ]
+  }
+}

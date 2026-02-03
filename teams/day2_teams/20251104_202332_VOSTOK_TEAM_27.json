@@ -1,0 +1,30 @@
+{
+  "team_name": "VOSTOK TEAM 27",
+  "timestamp": "2025-11-04 20:23:32",
+  "total_score": 8400,
+  "backend_payload": {
+    "gameResultID": "f91c204d-820e-481f-b424-778dc5556a0b",
+    "individualScore": [
+      {
+        "userID": "b240f977-6b34-4323-966b-85b5434814d8",
+        "nodeID": 1,
+        "score": 2100
+      },
+      {
+        "userID": "8c81a506-fc63-4b89-8485-66f9b8e0cc82",
+        "nodeID": 2,
+        "score": 2100
+      },
+      {
+        "userID": "f9875686-2f06-4303-ac49-e7e7c6e5f3fa",
+        "nodeID": 3,
+        "score": 2100
+      },
+      {
+        "userID": "48551add-6032-4093-9ade-2f1b7f0598d1",
+        "nodeID": 4,
+        "score": 2100
+      }
+    ]
+  }
+}

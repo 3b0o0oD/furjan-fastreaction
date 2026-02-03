@@ -1,0 +1,30 @@
+{
+  "team_name": "RAVI",
+  "timestamp": "2025-11-06 00:15:58",
+  "total_score": 200,
+  "backend_payload": {
+    "gameResultID": "d10f7f6a-2492-4b0e-98ba-198e26967b9a",
+    "individualScore": [
+      {
+        "userID": "cedbec72-0da6-43ad-ba74-4266acbb519a",
+        "nodeID": 1,
+        "score": 50
+      },
+      {
+        "userID": "404f277b-70a8-4fbc-88eb-a157081dd0e0",
+        "nodeID": 2,
+        "score": 50
+      },
+      {
+        "userID": "eb6da12c-4ab9-4797-a821-5e042e5b4434",
+        "nodeID": 3,
+        "score": 50
+      },
+      {
+        "userID": "2aa9a6c6-e1b6-4325-8e1c-b4a64fbd7d46",
+        "nodeID": 4,
+        "score": 50
+      }
+    ]
+  }
+}

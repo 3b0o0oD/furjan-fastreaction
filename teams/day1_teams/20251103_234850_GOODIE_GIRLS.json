@@ -1,0 +1,30 @@
+{
+  "team_name": "GOODIE GIRLS",
+  "timestamp": "2025-11-03 23:48:50",
+  "total_score": 3225,
+  "backend_payload": {
+    "gameResultID": "ca4d0c6e-79c5-4cc5-a02e-2ff69eb756ba",
+    "individualScore": [
+      {
+        "userID": "f2ae13d9-55d7-4a7e-be4d-269298c475f8",
+        "nodeID": 1,
+        "score": 807
+      },
+      {
+        "userID": "5e2d41f6-a86a-478d-841e-601a111f7bb1",
+        "nodeID": 2,
+        "score": 806
+      },
+      {
+        "userID": "d8689012-4c35-4f2a-b074-ceec34438759",
+        "nodeID": 3,
+        "score": 806
+      },
+      {
+        "userID": "283e7f2d-5c35-4df6-a367-e4ba8505a2db",
+        "nodeID": 4,
+        "score": 806
+      }
+    ]
+  }
+}

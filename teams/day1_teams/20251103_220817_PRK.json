@@ -1,0 +1,30 @@
+{
+  "team_name": "PRK",
+  "timestamp": "2025-11-03 22:08:17",
+  "total_score": 12700,
+  "backend_payload": {
+    "gameResultID": "e5592b2d-7e8b-4be4-8aad-94e7c49aa98f",
+    "individualScore": [
+      {
+        "userID": "ff77a88e-068d-496a-907f-e5f411dc7eac",
+        "nodeID": 1,
+        "score": 3175
+      },
+      {
+        "userID": "cb39c811-3884-4ec2-a601-eebb088ae6b9",
+        "nodeID": 2,
+        "score": 3175
+      },
+      {
+        "userID": "82e99894-da01-45e2-9b6a-f13055d41483",
+        "nodeID": 3,
+        "score": 3175
+      },
+      {
+        "userID": "223f0ffe-db23-402f-a714-a2b8c0e2bff6",
+        "nodeID": 4,
+        "score": 3175
+      }
+    ]
+  }
+}

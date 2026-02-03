@@ -1,0 +1,30 @@
+{
+  "team_name": "BAIG",
+  "timestamp": "2025-11-04 20:37:23",
+  "total_score": 4000,
+  "backend_payload": {
+    "gameResultID": "4a9d0325-aeef-4ca8-b128-c607dcc86b5e",
+    "individualScore": [
+      {
+        "userID": "124f5905-75c7-47b1-b2bd-504d25195825",
+        "nodeID": 1,
+        "score": 1000
+      },
+      {
+        "userID": "e4400446-1aed-4670-9642-d59c2c8a3c7a",
+        "nodeID": 2,
+        "score": 1000
+      },
+      {
+        "userID": "a35cfaa2-2e21-4d92-9a7f-ad2e0a20f5d0",
+        "nodeID": 3,
+        "score": 1000
+      },
+      {
+        "userID": "bea4c755-2512-42b5-ba12-ad2e07229fad",
+        "nodeID": 4,
+        "score": 1000
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "team_name": "DUBAI LAND DEPARTMENT  2",
+  "timestamp": "2025-11-06 20:59:55",
+  "total_score": 3600,
+  "backend_payload": {
+    "gameResultID": "9e728c63-2018-4e4b-8bee-d940429cc037",
+    "individualScore": [
+      {
+        "userID": "11a0e959-23b1-49ef-aeeb-0151fa75897f",
+        "nodeID": 1,
+        "score": 900
+      },
+      {
+        "userID": "eead33ab-91a1-4453-bc9e-dcd6383dba71",
+        "nodeID": 2,
+        "score": 900
+      },
+      {
+        "userID": "b079c8b9-2f44-40c3-bed0-b353e3972219",
+        "nodeID": 3,
+        "score": 900
+      },
+      {
+        "userID": "95bd997b-1e4e-4490-b3be-d6387f61a51d",
+        "nodeID": 4,
+        "score": 900
+      }
+    ]
+  }
+}

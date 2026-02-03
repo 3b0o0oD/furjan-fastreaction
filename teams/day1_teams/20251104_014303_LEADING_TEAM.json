@@ -1,0 +1,30 @@
+{
+  "team_name": "LEADING TEAM",
+  "timestamp": "2025-11-04 01:43:03",
+  "total_score": 5700,
+  "backend_payload": {
+    "gameResultID": "a6e19ff9-b8e9-40bc-9072-2b8962aa19cc",
+    "individualScore": [
+      {
+        "userID": "def3da29-da5e-43be-b857-c47981a6de88",
+        "nodeID": 1,
+        "score": 1425
+      },
+      {
+        "userID": "7eb7961b-cdbb-48fc-90f7-da14cd208b2d",
+        "nodeID": 2,
+        "score": 1425
+      },
+      {
+        "userID": "cb92dc72-c727-499a-81ab-2b0ee0815995",
+        "nodeID": 3,
+        "score": 1425
+      },
+      {
+        "userID": "4f267e30-86ad-4a04-b1b0-086d963d0b05",
+        "nodeID": 4,
+        "score": 1425
+      }
+    ]
+  }
+}

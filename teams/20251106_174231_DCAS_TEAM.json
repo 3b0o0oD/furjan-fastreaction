@@ -1,0 +1,30 @@
+{
+  "team_name": "DCAS TEAM",
+  "timestamp": "2025-11-06 17:42:31",
+  "total_score": 1050,
+  "backend_payload": {
+    "gameResultID": "5bec0722-87ca-4d0b-b4ef-6737593c5904",
+    "individualScore": [
+      {
+        "userID": "3d9d0102-0e8e-484c-9bfb-2af25feacae0",
+        "nodeID": 1,
+        "score": 264
+      },
+      {
+        "userID": "92040687-618b-459b-a635-f66974f032d1",
+        "nodeID": 2,
+        "score": 262
+      },
+      {
+        "userID": "3f0359aa-6cdb-41e2-8d97-9f816cc79a1f",
+        "nodeID": 3,
+        "score": 262
+      },
+      {
+        "userID": "20fb099d-ea0e-47ea-b461-15ffd1d882f1",
+        "nodeID": 4,
+        "score": 262
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "team_name": "MAZENGE4",
+  "timestamp": "2025-11-05 00:17:37",
+  "total_score": 4850,
+  "backend_payload": {
+    "gameResultID": "04c151f4-b086-4796-a39a-434d5d2ed2a0",
+    "individualScore": [
+      {
+        "userID": "d8ef4188-75d9-48d7-8773-e9d2e9e31605",
+        "nodeID": 1,
+        "score": 1214
+      },
+      {
+        "userID": "bc5e047d-5dd3-4a22-9ffb-9ad79328d459",
+        "nodeID": 2,
+        "score": 1212
+      },
+      {
+        "userID": "46073c96-f199-4954-85d4-f502da7418db",
+        "nodeID": 3,
+        "score": 1212
+      },
+      {
+        "userID": "8e9a1c44-5e88-400d-83b1-4f533a7842d2",
+        "nodeID": 4,
+        "score": 1212
+      }
+    ]
+  }
+}

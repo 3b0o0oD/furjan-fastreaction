@@ -1,0 +1,30 @@
+{
+  "team_name": "TG MAGE",
+  "timestamp": "2025-11-06 15:08:55",
+  "total_score": 4375,
+  "backend_payload": {
+    "gameResultID": "67137a95-5186-41ff-8613-554c65825f62",
+    "individualScore": [
+      {
+        "userID": "17a73218-527e-4009-b4e3-341c84fcd9ad",
+        "nodeID": 1,
+        "score": 1096
+      },
+      {
+        "userID": "9ac0a560-8ca6-405b-8f21-bdc3c8978d81",
+        "nodeID": 2,
+        "score": 1093
+      },
+      {
+        "userID": "f92de313-ccc7-4e0c-80ab-941d679457a8",
+        "nodeID": 3,
+        "score": 1093
+      },
+      {
+        "userID": "d14006f6-3866-4c5e-bab5-e4f9a954b945",
+        "nodeID": 4,
+        "score": 1093
+      }
+    ]
+  }
+}

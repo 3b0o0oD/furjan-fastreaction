@@ -1,0 +1,30 @@
+{
+  "team_name": "SHABAB BUSTAN",
+  "timestamp": "2025-11-04 01:04:41",
+  "total_score": 13925,
+  "backend_payload": {
+    "gameResultID": "222b0edc-1675-4d71-a037-9ec7d5f1c3be",
+    "individualScore": [
+      {
+        "userID": "d4143c61-c556-42fb-82dc-bd019a822262",
+        "nodeID": 1,
+        "score": 3482
+      },
+      {
+        "userID": "1d25a659-187f-4ef7-af63-146d9c867ab5",
+        "nodeID": 2,
+        "score": 3481
+      },
+      {
+        "userID": "d2f4e747-f578-495a-9bea-0ec478f61ef1",
+        "nodeID": 3,
+        "score": 3481
+      },
+      {
+        "userID": "a02b5d83-a649-43cc-96c4-606ab905cdd6",
+        "nodeID": 4,
+        "score": 3481
+      }
+    ]
+  }
+}

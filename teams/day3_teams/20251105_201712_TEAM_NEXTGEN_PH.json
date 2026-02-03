@@ -1,0 +1,30 @@
+{
+  "team_name": "TEAM NEXTGEN PH",
+  "timestamp": "2025-11-05 20:17:12",
+  "total_score": 3000,
+  "backend_payload": {
+    "gameResultID": "2a6cfda7-d8fa-400b-82d2-79bc118b3a85",
+    "individualScore": [
+      {
+        "userID": "2538be2a-67ac-45f2-9da4-c6242771d581",
+        "nodeID": 1,
+        "score": 750
+      },
+      {
+        "userID": "c2af44cd-28d4-406b-9f5f-73ba4e6b3ee3",
+        "nodeID": 2,
+        "score": 750
+      },
+      {
+        "userID": "b6e15fae-16bb-450c-9fd9-5c6b4e04385a",
+        "nodeID": 3,
+        "score": 750
+      },
+      {
+        "userID": "9be99195-bde5-412b-a45e-7657d7e66c39",
+        "nodeID": 4,
+        "score": 750
+      }
+    ]
+  }
+}

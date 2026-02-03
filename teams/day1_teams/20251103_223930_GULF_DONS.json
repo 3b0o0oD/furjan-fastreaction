@@ -1,0 +1,30 @@
+{
+  "team_name": "GULF DONS",
+  "timestamp": "2025-11-03 22:39:30",
+  "total_score": 10500,
+  "backend_payload": {
+    "gameResultID": "5760c02f-58a6-41a4-90ce-2f4335a54f4a",
+    "individualScore": [
+      {
+        "userID": "d2aa49c6-39df-4eba-9916-e28d1a47ab13",
+        "nodeID": 1,
+        "score": 2625
+      },
+      {
+        "userID": "0b69cbd4-c5f2-4111-adfa-e29c6b32de49",
+        "nodeID": 2,
+        "score": 2625
+      },
+      {
+        "userID": "cda856a5-2db6-4469-9796-51c31f099eb5",
+        "nodeID": 3,
+        "score": 2625
+      },
+      {
+        "userID": "8e95b9a1-bf3b-41c3-9aaf-c6c656c5d20e",
+        "nodeID": 4,
+        "score": 2625
+      }
+    ]
+  }
+}

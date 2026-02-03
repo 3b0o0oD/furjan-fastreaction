@@ -1,0 +1,30 @@
+{
+  "team_name": "DOC NIGHT",
+  "timestamp": "2025-11-06 16:02:46",
+  "total_score": 2575,
+  "backend_payload": {
+    "gameResultID": "7eb44bf7-8b0e-4570-8fd7-fff8dc23ff2b",
+    "individualScore": [
+      {
+        "userID": "25e746e1-711d-42d6-aaa5-adcf7e4d95cb",
+        "nodeID": 1,
+        "score": 646
+      },
+      {
+        "userID": "d1a108c3-4901-497c-9c04-8559bba0a4cb",
+        "nodeID": 2,
+        "score": 643
+      },
+      {
+        "userID": "c9a23644-c473-4b88-a5c2-1b7aa6c30a8c",
+        "nodeID": 3,
+        "score": 643
+      },
+      {
+        "userID": "c0726a9c-5a2f-4352-b09c-9f4f456f1041",
+        "nodeID": 4,
+        "score": 643
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "team_name": "IMRAN",
+  "timestamp": "2025-11-06 23:18:50",
+  "total_score": 8775,
+  "backend_payload": {
+    "gameResultID": "29294f02-1d47-4e57-9353-789cac79f528",
+    "individualScore": [
+      {
+        "userID": "632e6376-152e-4d34-88ae-52b34d7b7f96",
+        "nodeID": 1,
+        "score": 2196
+      },
+      {
+        "userID": "6b74b7bf-1942-4595-b768-b1711cdc0c65",
+        "nodeID": 2,
+        "score": 2193
+      },
+      {
+        "userID": "c192dcde-75c0-4ce3-8b51-ba81e0addaff",
+        "nodeID": 3,
+        "score": 2193
+      },
+      {
+        "userID": "2bab5120-6193-4963-b922-b71ebd7eee9b",
+        "nodeID": 4,
+        "score": 2193
+      }
+    ]
+  }
+}

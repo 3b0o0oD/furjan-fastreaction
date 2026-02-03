@@ -1,0 +1,30 @@
+{
+  "team_name": "DIGITAL DUBAI WOMAN 2",
+  "timestamp": "2025-11-03 17:26:57",
+  "total_score": 10225,
+  "backend_payload": {
+    "gameResultID": "7603a5fb-1c7f-408c-994c-0dad40114c13",
+    "individualScore": [
+      {
+        "userID": "aaec4478-ef81-41d8-b0f8-2e51099cd6ea",
+        "nodeID": 1,
+        "score": 2557
+      },
+      {
+        "userID": "e1d8cbe1-66ba-44ba-a406-d526b5ec0f7a",
+        "nodeID": 2,
+        "score": 2556
+      },
+      {
+        "userID": "4cc76b06-bfb7-4448-a0ba-4712592f3aab",
+        "nodeID": 3,
+        "score": 2556
+      },
+      {
+        "userID": "85c58a1c-c603-421d-9544-0e57209a258c",
+        "nodeID": 4,
+        "score": 2556
+      }
+    ]
+  }
+}

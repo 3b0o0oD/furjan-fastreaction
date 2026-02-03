@@ -1,0 +1,30 @@
+{
+  "team_name": "TG SPARK",
+  "timestamp": "2025-11-05 17:39:26",
+  "total_score": 1275,
+  "backend_payload": {
+    "gameResultID": "49489e15-ea85-4966-8fd3-b3b72705c996",
+    "individualScore": [
+      {
+        "userID": "c83755d6-296a-48cf-bd67-20afd228f1ff",
+        "nodeID": 1,
+        "score": 321
+      },
+      {
+        "userID": "e9e1253e-e2be-43e3-ac5f-ccd48e2b37ec",
+        "nodeID": 2,
+        "score": 318
+      },
+      {
+        "userID": "e9becd48-7c56-4435-8f4f-dd402b979a1b",
+        "nodeID": 3,
+        "score": 318
+      },
+      {
+        "userID": "e0101280-486f-414e-a119-0931f88b0fb8",
+        "nodeID": 4,
+        "score": 318
+      }
+    ]
+  }
+}

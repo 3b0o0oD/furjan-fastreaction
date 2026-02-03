@@ -1,0 +1,30 @@
+{
+  "team_name": "RAK",
+  "timestamp": "2025-11-06 18:59:24",
+  "total_score": 2825,
+  "backend_payload": {
+    "gameResultID": "7bf4ec5f-cb8f-4bf8-b34e-22bf02699797",
+    "individualScore": [
+      {
+        "userID": "fd5c897c-501b-4c02-8192-03c93a726d0a",
+        "nodeID": 1,
+        "score": 707
+      },
+      {
+        "userID": "a0b53f0e-dd5f-4db6-946a-e05201aefc49",
+        "nodeID": 2,
+        "score": 706
+      },
+      {
+        "userID": "faecb879-b77a-4eb9-87c4-299685b95172",
+        "nodeID": 3,
+        "score": 706
+      },
+      {
+        "userID": "91910176-cd00-479f-9abc-9900bb42f410",
+        "nodeID": 4,
+        "score": 706
+      }
+    ]
+  }
+}

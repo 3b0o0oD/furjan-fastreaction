@@ -1,0 +1,30 @@
+{
+  "team_name": "MIRACLE GUYS",
+  "timestamp": "2025-11-05 22:22:12",
+  "total_score": 10875,
+  "backend_payload": {
+    "gameResultID": "27dfcc5a-abe3-4d6b-9e62-299a92bbee88",
+    "individualScore": [
+      {
+        "userID": "b3b576ca-6c22-44dd-a30b-b040adbc5c33",
+        "nodeID": 1,
+        "score": 2721
+      },
+      {
+        "userID": "8f1a522d-3a4b-4deb-8115-387c9f068fa5",
+        "nodeID": 2,
+        "score": 2718
+      },
+      {
+        "userID": "d8f7f6b4-a5c6-4a5d-b194-fd8f67c8ba9f",
+        "nodeID": 3,
+        "score": 2718
+      },
+      {
+        "userID": "86749346-8635-4075-b00b-098b9d27bf35",
+        "nodeID": 4,
+        "score": 2718
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "team_name": "VOSTOK TEAM 17",
+  "timestamp": "2025-11-04 22:10:39",
+  "total_score": 5725,
+  "backend_payload": {
+    "gameResultID": "e37bb157-baeb-46e0-945d-aa24bd8bf9c4",
+    "individualScore": [
+      {
+        "userID": "45df479c-49d9-4668-a427-e3ffed2552a3",
+        "nodeID": 1,
+        "score": 1432
+      },
+      {
+        "userID": "0e16a8f0-4aea-49e9-9a95-bf87d4fd5665",
+        "nodeID": 2,
+        "score": 1431
+      },
+      {
+        "userID": "36cdae5d-5d19-4344-b121-f80cc91c7dc9",
+        "nodeID": 3,
+        "score": 1431
+      },
+      {
+        "userID": "694318a7-6c3d-4bcb-8fc0-af5b1bef0862",
+        "nodeID": 4,
+        "score": 1431
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "team_name": "DUBAI CUSTOMS LADIES-C",
+  "timestamp": "2025-11-04 18:06:09",
+  "total_score": 7175,
+  "backend_payload": {
+    "gameResultID": "3cf8be81-1b88-4f46-9233-3f4cee0ba76a",
+    "individualScore": [
+      {
+        "userID": "e057d90e-c20f-41aa-818b-89c8f464c2d5",
+        "nodeID": 1,
+        "score": 1796
+      },
+      {
+        "userID": "1ec8bfef-0f6c-4a1c-9c9c-bf1f5c3c672c",
+        "nodeID": 2,
+        "score": 1793
+      },
+      {
+        "userID": "19c41ad4-00f9-4ec6-b58c-9f4c011fa776",
+        "nodeID": 3,
+        "score": 1793
+      },
+      {
+        "userID": "d2abca5b-9f0c-4d06-90a8-d7aac63e00da",
+        "nodeID": 4,
+        "score": 1793
+      }
+    ]
+  }
+}

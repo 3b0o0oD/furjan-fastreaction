@@ -1,0 +1,30 @@
+{
+  "team_name": "TNTP BOYS",
+  "timestamp": "2025-11-05 00:52:51",
+  "total_score": 2900,
+  "backend_payload": {
+    "gameResultID": "8ef53757-34bd-46a9-bd4a-2e4933ee0d3d",
+    "individualScore": [
+      {
+        "userID": "8fe54470-b238-4039-8d7a-cf214c3c58eb",
+        "nodeID": 1,
+        "score": 725
+      },
+      {
+        "userID": "47c4d203-dd50-4266-b18c-9f79f40e875d",
+        "nodeID": 2,
+        "score": 725
+      },
+      {
+        "userID": "01884e73-bea7-4e10-9f9c-babf51493e59",
+        "nodeID": 3,
+        "score": 725
+      },
+      {
+        "userID": "e2c21f64-505a-497d-8447-d552edfe227e",
+        "nodeID": 4,
+        "score": 725
+      }
+    ]
+  }
+}

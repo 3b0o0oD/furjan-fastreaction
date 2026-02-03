@@ -1,0 +1,30 @@
+{
+  "team_name": "TG ALPHA GIRLS",
+  "timestamp": "2025-11-05 17:20:26",
+  "total_score": 3250,
+  "backend_payload": {
+    "gameResultID": "b1ae9477-27d2-4c77-8321-2e65ee6cd2b7",
+    "individualScore": [
+      {
+        "userID": "336dec33-4a0c-4993-9a1d-a6a8feb9679b",
+        "nodeID": 1,
+        "score": 814
+      },
+      {
+        "userID": "c8eb07d8-f851-4ff9-ac6a-ee5a515e841b",
+        "nodeID": 2,
+        "score": 812
+      },
+      {
+        "userID": "83b75ea2-8348-451b-a20b-b01922e6b0d1",
+        "nodeID": 3,
+        "score": 812
+      },
+      {
+        "userID": "fb4e9370-2904-4a5a-a1ab-8bb07922c61e",
+        "nodeID": 4,
+        "score": 812
+      }
+    ]
+  }
+}

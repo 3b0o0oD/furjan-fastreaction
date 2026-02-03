@@ -1,0 +1,30 @@
+{
+  "team_name": "TSS",
+  "timestamp": "2025-11-05 16:41:47",
+  "total_score": 4150,
+  "backend_payload": {
+    "gameResultID": "d82b4f42-5d33-4ad7-9998-7c85458e33a3",
+    "individualScore": [
+      {
+        "userID": "05cfe5ba-89c4-481f-8129-9e6b5ba85b1c",
+        "nodeID": 1,
+        "score": 1039
+      },
+      {
+        "userID": "775b9172-c1c9-4b86-a7fa-f748b08359f4",
+        "nodeID": 2,
+        "score": 1037
+      },
+      {
+        "userID": "17b4b42f-a25d-4859-aa8a-a9fb59d7999e",
+        "nodeID": 3,
+        "score": 1037
+      },
+      {
+        "userID": "a92297cc-b9af-4099-a597-cb916abf7d22",
+        "nodeID": 4,
+        "score": 1037
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "team_name": "DGHR",
+  "timestamp": "2025-11-06 16:51:25",
+  "total_score": 2200,
+  "backend_payload": {
+    "gameResultID": "ddc8896f-630c-4ad4-8f97-e31443781eeb",
+    "individualScore": [
+      {
+        "userID": "afd38cea-c802-401a-a38d-8cc03d8c7152",
+        "nodeID": 1,
+        "score": 550
+      },
+      {
+        "userID": "d31b223f-0623-434c-b03e-c0acabc9a59d",
+        "nodeID": 2,
+        "score": 550
+      },
+      {
+        "userID": "fb98b465-a123-4422-a52d-e445c9207dbb",
+        "nodeID": 3,
+        "score": 550
+      },
+      {
+        "userID": "3f3faab1-af3d-42ef-bcc3-6fb893944f26",
+        "nodeID": 4,
+        "score": 550
+      }
+    ]
+  }
+}

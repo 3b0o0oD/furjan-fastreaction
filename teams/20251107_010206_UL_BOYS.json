@@ -1,0 +1,30 @@
+{
+  "team_name": "UL BOYS",
+  "timestamp": "2025-11-07 01:02:06",
+  "total_score": 5000,
+  "backend_payload": {
+    "gameResultID": "df96fd99-5790-4042-b4af-e239ab1c08a0",
+    "individualScore": [
+      {
+        "userID": "847b3b22-6d2f-4262-8253-2e33f5c15b27",
+        "nodeID": 1,
+        "score": 1250
+      },
+      {
+        "userID": "e438d568-2865-473e-be6c-a5981682117c",
+        "nodeID": 2,
+        "score": 1250
+      },
+      {
+        "userID": "663daf99-157a-46a5-a559-49098a123d85",
+        "nodeID": 3,
+        "score": 1250
+      },
+      {
+        "userID": "2ba14cc1-d71f-4411-b5b4-e22ca0e2c876",
+        "nodeID": 4,
+        "score": 1250
+      }
+    ]
+  }
+}

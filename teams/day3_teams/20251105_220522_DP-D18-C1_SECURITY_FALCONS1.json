@@ -1,0 +1,30 @@
+{
+  "team_name": "DP-D18-C1 SECURITY FALCONS1",
+  "timestamp": "2025-11-05 22:05:22",
+  "total_score": 2775,
+  "backend_payload": {
+    "gameResultID": "fedfef46-3a68-4c31-9316-43ed52dd594c",
+    "individualScore": [
+      {
+        "userID": "92980d47-4de8-47b4-860c-d519e28ec99d",
+        "nodeID": 1,
+        "score": 696
+      },
+      {
+        "userID": "78c4d948-d708-417e-b0ec-093e129a63df",
+        "nodeID": 2,
+        "score": 693
+      },
+      {
+        "userID": "53c73ba8-c485-462d-b243-9e214c7f9fd9",
+        "nodeID": 3,
+        "score": 693
+      },
+      {
+        "userID": "ebb28a61-6598-4e62-92ba-caaf280c5717",
+        "nodeID": 4,
+        "score": 693
+      }
+    ]
+  }
+}

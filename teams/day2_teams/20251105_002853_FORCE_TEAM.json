@@ -1,0 +1,30 @@
+{
+  "team_name": "FORCE TEAM",
+  "timestamp": "2025-11-05 00:28:53",
+  "total_score": 9225,
+  "backend_payload": {
+    "gameResultID": "e2df23c7-791a-4a9d-8951-a37c6ab78a14",
+    "individualScore": [
+      {
+        "userID": "ee2e8fa3-f720-45e4-b1d0-2f52fde781b5",
+        "nodeID": 1,
+        "score": 2307
+      },
+      {
+        "userID": "3fc98d10-99ee-4586-9423-ecf28c09658b",
+        "nodeID": 2,
+        "score": 2306
+      },
+      {
+        "userID": "cf82bccb-2667-4866-a7cb-105ba2743e3b",
+        "nodeID": 3,
+        "score": 2306
+      },
+      {
+        "userID": "1b981359-9b3e-4da4-8d63-08c8eb3bd975",
+        "nodeID": 4,
+        "score": 2306
+      }
+    ]
+  }
+}

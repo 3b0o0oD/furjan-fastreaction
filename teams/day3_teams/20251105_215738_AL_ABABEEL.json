@@ -1,0 +1,30 @@
+{
+  "team_name": "AL ABABEEL",
+  "timestamp": "2025-11-05 21:57:38",
+  "total_score": 12425,
+  "backend_payload": {
+    "gameResultID": "7c588a82-2733-44fa-96e3-00f9e57922cf",
+    "individualScore": [
+      {
+        "userID": "e7a10f3b-1e82-40c5-abe1-fb7b1fb1d4f1",
+        "nodeID": 1,
+        "score": 3107
+      },
+      {
+        "userID": "2038d6b6-acef-4870-a26d-38ba253e3d1d",
+        "nodeID": 2,
+        "score": 3106
+      },
+      {
+        "userID": "bad1a511-6a5f-47d5-ada2-9f4d917b7f28",
+        "nodeID": 3,
+        "score": 3106
+      },
+      {
+        "userID": "52d3f4b9-b410-49a4-9407-7e4e4942a545",
+        "nodeID": 4,
+        "score": 3106
+      }
+    ]
+  }
+}

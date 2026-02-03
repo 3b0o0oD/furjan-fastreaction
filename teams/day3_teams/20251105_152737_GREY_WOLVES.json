@@ -1,0 +1,30 @@
+{
+  "team_name": "GREY WOLVES",
+  "timestamp": "2025-11-05 15:27:37",
+  "total_score": 500,
+  "backend_payload": {
+    "gameResultID": "e8c77876-88a8-44f6-9d60-d019277c7773",
+    "individualScore": [
+      {
+        "userID": "bc9e7a98-8845-4324-85db-385aa83121c9",
+        "nodeID": 1,
+        "score": 125
+      },
+      {
+        "userID": "8b460a4c-5398-4339-b18c-a16404130221",
+        "nodeID": 2,
+        "score": 125
+      },
+      {
+        "userID": "908f7eae-62b8-40f0-a0fc-642d36d4c2d7",
+        "nodeID": 3,
+        "score": 125
+      },
+      {
+        "userID": "fc365247-8a1c-4db1-b0af-f4e992b40384",
+        "nodeID": 4,
+        "score": 125
+      }
+    ]
+  }
+}

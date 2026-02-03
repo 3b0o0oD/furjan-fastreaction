@@ -1,0 +1,30 @@
+{
+  "team_name": "TSD34",
+  "timestamp": "2025-11-06 15:51:11",
+  "total_score": 4725,
+  "backend_payload": {
+    "gameResultID": "4c1ed9e1-9058-4628-b6dd-b51fb527f926",
+    "individualScore": [
+      {
+        "userID": "51f7e0ac-05a3-4d14-b9ea-1cadcf8e864a",
+        "nodeID": 1,
+        "score": 1182
+      },
+      {
+        "userID": "263bcef4-add9-4aa0-b1a8-4eb60d167fbe",
+        "nodeID": 2,
+        "score": 1181
+      },
+      {
+        "userID": "a2828d52-e287-4b4c-8578-6d054bdc0f9b",
+        "nodeID": 3,
+        "score": 1181
+      },
+      {
+        "userID": "329878d2-d491-41fa-948c-71704dc7ca56",
+        "nodeID": 4,
+        "score": 1181
+      }
+    ]
+  }
+}

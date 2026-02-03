@@ -1,0 +1,30 @@
+{
+  "team_name": "TSD21",
+  "timestamp": "2025-11-05 22:58:01",
+  "total_score": 10975,
+  "backend_payload": {
+    "gameResultID": "98d76c48-5376-4d59-80d3-d94d46240f4f",
+    "individualScore": [
+      {
+        "userID": "0e4d9fea-906b-4d09-baa5-9ea4135c0957",
+        "nodeID": 1,
+        "score": 2746
+      },
+      {
+        "userID": "4755c1ef-1d44-4ae2-a5eb-c4e9813ff3f9",
+        "nodeID": 2,
+        "score": 2743
+      },
+      {
+        "userID": "00b72366-b123-4326-9ac4-f61fc8c4429b",
+        "nodeID": 3,
+        "score": 2743
+      },
+      {
+        "userID": "3e60aa1c-925c-488e-8fef-87830d53b249",
+        "nodeID": 4,
+        "score": 2743
+      }
+    ]
+  }
+}

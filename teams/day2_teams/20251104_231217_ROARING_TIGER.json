@@ -1,0 +1,30 @@
+{
+  "team_name": "ROARING TIGER",
+  "timestamp": "2025-11-04 23:12:17",
+  "total_score": 10600,
+  "backend_payload": {
+    "gameResultID": "dcd7b0a3-41be-41a9-9f74-cd3837952b0a",
+    "individualScore": [
+      {
+        "userID": "10494842-981d-4658-b2bd-40e42a003975",
+        "nodeID": 1,
+        "score": 2650
+      },
+      {
+        "userID": "03528951-6008-4332-8112-cafc7ba089f9",
+        "nodeID": 2,
+        "score": 2650
+      },
+      {
+        "userID": "ac059320-6925-4944-a9d3-bdb143a2b5f5",
+        "nodeID": 3,
+        "score": 2650
+      },
+      {
+        "userID": "faf1c43b-6c29-4ba9-bfdc-d4acb2bd0f4f",
+        "nodeID": 4,
+        "score": 2650
+      }
+    ]
+  }
+}

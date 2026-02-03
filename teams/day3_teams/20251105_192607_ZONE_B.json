@@ -1,0 +1,30 @@
+{
+  "team_name": "ZONE B",
+  "timestamp": "2025-11-05 19:26:07",
+  "total_score": 1725,
+  "backend_payload": {
+    "gameResultID": "3ad2e274-51f3-49ff-a0d1-39f98ec98185",
+    "individualScore": [
+      {
+        "userID": "cf4b6a9b-9e3a-4b6a-92b2-1a5beb28dad8",
+        "nodeID": 1,
+        "score": 432
+      },
+      {
+        "userID": "80e8067d-6aef-4037-9a5f-b499be9a9c3a",
+        "nodeID": 2,
+        "score": 431
+      },
+      {
+        "userID": "325c1868-8b70-46a7-b3bb-172300e090a8",
+        "nodeID": 3,
+        "score": 431
+      },
+      {
+        "userID": "6a38c318-621d-410e-854a-b83c3862ed65",
+        "nodeID": 4,
+        "score": 431
+      }
+    ]
+  }
+}

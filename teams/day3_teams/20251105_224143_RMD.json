@@ -1,0 +1,30 @@
+{
+  "team_name": "RMD",
+  "timestamp": "2025-11-05 22:41:43",
+  "total_score": 17275,
+  "backend_payload": {
+    "gameResultID": "fa630eaa-15a9-42a0-8745-b2ce46c8e94e",
+    "individualScore": [
+      {
+        "userID": "db7ccee5-e895-46a1-a61d-c06d971108b7",
+        "nodeID": 1,
+        "score": 4321
+      },
+      {
+        "userID": "956dda3e-ec2e-4ad0-9456-31e8474abd35",
+        "nodeID": 2,
+        "score": 4318
+      },
+      {
+        "userID": "711547d1-06cd-45ba-8adf-9975725cc887",
+        "nodeID": 3,
+        "score": 4318
+      },
+      {
+        "userID": "24bbf992-54f1-4e5c-abad-1c0022394154",
+        "nodeID": 4,
+        "score": 4318
+      }
+    ]
+  }
+}

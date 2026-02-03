@@ -1,0 +1,30 @@
+{
+  "team_name": "SINGAM BACK",
+  "timestamp": "2025-11-06 01:24:02",
+  "total_score": 16675,
+  "backend_payload": {
+    "gameResultID": "1923b004-2aff-4982-a216-a8001d5ba9fa",
+    "individualScore": [
+      {
+        "userID": "3b321295-12ac-4471-83a0-738a719f67c0",
+        "nodeID": 1,
+        "score": 4171
+      },
+      {
+        "userID": "5bd11ce5-0d31-40ff-9d1c-95c03dbf480d",
+        "nodeID": 2,
+        "score": 4168
+      },
+      {
+        "userID": "694318a7-6c3d-4bcb-8fc0-af5b1bef0862",
+        "nodeID": 3,
+        "score": 4168
+      },
+      {
+        "userID": "df2d1be8-bd34-4565-9f9f-6ed7b2e655e7",
+        "nodeID": 4,
+        "score": 4168
+      }
+    ]
+  }
+}

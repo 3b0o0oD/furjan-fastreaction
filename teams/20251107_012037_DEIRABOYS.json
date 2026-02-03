@@ -1,0 +1,30 @@
+{
+  "team_name": "DEIRABOYS",
+  "timestamp": "2025-11-07 01:20:37",
+  "total_score": 1150,
+  "backend_payload": {
+    "gameResultID": "81a8fd48-a011-46f6-a524-9d2ef23717ff",
+    "individualScore": [
+      {
+        "userID": "2de45c0c-246b-41c8-88cb-db0a4ba6cf38",
+        "nodeID": 1,
+        "score": 289
+      },
+      {
+        "userID": "e928b160-2d0f-41b9-9bc7-bc68650e831a",
+        "nodeID": 2,
+        "score": 287
+      },
+      {
+        "userID": "109c12b3-2fe8-41af-94cc-3eac08573e05",
+        "nodeID": 3,
+        "score": 287
+      },
+      {
+        "userID": "87d62f94-256c-457c-b42d-5efa49c2e021",
+        "nodeID": 4,
+        "score": 287
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "team_name": "CHENNAI PLAYER",
+  "timestamp": "2025-11-06 23:42:56",
+  "total_score": 14075,
+  "backend_payload": {
+    "gameResultID": "7585b37b-67a0-496d-86f1-c20c2d1dce4a",
+    "individualScore": [
+      {
+        "userID": "c3b67c89-d428-437c-a29a-adf2a76843a4",
+        "nodeID": 1,
+        "score": 3521
+      },
+      {
+        "userID": "7d98558c-0de9-4243-88eb-76b1ab210ee8",
+        "nodeID": 2,
+        "score": 3518
+      },
+      {
+        "userID": "f2dce3b8-4b26-4929-bd27-b0c05aa5d4b5",
+        "nodeID": 3,
+        "score": 3518
+      },
+      {
+        "userID": "d8ed1cae-694b-4d52-b335-eb426f871000",
+        "nodeID": 4,
+        "score": 3518
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "team_name": "TAMIL KINGS",
+  "timestamp": "2025-11-06 22:55:47",
+  "total_score": 5200,
+  "backend_payload": {
+    "gameResultID": "1da3c799-b5bc-4008-b218-a2cd426b6fcb",
+    "individualScore": [
+      {
+        "userID": "428fe8d5-9f0a-4d90-ad9f-87fe43a4e2ce",
+        "nodeID": 1,
+        "score": 1300
+      },
+      {
+        "userID": "64787994-79ac-4a77-8bd4-499d5b3e9856",
+        "nodeID": 2,
+        "score": 1300
+      },
+      {
+        "userID": "f35b9442-0fc5-48b5-9a17-5aac174c0124",
+        "nodeID": 3,
+        "score": 1300
+      },
+      {
+        "userID": "ba14dc11-427f-4d7a-b7f8-165e9231feb4",
+        "nodeID": 4,
+        "score": 1300
+      }
+    ]
+  }
+}

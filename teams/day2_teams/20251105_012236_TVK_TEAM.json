@@ -1,0 +1,30 @@
+{
+  "team_name": "TVK TEAM",
+  "timestamp": "2025-11-05 01:22:36",
+  "total_score": 7575,
+  "backend_payload": {
+    "gameResultID": "ff157c80-6ffd-435a-a2c6-f7167d8c9d42",
+    "individualScore": [
+      {
+        "userID": "bfabd2af-6032-40b4-8867-e90b73a49df1",
+        "nodeID": 1,
+        "score": 1896
+      },
+      {
+        "userID": "31885f67-7050-42f3-b4e3-f8f77f32cdcb",
+        "nodeID": 2,
+        "score": 1893
+      },
+      {
+        "userID": "3b34e76c-5ed5-45c7-869f-f1d3f845d4f1",
+        "nodeID": 3,
+        "score": 1893
+      },
+      {
+        "userID": "879c4bcc-34d7-40a8-aaef-7ae64de8c8b3",
+        "nodeID": 4,
+        "score": 1893
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "team_name": "PAKISTANI TEAM",
+  "timestamp": "2025-11-03 15:00:27",
+  "total_score": 2775,
+  "backend_payload": {
+    "gameResultID": "b9b4d250-caf6-433f-a407-be71ba762caf",
+    "individualScore": [
+      {
+        "userID": "0289a410-7869-4d8e-8a24-b6d9638ab974",
+        "nodeID": 1,
+        "score": 696
+      },
+      {
+        "userID": "709ced83-28d0-406c-b991-106c24edba77",
+        "nodeID": 2,
+        "score": 693
+      },
+      {
+        "userID": "84e465c5-7a35-4251-b56c-8c1236d41adc",
+        "nodeID": 3,
+        "score": 693
+      },
+      {
+        "userID": "f138c58f-7d0e-40a8-9b79-b178971ac548",
+        "nodeID": 4,
+        "score": 693
+      }
+    ]
+  }
+}

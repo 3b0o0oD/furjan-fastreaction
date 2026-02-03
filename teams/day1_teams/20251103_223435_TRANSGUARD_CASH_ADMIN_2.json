@@ -1,0 +1,30 @@
+{
+  "team_name": "TRANSGUARD CASH ADMIN 2",
+  "timestamp": "2025-11-03 22:34:35",
+  "total_score": 10500,
+  "backend_payload": {
+    "gameResultID": "9b662639-6ccb-4c58-89ff-b7a76bb2195f",
+    "individualScore": [
+      {
+        "userID": "c2b802ac-17c6-42cf-a1b0-e704835f5a47",
+        "nodeID": 1,
+        "score": 2625
+      },
+      {
+        "userID": "3046b2c5-232c-4971-bf54-4a6c907fd0d5",
+        "nodeID": 2,
+        "score": 2625
+      },
+      {
+        "userID": "c6caeceb-c970-4ccf-a725-493c52177aaa",
+        "nodeID": 3,
+        "score": 2625
+      },
+      {
+        "userID": "551f5b44-f790-4068-a66e-f60ecff6e1cf",
+        "nodeID": 4,
+        "score": 2625
+      }
+    ]
+  }
+}

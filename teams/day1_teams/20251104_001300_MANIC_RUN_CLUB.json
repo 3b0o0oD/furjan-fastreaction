@@ -1,0 +1,30 @@
+{
+  "team_name": "MANIC RUN CLUB",
+  "timestamp": "2025-11-04 00:13:00",
+  "total_score": 5325,
+  "backend_payload": {
+    "gameResultID": "27fcab9c-c9a8-461a-ae5f-bf042bb6de59",
+    "individualScore": [
+      {
+        "userID": "953a6877-e5cd-4daf-8ca9-e69a86f9f6cc",
+        "nodeID": 1,
+        "score": 1332
+      },
+      {
+        "userID": "d8fe5433-039c-4202-9d27-ce3635de7183",
+        "nodeID": 2,
+        "score": 1331
+      },
+      {
+        "userID": "d4d90ee8-a933-43cb-ad14-fe03b4c591dd",
+        "nodeID": 3,
+        "score": 1331
+      },
+      {
+        "userID": "fa91972a-d96e-4c9f-9f39-9df94695dbcd",
+        "nodeID": 4,
+        "score": 1331
+      }
+    ]
+  }
+}

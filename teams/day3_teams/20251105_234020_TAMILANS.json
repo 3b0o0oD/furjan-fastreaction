@@ -1,0 +1,30 @@
+{
+  "team_name": "TAMILANS",
+  "timestamp": "2025-11-05 23:40:20",
+  "total_score": 14350,
+  "backend_payload": {
+    "gameResultID": "805cbf33-381b-4ddb-a089-ff9fd92f19d5",
+    "individualScore": [
+      {
+        "userID": "02d3062b-f4e5-4644-af76-357816c84a1f",
+        "nodeID": 1,
+        "score": 3589
+      },
+      {
+        "userID": "61f64288-ccdd-443d-b7f6-cd7dd5531cdb",
+        "nodeID": 2,
+        "score": 3587
+      },
+      {
+        "userID": "7bd1e8fd-99e7-43a0-959c-1118f6a67a61",
+        "nodeID": 3,
+        "score": 3587
+      },
+      {
+        "userID": "92134f2f-fde9-492c-ab20-caea2f194700",
+        "nodeID": 4,
+        "score": 3587
+      }
+    ]
+  }
+}

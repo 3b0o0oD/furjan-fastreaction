@@ -1,0 +1,30 @@
+{
+  "team_name": "DELTA KING",
+  "timestamp": "2025-11-07 00:23:49",
+  "total_score": 12175,
+  "backend_payload": {
+    "gameResultID": "f627fd7a-d130-41b5-a7fd-bc202f06f9af",
+    "individualScore": [
+      {
+        "userID": "ad3fc543-2825-42e7-8ed5-38e4114f1e1a",
+        "nodeID": 1,
+        "score": 3046
+      },
+      {
+        "userID": "e44c430a-47f2-4bb4-9ad8-23e534cd256a",
+        "nodeID": 2,
+        "score": 3043
+      },
+      {
+        "userID": "e08caa9a-70e0-47bc-85b6-0963660dff45",
+        "nodeID": 3,
+        "score": 3043
+      },
+      {
+        "userID": "22a5d40f-4201-4e04-a005-7e481ade93f0",
+        "nodeID": 4,
+        "score": 3043
+      }
+    ]
+  }
+}

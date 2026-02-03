@@ -1,0 +1,30 @@
+{
+  "team_name": "TASLLEEH GLADIATORS",
+  "timestamp": "2025-11-05 18:47:28",
+  "total_score": 2200,
+  "backend_payload": {
+    "gameResultID": "971bb98a-b993-4bcf-9148-48bb8a1ccbd0",
+    "individualScore": [
+      {
+        "userID": "af1789db-fe3c-4aa4-933d-c315a09184cb",
+        "nodeID": 1,
+        "score": 550
+      },
+      {
+        "userID": "c132f5b8-20a2-4b67-a342-e7109decae79",
+        "nodeID": 2,
+        "score": 550
+      },
+      {
+        "userID": "6453978b-fb8b-428f-89e2-8967185b3693",
+        "nodeID": 3,
+        "score": 550
+      },
+      {
+        "userID": "c30db686-09ab-4ab6-b40e-855063031eee",
+        "nodeID": 4,
+        "score": 550
+      }
+    ]
+  }
+}

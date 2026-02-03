@@ -1,0 +1,30 @@
+{
+  "team_name": "MALL BUGGY",
+  "timestamp": "2025-11-04 19:48:41",
+  "total_score": 4550,
+  "backend_payload": {
+    "gameResultID": "6d7b5fb6-fa49-4806-9fec-afbf95084b67",
+    "individualScore": [
+      {
+        "userID": "5deb3b4a-3ea5-42bd-9453-1e93830c68ae",
+        "nodeID": 1,
+        "score": 1139
+      },
+      {
+        "userID": "a3b30b24-323a-4c2e-9182-8796de1b6728",
+        "nodeID": 2,
+        "score": 1137
+      },
+      {
+        "userID": "284dcc5c-1b65-44a9-9ccb-934e226fc27b",
+        "nodeID": 3,
+        "score": 1137
+      },
+      {
+        "userID": "0fd734ab-4572-44d0-ac53-48c17d178f67",
+        "nodeID": 4,
+        "score": 1137
+      }
+    ]
+  }
+}

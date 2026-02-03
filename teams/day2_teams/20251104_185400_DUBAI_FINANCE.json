@@ -1,0 +1,30 @@
+{
+  "team_name": "DUBAI FINANCE",
+  "timestamp": "2025-11-04 18:54:00",
+  "total_score": 6875,
+  "backend_payload": {
+    "gameResultID": "0bf15cec-e56e-4a48-be6e-8833096405c9",
+    "individualScore": [
+      {
+        "userID": "9a487e70-5951-46a8-9e0a-fea1621f09c0",
+        "nodeID": 1,
+        "score": 1721
+      },
+      {
+        "userID": "38c9aa0c-d529-474d-8cd4-ad02ca1931c8",
+        "nodeID": 2,
+        "score": 1718
+      },
+      {
+        "userID": "377b08f3-d75c-45bb-a544-6ed71d847f53",
+        "nodeID": 3,
+        "score": 1718
+      },
+      {
+        "userID": "b898f1b6-443a-47bf-93cd-9e8fde71e0f1",
+        "nodeID": 4,
+        "score": 1718
+      }
+    ]
+  }
+}

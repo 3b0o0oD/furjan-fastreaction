@@ -1,0 +1,30 @@
+{
+  "team_name": "MANANDAVADI RAMESH BABU",
+  "timestamp": "2025-11-03 15:21:12",
+  "total_score": 5525,
+  "backend_payload": {
+    "gameResultID": "32277d00-913a-4634-ab71-305f14f18740",
+    "individualScore": [
+      {
+        "userID": "7e17d0c0-1cb9-4c69-adbc-9d50b1f8a15f",
+        "nodeID": 1,
+        "score": 1382
+      },
+      {
+        "userID": "4e1e957a-e686-460c-8aa2-4108be6b7ab3",
+        "nodeID": 2,
+        "score": 1381
+      },
+      {
+        "userID": "15957c45-eb78-47af-a670-2a34104a889a",
+        "nodeID": 3,
+        "score": 1381
+      },
+      {
+        "userID": "4a3b17a9-649f-4387-a866-beec9a8f5143",
+        "nodeID": 4,
+        "score": 1381
+      }
+    ]
+  }
+}

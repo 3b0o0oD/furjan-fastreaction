@@ -1,0 +1,30 @@
+{
+  "team_name": "DUBAICOURTS",
+  "timestamp": "2025-11-05 15:17:49",
+  "total_score": 4925,
+  "backend_payload": {
+    "gameResultID": "296c0c76-4216-402e-b8bd-126d5fa55699",
+    "individualScore": [
+      {
+        "userID": "729545da-6f51-474c-9586-954aa28e0743",
+        "nodeID": 1,
+        "score": 1232
+      },
+      {
+        "userID": "86e47274-e84b-4e3e-a609-d1b123782341",
+        "nodeID": 2,
+        "score": 1231
+      },
+      {
+        "userID": "7d5ce321-806e-46ee-81f3-9bdaaf09015f",
+        "nodeID": 3,
+        "score": 1231
+      },
+      {
+        "userID": "8eb5e345-dd85-4d24-9e02-8c3c1c2afd43",
+        "nodeID": 4,
+        "score": 1231
+      }
+    ]
+  }
+}

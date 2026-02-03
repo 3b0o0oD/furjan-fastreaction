@@ -1,0 +1,30 @@
+{
+  "team_name": "DUBAI121",
+  "timestamp": "2025-11-03 23:15:26",
+  "total_score": 2350,
+  "backend_payload": {
+    "gameResultID": "4cd9f7d5-956b-4a4f-bf8a-094c28014eaf",
+    "individualScore": [
+      {
+        "userID": "80ce36a4-96be-4fa2-abc3-50ca1262ef3a",
+        "nodeID": 1,
+        "score": 589
+      },
+      {
+        "userID": "4512d1c5-48e0-4277-8230-ff91e01ed19b",
+        "nodeID": 2,
+        "score": 587
+      },
+      {
+        "userID": "f41d8ed3-c6e1-4ac4-93bf-d068ecea3f08",
+        "nodeID": 3,
+        "score": 587
+      },
+      {
+        "userID": "1ae3e41d-1fcb-4e42-820a-b844395af7c5",
+        "nodeID": 4,
+        "score": 587
+      }
+    ]
+  }
+}

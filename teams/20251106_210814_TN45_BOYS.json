@@ -1,0 +1,30 @@
+{
+  "team_name": "TN45 BOYS",
+  "timestamp": "2025-11-06 21:08:14",
+  "total_score": 4900,
+  "backend_payload": {
+    "gameResultID": "64c57d39-6459-4e0a-8515-f8391e16e4c3",
+    "individualScore": [
+      {
+        "userID": "47c4d203-dd50-4266-b18c-9f79f40e875d",
+        "nodeID": 1,
+        "score": 1225
+      },
+      {
+        "userID": "8c81a506-fc63-4b89-8485-66f9b8e0cc82",
+        "nodeID": 2,
+        "score": 1225
+      },
+      {
+        "userID": "38659aa3-d0ed-467b-8338-3b01e977fb01",
+        "nodeID": 3,
+        "score": 1225
+      },
+      {
+        "userID": "ce0140b3-3d93-4504-aca1-8acbf6f60df8",
+        "nodeID": 4,
+        "score": 1225
+      }
+    ]
+  }
+}

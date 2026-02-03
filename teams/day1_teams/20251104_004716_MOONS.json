@@ -1,0 +1,30 @@
+{
+  "team_name": "MOONS",
+  "timestamp": "2025-11-04 00:47:16",
+  "total_score": 10450,
+  "backend_payload": {
+    "gameResultID": "0d54d266-bd03-4598-a6b0-50d68094e963",
+    "individualScore": [
+      {
+        "userID": "ac0a5887-fe37-496f-94e2-951b15cf9d5a",
+        "nodeID": 1,
+        "score": 2614
+      },
+      {
+        "userID": "8e9a1c44-5e88-400d-83b1-4f533a7842d2",
+        "nodeID": 2,
+        "score": 2612
+      },
+      {
+        "userID": "46073c96-f199-4954-85d4-f502da7418db",
+        "nodeID": 3,
+        "score": 2612
+      },
+      {
+        "userID": "6df36393-63b2-49d9-ab07-60e4e88fdb30",
+        "nodeID": 4,
+        "score": 2612
+      }
+    ]
+  }
+}

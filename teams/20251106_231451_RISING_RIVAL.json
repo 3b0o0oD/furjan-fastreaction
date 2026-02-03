@@ -1,0 +1,30 @@
+{
+  "team_name": "RISING RIVAL",
+  "timestamp": "2025-11-06 23:14:51",
+  "total_score": 8400,
+  "backend_payload": {
+    "gameResultID": "8a369427-cf16-4621-903a-93510981aafd",
+    "individualScore": [
+      {
+        "userID": "879c4bcc-34d7-40a8-aaef-7ae64de8c8b3",
+        "nodeID": 1,
+        "score": 2100
+      },
+      {
+        "userID": "83e14e56-3073-4343-a541-22468db643a0",
+        "nodeID": 2,
+        "score": 2100
+      },
+      {
+        "userID": "8e772a79-44c2-4909-b48d-3a509de55576",
+        "nodeID": 3,
+        "score": 2100
+      },
+      {
+        "userID": "3152b5c8-172a-4d2d-94cf-5fe5da9c9cb6",
+        "nodeID": 4,
+        "score": 2100
+      }
+    ]
+  }
+}

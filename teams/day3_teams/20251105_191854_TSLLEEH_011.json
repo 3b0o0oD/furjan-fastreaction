@@ -1,0 +1,30 @@
+{
+  "team_name": "TSLLEEH 011",
+  "timestamp": "2025-11-05 19:18:54",
+  "total_score": 4025,
+  "backend_payload": {
+    "gameResultID": "099206c9-98da-4bce-a708-063cdb62d64a",
+    "individualScore": [
+      {
+        "userID": "70fb7797-0e0f-4b5c-9769-e2595b722719",
+        "nodeID": 1,
+        "score": 1007
+      },
+      {
+        "userID": "5f1e14c2-5b03-4fdd-aa67-4811fef05248",
+        "nodeID": 2,
+        "score": 1006
+      },
+      {
+        "userID": "aba7be21-460c-42ae-b3db-3772e14cab42",
+        "nodeID": 3,
+        "score": 1006
+      },
+      {
+        "userID": "fc9b2070-9996-4029-b76e-3f824ee58e63",
+        "nodeID": 4,
+        "score": 1006
+      }
+    ]
+  }
+}

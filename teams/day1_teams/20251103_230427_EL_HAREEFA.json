@@ -1,0 +1,30 @@
+{
+  "team_name": "EL HAREEFA",
+  "timestamp": "2025-11-03 23:04:27",
+  "total_score": 9900,
+  "backend_payload": {
+    "gameResultID": "c28f9255-a0a4-424e-80f2-5de8cacffc51",
+    "individualScore": [
+      {
+        "userID": "6bb1b173-84d9-4bf4-94dc-2122293e68c0",
+        "nodeID": 1,
+        "score": 2475
+      },
+      {
+        "userID": "8cb99d53-2faa-4182-8aaa-cee78624f85d",
+        "nodeID": 2,
+        "score": 2475
+      },
+      {
+        "userID": "ff187e0a-58e6-414b-8877-99bcbc485b98",
+        "nodeID": 3,
+        "score": 2475
+      },
+      {
+        "userID": "fde80cf5-02ae-4108-abba-4a9c63ea7d93",
+        "nodeID": 4,
+        "score": 2475
+      }
+    ]
+  }
+}

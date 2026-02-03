@@ -1,0 +1,30 @@
+{
+  "team_name": "TSD17",
+  "timestamp": "2025-11-05 15:22:16",
+  "total_score": 6550,
+  "backend_payload": {
+    "gameResultID": "85ff2b52-78e0-427d-b98b-10be24fa45c1",
+    "individualScore": [
+      {
+        "userID": "2165175a-e88d-4c53-a241-c8e50f1df382",
+        "nodeID": 1,
+        "score": 1639
+      },
+      {
+        "userID": "376956de-bdf1-4e2f-ae16-02ab84e4ad21",
+        "nodeID": 2,
+        "score": 1637
+      },
+      {
+        "userID": "6eefad59-62a0-4fc0-9a69-c985db5868ef",
+        "nodeID": 3,
+        "score": 1637
+      },
+      {
+        "userID": "ea544b5e-b2fb-45be-8554-f407dfd4aca4",
+        "nodeID": 4,
+        "score": 1637
+      }
+    ]
+  }
+}

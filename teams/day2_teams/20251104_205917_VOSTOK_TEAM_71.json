@@ -1,0 +1,30 @@
+{
+  "team_name": "VOSTOK TEAM 71",
+  "timestamp": "2025-11-04 20:59:17",
+  "total_score": 6625,
+  "backend_payload": {
+    "gameResultID": "dda2d075-0de7-4f58-be18-323ee8d48caa",
+    "individualScore": [
+      {
+        "userID": "b5cd5642-2b20-4af5-bd65-7bee86b0255d",
+        "nodeID": 1,
+        "score": 1657
+      },
+      {
+        "userID": "585025cd-aa6b-45d1-b1ba-b3285defda0b",
+        "nodeID": 2,
+        "score": 1656
+      },
+      {
+        "userID": "fa015951-2b2c-480a-9c2b-04ef6a26d8a8",
+        "nodeID": 3,
+        "score": 1656
+      },
+      {
+        "userID": "59ad2088-d6f4-4e89-a28e-3ee42fa29ecc",
+        "nodeID": 4,
+        "score": 1656
+      }
+    ]
+  }
+}

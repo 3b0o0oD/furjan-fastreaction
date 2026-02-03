@@ -1,0 +1,30 @@
+{
+  "team_name": "PORTAL GUYES",
+  "timestamp": "2025-11-05 21:04:10",
+  "total_score": 4850,
+  "backend_payload": {
+    "gameResultID": "470a6a8a-fbf6-4e3c-9b7e-eb6054842ddb",
+    "individualScore": [
+      {
+        "userID": "051fd3a2-cec2-43cd-a456-fabb75d5b96d",
+        "nodeID": 1,
+        "score": 1214
+      },
+      {
+        "userID": "c28267b1-eecd-40b8-97ee-4a14a45e5eb6",
+        "nodeID": 2,
+        "score": 1212
+      },
+      {
+        "userID": "6332bb96-1025-4ff4-b0e8-0f03796521b4",
+        "nodeID": 3,
+        "score": 1212
+      },
+      {
+        "userID": "4a11a2d9-a4a0-41f7-bdb7-ed69ea4f7ceb",
+        "nodeID": 4,
+        "score": 1212
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "team_name": "TG MONSTERS",
+  "timestamp": "2025-11-05 19:15:24",
+  "total_score": 1525,
+  "backend_payload": {
+    "gameResultID": "158e4aba-ba77-4df1-bb0d-e86c2882c9a1",
+    "individualScore": [
+      {
+        "userID": "7c5dea0a-2613-4ec9-9168-d5d341569e68",
+        "nodeID": 1,
+        "score": 382
+      },
+      {
+        "userID": "9f523011-a6b3-4f08-83bb-840f4968a8a1",
+        "nodeID": 2,
+        "score": 381
+      },
+      {
+        "userID": "dfd3683c-39d8-44d2-afe5-5d127601192c",
+        "nodeID": 3,
+        "score": 381
+      },
+      {
+        "userID": "3837333b-45bd-4d43-8a86-0fc947b2799e",
+        "nodeID": 4,
+        "score": 381
+      }
+    ]
+  }
+}

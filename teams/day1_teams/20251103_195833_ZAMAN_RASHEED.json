@@ -1,0 +1,30 @@
+{
+  "team_name": "ZAMAN RASHEED",
+  "timestamp": "2025-11-03 19:58:33",
+  "total_score": 4450,
+  "backend_payload": {
+    "gameResultID": "7bcdc7b2-aa24-476b-b03a-cdc41554fd5b",
+    "individualScore": [
+      {
+        "userID": "d6a58ad5-c140-44d7-a3bd-17bc6931abc3",
+        "nodeID": 1,
+        "score": 1114
+      },
+      {
+        "userID": "411a8f80-9fb3-4b10-bef0-72c8d001a46d",
+        "nodeID": 2,
+        "score": 1112
+      },
+      {
+        "userID": "e13021ee-d55d-4413-96ab-b83705ec0f80",
+        "nodeID": 3,
+        "score": 1112
+      },
+      {
+        "userID": "b3ac0b32-7dfd-4068-84e3-fbe80caba7d9",
+        "nodeID": 4,
+        "score": 1112
+      }
+    ]
+  }
+}

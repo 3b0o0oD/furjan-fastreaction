@@ -1,0 +1,30 @@
+{
+  "team_name": "VOSTOK ACCESS TEAM",
+  "timestamp": "2025-11-06 22:40:55",
+  "total_score": 1650,
+  "backend_payload": {
+    "gameResultID": "80b3b656-8b0f-4549-87f6-199225d42499",
+    "individualScore": [
+      {
+        "userID": "e001634c-3b57-4877-ad28-8081f4f8f37b",
+        "nodeID": 1,
+        "score": 414
+      },
+      {
+        "userID": "f177afda-5d2f-4213-bf55-0393c34091e8",
+        "nodeID": 2,
+        "score": 412
+      },
+      {
+        "userID": "a429736a-0d96-451d-b421-d44bd6bd90f0",
+        "nodeID": 3,
+        "score": 412
+      },
+      {
+        "userID": "a45ea2ff-6eb5-4585-a8f7-db7a25c36353",
+        "nodeID": 4,
+        "score": 412
+      }
+    ]
+  }
+}

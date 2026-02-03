@@ -1,0 +1,30 @@
+{
+  "team_name": "MANI BUTT",
+  "timestamp": "2025-11-04 19:15:52",
+  "total_score": 4225,
+  "backend_payload": {
+    "gameResultID": "7d362991-df3a-4a72-9919-0e2579724dbd",
+    "individualScore": [
+      {
+        "userID": "9ad4a472-ff52-4850-b8ff-951c01ac7aef",
+        "nodeID": 1,
+        "score": 1057
+      },
+      {
+        "userID": "86d4c138-0dfb-48be-b64f-ef51d14caabf",
+        "nodeID": 2,
+        "score": 1056
+      },
+      {
+        "userID": "9f6de960-8d25-4c83-8735-9b68b560dd01",
+        "nodeID": 3,
+        "score": 1056
+      },
+      {
+        "userID": "6d6d15fb-ed16-4037-ae24-b5073dd3a7e4",
+        "nodeID": 4,
+        "score": 1056
+      }
+    ]
+  }
+}

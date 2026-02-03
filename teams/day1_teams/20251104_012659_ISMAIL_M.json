@@ -1,0 +1,30 @@
+{
+  "team_name": "ISMAIL M",
+  "timestamp": "2025-11-04 01:26:59",
+  "total_score": 7950,
+  "backend_payload": {
+    "gameResultID": "d203db6d-25cf-4b1a-b4dd-525f77e23f3f",
+    "individualScore": [
+      {
+        "userID": "c3ab6e5a-07f3-4bf4-a339-a500ecd95238",
+        "nodeID": 1,
+        "score": 1989
+      },
+      {
+        "userID": "88472af6-3121-40e4-a1d7-611b68308842",
+        "nodeID": 2,
+        "score": 1987
+      },
+      {
+        "userID": "def3da29-da5e-43be-b857-c47981a6de88",
+        "nodeID": 3,
+        "score": 1987
+      },
+      {
+        "userID": "4f267e30-86ad-4a04-b1b0-086d963d0b05",
+        "nodeID": 4,
+        "score": 1987
+      }
+    ]
+  }
+}

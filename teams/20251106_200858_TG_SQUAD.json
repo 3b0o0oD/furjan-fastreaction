@@ -1,0 +1,30 @@
+{
+  "team_name": "TG SQUAD",
+  "timestamp": "2025-11-06 20:08:58",
+  "total_score": 2775,
+  "backend_payload": {
+    "gameResultID": "05829d61-d02c-49b3-8b62-3ef068481853",
+    "individualScore": [
+      {
+        "userID": "dc1afb54-b9f3-4f64-b96c-730648410388",
+        "nodeID": 1,
+        "score": 696
+      },
+      {
+        "userID": "a27105b8-fe04-4d3e-b271-bdfae0ae8248",
+        "nodeID": 2,
+        "score": 693
+      },
+      {
+        "userID": "d3eb967f-c7a4-44f4-b7db-3864abc883f6",
+        "nodeID": 3,
+        "score": 693
+      },
+      {
+        "userID": "1445c1f9-7203-4ef6-b188-03ff9a10c3e8",
+        "nodeID": 4,
+        "score": 693
+      }
+    ]
+  }
+}

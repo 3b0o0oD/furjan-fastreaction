@@ -1,0 +1,30 @@
+{
+  "team_name": "BABY DOLL",
+  "timestamp": "2025-11-06 22:05:24",
+  "total_score": 8050,
+  "backend_payload": {
+    "gameResultID": "b6e55a6d-8019-48bf-81ae-39d28b06f1aa",
+    "individualScore": [
+      {
+        "userID": "a163fe8b-11a6-440b-9995-94973dc82b91",
+        "nodeID": 1,
+        "score": 2014
+      },
+      {
+        "userID": "6c02253e-8ca0-4951-841f-ed22cf4077a3",
+        "nodeID": 2,
+        "score": 2012
+      },
+      {
+        "userID": "89f91283-99ef-4bfd-b8b2-316061867c6f",
+        "nodeID": 3,
+        "score": 2012
+      },
+      {
+        "userID": "77823893-33b9-4bce-9de9-13367f1b2657",
+        "nodeID": 4,
+        "score": 2012
+      }
+    ]
+  }
+}

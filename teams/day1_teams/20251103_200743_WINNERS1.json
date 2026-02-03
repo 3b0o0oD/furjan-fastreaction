@@ -1,0 +1,30 @@
+{
+  "team_name": "WINNERS1",
+  "timestamp": "2025-11-03 20:07:43",
+  "total_score": 3650,
+  "backend_payload": {
+    "gameResultID": "136d38e6-4b71-4ae2-a6af-13d196272392",
+    "individualScore": [
+      {
+        "userID": "5833e5e8-dce2-48ca-a9ac-70a5c305e76a",
+        "nodeID": 1,
+        "score": 914
+      },
+      {
+        "userID": "61eba3eb-f630-4a2c-9196-f0ab9f8d9591",
+        "nodeID": 2,
+        "score": 912
+      },
+      {
+        "userID": "6cb18082-96cb-4104-add2-e46f2d13712f",
+        "nodeID": 3,
+        "score": 912
+      },
+      {
+        "userID": "0e576420-91c5-4212-bccd-ee216c9da9be",
+        "nodeID": 4,
+        "score": 912
+      }
+    ]
+  }
+}

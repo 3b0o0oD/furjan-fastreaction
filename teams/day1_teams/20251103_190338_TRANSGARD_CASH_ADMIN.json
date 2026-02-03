@@ -1,0 +1,30 @@
+{
+  "team_name": "TRANSGARD CASH ADMIN",
+  "timestamp": "2025-11-03 19:03:38",
+  "total_score": 4150,
+  "backend_payload": {
+    "gameResultID": "9663fe5f-4c24-4ed5-96f3-efb399da6045",
+    "individualScore": [
+      {
+        "userID": "e7a3c21f-463c-47b8-bf76-516f95db46ba",
+        "nodeID": 1,
+        "score": 1039
+      },
+      {
+        "userID": "5f9c1822-a319-48d7-b58b-feb9c367c5dd",
+        "nodeID": 2,
+        "score": 1037
+      },
+      {
+        "userID": "efb50f6d-60f4-453d-8c2e-51e3e0c278fd",
+        "nodeID": 3,
+        "score": 1037
+      },
+      {
+        "userID": "acaad301-0659-4399-ab02-29e1e139b1eb",
+        "nodeID": 4,
+        "score": 1037
+      }
+    ]
+  }
+}

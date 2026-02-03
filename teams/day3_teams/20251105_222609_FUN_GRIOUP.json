@@ -1,0 +1,30 @@
+{
+  "team_name": "FUN GRIOUP",
+  "timestamp": "2025-11-05 22:26:09",
+  "total_score": 15425,
+  "backend_payload": {
+    "gameResultID": "a624098a-35af-47e4-8103-a591413bc78c",
+    "individualScore": [
+      {
+        "userID": "0b69cbd4-c5f2-4111-adfa-e29c6b32de49",
+        "nodeID": 1,
+        "score": 3857
+      },
+      {
+        "userID": "b2fb42e2-50a7-4a2c-9970-2dafa13c8080",
+        "nodeID": 2,
+        "score": 3856
+      },
+      {
+        "userID": "a892aefe-3b86-4d16-9e16-0b53cc2c33b8",
+        "nodeID": 3,
+        "score": 3856
+      },
+      {
+        "userID": "db3a1cd8-fcf1-4fab-80b2-b56900f613f7",
+        "nodeID": 4,
+        "score": 3856
+      }
+    ]
+  }
+}

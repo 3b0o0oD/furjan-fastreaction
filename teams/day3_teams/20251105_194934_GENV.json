@@ -1,0 +1,30 @@
+{
+  "team_name": "GENV",
+  "timestamp": "2025-11-05 19:49:34",
+  "total_score": 5925,
+  "backend_payload": {
+    "gameResultID": "ab5d1bcf-8c8a-4b79-aa86-19bf1bf92c6e",
+    "individualScore": [
+      {
+        "userID": "05cfe5ba-89c4-481f-8129-9e6b5ba85b1c",
+        "nodeID": 1,
+        "score": 1482
+      },
+      {
+        "userID": "775b9172-c1c9-4b86-a7fa-f748b08359f4",
+        "nodeID": 2,
+        "score": 1481
+      },
+      {
+        "userID": "17b4b42f-a25d-4859-aa8a-a9fb59d7999e",
+        "nodeID": 3,
+        "score": 1481
+      },
+      {
+        "userID": "a92297cc-b9af-4099-a597-cb916abf7d22",
+        "nodeID": 4,
+        "score": 1481
+      }
+    ]
+  }
+}

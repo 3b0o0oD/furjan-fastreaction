@@ -1,0 +1,30 @@
+{
+  "team_name": "JJ GIRLS",
+  "timestamp": "2025-11-06 22:01:45",
+  "total_score": 14125,
+  "backend_payload": {
+    "gameResultID": "b0566fe5-c9df-4533-a69d-aa260d1df05b",
+    "individualScore": [
+      {
+        "userID": "cda856a5-2db6-4469-9796-51c31f099eb5",
+        "nodeID": 1,
+        "score": 3532
+      },
+      {
+        "userID": "1cc76771-8d14-466d-8653-ff9cac008d81",
+        "nodeID": 2,
+        "score": 3531
+      },
+      {
+        "userID": "25dac388-7200-42c8-b237-03e0ea134a24",
+        "nodeID": 3,
+        "score": 3531
+      },
+      {
+        "userID": "5eb4b7fe-14e6-4cd5-bede-a15f2253b556",
+        "nodeID": 4,
+        "score": 3531
+      }
+    ]
+  }
+}

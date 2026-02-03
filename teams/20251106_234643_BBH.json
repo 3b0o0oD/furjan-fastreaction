@@ -1,0 +1,30 @@
+{
+  "team_name": "BBH",
+  "timestamp": "2025-11-06 23:46:43",
+  "total_score": 8825,
+  "backend_payload": {
+    "gameResultID": "3afc56a1-a3d0-4174-937e-332d78e4e661",
+    "individualScore": [
+      {
+        "userID": "fb629be9-1188-45e7-85d2-7443c9635895",
+        "nodeID": 1,
+        "score": 2207
+      },
+      {
+        "userID": "19abe094-5c90-4218-b38b-891e71928339",
+        "nodeID": 2,
+        "score": 2206
+      },
+      {
+        "userID": "42424f4f-b07e-4d49-bf5f-8ffcde9489ec",
+        "nodeID": 3,
+        "score": 2206
+      },
+      {
+        "userID": "1ae7bcea-be03-406f-8279-85676b79f894",
+        "nodeID": 4,
+        "score": 2206
+      }
+    ]
+  }
+}

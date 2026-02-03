@@ -1,0 +1,30 @@
+{
+  "team_name": "INNOVO",
+  "timestamp": "2025-11-03 18:11:44",
+  "total_score": 450,
+  "backend_payload": {
+    "gameResultID": "47aa87af-c2e9-4382-90b3-c4b9d15044f8",
+    "individualScore": [
+      {
+        "userID": "5f7d1dd7-2a5c-4f08-afdc-709eefd94f49",
+        "nodeID": 1,
+        "score": 114
+      },
+      {
+        "userID": "563d3bfb-7778-4edb-8d34-c361cbaefba8",
+        "nodeID": 2,
+        "score": 112
+      },
+      {
+        "userID": "ea14e9d8-4ade-4017-9b1a-2e5cd2674315",
+        "nodeID": 3,
+        "score": 112
+      },
+      {
+        "userID": "67886947-2124-41e8-a4ef-03d1c64a9165",
+        "nodeID": 4,
+        "score": 112
+      }
+    ]
+  }
+}

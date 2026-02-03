@@ -1,0 +1,30 @@
+{
+  "team_name": "KOFATGIS",
+  "timestamp": "2025-11-04 00:56:42",
+  "total_score": 6350,
+  "backend_payload": {
+    "gameResultID": "71d87756-0619-45ad-9628-3e83f4687779",
+    "individualScore": [
+      {
+        "userID": "02b9335f-73f4-494b-955b-f05b5975065b",
+        "nodeID": 1,
+        "score": 1589
+      },
+      {
+        "userID": "17837518-8d74-4dfd-a0fe-dcf7ed529e57",
+        "nodeID": 2,
+        "score": 1587
+      },
+      {
+        "userID": "1b324c7d-ccef-463d-ad39-7a2e24be0aec",
+        "nodeID": 3,
+        "score": 1587
+      },
+      {
+        "userID": "24532248-92e3-4ba5-8104-b020e1ab2b96",
+        "nodeID": 4,
+        "score": 1587
+      }
+    ]
+  }
+}

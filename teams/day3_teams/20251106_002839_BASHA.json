@@ -1,0 +1,30 @@
+{
+  "team_name": "BASHA",
+  "timestamp": "2025-11-06 00:28:39",
+  "total_score": 5675,
+  "backend_payload": {
+    "gameResultID": "2aa46700-29fc-4140-88a9-311aa6c64f02",
+    "individualScore": [
+      {
+        "userID": "93c4458a-4805-4faa-b60f-59f25e03b2f6",
+        "nodeID": 1,
+        "score": 1421
+      },
+      {
+        "userID": "5e9e15fc-503d-476c-a4a2-3fda578fe36f",
+        "nodeID": 2,
+        "score": 1418
+      },
+      {
+        "userID": "26fb7816-689c-4a07-8536-5adbc1a45745",
+        "nodeID": 3,
+        "score": 1418
+      },
+      {
+        "userID": "a59c7138-cdb4-41cf-8315-9d23b4fc60cf",
+        "nodeID": 4,
+        "score": 1418
+      }
+    ]
+  }
+}

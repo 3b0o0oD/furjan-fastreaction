@@ -1,0 +1,30 @@
+{
+  "team_name": "RANA SAB",
+  "timestamp": "2025-11-05 22:53:29",
+  "total_score": 10275,
+  "backend_payload": {
+    "gameResultID": "8e825404-2e2f-4790-8f94-7fb125929eb1",
+    "individualScore": [
+      {
+        "userID": "33c41973-7bc6-49b8-a745-50b21b17f37e",
+        "nodeID": 1,
+        "score": 2571
+      },
+      {
+        "userID": "7b062bbe-baec-4c11-84f2-31183966968e",
+        "nodeID": 2,
+        "score": 2568
+      },
+      {
+        "userID": "60a28448-9ec4-4a81-bc51-66a75423aa67",
+        "nodeID": 3,
+        "score": 2568
+      },
+      {
+        "userID": "5568543d-f1af-4cd8-82f4-8f6110212405",
+        "nodeID": 4,
+        "score": 2568
+      }
+    ]
+  }
+}

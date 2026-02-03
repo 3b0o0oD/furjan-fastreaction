@@ -1,0 +1,30 @@
+{
+  "team_name": "FLM TEAM",
+  "timestamp": "2025-11-03 14:48:30",
+  "total_score": 1950,
+  "backend_payload": {
+    "gameResultID": "0c4806dc-465e-494c-beaa-bba315d2558a",
+    "individualScore": [
+      {
+        "userID": "cc2f5c7f-5aa2-4823-844d-fcd368d7d61d",
+        "nodeID": 1,
+        "score": 489
+      },
+      {
+        "userID": "ed980b07-eb21-41fd-a967-c72bd8cd2b0a",
+        "nodeID": 2,
+        "score": 487
+      },
+      {
+        "userID": "341e38a3-fb64-46dc-b9e0-8b034bf58d6d",
+        "nodeID": 3,
+        "score": 487
+      },
+      {
+        "userID": "f23c69d4-1e22-4cb7-bebf-7f9087ea0f34",
+        "nodeID": 4,
+        "score": 487
+      }
+    ]
+  }
+}

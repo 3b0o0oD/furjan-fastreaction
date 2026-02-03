@@ -1,0 +1,30 @@
+{
+  "team_name": "YUSUF TEAM",
+  "timestamp": "2025-11-06 19:15:41",
+  "total_score": 1375,
+  "backend_payload": {
+    "gameResultID": "0bce0e3d-e9c5-47a9-858b-213346fd6ae4",
+    "individualScore": [
+      {
+        "userID": "cafb62ea-76e5-4626-a35b-068081dd131e",
+        "nodeID": 1,
+        "score": 346
+      },
+      {
+        "userID": "c9984388-c6fe-46af-a985-3fc5b732c790",
+        "nodeID": 2,
+        "score": 343
+      },
+      {
+        "userID": "5f2a1758-ff66-4fab-b8bd-07813a4afef7",
+        "nodeID": 3,
+        "score": 343
+      },
+      {
+        "userID": "4a22a705-e96d-41df-b577-778479c75f8a",
+        "nodeID": 4,
+        "score": 343
+      }
+    ]
+  }
+}

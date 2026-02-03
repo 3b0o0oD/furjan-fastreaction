@@ -1,0 +1,30 @@
+{
+  "team_name": "TSD RIVALS",
+  "timestamp": "2025-11-06 21:27:21",
+  "total_score": 9775,
+  "backend_payload": {
+    "gameResultID": "df02e90a-0725-4c7f-b659-3febd649e4f9",
+    "individualScore": [
+      {
+        "userID": "e34676f9-5b2b-42ad-8c2d-9dfda090692f",
+        "nodeID": 1,
+        "score": 2446
+      },
+      {
+        "userID": "d57a9a8a-2d91-4e08-b13d-98b06ddb6bcd",
+        "nodeID": 2,
+        "score": 2443
+      },
+      {
+        "userID": "bf1190a2-9eb1-450b-a357-eaf32b5713e1",
+        "nodeID": 3,
+        "score": 2443
+      },
+      {
+        "userID": "70bbf0ad-5f8e-4355-a23c-1dc9953005e8",
+        "nodeID": 4,
+        "score": 2443
+      }
+    ]
+  }
+}

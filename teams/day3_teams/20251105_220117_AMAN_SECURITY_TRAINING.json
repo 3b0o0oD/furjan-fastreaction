@@ -1,0 +1,30 @@
+{
+  "team_name": "AMAN SECURITY TRAINING",
+  "timestamp": "2025-11-05 22:01:17",
+  "total_score": 1225,
+  "backend_payload": {
+    "gameResultID": "6261fdbc-f860-4e78-aca7-1c8247eec90d",
+    "individualScore": [
+      {
+        "userID": "28069ef4-4985-4465-b661-99a5a713289c",
+        "nodeID": 1,
+        "score": 307
+      },
+      {
+        "userID": "7314aeef-9481-408d-9706-fdbf2c8c67e9",
+        "nodeID": 2,
+        "score": 306
+      },
+      {
+        "userID": "ab6f24ec-2bc5-4abb-9e53-e249e2dc483b",
+        "nodeID": 3,
+        "score": 306
+      },
+      {
+        "userID": "287946bf-7694-4796-b0a7-2e981ac0c713",
+        "nodeID": 4,
+        "score": 306
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "team_name": "SHEIKH HASSAN",
+  "timestamp": "2025-11-03 20:59:42",
+  "total_score": 16200,
+  "backend_payload": {
+    "gameResultID": "99dc7b27-c4f9-4b51-b892-aabea13d4b6f",
+    "individualScore": [
+      {
+        "userID": "9a466303-85fd-4b54-869a-35828c9ef9e6",
+        "nodeID": 1,
+        "score": 4050
+      },
+      {
+        "userID": "f243c8e6-5529-45fd-99c0-b42950d1515b",
+        "nodeID": 2,
+        "score": 4050
+      },
+      {
+        "userID": "c1ee64f1-1db2-4aa1-9fc3-8b54d905a8b2",
+        "nodeID": 3,
+        "score": 4050
+      },
+      {
+        "userID": "a7c26adb-f449-4d1d-b68a-413aaf367143",
+        "nodeID": 4,
+        "score": 4050
+      }
+    ]
+  }
+}

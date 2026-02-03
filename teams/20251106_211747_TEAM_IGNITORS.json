@@ -1,0 +1,30 @@
+{
+  "team_name": "TEAM IGNITORS",
+  "timestamp": "2025-11-06 21:17:47",
+  "total_score": 5350,
+  "backend_payload": {
+    "gameResultID": "f68aed33-383b-4183-a75c-6f231cc1ce57",
+    "individualScore": [
+      {
+        "userID": "25fe4c21-6cb9-408f-92c0-ceaad5a0d45b",
+        "nodeID": 1,
+        "score": 1339
+      },
+      {
+        "userID": "4941e986-280c-4d74-80c0-2e60420ce477",
+        "nodeID": 2,
+        "score": 1337
+      },
+      {
+        "userID": "bf8032ed-aa65-4167-98ea-d7678245e8ae",
+        "nodeID": 3,
+        "score": 1337
+      },
+      {
+        "userID": "01082e46-0536-4dce-b1a0-dd70e26d8e76",
+        "nodeID": 4,
+        "score": 1337
+      }
+    ]
+  }
+}

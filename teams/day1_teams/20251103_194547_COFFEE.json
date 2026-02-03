@@ -1,0 +1,30 @@
+{
+  "team_name": "COFFEE",
+  "timestamp": "2025-11-03 19:45:47",
+  "total_score": 4375,
+  "backend_payload": {
+    "gameResultID": "57924586-97a3-42fb-87b8-46be44c18071",
+    "individualScore": [
+      {
+        "userID": "b4968adc-a530-4596-a8dc-ab514f3a557e",
+        "nodeID": 1,
+        "score": 1096
+      },
+      {
+        "userID": "d2aa49c6-39df-4eba-9916-e28d1a47ab13",
+        "nodeID": 2,
+        "score": 1093
+      },
+      {
+        "userID": "cda856a5-2db6-4469-9796-51c31f099eb5",
+        "nodeID": 3,
+        "score": 1093
+      },
+      {
+        "userID": "ed7a211f-27e6-4cea-8b91-3e574e291be6",
+        "nodeID": 4,
+        "score": 1093
+      }
+    ]
+  }
+}

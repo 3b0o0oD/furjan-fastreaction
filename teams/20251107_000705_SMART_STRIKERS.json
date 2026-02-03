@@ -1,0 +1,30 @@
+{
+  "team_name": "SMART STRIKERS",
+  "timestamp": "2025-11-07 00:07:05",
+  "total_score": 4675,
+  "backend_payload": {
+    "gameResultID": "100f073d-40b3-4ec2-a50e-8766e4461108",
+    "individualScore": [
+      {
+        "userID": "cd8d982a-6c8d-4736-b4eb-82266b27aeaa",
+        "nodeID": 1,
+        "score": 1171
+      },
+      {
+        "userID": "60cd8b67-514a-468b-ab78-21f2de33c10a",
+        "nodeID": 2,
+        "score": 1168
+      },
+      {
+        "userID": "59ea5c6a-3803-4d13-b304-ba8a1fb282a2",
+        "nodeID": 3,
+        "score": 1168
+      },
+      {
+        "userID": "b9ee7def-f6b8-41da-b6f8-adc1bcf7bacb",
+        "nodeID": 4,
+        "score": 1168
+      }
+    ]
+  }
+}

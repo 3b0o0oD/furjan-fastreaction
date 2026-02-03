@@ -1,0 +1,30 @@
+{
+  "team_name": "DAZZLJNG GALS",
+  "timestamp": "2025-11-03 18:59:42",
+  "total_score": 3125,
+  "backend_payload": {
+    "gameResultID": "e8a21ff8-a7b9-40e8-9d6e-aa53b4490563",
+    "individualScore": [
+      {
+        "userID": "0b69cbd4-c5f2-4111-adfa-e29c6b32de49",
+        "nodeID": 1,
+        "score": 782
+      },
+      {
+        "userID": "4a3b17a9-649f-4387-a866-beec9a8f5143",
+        "nodeID": 2,
+        "score": 781
+      },
+      {
+        "userID": "4ad43fdb-9978-4568-83db-773f5d8c313a",
+        "nodeID": 3,
+        "score": 781
+      },
+      {
+        "userID": "f1f92f32-60d5-4518-a710-2a7c85b04383",
+        "nodeID": 4,
+        "score": 781
+      }
+    ]
+  }
+}

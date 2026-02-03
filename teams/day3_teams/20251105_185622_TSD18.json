@@ -1,0 +1,30 @@
+{
+  "team_name": "TSD18",
+  "timestamp": "2025-11-05 18:56:22",
+  "total_score": 3975,
+  "backend_payload": {
+    "gameResultID": "57ed8f0f-b258-4077-9898-ed9b99131ed1",
+    "individualScore": [
+      {
+        "userID": "4cfc61a2-7a97-4b36-a0e3-a1814e4350be",
+        "nodeID": 1,
+        "score": 996
+      },
+      {
+        "userID": "c6c9df83-c3de-4856-9a09-eb35ac7573c2",
+        "nodeID": 2,
+        "score": 993
+      },
+      {
+        "userID": "659055d2-bf36-414a-8a40-956eea9f7dff",
+        "nodeID": 3,
+        "score": 993
+      },
+      {
+        "userID": "aa781797-a9d6-4ca1-9302-68a5c684fd72",
+        "nodeID": 4,
+        "score": 993
+      }
+    ]
+  }
+}

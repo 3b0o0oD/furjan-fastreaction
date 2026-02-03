@@ -1,0 +1,30 @@
+{
+  "team_name": "BILLA",
+  "timestamp": "2025-11-06 00:32:13",
+  "total_score": 4550,
+  "backend_payload": {
+    "gameResultID": "e42dbc95-c516-4f19-8878-d022f0b1d975",
+    "individualScore": [
+      {
+        "userID": "891a2399-66c2-48e2-8ea0-0a533130cade",
+        "nodeID": 1,
+        "score": 1139
+      },
+      {
+        "userID": "ba14dc11-427f-4d7a-b7f8-165e9231feb4",
+        "nodeID": 2,
+        "score": 1137
+      },
+      {
+        "userID": "64787994-79ac-4a77-8bd4-499d5b3e9856",
+        "nodeID": 3,
+        "score": 1137
+      },
+      {
+        "userID": "7e729ba1-40f7-4de2-9aba-c4f56ba02500",
+        "nodeID": 4,
+        "score": 1137
+      }
+    ]
+  }
+}

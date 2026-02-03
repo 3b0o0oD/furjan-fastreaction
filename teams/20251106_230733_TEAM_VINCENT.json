@@ -1,0 +1,30 @@
+{
+  "team_name": "TEAM VINCENT",
+  "timestamp": "2025-11-06 23:07:33",
+  "total_score": 7100,
+  "backend_payload": {
+    "gameResultID": "c5c14474-c908-49e8-951b-4dc941fdd73e",
+    "individualScore": [
+      {
+        "userID": "59b27410-631f-4faf-b0be-bf8902ca0f7c",
+        "nodeID": 1,
+        "score": 1775
+      },
+      {
+        "userID": "8be2af3c-2f1a-4c1b-938f-c20d0821f7cf",
+        "nodeID": 2,
+        "score": 1775
+      },
+      {
+        "userID": "38468156-3f8f-480c-99cd-1b711de9cefb",
+        "nodeID": 3,
+        "score": 1775
+      },
+      {
+        "userID": "a579ab9e-92ac-42b4-96ee-1bafcbde08fb",
+        "nodeID": 4,
+        "score": 1775
+      }
+    ]
+  }
+}

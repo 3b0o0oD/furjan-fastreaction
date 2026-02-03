@@ -1,0 +1,30 @@
+{
+  "team_name": "MUNEEB DOGAR",
+  "timestamp": "2025-11-05 20:35:50",
+  "total_score": 3000,
+  "backend_payload": {
+    "gameResultID": "d96c779a-ac1a-48e4-9d0d-100a8b318b69",
+    "individualScore": [
+      {
+        "userID": "cece9547-8c1f-42df-a3c7-f40b98c7b105",
+        "nodeID": 1,
+        "score": 750
+      },
+      {
+        "userID": "c6dcd983-cc3f-4365-9300-b9bfccc263d9",
+        "nodeID": 2,
+        "score": 750
+      },
+      {
+        "userID": "468e019a-ffd6-4231-a8a3-d88696a4ab7f",
+        "nodeID": 3,
+        "score": 750
+      },
+      {
+        "userID": "fe00e9fb-32f5-461c-938e-0261ae5153ef",
+        "nodeID": 4,
+        "score": 750
+      }
+    ]
+  }
+}

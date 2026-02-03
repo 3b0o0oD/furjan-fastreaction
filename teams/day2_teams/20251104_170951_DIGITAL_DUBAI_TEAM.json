@@ -1,0 +1,30 @@
+{
+  "team_name": "DIGITAL DUBAI TEAM",
+  "timestamp": "2025-11-04 17:09:51",
+  "total_score": 5775,
+  "backend_payload": {
+    "gameResultID": "7cc71a6b-6db9-4d9c-9da2-42f69a75f9a8",
+    "individualScore": [
+      {
+        "userID": "d87ac651-7d62-4965-a927-6cd6d561ed5f",
+        "nodeID": 1,
+        "score": 1446
+      },
+      {
+        "userID": "819948d6-65fc-4045-9a4b-30a89c24738b",
+        "nodeID": 2,
+        "score": 1443
+      },
+      {
+        "userID": "9a4044ee-1200-42d4-8fec-f34e2a1c2772",
+        "nodeID": 3,
+        "score": 1443
+      },
+      {
+        "userID": "55355b5b-7f5f-4e2c-9d97-f0219cd6d971",
+        "nodeID": 4,
+        "score": 1443
+      }
+    ]
+  }
+}

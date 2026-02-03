@@ -1,0 +1,30 @@
+{
+  "team_name": "SMART TEAM",
+  "timestamp": "2025-11-06 00:12:24",
+  "total_score": 3925,
+  "backend_payload": {
+    "gameResultID": "ca3f815f-2807-4205-a43c-3c4d0e3df4fd",
+    "individualScore": [
+      {
+        "userID": "b9ee7def-f6b8-41da-b6f8-adc1bcf7bacb",
+        "nodeID": 1,
+        "score": 982
+      },
+      {
+        "userID": "60cd8b67-514a-468b-ab78-21f2de33c10a",
+        "nodeID": 2,
+        "score": 981
+      },
+      {
+        "userID": "cd8d982a-6c8d-4736-b4eb-82266b27aeaa",
+        "nodeID": 3,
+        "score": 981
+      },
+      {
+        "userID": "59ea5c6a-3803-4d13-b304-ba8a1fb282a2",
+        "nodeID": 4,
+        "score": 981
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "team_name": "VOSTOK TEAM 63",
+  "timestamp": "2025-11-05 22:42:33",
+  "total_score": 0,
+  "backend_payload": {
+    "gameResultID": "2cc2c376-a89b-483e-85a8-77bec5d0fd59",
+    "individualScore": [
+      {
+        "userID": "6cf8f8ac-22f2-4aca-815f-6f6b2f4f08f7",
+        "nodeID": 1,
+        "score": 0
+      },
+      {
+        "userID": "e001634c-3b57-4877-ad28-8081f4f8f37b",
+        "nodeID": 2,
+        "score": 0
+      },
+      {
+        "userID": "208b3554-b4ec-447a-a9d4-711c629d4127",
+        "nodeID": 3,
+        "score": 0
+      },
+      {
+        "userID": "3e433fc4-1764-4460-9145-2dcb86632cb6",
+        "nodeID": 4,
+        "score": 0
+      }
+    ]
+  }
+}

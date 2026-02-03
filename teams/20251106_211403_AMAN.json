@@ -1,0 +1,30 @@
+{
+  "team_name": "AMAN",
+  "timestamp": "2025-11-06 21:14:03",
+  "total_score": 1825,
+  "backend_payload": {
+    "gameResultID": "ff99e983-f773-41ac-9346-f5649d1ed96b",
+    "individualScore": [
+      {
+        "userID": "f9fd1107-4b3d-4dd1-a96c-5de547ef426a",
+        "nodeID": 1,
+        "score": 457
+      },
+      {
+        "userID": "bcf5f367-4f6a-4853-b67d-fa0e545a5a4b",
+        "nodeID": 2,
+        "score": 456
+      },
+      {
+        "userID": "7314aeef-9481-408d-9706-fdbf2c8c67e9",
+        "nodeID": 3,
+        "score": 456
+      },
+      {
+        "userID": "8962e1f0-4930-4c65-95cd-3946a6265464",
+        "nodeID": 4,
+        "score": 456
+      }
+    ]
+  }
+}

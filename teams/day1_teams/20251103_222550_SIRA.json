@@ -1,0 +1,30 @@
+{
+  "team_name": "SIRA",
+  "timestamp": "2025-11-03 22:25:50",
+  "total_score": 6550,
+  "backend_payload": {
+    "gameResultID": "a9b48cb0-23bc-4db9-832e-aa0b50a5fbf1",
+    "individualScore": [
+      {
+        "userID": "ffcf5219-15bf-401a-95f7-53bc49aecb14",
+        "nodeID": 1,
+        "score": 1639
+      },
+      {
+        "userID": "f0316f92-bc47-48d0-8ebf-4b46ac4667aa",
+        "nodeID": 2,
+        "score": 1637
+      },
+      {
+        "userID": "6332bb96-1025-4ff4-b0e8-0f03796521b4",
+        "nodeID": 3,
+        "score": 1637
+      },
+      {
+        "userID": "8ba7009a-d12a-4306-909c-d8580aca978e",
+        "nodeID": 4,
+        "score": 1637
+      }
+    ]
+  }
+}

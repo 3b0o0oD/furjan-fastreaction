@@ -1,0 +1,30 @@
+{
+  "team_name": "TEAM DUBAI",
+  "timestamp": "2025-11-06 00:23:06",
+  "total_score": 6825,
+  "backend_payload": {
+    "gameResultID": "479ee026-e80c-400f-ad92-5d0686f3217b",
+    "individualScore": [
+      {
+        "userID": "289ed99f-a710-4626-ac07-8cd4d0fa970c",
+        "nodeID": 1,
+        "score": 1707
+      },
+      {
+        "userID": "d743204a-bca9-45ee-b3f4-dc3ebb5fdd1f",
+        "nodeID": 2,
+        "score": 1706
+      },
+      {
+        "userID": "5b00f14f-e4ad-4805-ab08-c28e20ea51c2",
+        "nodeID": 3,
+        "score": 1706
+      },
+      {
+        "userID": "2559a7e3-5d65-468c-8db5-1f18cee5a8a1",
+        "nodeID": 4,
+        "score": 1706
+      }
+    ]
+  }
+}

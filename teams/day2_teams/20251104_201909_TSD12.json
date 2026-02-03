@@ -1,0 +1,30 @@
+{
+  "team_name": "TSD12",
+  "timestamp": "2025-11-04 20:19:09",
+  "total_score": 7175,
+  "backend_payload": {
+    "gameResultID": "2f627e14-b874-4e09-ab19-a35ac3f80426",
+    "individualScore": [
+      {
+        "userID": "007b4bad-5937-446c-a945-6a42465850e0",
+        "nodeID": 1,
+        "score": 1796
+      },
+      {
+        "userID": "b1418283-d150-4baa-91b5-5c74e3f599ca",
+        "nodeID": 2,
+        "score": 1793
+      },
+      {
+        "userID": "2e9cf631-b1ed-4d7a-9a76-e0bf84963828",
+        "nodeID": 3,
+        "score": 1793
+      },
+      {
+        "userID": "4c7f294d-5dab-481a-8b92-aed9572265bd",
+        "nodeID": 4,
+        "score": 1793
+      }
+    ]
+  }
+}

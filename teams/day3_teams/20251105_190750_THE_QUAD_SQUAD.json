@@ -1,0 +1,30 @@
+{
+  "team_name": "THE QUAD SQUAD",
+  "timestamp": "2025-11-05 19:07:50",
+  "total_score": 15800,
+  "backend_payload": {
+    "gameResultID": "63e53d75-9da6-424e-abdd-fe6dd791d81d",
+    "individualScore": [
+      {
+        "userID": "c957229d-8605-4265-af71-07d704f2b7dd",
+        "nodeID": 1,
+        "score": 3950
+      },
+      {
+        "userID": "8611a9fb-93e7-40f0-bb8b-5df1ce827861",
+        "nodeID": 2,
+        "score": 3950
+      },
+      {
+        "userID": "5034a89f-98ab-4cd2-a5c0-653df0b418a1",
+        "nodeID": 3,
+        "score": 3950
+      },
+      {
+        "userID": "e8ba034f-5eac-4603-a582-0d54d8274cc2",
+        "nodeID": 4,
+        "score": 3950
+      }
+    ]
+  }
+}

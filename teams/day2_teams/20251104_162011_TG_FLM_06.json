@@ -1,0 +1,30 @@
+{
+  "team_name": "TG FLM 06",
+  "timestamp": "2025-11-04 16:20:11",
+  "total_score": 2000,
+  "backend_payload": {
+    "gameResultID": "95d8abf5-83f1-48c0-a768-105410bd038d",
+    "individualScore": [
+      {
+        "userID": "380b8b59-9608-484d-a880-ce3457304897",
+        "nodeID": 1,
+        "score": 500
+      },
+      {
+        "userID": "b6d41c43-3935-46b8-823b-78df5a2af8d7",
+        "nodeID": 2,
+        "score": 500
+      },
+      {
+        "userID": "a18e3e76-aa09-4ad0-b3ac-72e9e15ab625",
+        "nodeID": 3,
+        "score": 500
+      },
+      {
+        "userID": "8aef8edf-cb98-4da6-a77f-85262d74d7dc",
+        "nodeID": 4,
+        "score": 500
+      }
+    ]
+  }
+}

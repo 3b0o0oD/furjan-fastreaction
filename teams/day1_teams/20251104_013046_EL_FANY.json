@@ -1,0 +1,30 @@
+{
+  "team_name": "EL FANY",
+  "timestamp": "2025-11-04 01:30:46",
+  "total_score": 13800,
+  "backend_payload": {
+    "gameResultID": "71c6482b-cf34-4fb9-aed0-a2ab25342c3b",
+    "individualScore": [
+      {
+        "userID": "ae7e4b8c-d3fd-4919-9bf0-7c11deff41e9",
+        "nodeID": 1,
+        "score": 3450
+      },
+      {
+        "userID": "65160539-3388-44e4-a3d6-9c877d405ed2",
+        "nodeID": 2,
+        "score": 3450
+      },
+      {
+        "userID": "8e9a1c44-5e88-400d-83b1-4f533a7842d2",
+        "nodeID": 3,
+        "score": 3450
+      },
+      {
+        "userID": "ac0a5887-fe37-496f-94e2-951b15cf9d5a",
+        "nodeID": 4,
+        "score": 3450
+      }
+    ]
+  }
+}

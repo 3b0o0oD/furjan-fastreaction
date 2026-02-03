@@ -1,0 +1,30 @@
+{
+  "team_name": "TG UNITED STAR",
+  "timestamp": "2025-11-06 19:11:45",
+  "total_score": 6050,
+  "backend_payload": {
+    "gameResultID": "06858487-2e3c-4673-bdd6-9a7ab77af7fa",
+    "individualScore": [
+      {
+        "userID": "e9e1253e-e2be-43e3-ac5f-ccd48e2b37ec",
+        "nodeID": 1,
+        "score": 1514
+      },
+      {
+        "userID": "0f0bb1f0-4095-4bfc-82ce-a85e3f5e8653",
+        "nodeID": 2,
+        "score": 1512
+      },
+      {
+        "userID": "bb456fc7-c38d-4ed6-8f6f-1d55112ee9f0",
+        "nodeID": 3,
+        "score": 1512
+      },
+      {
+        "userID": "f9d6783b-5d77-43bd-a451-6501e7ea291a",
+        "nodeID": 4,
+        "score": 1512
+      }
+    ]
+  }
+}

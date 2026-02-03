@@ -1,0 +1,30 @@
+{
+  "team_name": "ABU DHABI A",
+  "timestamp": "2025-11-06 22:47:21",
+  "total_score": 3450,
+  "backend_payload": {
+    "gameResultID": "a7d390b3-3bce-4e60-a882-de76ed58bba4",
+    "individualScore": [
+      {
+        "userID": "80803313-d40a-4d89-8acd-e1c3004000a9",
+        "nodeID": 1,
+        "score": 864
+      },
+      {
+        "userID": "9ebe9292-0342-4ff6-99cf-c422ce44ffcd",
+        "nodeID": 2,
+        "score": 862
+      },
+      {
+        "userID": "702e561c-708c-4665-baf1-5977a01c532c",
+        "nodeID": 3,
+        "score": 862
+      },
+      {
+        "userID": "358b3434-a14c-4c32-a239-edd024523f16",
+        "nodeID": 4,
+        "score": 862
+      }
+    ]
+  }
+}

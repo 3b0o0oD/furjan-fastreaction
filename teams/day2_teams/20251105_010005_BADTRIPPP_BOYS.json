@@ -1,0 +1,30 @@
+{
+  "team_name": "BADTRIPPP BOYS",
+  "timestamp": "2025-11-05 01:00:05",
+  "total_score": 9075,
+  "backend_payload": {
+    "gameResultID": "fea528ac-9f7c-4dfd-9357-601107917353",
+    "individualScore": [
+      {
+        "userID": "8a7bd84a-8d30-4b4e-9595-d723c19495bb",
+        "nodeID": 1,
+        "score": 2271
+      },
+      {
+        "userID": "404f277b-70a8-4fbc-88eb-a157081dd0e0",
+        "nodeID": 2,
+        "score": 2268
+      },
+      {
+        "userID": "f87c2f16-8008-443a-ad4f-0ef8463242ef",
+        "nodeID": 3,
+        "score": 2268
+      },
+      {
+        "userID": "15621918-56f4-4105-bab1-1674596ed83d",
+        "nodeID": 4,
+        "score": 2268
+      }
+    ]
+  }
+}

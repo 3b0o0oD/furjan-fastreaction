@@ -1,0 +1,30 @@
+{
+  "team_name": "LOVELY TEAM",
+  "timestamp": "2025-11-05 20:28:30",
+  "total_score": 2275,
+  "backend_payload": {
+    "gameResultID": "e3fd1908-bec1-4ae8-a461-f302a36c2b4f",
+    "individualScore": [
+      {
+        "userID": "723b0c17-febc-4ca6-82c2-aa76768746dc",
+        "nodeID": 1,
+        "score": 571
+      },
+      {
+        "userID": "f6edc8be-4968-48e6-bc10-76d8aacdc8ad",
+        "nodeID": 2,
+        "score": 568
+      },
+      {
+        "userID": "42122183-4f93-427a-8997-8c07421a28fb",
+        "nodeID": 3,
+        "score": 568
+      },
+      {
+        "userID": "a185d835-a187-4d75-9733-6cfb1002340a",
+        "nodeID": 4,
+        "score": 568
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "team_name": "KDJC",
+  "timestamp": "2025-11-05 20:00:58",
+  "total_score": 6025,
+  "backend_payload": {
+    "gameResultID": "599d8be8-1453-4943-aa37-61bef4d1b93f",
+    "individualScore": [
+      {
+        "userID": "22c366fe-6a23-4994-bae0-a54a2be9e513",
+        "nodeID": 1,
+        "score": 1507
+      },
+      {
+        "userID": "98802190-72db-479e-9427-8f2d955d02b5",
+        "nodeID": 2,
+        "score": 1506
+      },
+      {
+        "userID": "115e8246-fa8c-419f-92f3-ec27d2a36482",
+        "nodeID": 3,
+        "score": 1506
+      },
+      {
+        "userID": "1f3f66cf-da03-4dfb-9271-9286fd0aa91f",
+        "nodeID": 4,
+        "score": 1506
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "team_name": "SPARTA",
+  "timestamp": "2025-11-06 23:25:57",
+  "total_score": 4875,
+  "backend_payload": {
+    "gameResultID": "0be63920-a80b-4642-a75b-9ea206037ba5",
+    "individualScore": [
+      {
+        "userID": "24d2952d-f501-4771-8226-c13982474087",
+        "nodeID": 1,
+        "score": 1221
+      },
+      {
+        "userID": "0405b37f-f703-4794-9dc6-4bc547a7e3b2",
+        "nodeID": 2,
+        "score": 1218
+      },
+      {
+        "userID": "61a5328f-dfd9-4952-825c-a95ed78a690d",
+        "nodeID": 3,
+        "score": 1218
+      },
+      {
+        "userID": "3357ba3c-22a3-436f-99a6-1d894205d952",
+        "nodeID": 4,
+        "score": 1218
+      }
+    ]
+  }
+}

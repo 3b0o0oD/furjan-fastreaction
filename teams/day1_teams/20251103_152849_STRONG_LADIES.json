@@ -1,0 +1,30 @@
+{
+  "team_name": "STRONG LADIES",
+  "timestamp": "2025-11-03 15:28:49",
+  "total_score": 3050,
+  "backend_payload": {
+    "gameResultID": "04ae81fd-3d17-4463-937f-125fb89cac79",
+    "individualScore": [
+      {
+        "userID": "bca77739-0d02-4b58-bbd2-9aeae68b81fa",
+        "nodeID": 1,
+        "score": 764
+      },
+      {
+        "userID": "91461eaa-b84a-4f01-9e7c-427d3b0fab97",
+        "nodeID": 2,
+        "score": 762
+      },
+      {
+        "userID": "8fc99653-5e3a-4ef5-9fbd-a2e44aa11764",
+        "nodeID": 3,
+        "score": 762
+      },
+      {
+        "userID": "07bdfcb3-d376-4d19-b75f-e50669935412",
+        "nodeID": 4,
+        "score": 762
+      }
+    ]
+  }
+}

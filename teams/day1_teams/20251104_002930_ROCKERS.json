@@ -1,0 +1,30 @@
+{
+  "team_name": "ROCKERS",
+  "timestamp": "2025-11-04 00:29:30",
+  "total_score": 5875,
+  "backend_payload": {
+    "gameResultID": "395254c3-7fd6-4821-bd32-35cc8e06aca7",
+    "individualScore": [
+      {
+        "userID": "3152b5c8-172a-4d2d-94cf-5fe5da9c9cb6",
+        "nodeID": 1,
+        "score": 1471
+      },
+      {
+        "userID": "cf9c44b3-55e8-46d5-9de2-ff8b832339e0",
+        "nodeID": 2,
+        "score": 1468
+      },
+      {
+        "userID": "6d1d446e-3517-4bc4-ae0a-ca218103ea7a",
+        "nodeID": 3,
+        "score": 1468
+      },
+      {
+        "userID": "a96499a0-1109-4f78-99fd-996195f8b852",
+        "nodeID": 4,
+        "score": 1468
+      }
+    ]
+  }
+}

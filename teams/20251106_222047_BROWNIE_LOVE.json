@@ -1,0 +1,30 @@
+{
+  "team_name": "BROWNIE LOVE",
+  "timestamp": "2025-11-06 22:20:47",
+  "total_score": 8200,
+  "backend_payload": {
+    "gameResultID": "a9db2592-c98e-47b9-ac91-ce18044f7ea8",
+    "individualScore": [
+      {
+        "userID": "cda856a5-2db6-4469-9796-51c31f099eb5",
+        "nodeID": 1,
+        "score": 2050
+      },
+      {
+        "userID": "f2ae13d9-55d7-4a7e-be4d-269298c475f8",
+        "nodeID": 2,
+        "score": 2050
+      },
+      {
+        "userID": "b4968adc-a530-4596-a8dc-ab514f3a557e",
+        "nodeID": 3,
+        "score": 2050
+      },
+      {
+        "userID": "89f91283-99ef-4bfd-b8b2-316061867c6f",
+        "nodeID": 4,
+        "score": 2050
+      }
+    ]
+  }
+}

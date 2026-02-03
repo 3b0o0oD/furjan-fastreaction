@@ -1,0 +1,30 @@
+{
+  "team_name": "TIGER GANGS",
+  "timestamp": "2025-11-05 00:40:42",
+  "total_score": 11525,
+  "backend_payload": {
+    "gameResultID": "43d598a6-5294-4199-a1de-72b9980db063",
+    "individualScore": [
+      {
+        "userID": "7d266ea0-de5e-426d-b650-6be1c653247f",
+        "nodeID": 1,
+        "score": 2882
+      },
+      {
+        "userID": "5009d104-9136-498e-aed6-28ae9c4b5af5",
+        "nodeID": 2,
+        "score": 2881
+      },
+      {
+        "userID": "707cf333-bd32-4b50-aa09-c4e4e473841d",
+        "nodeID": 3,
+        "score": 2881
+      },
+      {
+        "userID": "c1b5a578-655d-4b10-aa6f-05e69523f4f0",
+        "nodeID": 4,
+        "score": 2881
+      }
+    ]
+  }
+}

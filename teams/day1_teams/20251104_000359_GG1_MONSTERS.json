@@ -1,0 +1,30 @@
+{
+  "team_name": "GG1 MONSTERS",
+  "timestamp": "2025-11-04 00:03:59",
+  "total_score": 4150,
+  "backend_payload": {
+    "gameResultID": "ec671229-ecc5-4fc0-8bed-5cc65ff57d0f",
+    "individualScore": [
+      {
+        "userID": "bbaadd5e-a1dc-49e2-a02e-b7b186958c2e",
+        "nodeID": 1,
+        "score": 1039
+      },
+      {
+        "userID": "1bbeb337-cf3e-40d1-93b8-9e4f31d5bdbd",
+        "nodeID": 2,
+        "score": 1037
+      },
+      {
+        "userID": "f96030bf-8a99-4ac5-8f6a-0f43fac71929",
+        "nodeID": 3,
+        "score": 1037
+      },
+      {
+        "userID": "005f8f5a-60a7-4320-a7f3-8941104987f3",
+        "nodeID": 4,
+        "score": 1037
+      }
+    ]
+  }
+}

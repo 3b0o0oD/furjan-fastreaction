@@ -1,0 +1,30 @@
+{
+  "team_name": "CLAIRVOYANT FORCE SECURITY SERVICES LLC",
+  "timestamp": "2025-11-04 21:32:08",
+  "total_score": 6125,
+  "backend_payload": {
+    "gameResultID": "e1368fa1-f5a5-4288-9327-962fa1963c14",
+    "individualScore": [
+      {
+        "userID": "7b4ab5d0-dec2-4bd8-aa86-c3db3b00255d",
+        "nodeID": 1,
+        "score": 1532
+      },
+      {
+        "userID": "c1f98a93-cbb6-484b-a575-6e1e7fb7a378",
+        "nodeID": 2,
+        "score": 1531
+      },
+      {
+        "userID": "73306c2a-c83f-4369-8d6f-4f488b3af29a",
+        "nodeID": 3,
+        "score": 1531
+      },
+      {
+        "userID": "0dd7a172-f477-41c8-8a01-d0951389502a",
+        "nodeID": 4,
+        "score": 1531
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "team_name": "BLOCK TEAM",
+  "timestamp": "2025-11-06 00:41:58",
+  "total_score": 0,
+  "backend_payload": {
+    "gameResultID": "6d186b8b-ba87-4cfe-a57c-27df0b75ecdf",
+    "individualScore": [
+      {
+        "userID": "8558fdba-4973-44c5-b288-b668418aa980",
+        "nodeID": 1,
+        "score": 0
+      },
+      {
+        "userID": "46182d89-9b60-4788-ba8e-258b20f1b5ed",
+        "nodeID": 2,
+        "score": 0
+      },
+      {
+        "userID": "f0c8ffc3-77b1-4a33-99cc-e189c882c5d2",
+        "nodeID": 3,
+        "score": 0
+      },
+      {
+        "userID": "4717a1dc-ad7d-495c-a568-edb482391e5b",
+        "nodeID": 4,
+        "score": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "team_name": "TVK2026",
+  "timestamp": "2025-11-06 21:31:21",
+  "total_score": 10025,
+  "backend_payload": {
+    "gameResultID": "f96dc2df-c026-4ffc-91b8-96770dc7a479",
+    "individualScore": [
+      {
+        "userID": "e0c4c322-2bc4-4155-86cd-9de18c3d0c08",
+        "nodeID": 1,
+        "score": 2507
+      },
+      {
+        "userID": "58b5b5fa-a7a7-4790-9b7b-7e7f21f39af4",
+        "nodeID": 2,
+        "score": 2506
+      },
+      {
+        "userID": "25b9d337-e091-4ee1-916d-6000d7fecfcc",
+        "nodeID": 3,
+        "score": 2506
+      },
+      {
+        "userID": "2bb483b5-a189-4643-bde8-45d862f96efc",
+        "nodeID": 4,
+        "score": 2506
+      }
+    ]
+  }
+}

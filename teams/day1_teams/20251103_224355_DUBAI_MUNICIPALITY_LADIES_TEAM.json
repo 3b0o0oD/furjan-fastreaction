@@ -1,0 +1,30 @@
+{
+  "team_name": "DUBAI MUNICIPALITY LADIES TEAM",
+  "timestamp": "2025-11-03 22:43:55",
+  "total_score": 15925,
+  "backend_payload": {
+    "gameResultID": "c94ebd71-6a93-4dc8-9346-b28a2d4ce0d3",
+    "individualScore": [
+      {
+        "userID": "9644eb2e-9af8-46bc-bada-59e891a865b8",
+        "nodeID": 1,
+        "score": 3982
+      },
+      {
+        "userID": "6e5a4285-a8f9-456e-a6ec-6017f0f57736",
+        "nodeID": 2,
+        "score": 3981
+      },
+      {
+        "userID": "05022d50-2573-4699-b84a-54392da31e65",
+        "nodeID": 3,
+        "score": 3981
+      },
+      {
+        "userID": "5b9137b8-3126-402f-88a3-d8e661503dc1",
+        "nodeID": 4,
+        "score": 3981
+      }
+    ]
+  }
+}

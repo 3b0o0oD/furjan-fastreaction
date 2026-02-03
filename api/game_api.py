@@ -713,7 +713,7 @@ class GameAPI:
                 continue
             
             # Small delay between polls
-            time.sleep(0.5)
+            time.sleep(2)
         
         return None
     
@@ -877,11 +877,18 @@ class GameAPI:
                     logger.info(f" Response structure: {list(data.keys())}")
                     logger.debug(f" Full response: {data}")
                     
-                    # Extract team names and scores into a list of tuples
+                    # Extract team names and scores into a list of tuples and get score and weighted points
                     if 'data' in data and isinstance(data['data'], list) and len(data['data']) > 0:
                         game_data = data['data'][0]
                         logger.info(f" Game found: {game_data.get('name', 'Unknown')}")
                         logger.info(f" Game ID: {game_data.get('id', 'Unknown')}")
+                        
+                        lastplayed = game_data.get('lastplayed', {})
+                        logger.info(f" Last played: {lastplayed.get('name', 'Unknown')}")
+                        logger.info(f" Last played ID: {lastplayed.get('id', 'Unknown')}")
+                        logger.info(f" Last played Score: {lastplayed.get('total_score', 0)}")
+                        logger.info(f" Last played Weighted Points: {lastplayed.get('weighted_points', 0)}")
+                        logger.info(f" Last played Rank: {lastplayed.get('rank', 0)}")
                         
                         teams = game_data.get('list', [])
                         logger.info(f" Teams found: {len(teams)}")
@@ -891,13 +898,14 @@ class GameAPI:
                             for i, team in enumerate(teams, 1):
                                 team_name = team.get('name', f'Team {i}')
                                 total_score = team.get('total_score', 0)
-                                team_scores.append((team_name[:20], total_score))  # Increased name length
-                                logger.info(f"   {i:2d}. {team_name:<20} | Score: {total_score:,}")
+                                weighted_points = team.get('weighted_points', 0)
+                                team_scores.append((team_name[:20], total_score, weighted_points))  # Increased name length
+                                logger.info(f"   {i:2d}. {team_name:<20} | Score: {total_score:,} | weighted_points {weighted_points:,}")
                             
                             logger.info("" + "=" * 40)
                             logger.info(f" LEADERBOARD FETCHED: {len(team_scores)} teams")
                             logger.info("" + "=" * 40)
-                            return team_scores[:10]  # Return top 10
+                            return team_scores[:5] , lastplayed # Return top 10
                         else:
                             logger.info("️" + "=" * 40)
                             logger.info("️  NO TEAMS FOUND IN LEADERBOARD")
@@ -906,14 +914,14 @@ class GameAPI:
                             logger.info("   • No games have been played yet")
                             logger.info("   • Game name doesn't match exactly")
                             logger.info("   • Scores haven't been submitted")
-                            return []
+                            return [] , None
                     else:
                         logger.warning("️" + "=" * 40)
                         logger.warning("️  UNEXPECTED RESPONSE STRUCTURE")
                         logger.warning("️" + "=" * 40)
                         logger.warning(f" Data type: {type(data.get('data'))}")
                         logger.warning(f" Data length: {len(data.get('data', [])) if isinstance(data.get('data'), list) else 'N/A'}")
-                        return []
+                        return [] , None
                         
                 except ValueError as e:
                     logger.error("" + "=" * 40)

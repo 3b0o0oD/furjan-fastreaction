@@ -1,0 +1,30 @@
+{
+  "team_name": "DREAM TEAM",
+  "timestamp": "2025-11-04 23:35:32",
+  "total_score": 10600,
+  "backend_payload": {
+    "gameResultID": "4a3e1fba-e3a4-4e39-8244-c5154ea50012",
+    "individualScore": [
+      {
+        "userID": "ae7e4b8c-d3fd-4919-9bf0-7c11deff41e9",
+        "nodeID": 1,
+        "score": 2650
+      },
+      {
+        "userID": "75810880-b431-42b9-b707-e82b3d5f594e",
+        "nodeID": 2,
+        "score": 2650
+      },
+      {
+        "userID": "65160539-3388-44e4-a3d6-9c877d405ed2",
+        "nodeID": 3,
+        "score": 2650
+      },
+      {
+        "userID": "7b3ec316-36e7-4831-b522-3281378e8420",
+        "nodeID": 4,
+        "score": 2650
+      }
+    ]
+  }
+}

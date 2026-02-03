@@ -1,0 +1,30 @@
+{
+  "team_name": "SPARTON",
+  "timestamp": "2025-11-06 20:36:34",
+  "total_score": 1700,
+  "backend_payload": {
+    "gameResultID": "9d836024-d4ce-4fbe-857a-3ff062cac6fa",
+    "individualScore": [
+      {
+        "userID": "638adc47-dca3-455f-a7a9-8ae59f2275fb",
+        "nodeID": 1,
+        "score": 425
+      },
+      {
+        "userID": "d35c4971-0f70-4fa8-8cf7-ff5ea9256a89",
+        "nodeID": 2,
+        "score": 425
+      },
+      {
+        "userID": "0d2b4644-f893-431d-b8df-096dcf565242",
+        "nodeID": 3,
+        "score": 425
+      },
+      {
+        "userID": "9e748b08-c243-4f70-9ce1-bfe0713575d2",
+        "nodeID": 4,
+        "score": 425
+      }
+    ]
+  }
+}

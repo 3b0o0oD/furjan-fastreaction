@@ -1,0 +1,30 @@
+{
+  "team_name": "DP WORLD",
+  "timestamp": "2025-11-06 18:28:02",
+  "total_score": 3725,
+  "backend_payload": {
+    "gameResultID": "3a9d8c0e-7ceb-470e-b924-92dc25192293",
+    "individualScore": [
+      {
+        "userID": "72aba94f-c824-45b7-9ca3-29b4e063f549",
+        "nodeID": 1,
+        "score": 932
+      },
+      {
+        "userID": "5b49ad8d-3664-4d89-ab04-1d60c0a12871",
+        "nodeID": 2,
+        "score": 931
+      },
+      {
+        "userID": "1d60d185-d838-4cc2-a646-7bceecb7346f",
+        "nodeID": 3,
+        "score": 931
+      },
+      {
+        "userID": "8fd4d5ba-1b8f-44e1-a79c-57252d9b34dd",
+        "nodeID": 4,
+        "score": 931
+      }
+    ]
+  }
+}

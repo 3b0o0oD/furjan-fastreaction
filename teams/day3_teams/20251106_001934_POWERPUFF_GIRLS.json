@@ -1,0 +1,30 @@
+{
+  "team_name": "POWERPUFF GIRLS",
+  "timestamp": "2025-11-06 00:19:34",
+  "total_score": 6600,
+  "backend_payload": {
+    "gameResultID": "89bfc269-08db-488b-a805-737cb2271c3b",
+    "individualScore": [
+      {
+        "userID": "4ad43fdb-9978-4568-83db-773f5d8c313a",
+        "nodeID": 1,
+        "score": 1650
+      },
+      {
+        "userID": "d2aa49c6-39df-4eba-9916-e28d1a47ab13",
+        "nodeID": 2,
+        "score": 1650
+      },
+      {
+        "userID": "6c02253e-8ca0-4951-841f-ed22cf4077a3",
+        "nodeID": 3,
+        "score": 1650
+      },
+      {
+        "userID": "f2ae13d9-55d7-4a7e-be4d-269298c475f8",
+        "nodeID": 4,
+        "score": 1650
+      }
+    ]
+  }
+}

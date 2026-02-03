@@ -1,0 +1,30 @@
+{
+  "team_name": "KING4",
+  "timestamp": "2025-11-05 23:22:54",
+  "total_score": 8850,
+  "backend_payload": {
+    "gameResultID": "dc536d59-d4fa-45c4-93e0-9c8290b36dfc",
+    "individualScore": [
+      {
+        "userID": "639ae411-4685-4108-87e0-2b45bdf01fff",
+        "nodeID": 1,
+        "score": 2214
+      },
+      {
+        "userID": "7fb94803-bdd2-4c14-8a09-06d9fa98befc",
+        "nodeID": 2,
+        "score": 2212
+      },
+      {
+        "userID": "544e5c07-2542-4d98-85f4-3df56f7019f8",
+        "nodeID": 3,
+        "score": 2212
+      },
+      {
+        "userID": "fd55908f-cd59-49ff-ac92-51d86986c16b",
+        "nodeID": 4,
+        "score": 2212
+      }
+    ]
+  }
+}

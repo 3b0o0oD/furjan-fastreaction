@@ -1,0 +1,30 @@
+{
+  "team_name": "TRANS GUARD TEAM 5",
+  "timestamp": "2025-11-04 15:46:46",
+  "total_score": 1050,
+  "backend_payload": {
+    "gameResultID": "8ddfa02e-30b6-4c1c-9452-86de1714bca2",
+    "individualScore": [
+      {
+        "userID": "6a551833-0a6c-438a-8277-2199303af2f7",
+        "nodeID": 1,
+        "score": 264
+      },
+      {
+        "userID": "13f5171d-b098-4086-a3e3-36dc97e54d5f",
+        "nodeID": 2,
+        "score": 262
+      },
+      {
+        "userID": "af4d10e8-91c7-4ef4-a96b-4b5e007fc845",
+        "nodeID": 3,
+        "score": 262
+      },
+      {
+        "userID": "5eb3d083-d7ce-4046-a03b-d1153c5b670f",
+        "nodeID": 4,
+        "score": 262
+      }
+    ]
+  }
+}

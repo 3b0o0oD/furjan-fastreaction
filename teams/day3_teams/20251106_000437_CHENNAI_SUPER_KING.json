@@ -1,0 +1,30 @@
+{
+  "team_name": "CHENNAI SUPER KING",
+  "timestamp": "2025-11-06 00:04:37",
+  "total_score": 9675,
+  "backend_payload": {
+    "gameResultID": "54ddbee1-3706-4fe3-ac2d-7fc403c492eb",
+    "individualScore": [
+      {
+        "userID": "9e5b338e-60f0-4900-92fc-7e075a8dd23d",
+        "nodeID": 1,
+        "score": 2421
+      },
+      {
+        "userID": "8928294c-9bed-42aa-aae4-2f742aa08ced",
+        "nodeID": 2,
+        "score": 2418
+      },
+      {
+        "userID": "fd29f86a-dc2b-44a6-a77a-c0fbec3baaa5",
+        "nodeID": 3,
+        "score": 2418
+      },
+      {
+        "userID": "d8d6314b-9d80-4d4e-843d-810c5394c690",
+        "nodeID": 4,
+        "score": 2418
+      }
+    ]
+  }
+}

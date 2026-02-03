@@ -1,0 +1,30 @@
+{
+  "team_name": "MUZAMIL 4 ",
+  "timestamp": "2025-11-05 16:34:01",
+  "total_score": 2300,
+  "backend_payload": {
+    "gameResultID": "0da4268a-b8e5-4121-af7f-6c9ccd282fb1",
+    "individualScore": [
+      {
+        "userID": "d3510280-56eb-499e-99e3-076e9501076c",
+        "nodeID": 1,
+        "score": 575
+      },
+      {
+        "userID": "540fec49-4e49-4993-9966-d8faf3f6bd83",
+        "nodeID": 2,
+        "score": 575
+      },
+      {
+        "userID": "537ff767-98f0-409f-b781-6321a2af17f7",
+        "nodeID": 3,
+        "score": 575
+      },
+      {
+        "userID": "b7b370b8-1b12-4266-b4f5-4af719044500",
+        "nodeID": 4,
+        "score": 575
+      }
+    ]
+  }
+}

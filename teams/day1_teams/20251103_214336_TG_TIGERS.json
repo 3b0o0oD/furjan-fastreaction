@@ -1,0 +1,30 @@
+{
+  "team_name": "TG TIGERS",
+  "timestamp": "2025-11-03 21:43:36",
+  "total_score": 3375,
+  "backend_payload": {
+    "gameResultID": "d60146ea-c009-493e-a8f1-919502cc029f",
+    "individualScore": [
+      {
+        "userID": "9d4991a6-0009-46dc-b743-8a89dfc4ebf7",
+        "nodeID": 1,
+        "score": 846
+      },
+      {
+        "userID": "7ac5a724-7bcb-49ed-b196-627cffdfb0fe",
+        "nodeID": 2,
+        "score": 843
+      },
+      {
+        "userID": "c359e08f-3293-4c1f-b954-0f0a63f8d1e7",
+        "nodeID": 3,
+        "score": 843
+      },
+      {
+        "userID": "7a2cff4a-603b-4673-a9f9-bfa6a7ae0021",
+        "nodeID": 4,
+        "score": 843
+      }
+    ]
+  }
+}

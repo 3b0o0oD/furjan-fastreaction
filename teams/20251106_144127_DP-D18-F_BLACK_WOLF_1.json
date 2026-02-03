@@ -1,0 +1,30 @@
+{
+  "team_name": "DP-D18-F BLACK WOLF 1",
+  "timestamp": "2025-11-06 14:41:27",
+  "total_score": 7975,
+  "backend_payload": {
+    "gameResultID": "d3da5ec4-3b34-4b30-be94-8f64b648c66a",
+    "individualScore": [
+      {
+        "userID": "ca31e1c8-17d3-41f5-8fcd-5c774cc3bec8",
+        "nodeID": 1,
+        "score": 1996
+      },
+      {
+        "userID": "1f689697-1c89-4663-affd-df3956bccb1c",
+        "nodeID": 2,
+        "score": 1993
+      },
+      {
+        "userID": "0e71c04e-6520-4b21-b8cf-8049c5f6dc80",
+        "nodeID": 3,
+        "score": 1993
+      },
+      {
+        "userID": "a9b78cd1-350f-4b89-b612-295a0ee285e1",
+        "nodeID": 4,
+        "score": 1993
+      }
+    ]
+  }
+}

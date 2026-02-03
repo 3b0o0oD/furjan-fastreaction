@@ -1,0 +1,30 @@
+{
+  "team_name": "THE CUSPERS",
+  "timestamp": "2025-11-04 00:21:11",
+  "total_score": 11625,
+  "backend_payload": {
+    "gameResultID": "c370321b-1548-4d5d-bcb7-cfef1f75f06d",
+    "individualScore": [
+      {
+        "userID": "357aa8f0-52c3-43dc-a771-73a9837a5c49",
+        "nodeID": 1,
+        "score": 2907
+      },
+      {
+        "userID": "885f728b-0314-470e-a0be-a83bd223be39",
+        "nodeID": 2,
+        "score": 2906
+      },
+      {
+        "userID": "008144f1-e6c0-4b0a-b293-9777b4eca104",
+        "nodeID": 3,
+        "score": 2906
+      },
+      {
+        "userID": "33c0c047-1869-457d-b615-ed471745e1d6",
+        "nodeID": 4,
+        "score": 2906
+      }
+    ]
+  }
+}

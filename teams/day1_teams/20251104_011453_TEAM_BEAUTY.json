@@ -1,0 +1,30 @@
+{
+  "team_name": "TEAM BEAUTY",
+  "timestamp": "2025-11-04 01:14:53",
+  "total_score": 7050,
+  "backend_payload": {
+    "gameResultID": "480c53b0-ac73-44e3-adb4-c571531502fa",
+    "individualScore": [
+      {
+        "userID": "676a3c5b-a6a7-47b3-8c55-a86b5f316b85",
+        "nodeID": 1,
+        "score": 1764
+      },
+      {
+        "userID": "7fed7ee4-0882-42e9-9702-7c3b5d73e7cb",
+        "nodeID": 2,
+        "score": 1762
+      },
+      {
+        "userID": "b52a174c-bd80-444a-b207-b34cb313485f",
+        "nodeID": 3,
+        "score": 1762
+      },
+      {
+        "userID": "6e14bf72-10de-4f63-896d-7fa83c7bb65d",
+        "nodeID": 4,
+        "score": 1762
+      }
+    ]
+  }
+}

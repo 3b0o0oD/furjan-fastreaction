@@ -1,0 +1,30 @@
+{
+  "team_name": "G4S ALLIED INNOVATORS",
+  "timestamp": "2025-11-06 17:07:31",
+  "total_score": 700,
+  "backend_payload": {
+    "gameResultID": "aeb10bcf-6b14-45ac-a8a3-7e9d4dd33bff",
+    "individualScore": [
+      {
+        "userID": "7c2c21bd-77c4-4ae0-a03c-87a21703a2a1",
+        "nodeID": 1,
+        "score": 175
+      },
+      {
+        "userID": "f80cb63d-b8ce-49c8-a8f1-e1f1391076bd",
+        "nodeID": 2,
+        "score": 175
+      },
+      {
+        "userID": "bea00868-0a21-43de-ae42-070f33254668",
+        "nodeID": 3,
+        "score": 175
+      },
+      {
+        "userID": "dffb49a1-1270-4f29-b9a6-8905e1cec77d",
+        "nodeID": 4,
+        "score": 175
+      }
+    ]
+  }
+}

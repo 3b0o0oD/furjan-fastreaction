@@ -1,0 +1,30 @@
+{
+  "team_name": "VICTORY",
+  "timestamp": "2025-11-06 23:35:15",
+  "total_score": 16750,
+  "backend_payload": {
+    "gameResultID": "ebb81baf-9727-4fc4-8a15-b74f363e17ea",
+    "individualScore": [
+      {
+        "userID": "6df36393-63b2-49d9-ab07-60e4e88fdb30",
+        "nodeID": 1,
+        "score": 4189
+      },
+      {
+        "userID": "75810880-b431-42b9-b707-e82b3d5f594e",
+        "nodeID": 2,
+        "score": 4187
+      },
+      {
+        "userID": "1c8b2424-0abb-47a4-9aec-1dcbac0e48bd",
+        "nodeID": 3,
+        "score": 4187
+      },
+      {
+        "userID": "ae7e4b8c-d3fd-4919-9bf0-7c11deff41e9",
+        "nodeID": 4,
+        "score": 4187
+      }
+    ]
+  }
+}

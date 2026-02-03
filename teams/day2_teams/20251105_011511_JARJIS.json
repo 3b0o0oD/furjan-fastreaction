@@ -1,0 +1,30 @@
+{
+  "team_name": "JARJIS",
+  "timestamp": "2025-11-05 01:15:11",
+  "total_score": 5025,
+  "backend_payload": {
+    "gameResultID": "3c664d9d-0582-435d-97cb-5974037d34e2",
+    "individualScore": [
+      {
+        "userID": "5f2a1758-ff66-4fab-b8bd-07813a4afef7",
+        "nodeID": 1,
+        "score": 1257
+      },
+      {
+        "userID": "c9984388-c6fe-46af-a985-3fc5b732c790",
+        "nodeID": 2,
+        "score": 1256
+      },
+      {
+        "userID": "e82a9e3d-ba8c-4f14-a1ca-814bbb7e84d7",
+        "nodeID": 3,
+        "score": 1256
+      },
+      {
+        "userID": "cafb62ea-76e5-4626-a35b-068081dd131e",
+        "nodeID": 4,
+        "score": 1256
+      }
+    ]
+  }
+}

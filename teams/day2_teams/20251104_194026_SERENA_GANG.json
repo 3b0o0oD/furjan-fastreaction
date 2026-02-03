@@ -1,0 +1,30 @@
+{
+  "team_name": "SERENA GANG",
+  "timestamp": "2025-11-04 19:40:26",
+  "total_score": 925,
+  "backend_payload": {
+    "gameResultID": "8cefa2d6-1329-4df0-a636-1119e7c433f3",
+    "individualScore": [
+      {
+        "userID": "f5e9e19a-cbe3-4c29-a86f-356740146d5e",
+        "nodeID": 1,
+        "score": 232
+      },
+      {
+        "userID": "2f34e284-3b02-41ee-b3bf-11a1821c9800",
+        "nodeID": 2,
+        "score": 231
+      },
+      {
+        "userID": "d770c29e-8fc0-4dd4-a699-e6bf83ff1804",
+        "nodeID": 3,
+        "score": 231
+      },
+      {
+        "userID": "26760760-aeca-481c-99c3-eb4559665243",
+        "nodeID": 4,
+        "score": 231
+      }
+    ]
+  }
+}

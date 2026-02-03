@@ -33,16 +33,20 @@ from typing import Optional
 @dataclass
 class APIConfig:
     """API configuration settings"""
-    base_url: str = "https://dev-eaa25-api-hpfyfcbshkabezeh.uaenorth-01.azurewebsites.net/"
-    email: str = "eaa25admin@gmail.com"
-    password: str = "qhv#1kGI$"
+    # base_url: str = "https://dev-eaa25-api-hpfyfcbshkabezeh.uaenorth-01.azurewebsites.net/"
+    # email: str = "eaa25admin@gmail.com"
+    # password: str = "qhv#1kGI$"
     # game_id: str = "73a92ae9-995d-4eed-a60d-217b7ce54643" 
-   
-    game_id: str = "878f6f84-7d65-4ecc-9450-872ca7e1a3f3"
-    # game_name: str = "Fast Reaction"
-    game_name: str = "Falcon's Grasp"
+    game_name: str = "Fast Reaction"
+    
+    # Production API
+    base_url: str = "https://dev-ferjan-api.azurewebsites.net/"
+    email: str = "eaa25admin@gmail.com"
+    password: str = "qhv#1kGI$" 
+    game_id: str = "73a92ae9-995d-4eed-a60d-217b7ce54643"  
     
     
+        
     # Timeout settings (in seconds)
     auth_timeout: int = 30
     game_status_timeout: int = 8
@@ -53,7 +57,7 @@ class APIConfig:
 @dataclass
 class GameConfig:
     """Game configuration settings"""
-    timer_value: int = 15000  # Default timer value in milliseconds
+    timer_value: int = 180300  # Default timer value in milliseconds
     final_screen_timer: int = 15000  # Final screen display time
     
 
@@ -73,9 +77,9 @@ class UIConfig:
 class SerialConfig:
     """Serial communication configuration settings"""
     enabled: bool = False  # Enable/disable serial communication
-    port: str = "/dev/pts/6"  # Default serial port (Linux)
-    # port: str = "COM3"  # Windows example
-    baudrate: int = 9600  # Communication speed
+    # port: str = "/dev/pts/11"  # Default serial port (Linux)
+    port: str = "/dev/ttyUSB0"
+    baudrate: int = 115200  # Communication speed
     timeout: int = 1  # Read timeout in seconds
     auto_reconnect: bool = True  # Enable automatic reconnection
     reconnect_interval: int = 5  # Seconds between reconnection attempts
@@ -153,13 +157,13 @@ class Settings:
             reconnect_interval=int(os.getenv('FAST_REACTION_SERIAL_RECONNECT_INTERVAL', SerialConfig.reconnect_interval)),
             max_reconnect_attempts=int(os.getenv('FAST_REACTION_SERIAL_MAX_RECONNECT_ATTEMPTS', SerialConfig.max_reconnect_attempts)),
         )
-        
+
         # Load MQTT settings
         mqtt_config = MQTTConfig(
             broker=os.getenv('FAST_REACTION_MQTT_BROKER', MQTTConfig.broker),
             port=int(os.getenv('FAST_REACTION_MQTT_PORT', MQTTConfig.port)),
         )
-        
+
         return cls(
             api=api_config,
             game=game_config,

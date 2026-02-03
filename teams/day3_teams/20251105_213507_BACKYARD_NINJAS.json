@@ -1,0 +1,30 @@
+{
+  "team_name": "BACKYARD NINJAS",
+  "timestamp": "2025-11-05 21:35:07",
+  "total_score": 16500,
+  "backend_payload": {
+    "gameResultID": "a24dd83b-332b-480d-a8d8-b362f3a64ecb",
+    "individualScore": [
+      {
+        "userID": "115fdba4-5f0f-4907-a133-cdcf9a225bca",
+        "nodeID": 1,
+        "score": 4125
+      },
+      {
+        "userID": "e6a9d834-d46c-4121-b4f4-e70ba5ac872d",
+        "nodeID": 2,
+        "score": 4125
+      },
+      {
+        "userID": "fa9b6f68-e1be-46ee-8406-35d857a225c3",
+        "nodeID": 3,
+        "score": 4125
+      },
+      {
+        "userID": "275bced4-804d-41d8-a3b2-fa47385244a4",
+        "nodeID": 4,
+        "score": 4125
+      }
+    ]
+  }
+}

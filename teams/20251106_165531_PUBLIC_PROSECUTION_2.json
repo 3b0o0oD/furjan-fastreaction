@@ -1,0 +1,30 @@
+{
+  "team_name": "PUBLIC PROSECUTION 2",
+  "timestamp": "2025-11-06 16:55:31",
+  "total_score": 2875,
+  "backend_payload": {
+    "gameResultID": "a0b91472-a3b0-49ad-8c56-0863f5eecf09",
+    "individualScore": [
+      {
+        "userID": "eaf17836-7c13-4e3a-a204-e3872649f50b",
+        "nodeID": 1,
+        "score": 721
+      },
+      {
+        "userID": "da199eb2-529e-48bb-8571-fd755f9231d7",
+        "nodeID": 2,
+        "score": 718
+      },
+      {
+        "userID": "6c03d7a3-1485-4c0a-8548-95343472aba2",
+        "nodeID": 3,
+        "score": 718
+      },
+      {
+        "userID": "a2b297f7-2acc-4e9a-ba8c-60f360d780e2",
+        "nodeID": 4,
+        "score": 718
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "team_name": "MBRSC FALCONS",
+  "timestamp": "2025-11-05 18:03:39",
+  "total_score": 10025,
+  "backend_payload": {
+    "gameResultID": "ce166a1b-bb2b-4129-a605-fbe2136cc84f",
+    "individualScore": [
+      {
+        "userID": "ec1ff1ae-51e6-4459-9950-b699edad4d90",
+        "nodeID": 1,
+        "score": 2507
+      },
+      {
+        "userID": "a2cf3ba9-a68e-46fa-a777-f38e796c93cf",
+        "nodeID": 2,
+        "score": 2506
+      },
+      {
+        "userID": "b3e44880-7462-4b18-ae00-a1c802603bc7",
+        "nodeID": 3,
+        "score": 2506
+      },
+      {
+        "userID": "9ba8cdca-ff4f-4f86-9dc4-27f2f2ac37ac",
+        "nodeID": 4,
+        "score": 2506
+      }
+    ]
+  }
+}

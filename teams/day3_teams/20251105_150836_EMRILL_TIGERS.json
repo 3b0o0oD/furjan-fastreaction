@@ -1,0 +1,30 @@
+{
+  "team_name": "EMRILL TIGERS",
+  "timestamp": "2025-11-05 15:08:36",
+  "total_score": 2625,
+  "backend_payload": {
+    "gameResultID": "3906947d-34ef-4bea-b8ca-549b28de2adf",
+    "individualScore": [
+      {
+        "userID": "252c7cb7-931c-47d4-a917-1a5883cd0a15",
+        "nodeID": 1,
+        "score": 657
+      },
+      {
+        "userID": "39158d7f-9257-4c30-96d7-1fdd2f6808db",
+        "nodeID": 2,
+        "score": 656
+      },
+      {
+        "userID": "9252a443-9dad-43b7-b2b7-e57a1d5565bc",
+        "nodeID": 3,
+        "score": 656
+      },
+      {
+        "userID": "3041670b-1bb8-496b-998e-d2ccdd090d59",
+        "nodeID": 4,
+        "score": 656
+      }
+    ]
+  }
+}

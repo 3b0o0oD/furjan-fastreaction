@@ -1,0 +1,30 @@
+{
+  "team_name": "SL HEROS",
+  "timestamp": "2025-11-05 15:40:01",
+  "total_score": 7125,
+  "backend_payload": {
+    "gameResultID": "789e4af8-88bd-4615-a5b1-47cd4900e7d3",
+    "individualScore": [
+      {
+        "userID": "216d3143-0960-43dc-801a-dd496db56335",
+        "nodeID": 1,
+        "score": 1782
+      },
+      {
+        "userID": "4291d480-a260-4355-bfa2-3b7777142e45",
+        "nodeID": 2,
+        "score": 1781
+      },
+      {
+        "userID": "17071085-c4e8-438d-a071-b3a88da27e0f",
+        "nodeID": 3,
+        "score": 1781
+      },
+      {
+        "userID": "504f401b-e316-4975-aa94-ec89f11998a5",
+        "nodeID": 4,
+        "score": 1781
+      }
+    ]
+  }
+}

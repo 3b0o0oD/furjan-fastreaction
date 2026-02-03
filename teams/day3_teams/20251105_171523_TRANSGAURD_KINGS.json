@@ -1,0 +1,30 @@
+{
+  "team_name": "TRANSGAURD KINGS",
+  "timestamp": "2025-11-05 17:15:23",
+  "total_score": 1050,
+  "backend_payload": {
+    "gameResultID": "829ee468-1275-48df-8932-641ee5e746d5",
+    "individualScore": [
+      {
+        "userID": "7c63146c-816c-4a63-bb08-5950cb75f95d",
+        "nodeID": 1,
+        "score": 264
+      },
+      {
+        "userID": "1854b2e7-35e8-4548-b612-a7d8ed803663",
+        "nodeID": 2,
+        "score": 262
+      },
+      {
+        "userID": "b2cd21ad-b90e-4ad4-ab04-80f8dbf433b7",
+        "nodeID": 3,
+        "score": 262
+      },
+      {
+        "userID": "b83d9973-b66b-4c73-9c0a-0420d3464f19",
+        "nodeID": 4,
+        "score": 262
+      }
+    ]
+  }
+}

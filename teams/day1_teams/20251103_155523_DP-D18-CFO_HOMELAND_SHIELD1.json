@@ -1,0 +1,30 @@
+{
+  "team_name": "DP-D18-CFO HOMELAND SHIELD1",
+  "timestamp": "2025-11-03 15:55:23",
+  "total_score": 1775,
+  "backend_payload": {
+    "gameResultID": "823e116c-c8e1-442f-8563-582c675ba55d",
+    "individualScore": [
+      {
+        "userID": "7c77f11b-9d18-4db9-9f1c-c5bdabfe9c5e",
+        "nodeID": 1,
+        "score": 446
+      },
+      {
+        "userID": "76e975ee-82cd-4f7a-bf55-0a65ba32491c",
+        "nodeID": 2,
+        "score": 443
+      },
+      {
+        "userID": "5c765a46-8d1d-4e1c-b5e1-f71bd4119ae5",
+        "nodeID": 3,
+        "score": 443
+      },
+      {
+        "userID": "774d2fce-201a-4cd7-b103-54211dd2323d",
+        "nodeID": 4,
+        "score": 443
+      }
+    ]
+  }
+}

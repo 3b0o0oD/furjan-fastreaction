@@ -1,0 +1,30 @@
+{
+  "team_name": "TG KINGS",
+  "timestamp": "2025-11-03 15:44:18",
+  "total_score": 2150,
+  "backend_payload": {
+    "gameResultID": "13e0605d-b48d-4dbd-bc44-9ea7a7d494f1",
+    "individualScore": [
+      {
+        "userID": "12f17434-15d3-4626-bca3-9475a312e1b2",
+        "nodeID": 1,
+        "score": 539
+      },
+      {
+        "userID": "de0ef6c6-8b60-4c08-9e04-853751eae72f",
+        "nodeID": 2,
+        "score": 537
+      },
+      {
+        "userID": "7dcaf962-c968-4aff-90e6-71eb794aacec",
+        "nodeID": 3,
+        "score": 537
+      },
+      {
+        "userID": "9344c019-138d-45a7-bf4b-45d34562e1d1",
+        "nodeID": 4,
+        "score": 537
+      }
+    ]
+  }
+}

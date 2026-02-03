@@ -1,0 +1,30 @@
+{
+  "team_name": "BU HUSAIN",
+  "timestamp": "2025-11-05 19:04:05",
+  "total_score": 1450,
+  "backend_payload": {
+    "gameResultID": "31b9c7bb-04c5-4c9f-a65f-e58820aea860",
+    "individualScore": [
+      {
+        "userID": "aa14c708-4672-4c14-b8a0-42be6ff29bac",
+        "nodeID": 1,
+        "score": 364
+      },
+      {
+        "userID": "caee0a87-54b0-4575-88e0-5aa65958f59e",
+        "nodeID": 2,
+        "score": 362
+      },
+      {
+        "userID": "fb83f912-20ca-40d5-9c09-6ede32819f6b",
+        "nodeID": 3,
+        "score": 362
+      },
+      {
+        "userID": "58de17a8-934f-41c2-abee-25677526bfd8",
+        "nodeID": 4,
+        "score": 362
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "team_name": "CROWN",
+  "timestamp": "2025-11-05 23:14:55",
+  "total_score": 0,
+  "backend_payload": {
+    "gameResultID": "e02a6b6c-d884-4ac8-a4d1-284fa502741b",
+    "individualScore": [
+      {
+        "userID": "15957c45-eb78-47af-a670-2a34104a889a",
+        "nodeID": 1,
+        "score": 0
+      },
+      {
+        "userID": "09cecdc7-240e-4836-b5a7-0ec0b16e30fc",
+        "nodeID": 2,
+        "score": 0
+      },
+      {
+        "userID": "77823893-33b9-4bce-9de9-13367f1b2657",
+        "nodeID": 3,
+        "score": 0
+      },
+      {
+        "userID": "b4968adc-a530-4596-a8dc-ab514f3a557e",
+        "nodeID": 4,
+        "score": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "team_name": "DUBAICULTURE2",
+  "timestamp": "2025-11-03 16:59:13",
+  "total_score": 4025,
+  "backend_payload": {
+    "gameResultID": "9b0362a9-3a5e-462e-bbbc-3ec23572524b",
+    "individualScore": [
+      {
+        "userID": "fe5dccef-f133-490f-8629-7aeb2aabcfbb",
+        "nodeID": 1,
+        "score": 1007
+      },
+      {
+        "userID": "6120815e-5fb0-4017-9696-d2e45594a6d1",
+        "nodeID": 2,
+        "score": 1006
+      },
+      {
+        "userID": "0782d313-db73-46be-a117-6aa2141e503c",
+        "nodeID": 3,
+        "score": 1006
+      },
+      {
+        "userID": "15e19946-76ee-4471-8e8e-cfcfccee79e5",
+        "nodeID": 4,
+        "score": 1006
+      }
+    ]
+  }
+}

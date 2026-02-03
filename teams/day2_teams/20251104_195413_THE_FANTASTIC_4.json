@@ -1,0 +1,30 @@
+{
+  "team_name": "THE FANTASTIC 4",
+  "timestamp": "2025-11-04 19:54:13",
+  "total_score": 3800,
+  "backend_payload": {
+    "gameResultID": "d9b69b69-847d-4187-94bd-41824ec7e0e6",
+    "individualScore": [
+      {
+        "userID": "ff0134f4-26b9-41e8-936a-9c3ae4ae1dbd",
+        "nodeID": 1,
+        "score": 950
+      },
+      {
+        "userID": "77a7b042-c2e1-4f59-b9ee-d63ae9848602",
+        "nodeID": 2,
+        "score": 950
+      },
+      {
+        "userID": "78c34bd7-6a48-4126-b78d-430dc9df1521",
+        "nodeID": 3,
+        "score": 950
+      },
+      {
+        "userID": "9a073521-05e0-46da-92d6-edd29910d920",
+        "nodeID": 4,
+        "score": 950
+      }
+    ]
+  }
+}

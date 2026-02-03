@@ -1,0 +1,30 @@
+{
+  "team_name": "VS LADIES ",
+  "timestamp": "2025-11-03 17:48:44",
+  "total_score": 1675,
+  "backend_payload": {
+    "gameResultID": "92d81f13-8d82-4aec-b3e4-366587119048",
+    "individualScore": [
+      {
+        "userID": "4e1e957a-e686-460c-8aa2-4108be6b7ab3",
+        "nodeID": 1,
+        "score": 421
+      },
+      {
+        "userID": "f5e9e19a-cbe3-4c29-a86f-356740146d5e",
+        "nodeID": 2,
+        "score": 418
+      },
+      {
+        "userID": "a163fe8b-11a6-440b-9995-94973dc82b91",
+        "nodeID": 3,
+        "score": 418
+      },
+      {
+        "userID": "7e17d0c0-1cb9-4c69-adbc-9d50b1f8a15f",
+        "nodeID": 4,
+        "score": 418
+      }
+    ]
+  }
+}

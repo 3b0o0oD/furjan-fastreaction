@@ -1,0 +1,30 @@
+{
+  "team_name": "TASHAN",
+  "timestamp": "2025-11-04 18:35:07",
+  "total_score": 3975,
+  "backend_payload": {
+    "gameResultID": "519cd58c-46a6-4e35-85de-ce734c9c274f",
+    "individualScore": [
+      {
+        "userID": "98f63856-7841-4ff7-bf9c-870a577c1ea7",
+        "nodeID": 1,
+        "score": 996
+      },
+      {
+        "userID": "a48a4857-0090-4fc0-b852-848a39a6af14",
+        "nodeID": 2,
+        "score": 993
+      },
+      {
+        "userID": "23973777-6bea-4c3b-8650-ca6c2b8f68e4",
+        "nodeID": 3,
+        "score": 993
+      },
+      {
+        "userID": "06e5fb69-5ae9-4468-b831-8ce31fe80dcd",
+        "nodeID": 4,
+        "score": 993
+      }
+    ]
+  }
+}

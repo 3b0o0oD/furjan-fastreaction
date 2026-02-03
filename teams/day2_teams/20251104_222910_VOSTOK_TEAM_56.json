@@ -1,0 +1,30 @@
+{
+  "team_name": "VOSTOK TEAM 56",
+  "timestamp": "2025-11-04 22:29:10",
+  "total_score": 12425,
+  "backend_payload": {
+    "gameResultID": "05692364-62c6-4daf-b8a5-e8bd1b22246e",
+    "individualScore": [
+      {
+        "userID": "85560cf2-c8cd-4092-9c4d-b5643a4c4d51",
+        "nodeID": 1,
+        "score": 3107
+      },
+      {
+        "userID": "c9a527ed-1a1b-4134-a59d-d41a21c68669",
+        "nodeID": 2,
+        "score": 3106
+      },
+      {
+        "userID": "cc51edf6-68a9-45fe-a5b3-3e39102ed080",
+        "nodeID": 3,
+        "score": 3106
+      },
+      {
+        "userID": "0794068c-3e76-4747-82a8-b7a43e990e9f",
+        "nodeID": 4,
+        "score": 3106
+      }
+    ]
+  }
+}

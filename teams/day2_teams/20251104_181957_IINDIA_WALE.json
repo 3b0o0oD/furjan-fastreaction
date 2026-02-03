@@ -1,0 +1,30 @@
+{
+  "team_name": "IINDIA WALE",
+  "timestamp": "2025-11-04 18:19:57",
+  "total_score": 1050,
+  "backend_payload": {
+    "gameResultID": "bc83af32-115b-4bb7-b940-cfe810320a75",
+    "individualScore": [
+      {
+        "userID": "523e2d76-414a-41ff-be79-e178762741b5",
+        "nodeID": 1,
+        "score": 264
+      },
+      {
+        "userID": "9dfd9959-9420-4bcb-b997-d43cad5c6e44",
+        "nodeID": 2,
+        "score": 262
+      },
+      {
+        "userID": "4536d690-b14b-4d44-a1c7-c702bc2916e0",
+        "nodeID": 3,
+        "score": 262
+      },
+      {
+        "userID": "e5b80c29-9d16-44d7-a36a-bf92c7c8b1ec",
+        "nodeID": 4,
+        "score": 262
+      }
+    ]
+  }
+}

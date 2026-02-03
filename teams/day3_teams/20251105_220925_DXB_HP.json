@@ -1,0 +1,30 @@
+{
+  "team_name": "DXB HP",
+  "timestamp": "2025-11-05 22:09:25",
+  "total_score": 5550,
+  "backend_payload": {
+    "gameResultID": "e6dd0dc0-1c5a-4dfe-9d0e-ff4ef4840ae7",
+    "individualScore": [
+      {
+        "userID": "471fc9e6-fb0c-47f3-a347-31dd3c240336",
+        "nodeID": 1,
+        "score": 1389
+      },
+      {
+        "userID": "77f003c0-3e4d-4ec0-959b-78e93c7a1b80",
+        "nodeID": 2,
+        "score": 1387
+      },
+      {
+        "userID": "4f8f75f4-5467-401c-abee-1234e52da296",
+        "nodeID": 3,
+        "score": 1387
+      },
+      {
+        "userID": "f74c09fc-90e9-457a-bb87-75a66de4edc8",
+        "nodeID": 4,
+        "score": 1387
+      }
+    ]
+  }
+}

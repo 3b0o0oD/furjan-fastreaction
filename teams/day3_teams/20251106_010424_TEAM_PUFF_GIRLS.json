@@ -1,0 +1,30 @@
+{
+  "team_name": "TEAM PUFF GIRLS",
+  "timestamp": "2025-11-06 01:04:24",
+  "total_score": 6075,
+  "backend_payload": {
+    "gameResultID": "d67b591e-866f-4230-a7bf-41279a1c68b0",
+    "individualScore": [
+      {
+        "userID": "8a9d7cc6-2a02-40e0-9326-a62457fb7e93",
+        "nodeID": 1,
+        "score": 1521
+      },
+      {
+        "userID": "723b0c17-febc-4ca6-82c2-aa76768746dc",
+        "nodeID": 2,
+        "score": 1518
+      },
+      {
+        "userID": "022dc17a-1aec-460a-a2d4-8afa8c4704e7",
+        "nodeID": 3,
+        "score": 1518
+      },
+      {
+        "userID": "b52a174c-bd80-444a-b207-b34cb313485f",
+        "nodeID": 4,
+        "score": 1518
+      }
+    ]
+  }
+}

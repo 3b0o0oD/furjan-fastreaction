@@ -1,0 +1,30 @@
+{
+  "team_name": "MOUNTAIN",
+  "timestamp": "2025-11-06 19:03:35",
+  "total_score": 7775,
+  "backend_payload": {
+    "gameResultID": "44a16a5a-1490-4c22-803d-72dd54c70d86",
+    "individualScore": [
+      {
+        "userID": "15957c45-eb78-47af-a670-2a34104a889a",
+        "nodeID": 1,
+        "score": 1946
+      },
+      {
+        "userID": "4ad43fdb-9978-4568-83db-773f5d8c313a",
+        "nodeID": 2,
+        "score": 1943
+      },
+      {
+        "userID": "4a3b17a9-649f-4387-a866-beec9a8f5143",
+        "nodeID": 3,
+        "score": 1943
+      },
+      {
+        "userID": "09cecdc7-240e-4836-b5a7-0ec0b16e30fc",
+        "nodeID": 4,
+        "score": 1943
+      }
+    ]
+  }
+}

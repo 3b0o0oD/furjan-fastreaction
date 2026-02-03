@@ -1,0 +1,30 @@
+{
+  "team_name": "FIGHTER",
+  "timestamp": "2025-11-06 15:42:51",
+  "total_score": 50,
+  "backend_payload": {
+    "gameResultID": "c8bcf837-6d9c-4fbd-bed2-7f9fa56b31d4",
+    "individualScore": [
+      {
+        "userID": "d7f64688-8380-48df-bfc4-454e0d32f6c2",
+        "nodeID": 1,
+        "score": 14
+      },
+      {
+        "userID": "8447086f-7608-434a-9780-d59a53d16f10",
+        "nodeID": 2,
+        "score": 12
+      },
+      {
+        "userID": "f748345f-b30c-456c-a1ef-75424a9b8780",
+        "nodeID": 3,
+        "score": 12
+      },
+      {
+        "userID": "36170987-fb32-4186-88f0-3d067d6e4eeb",
+        "nodeID": 4,
+        "score": 12
+      }
+    ]
+  }
+}

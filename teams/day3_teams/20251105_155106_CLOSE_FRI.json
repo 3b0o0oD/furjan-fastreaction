@@ -1,0 +1,30 @@
+{
+  "team_name": "CLOSE FRI ",
+  "timestamp": "2025-11-05 15:51:06",
+  "total_score": 8850,
+  "backend_payload": {
+    "gameResultID": "da4fff23-6bf6-4b18-bfc3-4f2404054d82",
+    "individualScore": [
+      {
+        "userID": "632e6376-152e-4d34-88ae-52b34d7b7f96",
+        "nodeID": 1,
+        "score": 2214
+      },
+      {
+        "userID": "ad2fed5f-0062-485a-ace8-40e678da36fb",
+        "nodeID": 2,
+        "score": 2212
+      },
+      {
+        "userID": "1fa86e00-5e9e-427b-960a-7bb135e72d93",
+        "nodeID": 3,
+        "score": 2212
+      },
+      {
+        "userID": "ffb649dd-dd6f-480a-8d9b-93165aa94a40",
+        "nodeID": 4,
+        "score": 2212
+      }
+    ]
+  }
+}

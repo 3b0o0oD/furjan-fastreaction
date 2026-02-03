@@ -1,0 +1,30 @@
+{
+  "team_name": "BACKYARD NINJAS GIRLS",
+  "timestamp": "2025-11-04 21:19:52",
+  "total_score": 8200,
+  "backend_payload": {
+    "gameResultID": "0b4c3628-723c-4dd2-b0b8-85a2c1623a1d",
+    "individualScore": [
+      {
+        "userID": "aaec4478-ef81-41d8-b0f8-2e51099cd6ea",
+        "nodeID": 1,
+        "score": 2050
+      },
+      {
+        "userID": "115fdba4-5f0f-4907-a133-cdcf9a225bca",
+        "nodeID": 2,
+        "score": 2050
+      },
+      {
+        "userID": "275bced4-804d-41d8-a3b2-fa47385244a4",
+        "nodeID": 3,
+        "score": 2050
+      },
+      {
+        "userID": "d8e585e5-1e52-49f8-8f69-3f4147fb46e9",
+        "nodeID": 4,
+        "score": 2050
+      }
+    ]
+  }
+}

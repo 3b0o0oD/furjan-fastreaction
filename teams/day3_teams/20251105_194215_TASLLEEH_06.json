@@ -1,0 +1,30 @@
+{
+  "team_name": "TASLLEEH 06",
+  "timestamp": "2025-11-05 19:42:15",
+  "total_score": 2200,
+  "backend_payload": {
+    "gameResultID": "2f23fb79-4c34-41df-a290-f907da5c9ed8",
+    "individualScore": [
+      {
+        "userID": "c558f93f-2b9e-4cf2-853a-10b34632d559",
+        "nodeID": 1,
+        "score": 550
+      },
+      {
+        "userID": "765561dd-745a-4b8c-93a8-ed40b08de14e",
+        "nodeID": 2,
+        "score": 550
+      },
+      {
+        "userID": "ddc1195e-bfea-4a27-b93c-db4f5fd71d62",
+        "nodeID": 3,
+        "score": 550
+      },
+      {
+        "userID": "71d08df7-f6bf-4762-aa8a-9d769b2fef31",
+        "nodeID": 4,
+        "score": 550
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "team_name": "THE SUPREME LEGISLATION COMMITTE",
+  "timestamp": "2025-11-05 17:08:31",
+  "total_score": 4600,
+  "backend_payload": {
+    "gameResultID": "6d9f544e-f6c9-41e2-8c40-4dce41dcb562",
+    "individualScore": [
+      {
+        "userID": "f32f54e8-2bef-4948-a14f-237474c0b654",
+        "nodeID": 1,
+        "score": 1150
+      },
+      {
+        "userID": "ae9d7678-49c9-4929-bd59-99dfeef2ea11",
+        "nodeID": 2,
+        "score": 1150
+      },
+      {
+        "userID": "cedfd0b5-35de-47e7-bb96-92cf4e5a33f5",
+        "nodeID": 3,
+        "score": 1150
+      },
+      {
+        "userID": "d3862bd2-4797-43a0-a36f-bb961329b280",
+        "nodeID": 4,
+        "score": 1150
+      }
+    ]
+  }
+}

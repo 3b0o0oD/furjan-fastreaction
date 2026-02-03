@@ -1,0 +1,30 @@
+{
+  "team_name": "BKG KINGZ",
+  "timestamp": "2025-11-05 21:50:21",
+  "total_score": 10300,
+  "backend_payload": {
+    "gameResultID": "8153ecf6-8104-422f-900e-44244202a85a",
+    "individualScore": [
+      {
+        "userID": "cd1e6af4-586e-4340-912d-14288e7df4a1",
+        "nodeID": 1,
+        "score": 2575
+      },
+      {
+        "userID": "98ba69d9-f56a-4235-b11c-ad6d4c811150",
+        "nodeID": 2,
+        "score": 2575
+      },
+      {
+        "userID": "aaffc500-d34d-4aa7-b416-bf610cf14aec",
+        "nodeID": 3,
+        "score": 2575
+      },
+      {
+        "userID": "4086f743-082c-4ce0-adb7-a50577ad2e2f",
+        "nodeID": 4,
+        "score": 2575
+      }
+    ]
+  }
+}

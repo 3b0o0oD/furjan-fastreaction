@@ -1,0 +1,30 @@
+{
+  "team_name": "ERU",
+  "timestamp": "2025-11-04 15:15:31",
+  "total_score": 3550,
+  "backend_payload": {
+    "gameResultID": "051c92d2-eda9-47bd-b475-d2f63b4c707c",
+    "individualScore": [
+      {
+        "userID": "d3a73ccc-8cd6-4947-91de-699101a2ff6f",
+        "nodeID": 1,
+        "score": 889
+      },
+      {
+        "userID": "ad6303bf-bebf-4b71-8368-d14932cbbe54",
+        "nodeID": 2,
+        "score": 887
+      },
+      {
+        "userID": "c853b7ab-30e7-43af-9786-371a367cda2d",
+        "nodeID": 3,
+        "score": 887
+      },
+      {
+        "userID": "5bafb1ec-d452-4c80-99b9-55045132038a",
+        "nodeID": 4,
+        "score": 887
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "team_name": "STAR SECURITY SERVICES LLC",
+  "timestamp": "2025-11-05 16:14:41",
+  "total_score": 1175,
+  "backend_payload": {
+    "gameResultID": "060416d7-9758-4e4a-b21f-372681f317d6",
+    "individualScore": [
+      {
+        "userID": "a94ab4bf-7938-4185-9100-2f0428a76b00",
+        "nodeID": 1,
+        "score": 296
+      },
+      {
+        "userID": "16eeae36-5e26-4109-8f3e-c5084846c2fb",
+        "nodeID": 2,
+        "score": 293
+      },
+      {
+        "userID": "8bd611ab-7db2-4420-868e-d4edb692c07e",
+        "nodeID": 3,
+        "score": 293
+      },
+      {
+        "userID": "8292c785-56b8-4216-92dd-d63f1fc4925c",
+        "nodeID": 4,
+        "score": 293
+      }
+    ]
+  }
+}

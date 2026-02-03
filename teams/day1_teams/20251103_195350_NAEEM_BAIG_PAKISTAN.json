@@ -1,0 +1,30 @@
+{
+  "team_name": "NAEEM BAIG PAKISTAN",
+  "timestamp": "2025-11-03 19:53:50",
+  "total_score": 3450,
+  "backend_payload": {
+    "gameResultID": "7f64ea71-f31c-43f6-a2ee-81ffcb61ac6f",
+    "individualScore": [
+      {
+        "userID": "3aadd9cb-1e6b-4992-9b07-ed09999e0159",
+        "nodeID": 1,
+        "score": 864
+      },
+      {
+        "userID": "bef367f5-a290-4300-859a-32d74e4e8ef8",
+        "nodeID": 2,
+        "score": 862
+      },
+      {
+        "userID": "9deeee92-124a-447f-abd4-fd40ce338c51",
+        "nodeID": 3,
+        "score": 862
+      },
+      {
+        "userID": "002c8333-075c-422a-9489-33e2bd6183ac",
+        "nodeID": 4,
+        "score": 862
+      }
+    ]
+  }
+}

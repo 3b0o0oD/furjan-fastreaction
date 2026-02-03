@@ -1,0 +1,30 @@
+{
+  "team_name": "RTA LADIES TEAM 2",
+  "timestamp": "2025-11-07 00:16:22",
+  "total_score": 13700,
+  "backend_payload": {
+    "gameResultID": "0a21605f-2ea0-479a-9982-ef7d53ff6bf6",
+    "individualScore": [
+      {
+        "userID": "d8c66b80-b051-4182-b00a-930989f43a4d",
+        "nodeID": 1,
+        "score": 3425
+      },
+      {
+        "userID": "8694c273-00fe-4214-a724-e43f5e274d07",
+        "nodeID": 2,
+        "score": 3425
+      },
+      {
+        "userID": "a17d69c8-f88b-424e-b52a-91dd6de77368",
+        "nodeID": 3,
+        "score": 3425
+      },
+      {
+        "userID": "1287e878-3b34-4c18-94dc-e3c4a26bfcdb",
+        "nodeID": 4,
+        "score": 3425
+      }
+    ]
+  }
+}

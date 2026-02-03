@@ -1,0 +1,30 @@
+{
+  "team_name": "FRIENDS",
+  "timestamp": "2025-11-05 01:44:31",
+  "total_score": 8975,
+  "backend_payload": {
+    "gameResultID": "91a85a36-2ac4-41ea-b894-b3ddaac8df9a",
+    "individualScore": [
+      {
+        "userID": "01e67612-7519-427a-bf87-03ffa6f3cea6",
+        "nodeID": 1,
+        "score": 2246
+      },
+      {
+        "userID": "68a8938e-513c-4054-a93a-9700c9c5d53a",
+        "nodeID": 2,
+        "score": 2243
+      },
+      {
+        "userID": "b518f665-a006-4553-bd3f-c77511c3c968",
+        "nodeID": 3,
+        "score": 2243
+      },
+      {
+        "userID": "7758b710-0036-4cad-90a3-9a1d2e648eb4",
+        "nodeID": 4,
+        "score": 2243
+      }
+    ]
+  }
+}

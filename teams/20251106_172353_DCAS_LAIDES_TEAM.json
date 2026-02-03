@@ -1,0 +1,30 @@
+{
+  "team_name": "DCAS LAIDES TEAM",
+  "timestamp": "2025-11-06 17:23:53",
+  "total_score": 1400,
+  "backend_payload": {
+    "gameResultID": "892f0c1d-9e7c-452d-adce-a6faaf48b30b",
+    "individualScore": [
+      {
+        "userID": "f00e8a98-146c-4e86-ab15-23055b9b812e",
+        "nodeID": 1,
+        "score": 350
+      },
+      {
+        "userID": "1bd5d940-4cc2-4847-a592-f300f33555d0",
+        "nodeID": 2,
+        "score": 350
+      },
+      {
+        "userID": "5a8de5c7-267c-4a16-ab37-4cc9e796fc51",
+        "nodeID": 3,
+        "score": 350
+      },
+      {
+        "userID": "c47987be-1d6d-4864-9fba-5359c541185d",
+        "nodeID": 4,
+        "score": 350
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "team_name": "THE VISIONARIES",
+  "timestamp": "2025-11-06 19:07:51",
+  "total_score": 3125,
+  "backend_payload": {
+    "gameResultID": "f5c36a3b-1cd1-4379-899b-c81e7aa6e67a",
+    "individualScore": [
+      {
+        "userID": "f2ea619d-baa7-4644-bce7-dd1a18ec544a",
+        "nodeID": 1,
+        "score": 782
+      },
+      {
+        "userID": "941e78e6-ea7a-42e5-9940-fe7fda79f556",
+        "nodeID": 2,
+        "score": 781
+      },
+      {
+        "userID": "6cd9ba5d-a34f-4cc2-bb57-2d6929eed8dc",
+        "nodeID": 3,
+        "score": 781
+      },
+      {
+        "userID": "6af62f7f-5cf3-49e7-9bc1-77e080d9ab1a",
+        "nodeID": 4,
+        "score": 781
+      }
+    ]
+  }
+}

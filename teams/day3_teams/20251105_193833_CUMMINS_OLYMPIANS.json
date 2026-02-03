@@ -1,0 +1,30 @@
+{
+  "team_name": "CUMMINS OLYMPIANS",
+  "timestamp": "2025-11-05 19:38:33",
+  "total_score": 4875,
+  "backend_payload": {
+    "gameResultID": "e48af475-e31e-4b20-871b-d814d0528871",
+    "individualScore": [
+      {
+        "userID": "fb6cd56b-f532-4c0b-b8fe-440a83b31d4f",
+        "nodeID": 1,
+        "score": 1221
+      },
+      {
+        "userID": "5c585949-acbd-49eb-8ca9-78dccafe4ef9",
+        "nodeID": 2,
+        "score": 1218
+      },
+      {
+        "userID": "01c8a62a-1ac3-46e4-8002-e251f07d2397",
+        "nodeID": 3,
+        "score": 1218
+      },
+      {
+        "userID": "39ea51f4-e569-4800-a398-8205edf37510",
+        "nodeID": 4,
+        "score": 1218
+      }
+    ]
+  }
+}

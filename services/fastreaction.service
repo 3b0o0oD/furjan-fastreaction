@@ -1,0 +1,26 @@
+[Unit]
+Description=Fast Reaction Game - QML Sound Version
+After=network.target graphical-session.target
+Wants=network.target
+
+[Service]
+Type=simple
+User=mic-711
+WorkingDirectory=/home/mic-711/FastReaction
+ExecStart=/usr/bin/python3 /home/mic-711/FastReaction/Fast_Reaction_QML_sound.py
+Restart=always
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+
+# Environment variables for GUI applications
+Environment=DISPLAY=:0
+Environment=XDG_RUNTIME_DIR=/run/user/1000
+Environment=PULSE_RUNTIME_PATH=/run/user/1000/pulse
+Environment=QT_QPA_PLATFORM=xcb
+Environment=QML_IMPORT_PATH=/usr/lib/x86_64-linux-gnu/qt5/qml
+Environment=XAUTHORITY=/home/mic-711/.Xauthority
+
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,30 @@
+{
+  "team_name": "THUNDER FALCONS",
+  "timestamp": "2025-11-05 14:45:24",
+  "total_score": 7575,
+  "backend_payload": {
+    "gameResultID": "d80b0c03-61e6-4a2f-a164-f83c2bdcd4cf",
+    "individualScore": [
+      {
+        "userID": "5dba2e89-95ba-4d34-b0a2-0b2f822eac72",
+        "nodeID": 1,
+        "score": 1896
+      },
+      {
+        "userID": "e7c87bda-bd48-4e64-9a96-b2267f3de371",
+        "nodeID": 2,
+        "score": 1893
+      },
+      {
+        "userID": "369ee622-d368-4cf3-8e96-d3838891509d",
+        "nodeID": 3,
+        "score": 1893
+      },
+      {
+        "userID": "c9ec5edb-27fa-439a-a564-5f18a1f70a3c",
+        "nodeID": 4,
+        "score": 1893
+      }
+    ]
+  }
+}

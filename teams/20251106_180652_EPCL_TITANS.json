@@ -1,0 +1,30 @@
+{
+  "team_name": "EPCL TITANS",
+  "timestamp": "2025-11-06 18:06:52",
+  "total_score": 12450,
+  "backend_payload": {
+    "gameResultID": "18196b05-9418-46e8-9b98-1b1bd311c04d",
+    "individualScore": [
+      {
+        "userID": "30751159-6c78-4545-b89c-afd273c1927d",
+        "nodeID": 1,
+        "score": 3114
+      },
+      {
+        "userID": "8d05288d-2022-4f15-af31-81a3981d9ff3",
+        "nodeID": 2,
+        "score": 3112
+      },
+      {
+        "userID": "265d7be0-6dbb-4ec9-8085-dd502881fe9c",
+        "nodeID": 3,
+        "score": 3112
+      },
+      {
+        "userID": "7b0f5b2e-0fc3-433d-a541-b3ca07ae3775",
+        "nodeID": 4,
+        "score": 3112
+      }
+    ]
+  }
+}

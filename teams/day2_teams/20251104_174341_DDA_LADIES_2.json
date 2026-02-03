@@ -1,0 +1,30 @@
+{
+  "team_name": "DDA LADIES 2",
+  "timestamp": "2025-11-04 17:43:41",
+  "total_score": 5050,
+  "backend_payload": {
+    "gameResultID": "3b793b49-9a6c-47dc-a591-3113a440fff2",
+    "individualScore": [
+      {
+        "userID": "aaec4478-ef81-41d8-b0f8-2e51099cd6ea",
+        "nodeID": 1,
+        "score": 1264
+      },
+      {
+        "userID": "85c58a1c-c603-421d-9544-0e57209a258c",
+        "nodeID": 2,
+        "score": 1262
+      },
+      {
+        "userID": "a1f4d759-2b38-4e78-93c2-e312c040b0cd",
+        "nodeID": 3,
+        "score": 1262
+      },
+      {
+        "userID": "e1d8cbe1-66ba-44ba-a406-d526b5ec0f7a",
+        "nodeID": 4,
+        "score": 1262
+      }
+    ]
+  }
+}

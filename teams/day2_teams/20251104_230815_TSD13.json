@@ -1,0 +1,30 @@
+{
+  "team_name": "TSD13",
+  "timestamp": "2025-11-04 23:08:15",
+  "total_score": 3675,
+  "backend_payload": {
+    "gameResultID": "2bc9972d-8c2d-4ee6-8062-d809e6155bb3",
+    "individualScore": [
+      {
+        "userID": "23f34978-0a17-4eca-a449-521ebaf6f56c",
+        "nodeID": 1,
+        "score": 921
+      },
+      {
+        "userID": "30c7b034-cb34-41b1-a926-2dc0c9f5f525",
+        "nodeID": 2,
+        "score": 918
+      },
+      {
+        "userID": "c874fce0-9329-4033-b6b0-94f1879f998a",
+        "nodeID": 3,
+        "score": 918
+      },
+      {
+        "userID": "3ae7decc-e688-4d73-9dd7-cb15e51437d1",
+        "nodeID": 4,
+        "score": 918
+      }
+    ]
+  }
+}

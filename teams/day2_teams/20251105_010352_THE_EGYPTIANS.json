@@ -1,0 +1,30 @@
+{
+  "team_name": "THE EGYPTIANS",
+  "timestamp": "2025-11-05 01:03:52",
+  "total_score": 50,
+  "backend_payload": {
+    "gameResultID": "6a65fcac-75c3-4c83-9f8a-d8b296df3367",
+    "individualScore": [
+      {
+        "userID": "32cce2ad-0662-472e-8172-c677ca2efebe",
+        "nodeID": 1,
+        "score": 14
+      },
+      {
+        "userID": "88df5ffa-e4fb-45ca-9307-a2e608749477",
+        "nodeID": 2,
+        "score": 12
+      },
+      {
+        "userID": "f84b6553-7770-4e50-a165-31c45a024ed7",
+        "nodeID": 3,
+        "score": 12
+      },
+      {
+        "userID": "5a458e99-1184-42a1-9967-b698fbc643ff",
+        "nodeID": 4,
+        "score": 12
+      }
+    ]
+  }
+}

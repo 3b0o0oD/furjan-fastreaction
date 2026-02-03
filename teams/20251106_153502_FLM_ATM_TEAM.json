@@ -1,0 +1,30 @@
+{
+  "team_name": "FLM ATM TEAM",
+  "timestamp": "2025-11-06 15:35:02",
+  "total_score": 2700,
+  "backend_payload": {
+    "gameResultID": "4570bfe9-6314-4081-8106-f59b8b664d3a",
+    "individualScore": [
+      {
+        "userID": "f23c69d4-1e22-4cb7-bebf-7f9087ea0f34",
+        "nodeID": 1,
+        "score": 675
+      },
+      {
+        "userID": "341e38a3-fb64-46dc-b9e0-8b034bf58d6d",
+        "nodeID": 2,
+        "score": 675
+      },
+      {
+        "userID": "674b43bf-5ba5-4f81-b5c6-f7752bd081a6",
+        "nodeID": 3,
+        "score": 675
+      },
+      {
+        "userID": "f3cb2584-92bd-4546-96f3-3e6257a4a6de",
+        "nodeID": 4,
+        "score": 675
+      }
+    ]
+  }
+}

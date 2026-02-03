@@ -1,0 +1,30 @@
+{
+  "team_name": "CRAZY",
+  "timestamp": "2025-11-04 16:28:16",
+  "total_score": 5900,
+  "backend_payload": {
+    "gameResultID": "ce2722fd-85e6-4d4a-9ae7-2618cbcee9fe",
+    "individualScore": [
+      {
+        "userID": "5894aae0-24fc-43a2-a599-bb29a1b4b7bf",
+        "nodeID": 1,
+        "score": 1475
+      },
+      {
+        "userID": "2482ccf4-e3fa-493b-83d9-49cb7d198d2d",
+        "nodeID": 2,
+        "score": 1475
+      },
+      {
+        "userID": "1fa86e00-5e9e-427b-960a-7bb135e72d93",
+        "nodeID": 3,
+        "score": 1475
+      },
+      {
+        "userID": "008c65d8-d94d-4700-ba0f-a7db114ef620",
+        "nodeID": 4,
+        "score": 1475
+      }
+    ]
+  }
+}

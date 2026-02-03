@@ -1,0 +1,30 @@
+{
+  "team_name": "BEAUTY4",
+  "timestamp": "2025-11-06 22:32:29",
+  "total_score": 11200,
+  "backend_payload": {
+    "gameResultID": "c202fd35-7691-4315-be38-ea825c3efe68",
+    "individualScore": [
+      {
+        "userID": "115e8246-fa8c-419f-92f3-ec27d2a36482",
+        "nodeID": 1,
+        "score": 2800
+      },
+      {
+        "userID": "22c366fe-6a23-4994-bae0-a54a2be9e513",
+        "nodeID": 2,
+        "score": 2800
+      },
+      {
+        "userID": "9c880d56-1081-41bc-858b-38e3ba5276f1",
+        "nodeID": 3,
+        "score": 2800
+      },
+      {
+        "userID": "d64f1740-9cd5-454e-9236-2ad420ecaa24",
+        "nodeID": 4,
+        "score": 2800
+      }
+    ]
+  }
+}

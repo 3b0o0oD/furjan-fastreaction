@@ -1,0 +1,30 @@
+{
+  "team_name": "TEAM QLAQQERS",
+  "timestamp": "2025-11-04 15:33:23",
+  "total_score": 5450,
+  "backend_payload": {
+    "gameResultID": "6af84ecd-47c1-4ec0-bf4c-b065e18c7fdf",
+    "individualScore": [
+      {
+        "userID": "9d4991a6-0009-46dc-b743-8a89dfc4ebf7",
+        "nodeID": 1,
+        "score": 1364
+      },
+      {
+        "userID": "a45cc843-c350-4ade-8518-447be6fa910e",
+        "nodeID": 2,
+        "score": 1362
+      },
+      {
+        "userID": "2d8b8948-c1c9-4402-a7a3-6e05c94656b3",
+        "nodeID": 3,
+        "score": 1362
+      },
+      {
+        "userID": "a5fb56af-5801-4230-9631-d786fa26f870",
+        "nodeID": 4,
+        "score": 1362
+      }
+    ]
+  }
+}

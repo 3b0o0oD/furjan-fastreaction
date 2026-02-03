@@ -1,0 +1,30 @@
+{
+  "team_name": "TSD 32",
+  "timestamp": "2025-11-06 16:59:20",
+  "total_score": 1525,
+  "backend_payload": {
+    "gameResultID": "be521f4a-b0a9-4217-a24e-f7d7a8819ddd",
+    "individualScore": [
+      {
+        "userID": "331ff20c-90f3-4b6c-8313-4667e3a4a454",
+        "nodeID": 1,
+        "score": 382
+      },
+      {
+        "userID": "925fd3e4-f1d6-49d7-b622-e11be731b4d1",
+        "nodeID": 2,
+        "score": 381
+      },
+      {
+        "userID": "98f515f4-c996-4449-a33a-c60f63fc276e",
+        "nodeID": 3,
+        "score": 381
+      },
+      {
+        "userID": "05410f29-852e-4656-a1e9-7b1c4f513887",
+        "nodeID": 4,
+        "score": 381
+      }
+    ]
+  }
+}

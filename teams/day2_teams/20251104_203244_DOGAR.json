@@ -1,0 +1,30 @@
+{
+  "team_name": "DOGAR",
+  "timestamp": "2025-11-04 20:32:44",
+  "total_score": 5525,
+  "backend_payload": {
+    "gameResultID": "30b2e228-afba-4128-a4a4-4027a651c9fd",
+    "individualScore": [
+      {
+        "userID": "35ca2b83-4a89-4c8c-9b41-c4a661b055e4",
+        "nodeID": 1,
+        "score": 1382
+      },
+      {
+        "userID": "f6854014-4db8-43c0-a2d4-916acdf63c2e",
+        "nodeID": 2,
+        "score": 1381
+      },
+      {
+        "userID": "a727a969-c857-41fb-a6da-aa0636fa4ddb",
+        "nodeID": 3,
+        "score": 1381
+      },
+      {
+        "userID": "cadc0089-25d8-4cfe-a5bc-37a8c2aa838d",
+        "nodeID": 4,
+        "score": 1381
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "team_name": "COSMO",
+  "timestamp": "2025-11-03 21:55:24",
+  "total_score": 2825,
+  "backend_payload": {
+    "gameResultID": "23766c44-30bf-4832-8d70-8d451eb8d381",
+    "individualScore": [
+      {
+        "userID": "2693b45a-02ba-4056-ab01-d46e05bdb214",
+        "nodeID": 1,
+        "score": 707
+      },
+      {
+        "userID": "00394aa5-7c91-4334-be85-0aa47e8b35d2",
+        "nodeID": 2,
+        "score": 706
+      },
+      {
+        "userID": "361b03fd-84ed-450f-a2a1-3f2de8330bad",
+        "nodeID": 3,
+        "score": 706
+      },
+      {
+        "userID": "47200584-67cd-4d46-884c-366f8a656bfd",
+        "nodeID": 4,
+        "score": 706
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "team_name": "INDIANS",
+  "timestamp": "2025-11-05 00:04:20",
+  "total_score": 5800,
+  "backend_payload": {
+    "gameResultID": "8e41de33-4ff3-43e2-a529-c7e466880383",
+    "individualScore": [
+      {
+        "userID": "5c487e93-86bb-46b0-b632-77cabfc33a8a",
+        "nodeID": 1,
+        "score": 1450
+      },
+      {
+        "userID": "3f9c91ac-8db1-4444-a20f-c848a2b9c9b6",
+        "nodeID": 2,
+        "score": 1450
+      },
+      {
+        "userID": "06ec7ff1-426c-408f-aa54-91aeeb27c936",
+        "nodeID": 3,
+        "score": 1450
+      },
+      {
+        "userID": "7be46ba1-fd58-42f2-9475-c69e3417693a",
+        "nodeID": 4,
+        "score": 1450
+      }
+    ]
+  }
+}

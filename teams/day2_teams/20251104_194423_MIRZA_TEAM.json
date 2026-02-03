@@ -1,0 +1,30 @@
+{
+  "team_name": "MIRZA TEAM",
+  "timestamp": "2025-11-04 19:44:23",
+  "total_score": 11575,
+  "backend_payload": {
+    "gameResultID": "6d507a57-919f-4816-95d5-ffb139705062",
+    "individualScore": [
+      {
+        "userID": "a7c26adb-f449-4d1d-b68a-413aaf367143",
+        "nodeID": 1,
+        "score": 2896
+      },
+      {
+        "userID": "bc4ac946-c217-43ce-804f-98b882a5537b",
+        "nodeID": 2,
+        "score": 2893
+      },
+      {
+        "userID": "eb6aede5-d86a-4e01-ad98-e9116eb219ed",
+        "nodeID": 3,
+        "score": 2893
+      },
+      {
+        "userID": "eb01a119-84de-41db-b797-0d99f563f1e9",
+        "nodeID": 4,
+        "score": 2893
+      }
+    ]
+  }
+}

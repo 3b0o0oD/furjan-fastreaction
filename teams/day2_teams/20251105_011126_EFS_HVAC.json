@@ -1,0 +1,30 @@
+{
+  "team_name": "EFS HVAC",
+  "timestamp": "2025-11-05 01:11:26",
+  "total_score": 2800,
+  "backend_payload": {
+    "gameResultID": "a2def58b-e96c-4649-82a3-c86182bea12f",
+    "individualScore": [
+      {
+        "userID": "ca5ed98a-c43f-438e-9e77-79bc1c8257c0",
+        "nodeID": 1,
+        "score": 700
+      },
+      {
+        "userID": "a41cc490-dcea-42e2-ae6a-3751d6eb6ca0",
+        "nodeID": 2,
+        "score": 700
+      },
+      {
+        "userID": "c28c7dda-d9bd-40fb-bf3c-29c9bb8fdafa",
+        "nodeID": 3,
+        "score": 700
+      },
+      {
+        "userID": "361fa7b4-b58b-40f8-b6ca-231b0d152892",
+        "nodeID": 4,
+        "score": 700
+      }
+    ]
+  }
+}

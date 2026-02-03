@@ -1,0 +1,30 @@
+{
+  "team_name": "TRANSGUARD RISERS 2",
+  "timestamp": "2025-11-03 21:08:59",
+  "total_score": 11150,
+  "backend_payload": {
+    "gameResultID": "38729992-7188-4004-95c9-45c7b26deb7d",
+    "individualScore": [
+      {
+        "userID": "e5f6337b-047d-4097-a53e-f93ae2ea680d",
+        "nodeID": 1,
+        "score": 2789
+      },
+      {
+        "userID": "dfba0651-92c8-404a-ada0-40222b796135",
+        "nodeID": 2,
+        "score": 2787
+      },
+      {
+        "userID": "a9b1d69c-79a4-4ddf-9722-e835c6a1951a",
+        "nodeID": 3,
+        "score": 2787
+      },
+      {
+        "userID": "939255d6-6155-4477-a057-4904065df0a5",
+        "nodeID": 4,
+        "score": 2787
+      }
+    ]
+  }
+}

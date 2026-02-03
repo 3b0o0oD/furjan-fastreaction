@@ -1,0 +1,30 @@
+{
+  "team_name": "TRANSGUARD NOTCH",
+  "timestamp": "2025-11-03 22:04:33",
+  "total_score": 7725,
+  "backend_payload": {
+    "gameResultID": "3969a61c-2515-4946-ae6a-cf6983fe24ea",
+    "individualScore": [
+      {
+        "userID": "c83755d6-296a-48cf-bd67-20afd228f1ff",
+        "nodeID": 1,
+        "score": 1932
+      },
+      {
+        "userID": "e9e1253e-e2be-43e3-ac5f-ccd48e2b37ec",
+        "nodeID": 2,
+        "score": 1931
+      },
+      {
+        "userID": "e9becd48-7c56-4435-8f4f-dd402b979a1b",
+        "nodeID": 3,
+        "score": 1931
+      },
+      {
+        "userID": "a4099237-1c46-4807-b1ef-2457782336f1",
+        "nodeID": 4,
+        "score": 1931
+      }
+    ]
+  }
+}

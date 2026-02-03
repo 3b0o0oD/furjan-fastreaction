@@ -1,0 +1,30 @@
+{
+  "team_name": "DP-D18-B-VIP1",
+  "timestamp": "2025-11-04 15:42:21",
+  "total_score": 3075,
+  "backend_payload": {
+    "gameResultID": "aab0cbc6-b786-4a08-8fd9-7c1966d3a7ae",
+    "individualScore": [
+      {
+        "userID": "82c9c5e2-f24b-4b99-81c3-1645ebfec467",
+        "nodeID": 1,
+        "score": 771
+      },
+      {
+        "userID": "69e0c295-c383-46e0-bea8-3250e2b9bcec",
+        "nodeID": 2,
+        "score": 768
+      },
+      {
+        "userID": "6372fec7-3c94-4f4e-b1df-4b80f4d40c1f",
+        "nodeID": 3,
+        "score": 768
+      },
+      {
+        "userID": "bbc38de8-b914-429d-8727-6a0031ad63dd",
+        "nodeID": 4,
+        "score": 768
+      }
+    ]
+  }
+}

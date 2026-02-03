@@ -1,0 +1,30 @@
+{
+  "team_name": "VIP2",
+  "timestamp": "2025-11-06 15:00:37",
+  "total_score": 9375,
+  "backend_payload": {
+    "gameResultID": "72d5ef58-2f85-4dbb-8de2-c42f2a761186",
+    "individualScore": [
+      {
+        "userID": "f21f652e-f44b-4efc-bb8a-bdc4b13481ad",
+        "nodeID": 1,
+        "score": 2346
+      },
+      {
+        "userID": "68659072-89bc-4ade-8623-4ae67093163b",
+        "nodeID": 2,
+        "score": 2343
+      },
+      {
+        "userID": "c8e0a5a5-4d5b-46ac-99f2-156f398b36c7",
+        "nodeID": 3,
+        "score": 2343
+      },
+      {
+        "userID": "50717eb4-db66-432c-8078-d70131357457",
+        "nodeID": 4,
+        "score": 2343
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "team_name": "DIGITAL DUBAILEDES",
+  "timestamp": "2025-11-03 17:56:16",
+  "total_score": 7400,
+  "backend_payload": {
+    "gameResultID": "89bac738-0881-4f17-b498-3a68a256f092",
+    "individualScore": [
+      {
+        "userID": "4cc76b06-bfb7-4448-a0ba-4712592f3aab",
+        "nodeID": 1,
+        "score": 1850
+      },
+      {
+        "userID": "a1f4d759-2b38-4e78-93c2-e312c040b0cd",
+        "nodeID": 2,
+        "score": 1850
+      },
+      {
+        "userID": "e1d8cbe1-66ba-44ba-a406-d526b5ec0f7a",
+        "nodeID": 3,
+        "score": 1850
+      },
+      {
+        "userID": "2bf69bcd-47ef-4533-adc4-36a2574bc400",
+        "nodeID": 4,
+        "score": 1850
+      }
+    ]
+  }
+}

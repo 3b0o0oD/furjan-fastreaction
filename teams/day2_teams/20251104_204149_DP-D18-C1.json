@@ -1,0 +1,30 @@
+{
+  "team_name": "DP-D18-C1",
+  "timestamp": "2025-11-04 20:41:49",
+  "total_score": 2575,
+  "backend_payload": {
+    "gameResultID": "2f5e7e33-ba64-4208-8fa7-e3cb1740bddc",
+    "individualScore": [
+      {
+        "userID": "ebb28a61-6598-4e62-92ba-caaf280c5717",
+        "nodeID": 1,
+        "score": 646
+      },
+      {
+        "userID": "92980d47-4de8-47b4-860c-d519e28ec99d",
+        "nodeID": 2,
+        "score": 643
+      },
+      {
+        "userID": "53c73ba8-c485-462d-b243-9e214c7f9fd9",
+        "nodeID": 3,
+        "score": 643
+      },
+      {
+        "userID": "78c4d948-d708-417e-b0ec-093e129a63df",
+        "nodeID": 4,
+        "score": 643
+      }
+    ]
+  }
+}

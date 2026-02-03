@@ -1,0 +1,30 @@
+{
+  "team_name": "SYED ALI MASHHAD",
+  "timestamp": "2025-11-05 21:43:06",
+  "total_score": 4275,
+  "backend_payload": {
+    "gameResultID": "76a5be15-3776-4654-b503-d4d68bb84ace",
+    "individualScore": [
+      {
+        "userID": "e8dcddb1-6fd5-4bb2-b024-364000e1f13e",
+        "nodeID": 1,
+        "score": 1071
+      },
+      {
+        "userID": "df287689-9d30-4faf-af75-9a505748dff2",
+        "nodeID": 2,
+        "score": 1068
+      },
+      {
+        "userID": "503d6a04-8749-4525-bc28-4f3474569ccd",
+        "nodeID": 3,
+        "score": 1068
+      },
+      {
+        "userID": "0410495d-f071-4a3f-8f31-7ee35be0d87d",
+        "nodeID": 4,
+        "score": 1068
+      }
+    ]
+  }
+}

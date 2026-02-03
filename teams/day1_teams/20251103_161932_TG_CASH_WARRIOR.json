@@ -1,0 +1,30 @@
+{
+  "team_name": "TG CASH WARRIOR",
+  "timestamp": "2025-11-03 16:19:32",
+  "total_score": 4575,
+  "backend_payload": {
+    "gameResultID": "022de14d-a65d-42db-8611-40df5766ffed",
+    "individualScore": [
+      {
+        "userID": "cd600a90-de38-4437-b37a-9320b41e6a55",
+        "nodeID": 1,
+        "score": 1146
+      },
+      {
+        "userID": "b43efd02-48b8-4590-b3dd-d7cbe1cbf220",
+        "nodeID": 2,
+        "score": 1143
+      },
+      {
+        "userID": "7586f6ab-0d72-4445-9678-395d08f9b279",
+        "nodeID": 3,
+        "score": 1143
+      },
+      {
+        "userID": "14f8c89f-ed01-4d0a-a473-7da0e6b276e1",
+        "nodeID": 4,
+        "score": 1143
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "team_name": "WOLF PACK",
+  "timestamp": "2025-11-07 00:32:14",
+  "total_score": 5250,
+  "backend_payload": {
+    "gameResultID": "c4132fdb-d0e2-4c49-aae2-661643520126",
+    "individualScore": [
+      {
+        "userID": "76b5a4d6-6521-4c51-b89b-7b1b5a4e1e11",
+        "nodeID": 1,
+        "score": 1314
+      },
+      {
+        "userID": "639ae411-4685-4108-87e0-2b45bdf01fff",
+        "nodeID": 2,
+        "score": 1312
+      },
+      {
+        "userID": "f9d1dcd4-eed5-4df1-8e3c-8972d2c4122f",
+        "nodeID": 3,
+        "score": 1312
+      },
+      {
+        "userID": "e432a8f3-d2bd-4276-8246-e092c0fc9766",
+        "nodeID": 4,
+        "score": 1312
+      }
+    ]
+  }
+}

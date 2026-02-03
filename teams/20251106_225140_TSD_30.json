@@ -1,0 +1,30 @@
+{
+  "team_name": "TSD 30",
+  "timestamp": "2025-11-06 22:51:40",
+  "total_score": 4225,
+  "backend_payload": {
+    "gameResultID": "a2e20525-0d8f-47aa-9a85-5422f6e58a32",
+    "individualScore": [
+      {
+        "userID": "30d00b72-bc85-4bf1-a92c-3ae5978b0474",
+        "nodeID": 1,
+        "score": 1057
+      },
+      {
+        "userID": "da32fed6-322d-484a-bbc4-73428a4ef789",
+        "nodeID": 2,
+        "score": 1056
+      },
+      {
+        "userID": "662794ad-7385-471f-a606-055c3692b523",
+        "nodeID": 3,
+        "score": 1056
+      },
+      {
+        "userID": "b77b11d3-fa0f-44b3-ba8b-fa13f1e24c11",
+        "nodeID": 4,
+        "score": 1056
+      }
+    ]
+  }
+}

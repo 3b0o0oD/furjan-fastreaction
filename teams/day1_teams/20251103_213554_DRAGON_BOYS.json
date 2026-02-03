@@ -1,0 +1,30 @@
+{
+  "team_name": "DRAGON BOYS",
+  "timestamp": "2025-11-03 21:35:54",
+  "total_score": 2650,
+  "backend_payload": {
+    "gameResultID": "f36b40ff-3edd-46cd-82d5-5ec037a43bd7",
+    "individualScore": [
+      {
+        "userID": "28887890-bc93-40fa-81ff-ad18677fd89e",
+        "nodeID": 1,
+        "score": 664
+      },
+      {
+        "userID": "08626aab-36fa-4889-8054-a07e993476b3",
+        "nodeID": 2,
+        "score": 662
+      },
+      {
+        "userID": "91ca08c3-7760-4aa1-b0f3-5c6a0dce9aaa",
+        "nodeID": 3,
+        "score": 662
+      },
+      {
+        "userID": "24925da7-45f0-4753-8e2e-31a69200283d",
+        "nodeID": 4,
+        "score": 662
+      }
+    ]
+  }
+}

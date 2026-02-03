@@ -1,0 +1,30 @@
+{
+  "team_name": "FLM 04",
+  "timestamp": "2025-11-06 17:46:06",
+  "total_score": 2625,
+  "backend_payload": {
+    "gameResultID": "ba0164a3-ffbc-4f7f-bff4-9523e8913f98",
+    "individualScore": [
+      {
+        "userID": "f8e3911d-b3df-43ae-a5f0-3e05ca4fc39e",
+        "nodeID": 1,
+        "score": 657
+      },
+      {
+        "userID": "f6c67ff5-b23a-40ef-b308-29e29c18d8b5",
+        "nodeID": 2,
+        "score": 656
+      },
+      {
+        "userID": "ec66148d-96f4-41f5-98c5-59b27c0b23b7",
+        "nodeID": 3,
+        "score": 656
+      },
+      {
+        "userID": "be399760-9ae4-4650-9893-88f1f3e87072",
+        "nodeID": 4,
+        "score": 656
+      }
+    ]
+  }
+}

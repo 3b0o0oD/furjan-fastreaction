@@ -1,0 +1,30 @@
+{
+  "team_name": "TEAM SPARK",
+  "timestamp": "2025-11-06 00:52:52",
+  "total_score": 8875,
+  "backend_payload": {
+    "gameResultID": "449c1c64-b21c-485e-a00e-619490627ef0",
+    "individualScore": [
+      {
+        "userID": "649a9f77-9141-4f95-ac01-c9c42dfa639d",
+        "nodeID": 1,
+        "score": 2221
+      },
+      {
+        "userID": "b80d6491-77cb-46fe-8219-f519af900f55",
+        "nodeID": 2,
+        "score": 2218
+      },
+      {
+        "userID": "1b62f592-80ca-42f9-9ce6-55891e952314",
+        "nodeID": 3,
+        "score": 2218
+      },
+      {
+        "userID": "2f2a900f-8f29-426d-8655-af76b4966542",
+        "nodeID": 4,
+        "score": 2218
+      }
+    ]
+  }
+}

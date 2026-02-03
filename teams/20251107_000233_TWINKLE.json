@@ -1,0 +1,30 @@
+{
+  "team_name": "TWINKLE",
+  "timestamp": "2025-11-07 00:02:33",
+  "total_score": 1350,
+  "backend_payload": {
+    "gameResultID": "2fe9166b-8bc3-4f67-8595-4098b89534dd",
+    "individualScore": [
+      {
+        "userID": "d4082aa7-1983-48c6-a2ea-1f65593e5d1c",
+        "nodeID": 1,
+        "score": 339
+      },
+      {
+        "userID": "a53bac86-c115-476d-a9cf-da3428a2b033",
+        "nodeID": 2,
+        "score": 337
+      },
+      {
+        "userID": "46073c96-f199-4954-85d4-f502da7418db",
+        "nodeID": 3,
+        "score": 337
+      },
+      {
+        "userID": "8e9a1c44-5e88-400d-83b1-4f533a7842d2",
+        "nodeID": 4,
+        "score": 337
+      }
+    ]
+  }
+}

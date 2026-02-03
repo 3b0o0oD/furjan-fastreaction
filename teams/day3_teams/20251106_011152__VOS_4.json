@@ -1,0 +1,30 @@
+{
+  "team_name": " VOS 4",
+  "timestamp": "2025-11-06 01:11:52",
+  "total_score": 8300,
+  "backend_payload": {
+    "gameResultID": "e529b261-9f98-4d3e-846d-bf3c57d6bf98",
+    "individualScore": [
+      {
+        "userID": "bd3f2cc1-8785-46ec-b050-02b22930d30c",
+        "nodeID": 1,
+        "score": 2075
+      },
+      {
+        "userID": "759fbf5e-36ac-476a-9b22-e1f6e8d3599d",
+        "nodeID": 2,
+        "score": 2075
+      },
+      {
+        "userID": "9360ce7d-e891-49bb-8574-31f12d2eb251",
+        "nodeID": 3,
+        "score": 2075
+      },
+      {
+        "userID": "4ef2e883-e053-417f-a95f-bf3f31c32f3b",
+        "nodeID": 4,
+        "score": 2075
+      }
+    ]
+  }
+}

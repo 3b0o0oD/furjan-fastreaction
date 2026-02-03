@@ -1,0 +1,30 @@
+{
+  "team_name": "AL AMEEN",
+  "timestamp": "2025-11-06 16:47:06",
+  "total_score": 1250,
+  "backend_payload": {
+    "gameResultID": "28ab2965-fbca-436a-9027-458444b00c15",
+    "individualScore": [
+      {
+        "userID": "39c3b810-7870-4aef-aba9-7317ca2e544a",
+        "nodeID": 1,
+        "score": 314
+      },
+      {
+        "userID": "90f277ca-5b9b-43ec-9ffd-1da56a93700d",
+        "nodeID": 2,
+        "score": 312
+      },
+      {
+        "userID": "519bb585-51be-414a-9779-6e22a0036c58",
+        "nodeID": 3,
+        "score": 312
+      },
+      {
+        "userID": "42051d08-37b3-4bd6-a7c0-2f81f1b234ea",
+        "nodeID": 4,
+        "score": 312
+      }
+    ]
+  }
+}

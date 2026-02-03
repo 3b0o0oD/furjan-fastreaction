@@ -1,0 +1,30 @@
+{
+  "team_name": "NAIF CASTLE",
+  "timestamp": "2025-11-06 16:06:47",
+  "total_score": 1950,
+  "backend_payload": {
+    "gameResultID": "a3870e5c-631f-4cae-be44-0e7d243d9862",
+    "individualScore": [
+      {
+        "userID": "79f813cb-dd96-4733-aac5-7acaa775d832",
+        "nodeID": 1,
+        "score": 489
+      },
+      {
+        "userID": "4d244aba-8b7d-4d79-8050-17a1b84f688c",
+        "nodeID": 2,
+        "score": 487
+      },
+      {
+        "userID": "71050796-83fb-460f-942b-1fd66a8251e5",
+        "nodeID": 3,
+        "score": 487
+      },
+      {
+        "userID": "6eefe89c-66fd-4e36-8c48-048aab509864",
+        "nodeID": 4,
+        "score": 487
+      }
+    ]
+  }
+}

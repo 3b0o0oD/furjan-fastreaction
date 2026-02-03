@@ -1,0 +1,30 @@
+{
+  "team_name": "INFINITY GUYS",
+  "timestamp": "2025-11-05 23:53:44",
+  "total_score": 14450,
+  "backend_payload": {
+    "gameResultID": "1632c1e4-aa02-4f62-bfd7-dafadba03a8d",
+    "individualScore": [
+      {
+        "userID": "85560cf2-c8cd-4092-9c4d-b5643a4c4d51",
+        "nodeID": 1,
+        "score": 3614
+      },
+      {
+        "userID": "cc51edf6-68a9-45fe-a5b3-3e39102ed080",
+        "nodeID": 2,
+        "score": 3612
+      },
+      {
+        "userID": "76382b7a-b612-4682-aa75-9af46f162027",
+        "nodeID": 3,
+        "score": 3612
+      },
+      {
+        "userID": "27cab3cf-6a31-4926-9242-56553af137d6",
+        "nodeID": 4,
+        "score": 3612
+      }
+    ]
+  }
+}

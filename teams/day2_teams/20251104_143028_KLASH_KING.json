@@ -1,0 +1,30 @@
+{
+  "team_name": "KLASH KING",
+  "timestamp": "2025-11-04 14:30:28",
+  "total_score": 2425,
+  "backend_payload": {
+    "gameResultID": "bae984aa-83ba-4c0c-8f87-a415fb01e3f1",
+    "individualScore": [
+      {
+        "userID": "9d4991a6-0009-46dc-b743-8a89dfc4ebf7",
+        "nodeID": 1,
+        "score": 607
+      },
+      {
+        "userID": "7ac5a724-7bcb-49ed-b196-627cffdfb0fe",
+        "nodeID": 2,
+        "score": 606
+      },
+      {
+        "userID": "7a2cff4a-603b-4673-a9f9-bfa6a7ae0021",
+        "nodeID": 3,
+        "score": 606
+      },
+      {
+        "userID": "b231cfc0-9a0b-4821-b11e-beae0eb28b0a",
+        "nodeID": 4,
+        "score": 606
+      }
+    ]
+  }
+}

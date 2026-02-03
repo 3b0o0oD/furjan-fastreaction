@@ -1,0 +1,30 @@
+{
+  "team_name": "DUBAI CUSTOMS MEN -A",
+  "timestamp": "2025-11-03 19:17:27",
+  "total_score": 9150,
+  "backend_payload": {
+    "gameResultID": "dd33a1e6-95bf-429d-a280-fb2468cdba03",
+    "individualScore": [
+      {
+        "userID": "d8dd4b7a-9d32-41f0-b382-5dbff76b9ec2",
+        "nodeID": 1,
+        "score": 2289
+      },
+      {
+        "userID": "37c11bc7-9626-4923-b6e0-cea7181fb2b2",
+        "nodeID": 2,
+        "score": 2287
+      },
+      {
+        "userID": "ffce6be6-8915-4ee5-8f1a-4714d191b6f9",
+        "nodeID": 3,
+        "score": 2287
+      },
+      {
+        "userID": "102a63d8-c5ea-4e38-aad8-c3d1c1eb2635",
+        "nodeID": 4,
+        "score": 2287
+      }
+    ]
+  }
+}

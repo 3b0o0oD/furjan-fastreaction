@@ -1,0 +1,30 @@
+{
+  "team_name": "VIOLENT AZAZINZ",
+  "timestamp": "2025-11-04 17:27:13",
+  "total_score": 5425,
+  "backend_payload": {
+    "gameResultID": "ba5500d3-d837-46fe-b96a-7164868ca5cc",
+    "individualScore": [
+      {
+        "userID": "2f9a3648-03f8-41fa-a16d-f6b0b0ac82f2",
+        "nodeID": 1,
+        "score": 1357
+      },
+      {
+        "userID": "8a7d44a5-ab16-4915-92ac-5c3542825cc8",
+        "nodeID": 2,
+        "score": 1356
+      },
+      {
+        "userID": "9550fd88-6677-407c-aa59-759db18b613f",
+        "nodeID": 3,
+        "score": 1356
+      },
+      {
+        "userID": "40761966-6bcf-462d-96a9-074a4b2bcd24",
+        "nodeID": 4,
+        "score": 1356
+      }
+    ]
+  }
+}

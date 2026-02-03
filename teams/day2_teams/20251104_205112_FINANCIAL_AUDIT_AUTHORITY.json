@@ -1,0 +1,30 @@
+{
+  "team_name": "FINANCIAL AUDIT AUTHORITY",
+  "timestamp": "2025-11-04 20:51:12",
+  "total_score": 5000,
+  "backend_payload": {
+    "gameResultID": "59156cb4-28ee-4704-b680-3c7b7529effd",
+    "individualScore": [
+      {
+        "userID": "05985a76-5cfc-4065-baaf-ac45cab72f57",
+        "nodeID": 1,
+        "score": 1250
+      },
+      {
+        "userID": "78f5a6f8-f091-4e2b-b672-c7b245cb57f0",
+        "nodeID": 2,
+        "score": 1250
+      },
+      {
+        "userID": "17760bc3-dd15-4558-8b24-6e11f2ed258d",
+        "nodeID": 3,
+        "score": 1250
+      },
+      {
+        "userID": "44662701-a7c1-4043-909b-694b647451cc",
+        "nodeID": 4,
+        "score": 1250
+      }
+    ]
+  }
+}

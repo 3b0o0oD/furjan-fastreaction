@@ -1,0 +1,30 @@
+{
+  "team_name": "UNICORNS",
+  "timestamp": "2025-11-07 00:36:18",
+  "total_score": 1875,
+  "backend_payload": {
+    "gameResultID": "1db53fec-9245-4fec-bcdc-0395ba51c0a4",
+    "individualScore": [
+      {
+        "userID": "d7d10a7d-5069-49d0-86ea-3a4cb96b5376",
+        "nodeID": 1,
+        "score": 471
+      },
+      {
+        "userID": "4f853c41-33e3-4bf5-a909-02198c5ff674",
+        "nodeID": 2,
+        "score": 468
+      },
+      {
+        "userID": "88936172-2917-44db-b847-06589629ae70",
+        "nodeID": 3,
+        "score": 468
+      },
+      {
+        "userID": "3ff171a0-387c-4959-be99-d14bdf0f8457",
+        "nodeID": 4,
+        "score": 468
+      }
+    ]
+  }
+}

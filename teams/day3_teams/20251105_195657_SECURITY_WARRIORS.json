@@ -1,0 +1,30 @@
+{
+  "team_name": "SECURITY WARRIORS",
+  "timestamp": "2025-11-05 19:56:57",
+  "total_score": 350,
+  "backend_payload": {
+    "gameResultID": "cd4ecbcc-23ac-473d-88f2-4474a72995a9",
+    "individualScore": [
+      {
+        "userID": "48b9573e-6041-4bd5-b456-090ff9eba131",
+        "nodeID": 1,
+        "score": 89
+      },
+      {
+        "userID": "ddb05585-e9fd-4198-b58e-d2d5fe390f36",
+        "nodeID": 2,
+        "score": 87
+      },
+      {
+        "userID": "071d2a21-3833-426d-9ff3-af3a53fde8aa",
+        "nodeID": 3,
+        "score": 87
+      },
+      {
+        "userID": "0583d0fd-0162-44d1-b4d4-b06a80c1568b",
+        "nodeID": 4,
+        "score": 87
+      }
+    ]
+  }
+}

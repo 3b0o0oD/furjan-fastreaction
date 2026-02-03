@@ -1,0 +1,30 @@
+{
+  "team_name": "PALABAN",
+  "timestamp": "2025-11-05 00:00:14",
+  "total_score": 5600,
+  "backend_payload": {
+    "gameResultID": "f42f7798-b542-4480-a37a-3ec42a317cd5",
+    "individualScore": [
+      {
+        "userID": "2f2a900f-8f29-426d-8655-af76b4966542",
+        "nodeID": 1,
+        "score": 1400
+      },
+      {
+        "userID": "0dfd64dd-70ed-4a9d-8af8-b56b3a4b796b",
+        "nodeID": 2,
+        "score": 1400
+      },
+      {
+        "userID": "db7ccee5-e895-46a1-a61d-c06d971108b7",
+        "nodeID": 3,
+        "score": 1400
+      },
+      {
+        "userID": "e6d73f52-ce94-427b-ac0e-b60143a65f8e",
+        "nodeID": 4,
+        "score": 1400
+      }
+    ]
+  }
+}

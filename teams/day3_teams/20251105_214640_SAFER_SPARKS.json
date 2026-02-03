@@ -1,0 +1,30 @@
+{
+  "team_name": "SAFER SPARKS",
+  "timestamp": "2025-11-05 21:46:40",
+  "total_score": 6850,
+  "backend_payload": {
+    "gameResultID": "29f05040-01d2-4fed-9318-c8976beb7a67",
+    "individualScore": [
+      {
+        "userID": "b4a449b7-c88d-4a8d-b7c9-33bffeffc6ac",
+        "nodeID": 1,
+        "score": 1714
+      },
+      {
+        "userID": "e32d9857-f87d-4ec0-9830-51e7f9e35337",
+        "nodeID": 2,
+        "score": 1712
+      },
+      {
+        "userID": "fb495802-4474-451b-a947-552c411475fe",
+        "nodeID": 3,
+        "score": 1712
+      },
+      {
+        "userID": "93405c10-af0a-4210-b4fe-833efc6f47f6",
+        "nodeID": 4,
+        "score": 1712
+      }
+    ]
+  }
+}

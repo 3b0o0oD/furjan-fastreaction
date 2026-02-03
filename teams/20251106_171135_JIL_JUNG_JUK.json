@@ -1,0 +1,30 @@
+{
+  "team_name": "JIL JUNG JUK",
+  "timestamp": "2025-11-06 17:11:35",
+  "total_score": 8375,
+  "backend_payload": {
+    "gameResultID": "988270e3-5f68-445b-a560-1c4fb7eedf2a",
+    "individualScore": [
+      {
+        "userID": "e7a10f3b-1e82-40c5-abe1-fb7b1fb1d4f1",
+        "nodeID": 1,
+        "score": 2096
+      },
+      {
+        "userID": "0674bd19-0dc9-491c-a837-55f803012b19",
+        "nodeID": 2,
+        "score": 2093
+      },
+      {
+        "userID": "bd58dcc3-23cd-4f09-bfb5-1c4a64f9a651",
+        "nodeID": 3,
+        "score": 2093
+      },
+      {
+        "userID": "0b453c75-79e4-4974-8d50-a427a79d2bf4",
+        "nodeID": 4,
+        "score": 2093
+      }
+    ]
+  }
+}

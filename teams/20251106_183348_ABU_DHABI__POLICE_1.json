@@ -1,0 +1,30 @@
+{
+  "team_name": "ABU DHABI  POLICE 1",
+  "timestamp": "2025-11-06 18:33:48",
+  "total_score": 800,
+  "backend_payload": {
+    "gameResultID": "8557dbe5-a79e-466d-94ba-95d902da625a",
+    "individualScore": [
+      {
+        "userID": "cb07cfd7-0d66-4c0b-9c29-7514101fe541",
+        "nodeID": 1,
+        "score": 200
+      },
+      {
+        "userID": "da0c9565-a712-47bc-bd7f-c54b2abb3c46",
+        "nodeID": 2,
+        "score": 200
+      },
+      {
+        "userID": "2b18f394-81d4-41d0-ad16-ba53882c67f2",
+        "nodeID": 3,
+        "score": 200
+      },
+      {
+        "userID": "770cf54c-e7db-4034-83ab-7ccb73195799",
+        "nodeID": 4,
+        "score": 200
+      }
+    ]
+  }
+}

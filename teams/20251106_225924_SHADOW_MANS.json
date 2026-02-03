@@ -1,0 +1,30 @@
+{
+  "team_name": "SHADOW MANS",
+  "timestamp": "2025-11-06 22:59:24",
+  "total_score": 11700,
+  "backend_payload": {
+    "gameResultID": "024f24d1-fb2a-4af3-9ce0-5e09b0d97ad3",
+    "individualScore": [
+      {
+        "userID": "16464b48-8c6d-4d71-9024-ca838fb25b8a",
+        "nodeID": 1,
+        "score": 2925
+      },
+      {
+        "userID": "34cdc9f3-9ef1-4d03-83de-c45cb96093e5",
+        "nodeID": 2,
+        "score": 2925
+      },
+      {
+        "userID": "cac750fa-d784-4d75-922c-60ece837d69c",
+        "nodeID": 3,
+        "score": 2925
+      },
+      {
+        "userID": "ea1439ca-ee88-45b6-b536-3b52edca0d20",
+        "nodeID": 4,
+        "score": 2925
+      }
+    ]
+  }
+}

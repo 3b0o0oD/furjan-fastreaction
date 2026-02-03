@@ -1,0 +1,30 @@
+{
+  "team_name": "DIGITAL DUBAI M2",
+  "timestamp": "2025-11-04 18:27:24",
+  "total_score": 3350,
+  "backend_payload": {
+    "gameResultID": "ccc4a567-dd34-4670-9990-045947759ef0",
+    "individualScore": [
+      {
+        "userID": "9fc16938-1cf6-4ff8-9cf1-78b90ca6475a",
+        "nodeID": 1,
+        "score": 839
+      },
+      {
+        "userID": "5dec85f4-06c6-4f37-9bd5-38aceea1ea46",
+        "nodeID": 2,
+        "score": 837
+      },
+      {
+        "userID": "be2251ee-b2e5-445a-9490-3b8da77bd4be",
+        "nodeID": 3,
+        "score": 837
+      },
+      {
+        "userID": "68675e3d-8bb1-405f-bbd7-3dbed3729d8e",
+        "nodeID": 4,
+        "score": 837
+      }
+    ]
+  }
+}

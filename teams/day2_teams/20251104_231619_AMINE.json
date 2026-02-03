@@ -1,0 +1,30 @@
+{
+  "team_name": "AMINE",
+  "timestamp": "2025-11-04 23:16:19",
+  "total_score": 8650,
+  "backend_payload": {
+    "gameResultID": "cd3b76dc-623e-41d5-8751-d0d196e38cdf",
+    "individualScore": [
+      {
+        "userID": "ddc0fc75-3e90-4ecd-9147-d3c6a680dd2f",
+        "nodeID": 1,
+        "score": 2164
+      },
+      {
+        "userID": "47386467-9e21-4165-83e9-4af4a51591fd",
+        "nodeID": 2,
+        "score": 2162
+      },
+      {
+        "userID": "7e1e7e34-9a4e-4b53-9433-7f58728a9c79",
+        "nodeID": 3,
+        "score": 2162
+      },
+      {
+        "userID": "07baafdc-48de-452b-b2e6-ac2ed4f29439",
+        "nodeID": 4,
+        "score": 2162
+      }
+    ]
+  }
+}

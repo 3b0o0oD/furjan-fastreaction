@@ -1,0 +1,30 @@
+{
+  "team_name": "THE LIONS",
+  "timestamp": "2025-11-04 01:52:52",
+  "total_score": 9050,
+  "backend_payload": {
+    "gameResultID": "a9524cf3-821a-4ab7-9d24-7f8bd07d5546",
+    "individualScore": [
+      {
+        "userID": "c19dd865-48fe-443a-bf64-3c7f80820576",
+        "nodeID": 1,
+        "score": 2264
+      },
+      {
+        "userID": "13f31114-ac1a-4274-8061-cc7e62cb7460",
+        "nodeID": 2,
+        "score": 2262
+      },
+      {
+        "userID": "8ad590f1-a29e-4f3e-b8ef-f382c4d16ad5",
+        "nodeID": 3,
+        "score": 2262
+      },
+      {
+        "userID": "2c648542-bf42-438b-88f3-20e44c61136e",
+        "nodeID": 4,
+        "score": 2262
+      }
+    ]
+  }
+}

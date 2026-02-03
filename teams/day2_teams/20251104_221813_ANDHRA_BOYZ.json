@@ -1,0 +1,30 @@
+{
+  "team_name": "ANDHRA BOYZ",
+  "timestamp": "2025-11-04 22:18:13",
+  "total_score": 5125,
+  "backend_payload": {
+    "gameResultID": "078a8add-ebed-4321-a3e8-2402e06b9f1c",
+    "individualScore": [
+      {
+        "userID": "b0c464c9-0d37-407d-b82b-f712ed45b496",
+        "nodeID": 1,
+        "score": 1282
+      },
+      {
+        "userID": "e4578aa7-e76b-44f8-ae03-0a08c8c3cee3",
+        "nodeID": 2,
+        "score": 1281
+      },
+      {
+        "userID": "90ff2da2-93e3-4e42-894e-4e05c2d73b27",
+        "nodeID": 3,
+        "score": 1281
+      },
+      {
+        "userID": "2dcfcf0f-3f53-458e-b172-a370c980a923",
+        "nodeID": 4,
+        "score": 1281
+      }
+    ]
+  }
+}

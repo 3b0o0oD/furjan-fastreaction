@@ -1,0 +1,30 @@
+{
+  "team_name": "GORILLAS",
+  "timestamp": "2025-11-05 01:18:48",
+  "total_score": 13550,
+  "backend_payload": {
+    "gameResultID": "1082dae5-8cbd-41b4-9a30-d8344a385567",
+    "individualScore": [
+      {
+        "userID": "d1b430bc-c287-4f36-bd62-dc43bcf2b623",
+        "nodeID": 1,
+        "score": 3389
+      },
+      {
+        "userID": "46e26937-3854-4261-8d53-d8ba350f5894",
+        "nodeID": 2,
+        "score": 3387
+      },
+      {
+        "userID": "42679106-029c-4ff3-8ea5-69bba0d6a3c2",
+        "nodeID": 3,
+        "score": 3387
+      },
+      {
+        "userID": "befb0fd1-97fa-4b98-a1f7-e914c904727d",
+        "nodeID": 4,
+        "score": 3387
+      }
+    ]
+  }
+}

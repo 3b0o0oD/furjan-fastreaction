@@ -1,0 +1,30 @@
+{
+  "team_name": "TEAM BRAVO",
+  "timestamp": "2025-11-06 22:24:42",
+  "total_score": 5500,
+  "backend_payload": {
+    "gameResultID": "046dc81a-7f59-46a0-9813-07613f02aba9",
+    "individualScore": [
+      {
+        "userID": "a6a6b3d0-d259-4495-b16c-ec0558811511",
+        "nodeID": 1,
+        "score": 1375
+      },
+      {
+        "userID": "e7a3c21f-463c-47b8-bf76-516f95db46ba",
+        "nodeID": 2,
+        "score": 1375
+      },
+      {
+        "userID": "0a4f4319-c1b5-4a09-a001-9153580c7a3e",
+        "nodeID": 3,
+        "score": 1375
+      },
+      {
+        "userID": "77e07233-f8be-4685-b17f-93b71656145d",
+        "nodeID": 4,
+        "score": 1375
+      }
+    ]
+  }
+}

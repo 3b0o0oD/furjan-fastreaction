@@ -1,0 +1,30 @@
+{
+  "team_name": "LOVELY TWAM",
+  "timestamp": "2025-11-07 00:58:29",
+  "total_score": 9425,
+  "backend_payload": {
+    "gameResultID": "95b9f8df-94bb-40ef-bb8f-d73421498f66",
+    "individualScore": [
+      {
+        "userID": "8a9d7cc6-2a02-40e0-9326-a62457fb7e93",
+        "nodeID": 1,
+        "score": 2357
+      },
+      {
+        "userID": "f6edc8be-4968-48e6-bc10-76d8aacdc8ad",
+        "nodeID": 2,
+        "score": 2356
+      },
+      {
+        "userID": "676a3c5b-a6a7-47b3-8c55-a86b5f316b85",
+        "nodeID": 3,
+        "score": 2356
+      },
+      {
+        "userID": "c4c55c2d-e154-4ad0-b2d8-61131878628f",
+        "nodeID": 4,
+        "score": 2356
+      }
+    ]
+  }
+}

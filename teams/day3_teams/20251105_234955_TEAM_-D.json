@@ -1,0 +1,30 @@
+{
+  "team_name": "TEAM -D",
+  "timestamp": "2025-11-05 23:49:55",
+  "total_score": 10000,
+  "backend_payload": {
+    "gameResultID": "8b35a3e7-4712-4883-9fc7-dc801a50c8d4",
+    "individualScore": [
+      {
+        "userID": "598942be-b1f4-4a07-a35c-464dfa4f3dac",
+        "nodeID": 1,
+        "score": 2500
+      },
+      {
+        "userID": "0f3b67d1-3de7-495c-b5d2-310daa01cb4d",
+        "nodeID": 2,
+        "score": 2500
+      },
+      {
+        "userID": "a66987e0-c454-42ad-90a9-f3cfe3f6fb3a",
+        "nodeID": 3,
+        "score": 2500
+      },
+      {
+        "userID": "a4a9fc57-fc68-46b1-8371-354fc92fc717",
+        "nodeID": 4,
+        "score": 2500
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "team_name": "DU BOYZ",
+  "timestamp": "2025-11-04 17:22:35",
+  "total_score": 4275,
+  "backend_payload": {
+    "gameResultID": "ee4a64f5-784c-4483-91a2-8a04218d80c1",
+    "individualScore": [
+      {
+        "userID": "501fdfe6-f34c-4c8d-b266-2862e58752b8",
+        "nodeID": 1,
+        "score": 1071
+      },
+      {
+        "userID": "092188aa-7148-498a-8f51-58c2591b807a",
+        "nodeID": 2,
+        "score": 1068
+      },
+      {
+        "userID": "383c2504-1fc4-4b8a-bcb8-187ecb3ddb3c",
+        "nodeID": 3,
+        "score": 1068
+      },
+      {
+        "userID": "8ddaf300-c210-4c95-a90e-8c03d5058cb7",
+        "nodeID": 4,
+        "score": 1068
+      }
+    ]
+  }
+}

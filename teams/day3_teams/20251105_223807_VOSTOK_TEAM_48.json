@@ -1,0 +1,30 @@
+{
+  "team_name": "VOSTOK TEAM 48",
+  "timestamp": "2025-11-05 22:38:07",
+  "total_score": 11900,
+  "backend_payload": {
+    "gameResultID": "775434c9-30e9-499c-a56f-dae36f14f62e",
+    "individualScore": [
+      {
+        "userID": "2ae99c21-3868-4504-96fa-a4ad2ca7d25a",
+        "nodeID": 1,
+        "score": 2975
+      },
+      {
+        "userID": "150fbb7a-de6c-4ccc-99b5-de778e05a444",
+        "nodeID": 2,
+        "score": 2975
+      },
+      {
+        "userID": "20fd36d7-d4da-4106-b849-35307c7e6417",
+        "nodeID": 3,
+        "score": 2975
+      },
+      {
+        "userID": "87db509e-d86c-46bd-a0cc-8f7b469e18be",
+        "nodeID": 4,
+        "score": 2975
+      }
+    ]
+  }
+}

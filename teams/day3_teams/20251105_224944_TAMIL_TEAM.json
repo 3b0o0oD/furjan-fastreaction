@@ -1,0 +1,30 @@
+{
+  "team_name": "TAMIL TEAM",
+  "timestamp": "2025-11-05 22:49:44",
+  "total_score": 1575,
+  "backend_payload": {
+    "gameResultID": "299bb95d-4961-4711-9da0-7882938ef266",
+    "individualScore": [
+      {
+        "userID": "08626aab-36fa-4889-8054-a07e993476b3",
+        "nodeID": 1,
+        "score": 396
+      },
+      {
+        "userID": "91ec85ed-07ec-454c-b9cf-720d1416de15",
+        "nodeID": 2,
+        "score": 393
+      },
+      {
+        "userID": "24925da7-45f0-4753-8e2e-31a69200283d",
+        "nodeID": 3,
+        "score": 393
+      },
+      {
+        "userID": "122f8729-b589-4370-a368-b1bafe6696fd",
+        "nodeID": 4,
+        "score": 393
+      }
+    ]
+  }
+}

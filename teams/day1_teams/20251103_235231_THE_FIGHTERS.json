@@ -1,0 +1,30 @@
+{
+  "team_name": "THE FIGHTERS",
+  "timestamp": "2025-11-03 23:52:31",
+  "total_score": 4450,
+  "backend_payload": {
+    "gameResultID": "0630348e-5098-434a-94b1-f37ae43641ca",
+    "individualScore": [
+      {
+        "userID": "e810219f-a2fa-4517-9e37-b5c4cc3dd4a5",
+        "nodeID": 1,
+        "score": 1114
+      },
+      {
+        "userID": "30103d6c-5055-42f9-830f-8c1ed4ffa0c2",
+        "nodeID": 2,
+        "score": 1112
+      },
+      {
+        "userID": "d76329d0-4653-4631-ae4c-f752f90d5cb0",
+        "nodeID": 3,
+        "score": 1112
+      },
+      {
+        "userID": "fc8d2dd3-d0af-4595-ae52-84a904b20a81",
+        "nodeID": 4,
+        "score": 1112
+      }
+    ]
+  }
+}

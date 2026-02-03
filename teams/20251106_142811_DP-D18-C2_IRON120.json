@@ -1,0 +1,30 @@
+{
+  "team_name": "DP-D18-C2 IRON120",
+  "timestamp": "2025-11-06 14:28:11",
+  "total_score": 75,
+  "backend_payload": {
+    "gameResultID": "0586daa1-2f72-4c3a-91d1-26fdf5e91d8a",
+    "individualScore": [
+      {
+        "userID": "629db92d-cb09-4086-8b44-1b7d184b7a24",
+        "nodeID": 1,
+        "score": 21
+      },
+      {
+        "userID": "cdc9bfce-793b-4e2b-8109-bf9e0604fe6c",
+        "nodeID": 2,
+        "score": 18
+      },
+      {
+        "userID": "2f36b1de-1f84-484c-8f97-9064f24156c2",
+        "nodeID": 3,
+        "score": 18
+      },
+      {
+        "userID": "4817a3f7-467a-4311-abe1-2d49ba01ecd3",
+        "nodeID": 4,
+        "score": 18
+      }
+    ]
+  }
+}

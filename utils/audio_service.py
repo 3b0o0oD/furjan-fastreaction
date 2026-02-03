@@ -1,155 +1,136 @@
 """
 Audio Service for Game Applications
-Provides threaded audio playback using QMediaPlayer with multiple sound interfaces
+Provides threaded audio playback using pygame.mixer with multiple sound interfaces
+Optimized for low-latency game audio on embedded systems (Jetson)
 """
 
 import os
 import sys
 from typing import Optional, Dict, Any
-from PyQt5.QtCore import QObject, QThread, pyqtSignal, QTimer, QUrl
-from PyQt5.QtMultimedia import QMediaPlayer, QMediaContent
-from PyQt5.QtWidgets import QApplication
+from PyQt5.QtCore import QObject, QThread, pyqtSignal, pyqtSlot
+import pygame.mixer
 
 from .logger import get_logger
 
 
-class AudioPlayer(QObject):
+class AudioPlayer:
     """
-    Individual audio player that wraps QMediaPlayer with additional functionality
+    Individual audio player that wraps pygame.mixer for instant playback
+    Sounds are pre-loaded into RAM for zero-latency playback
     """
     
-    # Signals
-    playback_finished = pyqtSignal()
-    playback_error = pyqtSignal(str)
-    playback_state_changed = pyqtSignal(int)  # QMediaPlayer.State
-    
-    def __init__(self, audio_file: str, loop: bool = False, volume: int = 100):
-        super().__init__()
+    def __init__(self, audio_file: str, loop: bool = False, volume: float = 1.0):
         self.logger = get_logger(f"{__name__}.AudioPlayer")
         
         self.audio_file = audio_file
         self.loop = loop
-        self.volume = volume
-        self.should_loop = loop  # Flag to control looping behavior
+        self.volume = max(0.0, min(1.0, volume / 100.0))  # Convert 0-100 to 0.0-1.0
+        self.should_loop = loop
         
-        # Initialize media player
-        self.media_player = QMediaPlayer()
-        self.media_player.setVolume(volume)
+        # pygame.mixer Sound object (pre-loaded in RAM)
+        self.sound = None
+        self.channel = None  # Dedicated channel for this sound
         
-        # Connect signals
-        self.media_player.stateChanged.connect(self._on_state_changed)
-        self.media_player.mediaStatusChanged.connect(self._on_media_status_changed)
-        self.media_player.error.connect(self._on_error)
-        
-        # Load audio file
+        # Load audio file into memory
         self._load_audio_file()
         
     def _load_audio_file(self):
-        """Load the audio file into the media player"""
+        """Load the audio file into RAM for instant playback"""
         # Convert to absolute path if it's relative
         if not os.path.isabs(self.audio_file):
-            # Get the directory of the current script
             script_dir = os.path.dirname(os.path.abspath(__file__))
-            # Go up one level to the game directory
             game_dir = os.path.dirname(script_dir)
             self.audio_file = os.path.join(game_dir, self.audio_file)
             
         if not os.path.exists(self.audio_file):
             self.logger.error(f"Audio file not found: {self.audio_file}")
-            self.playback_error.emit(f"Audio file not found: {self.audio_file}")
             return
             
-        media_content = QMediaContent(QUrl.fromLocalFile(self.audio_file))
-        self.media_player.setMedia(media_content)
-        self.logger.debug(f"Loaded audio file: {self.audio_file}")
-        
-    def _on_state_changed(self, state):
-        """Handle media player state changes"""
-        self.playback_state_changed.emit(state)
-        
-        if state == QMediaPlayer.StoppedState and self.should_loop:
-            # Restart playback for loop mode
-            self.media_player.play()
-            self.logger.debug(f"Restarted looped playback: {self.audio_file}")
-        elif state == QMediaPlayer.StoppedState:
-            self.playback_finished.emit()
+        try:
+            # Load sound into memory (instant playback later)
+            self.sound = pygame.mixer.Sound(self.audio_file)
+            self.sound.set_volume(self.volume)
+            self.logger.debug(f"Loaded audio into RAM: {self.audio_file}")
+        except Exception as e:
+            self.logger.error(f"Failed to load audio file {self.audio_file}: {e}")
             
-    def _on_media_status_changed(self, status):
-        """Handle media status changes"""
-        if status == QMediaPlayer.EndOfMedia and self.should_loop:
-            # Restart for loop mode
-            self.media_player.setPosition(0)
-            self.media_player.play()
-            
-    def _on_error(self, error):
-        """Handle media player errors"""
-        error_msg = f"Media player error: {error}"
-        self.logger.error(error_msg)
-        self.playback_error.emit(error_msg)
-        
     def play(self):
-        """Start playback"""
-        if self.media_player.state() != QMediaPlayer.PlayingState:
-            # Re-enable looping if this player was configured to loop
-            self.should_loop = self.loop
-            self.media_player.play()
-            self.logger.debug(f"Started playback: {self.audio_file}")
+        """Start playback (instant, no buffering needed)"""
+        if not self.sound:
+            self.logger.warning(f"Cannot play - sound not loaded: {self.audio_file}")
+            return
+            
+        try:
+            # Play with loop count: -1 = infinite loop, 0 = play once
+            loops = -1 if self.should_loop else 0
+            self.channel = self.sound.play(loops=loops)
+            self.logger.debug(f"Playing: {self.audio_file} (loop: {self.should_loop})")
+        except Exception as e:
+            self.logger.error(f"Error playing sound: {e}")
             
     def stop(self):
         """Stop playback"""
-        if self.media_player.state() != QMediaPlayer.StoppedState:
-            # Disable looping temporarily to prevent auto-restart
-            self.should_loop = False
-            self.media_player.stop()
-            self.logger.debug(f"Stopped playback: {self.audio_file}")
+        if self.sound:
+            self.sound.stop()
+            self.logger.debug(f"Stopped: {self.audio_file}")
             
     def pause(self):
         """Pause playback"""
-        if self.media_player.state() == QMediaPlayer.PlayingState:
-            self.media_player.pause()
-            self.logger.debug(f"Paused playback: {self.audio_file}")
+        if self.channel:
+            self.channel.pause()
+            
+    def unpause(self):
+        """Resume playback"""
+        if self.channel:
+            self.channel.unpause()
             
     def set_volume(self, volume: int):
         """Set volume (0-100)"""
-        self.volume = max(0, min(100, volume))
-        self.media_player.setVolume(self.volume)
-        self.logger.debug(f"Set volume to {self.volume}% for: {self.audio_file}")
-        
-    def get_state(self) -> int:
-        """Get current playback state"""
-        return self.media_player.state()
-        
+        self.volume = max(0.0, min(1.0, volume / 100.0))
+        if self.sound:
+            self.sound.set_volume(self.volume)
+            self.logger.debug(f"Set volume to {volume}% for: {self.audio_file}")
+            
     def is_playing(self) -> bool:
         """Check if currently playing"""
-        return self.media_player.state() == QMediaPlayer.PlayingState
+        if self.channel:
+            return self.channel.get_busy()
+        return False
         
     def set_loop(self, loop: bool):
         """Enable or disable looping"""
         self.loop = loop
         self.should_loop = loop
+        # If currently playing, restart with new loop setting
+        if self.is_playing():
+            self.stop()
+            self.play()
         self.logger.debug(f"Set loop to {loop} for: {self.audio_file}")
 
 
 class AudioService(QObject):
     """
-    Threaded Audio Service that manages multiple audio players
-    Provides interfaces for continuous sound, inactive game sound, and active game sound
+    Audio Service that manages multiple audio players using pygame.mixer
+    All sounds are pre-loaded into RAM for instant, zero-latency playback
     """
     
     # Signals
     service_ready = pyqtSignal()
     service_error = pyqtSignal(str)
-    player_state_changed = pyqtSignal(str, int)  # player_name, state
     
     def __init__(self, audio_files: Optional[Dict[str, str]] = None):
         super().__init__()
         self.logger = get_logger(f"{__name__}.AudioService")
         
-        # Default audio files (can be overridden)
+        # Default audio files
         self.audio_files = audio_files or {
             'continuous': 'Assets/mp3/2066.wav',
-            'inactive_game': 'Assets/mp3/2066.wav',
-            'active_game': 'Assets/mp3/2066.wav'
+            'inactive_game': 'Assets/mp3/game-music-loop-inactive.mp3',
+            'active_game': 'Assets/mp3/game-music-loop-active.mp3',
+            'miss_sound': 'Assets/mp3/miss.mp3',
+            'ok_sound': 'Assets/mp3/game-music-loop-active.mp3',
+            'crct_sound': 'Assets/mp3/correct.mp3',
+            'mstk_sound': 'Assets/mp3/2066.wav'
         }
         
         # Convert relative paths to absolute paths
@@ -162,17 +143,35 @@ class AudioService(QObject):
         self.is_initialized = False
         self.is_running = False
         
+        # Initialize pygame.mixer
+        self._initialize_pygame()
+        
         # Initialize players
         self._initialize_players()
         
+    def _initialize_pygame(self):
+        """Initialize pygame.mixer with optimal settings for low latency"""
+        try:
+            # Initialize pygame.mixer with optimal settings
+            # frequency=44100, size=-16 (16-bit signed), channels=2 (stereo), buffer=512 (low latency)
+            pygame.mixer.init(frequency=44100, size=-16, channels=2, buffer=512)
+            
+            # Set number of mixing channels (max simultaneous sounds)
+            pygame.mixer.set_num_channels(16)
+            
+            self.logger.info("🎵 pygame.mixer initialized (44.1kHz, 16-bit, stereo, 512-byte buffer)")
+        except Exception as e:
+            error_msg = f"Failed to initialize pygame.mixer: {e}"
+            self.logger.error(error_msg)
+            self.service_error.emit(error_msg)
+            raise
+            
     def _resolve_audio_paths(self, audio_files: Dict[str, str]) -> Dict[str, str]:
         """Convert relative paths to absolute paths"""
         resolved_files = {}
         for name, file_path in audio_files.items():
             if not os.path.isabs(file_path):
-                # Get the directory of the current script
                 script_dir = os.path.dirname(os.path.abspath(__file__))
-                # Go up one level to the game directory
                 game_dir = os.path.dirname(script_dir)
                 resolved_files[name] = os.path.join(game_dir, file_path)
             else:
@@ -180,14 +179,14 @@ class AudioService(QObject):
         return resolved_files
         
     def _initialize_players(self):
-        """Initialize all audio players"""
+        """Initialize all audio players (pre-load sounds into RAM)"""
         try:
             # Continuous sound player (looped)
             if 'continuous' in self.audio_files:
                 self.players['continuous'] = AudioPlayer(
                     self.audio_files['continuous'],
                     loop=True,
-                    volume=50  # Lower volume for continuous background
+                    volume=50
                 )
                 
             # Inactive game sound player
@@ -205,15 +204,38 @@ class AudioService(QObject):
                     loop=True,
                     volume=80
                 )
+            
+            # One-shot sound effect players (no loop)
+            if 'miss_sound' in self.audio_files:
+                self.players['miss_sound'] = AudioPlayer(
+                    self.audio_files['miss_sound'],
+                    loop=False,
+                    volume=90
+                )
                 
-            # Connect player signals
-            for name, player in self.players.items():
-                player.playback_finished.connect(lambda n=name: self._on_player_finished(n))
-                player.playback_error.connect(lambda error, n=name: self._on_player_error(n, error))
-                player.playback_state_changed.connect(lambda state, n=name: self._on_player_state_changed(n, state))
+            if 'ok_sound' in self.audio_files:
+                self.players['ok_sound'] = AudioPlayer(
+                    self.audio_files['ok_sound'],
+                    loop=False,
+                    volume=85
+                )
+                
+            if 'crct_sound' in self.audio_files:
+                self.players['crct_sound'] = AudioPlayer(
+                    self.audio_files['crct_sound'],
+                    loop=False,
+                    volume=85
+                )
+                
+            if 'mstk_sound' in self.audio_files:
+                self.players['mstk_sound'] = AudioPlayer(
+                    self.audio_files['mstk_sound'],
+                    loop=False,
+                    volume=90
+                )
                 
             self.is_initialized = True
-            self.logger.info("Audio service initialized successfully")
+            self.logger.info(f"✅ Audio service initialized - {len(self.players)} sounds pre-loaded into RAM")
             self.service_ready.emit()
             
         except Exception as e:
@@ -221,20 +243,6 @@ class AudioService(QObject):
             self.logger.error(error_msg)
             self.service_error.emit(error_msg)
             
-    def _on_player_finished(self, player_name: str):
-        """Handle player finished signal"""
-        self.logger.debug(f"Player finished: {player_name}")
-        
-    def _on_player_error(self, player_name: str, error: str):
-        """Handle player error signal"""
-        self.logger.error(f"Player error in {player_name}: {error}")
-        self.service_error.emit(f"Player {player_name}: {error}")
-        
-    def _on_player_state_changed(self, player_name: str, state: int):
-        """Handle player state change signal"""
-        self.logger.debug(f"Player {player_name} state changed to: {state}")
-        self.player_state_changed.emit(player_name, state)
-        
     # Public API Methods
     
     def start_service(self):
@@ -259,6 +267,7 @@ class AudioService(QObject):
         
     # Continuous Sound Interface
     
+    @pyqtSlot()
     def play_continuous_sound(self):
         """Start playing continuous background sound"""
         if 'continuous' in self.players:
@@ -266,13 +275,15 @@ class AudioService(QObject):
             self.logger.info("Started continuous sound")
         else:
             self.logger.warning("Continuous sound player not available")
-            
+    
+    @pyqtSlot()
     def stop_continuous_sound(self):
         """Stop continuous background sound"""
         if 'continuous' in self.players:
             self.players['continuous'].stop()
             self.logger.info("Stopped continuous sound")
-            
+    
+    @pyqtSlot(int)
     def set_continuous_volume(self, volume: int):
         """Set volume for continuous sound (0-100)"""
         if 'continuous' in self.players:
@@ -280,20 +291,23 @@ class AudioService(QObject):
             
     # Inactive Game Sound Interface
     
+    @pyqtSlot()
     def play_inactive_game_sound(self):
-        """Play sound for inactive game state"""
+        """Play sound for inactive game state (instant, pre-loaded)"""
         if 'inactive_game' in self.players:
             self.players['inactive_game'].play()
             self.logger.info("Started inactive game sound")
         else:
             self.logger.warning("Inactive game sound player not available")
-            
+    
+    @pyqtSlot()
     def stop_inactive_game_sound(self):
         """Stop inactive game sound"""
         if 'inactive_game' in self.players:
             self.players['inactive_game'].stop()
             self.logger.info("Stopped inactive game sound")
-            
+    
+    @pyqtSlot(int)
     def set_inactive_game_volume(self, volume: int):
         """Set volume for inactive game sound (0-100)"""
         if 'inactive_game' in self.players:
@@ -301,44 +315,81 @@ class AudioService(QObject):
             
     # Active Game Sound Interface
     
+    @pyqtSlot()
     def play_active_game_sound(self):
-        """Play sound for active game state"""
+        """Play sound for active game state (instant, pre-loaded)"""
         if 'active_game' in self.players:
             self.players['active_game'].play()
             self.logger.info("Started active game sound")
         else:
             self.logger.warning("Active game sound player not available")
-            
+    
+    @pyqtSlot()
     def stop_active_game_sound(self):
         """Stop active game sound"""
         if 'active_game' in self.players:
             self.players['active_game'].stop()
             self.logger.info("Stopped active game sound")
-            
+    
+    @pyqtSlot(int)
     def set_active_game_volume(self, volume: int):
         """Set volume for active game sound (0-100)"""
         if 'active_game' in self.players:
             self.players['active_game'].set_volume(volume)
+    
+    # One-Shot Sound Effects Interface
+    
+    @pyqtSlot()
+    def play_miss_sound(self):
+        """Play miss sound effect (instant, pre-loaded)"""
+        if 'miss_sound' in self.players:
+            self.players['miss_sound'].play()
+            self.logger.info("Played miss sound effect")
+        else:
+            self.logger.warning("Miss sound player not available")
+    
+    @pyqtSlot()
+    def play_ok_sound(self):
+        """Play OK sound effect (instant, pre-loaded)"""
+        if 'ok_sound' in self.players:
+            self.players['ok_sound'].play()
+            self.logger.info("Played OK sound effect")
+        else:
+            self.logger.warning("OK sound player not available")
+    
+    @pyqtSlot()
+    def play_crct_sound(self):
+        """Play correct sound effect (instant, pre-loaded)"""
+        if 'crct_sound' in self.players:
+            self.players['crct_sound'].play()
+            self.logger.info("✅ Played correct sound effect")
+        else:
+            self.logger.error("❌ Correct sound player not available")
+    
+    @pyqtSlot()
+    def play_mstk_sound(self):
+        """Play mistake sound effect (instant, pre-loaded)"""
+        if 'mstk_sound' in self.players:
+            self.players['mstk_sound'].play()
+            self.logger.info("✅ Played mistake sound effect")
+        else:
+            self.logger.error("❌ Mistake sound player not available")
             
     # General Control Methods
     
+    @pyqtSlot()
     def stop_all_sounds(self):
         """Stop all currently playing sounds"""
         for name, player in self.players.items():
             player.stop()
         self.logger.info("Stopped all sounds")
-        
+    
+    @pyqtSlot()
     def pause_all_sounds(self):
         """Pause all currently playing sounds"""
         for name, player in self.players.items():
             player.pause()
         self.logger.info("Paused all sounds")
-        
-    def get_player_state(self, player_name: str) -> Optional[int]:
-        """Get the state of a specific player"""
-        if player_name in self.players:
-            return self.players[player_name].get_state()
-        return None
         
     def is_player_playing(self, player_name: str) -> bool:
         """Check if a specific player is currently playing"""
@@ -350,9 +401,9 @@ class AudioService(QObject):
         """Get list of available player names"""
         return list(self.players.keys())
         
+    @pyqtSlot(str, str)
     def update_audio_file(self, player_name: str, audio_file: str):
         """Update the audio file for a specific player"""
-        # Resolve the audio file path
         resolved_audio_file = self._resolve_audio_paths({player_name: audio_file})[player_name]
         
         if player_name in self.players and os.path.exists(resolved_audio_file):
@@ -362,25 +413,15 @@ class AudioService(QObject):
             # Create new player with new file
             self.players[player_name] = AudioPlayer(
                 resolved_audio_file,
-                loop=(player_name == 'continuous'),
-                volume=self.players[player_name].volume
-            )
-            
-            # Reconnect signals
-            self.players[player_name].playback_finished.connect(
-                lambda n=player_name: self._on_player_finished(n)
-            )
-            self.players[player_name].playback_error.connect(
-                lambda error, n=player_name: self._on_player_error(n, error)
-            )
-            self.players[player_name].playback_state_changed.connect(
-                lambda state, n=player_name: self._on_player_state_changed(n, state)
+                loop=(player_name in ['continuous', 'inactive_game', 'active_game']),
+                volume=self.players[player_name].volume * 100
             )
             
             self.logger.info(f"Updated audio file for {player_name}: {resolved_audio_file}")
         else:
             self.logger.warning(f"Cannot update audio file for {player_name}: file not found or player not available")
-            
+    
+    @pyqtSlot(str, bool)
     def set_player_loop(self, player_name: str, loop: bool):
         """Enable or disable looping for a specific player"""
         if player_name in self.players:
@@ -399,135 +440,189 @@ class AudioService(QObject):
 class AudioServiceThread(QThread):
     """
     Thread wrapper for AudioService to run in background
+    Note: pygame.mixer is thread-safe, simpler than QMediaPlayer
     """
     
     # Signals
     service_ready = pyqtSignal()
     service_error = pyqtSignal(str)
-    player_state_changed = pyqtSignal(str, int)
     
     def __init__(self, audio_files: Optional[Dict[str, str]] = None):
         super().__init__()
-        self.audio_service = AudioService(audio_files)
+        self.audio_files = audio_files
+        self.audio_service = None
+        
+    def run(self):
+        """Thread entry point - create audio service in this thread"""
+        # Create audio service in the thread context
+        self.audio_service = AudioService(self.audio_files)
         
         # Connect service signals to thread signals
         self.audio_service.service_ready.connect(self.service_ready.emit)
         self.audio_service.service_error.connect(self.service_error.emit)
-        self.audio_service.player_state_changed.connect(self.player_state_changed.emit)
         
-    def run(self):
-        """Thread entry point"""
         # Start the audio service
         self.audio_service.start_service()
+        
+        # Emit ready signal
+        self.service_ready.emit()
         
         # Keep thread alive
         self.exec_()
         
     def stop(self):
         """Stop the audio service and thread"""
-        self.audio_service.stop_service()
+        if self.audio_service:
+            self.audio_service.stop_service()
         self.quit()
         self.wait()
         
-    # Delegate methods to audio service
+    # Delegate methods to audio service with THREAD-SAFE Qt meta-object calls
     def play_continuous_sound(self):
-        self.audio_service.play_continuous_sound()
+        if self.audio_service:
+            from PyQt5.QtCore import QMetaObject, Qt
+            QMetaObject.invokeMethod(self.audio_service, "play_continuous_sound", Qt.QueuedConnection)
         
     def stop_continuous_sound(self):
-        self.audio_service.stop_continuous_sound()
+        if self.audio_service:
+            from PyQt5.QtCore import QMetaObject, Qt
+            QMetaObject.invokeMethod(self.audio_service, "stop_continuous_sound", Qt.QueuedConnection)
         
     def set_continuous_volume(self, volume: int):
-        self.audio_service.set_continuous_volume(volume)
+        if self.audio_service:
+            from PyQt5.QtCore import QMetaObject, Qt, Q_ARG
+            QMetaObject.invokeMethod(self.audio_service, "set_continuous_volume", Qt.QueuedConnection, Q_ARG(int, volume))
         
     def play_inactive_game_sound(self):
-        self.audio_service.play_inactive_game_sound()
+        if self.audio_service:
+            from PyQt5.QtCore import QMetaObject, Qt
+            QMetaObject.invokeMethod(self.audio_service, "play_inactive_game_sound", Qt.QueuedConnection)
         
     def stop_inactive_game_sound(self):
-        self.audio_service.stop_inactive_game_sound()
+        if self.audio_service:
+            from PyQt5.QtCore import QMetaObject, Qt
+            QMetaObject.invokeMethod(self.audio_service, "stop_inactive_game_sound", Qt.QueuedConnection)
         
     def set_inactive_game_volume(self, volume: int):
-        self.audio_service.set_inactive_game_volume(volume)
+        if self.audio_service:
+            from PyQt5.QtCore import QMetaObject, Qt, Q_ARG
+            QMetaObject.invokeMethod(self.audio_service, "set_inactive_game_volume", Qt.QueuedConnection, Q_ARG(int, volume))
         
     def play_active_game_sound(self):
-        self.audio_service.play_active_game_sound()
+        if self.audio_service:
+            from PyQt5.QtCore import QMetaObject, Qt
+            QMetaObject.invokeMethod(self.audio_service, "play_active_game_sound", Qt.QueuedConnection)
         
     def stop_active_game_sound(self):
-        self.audio_service.stop_active_game_sound()
+        if self.audio_service:
+            from PyQt5.QtCore import QMetaObject, Qt
+            QMetaObject.invokeMethod(self.audio_service, "stop_active_game_sound", Qt.QueuedConnection)
         
     def set_active_game_volume(self, volume: int):
-        self.audio_service.set_active_game_volume(volume)
+        if self.audio_service:
+            from PyQt5.QtCore import QMetaObject, Qt, Q_ARG
+            QMetaObject.invokeMethod(self.audio_service, "set_active_game_volume", Qt.QueuedConnection, Q_ARG(int, volume))
+    
+    # One-shot sound effects delegate methods (THREAD-SAFE)
+    def play_miss_sound(self):
+        if self.audio_service:
+            from PyQt5.QtCore import QMetaObject, Qt
+            QMetaObject.invokeMethod(self.audio_service, "play_miss_sound", Qt.QueuedConnection)
+        
+    def play_ok_sound(self):
+        if self.audio_service:
+            from PyQt5.QtCore import QMetaObject, Qt
+            QMetaObject.invokeMethod(self.audio_service, "play_ok_sound", Qt.QueuedConnection)
+        
+    def play_crct_sound(self):
+        if self.audio_service:
+            from PyQt5.QtCore import QMetaObject, Qt
+            QMetaObject.invokeMethod(self.audio_service, "play_crct_sound", Qt.QueuedConnection)
+        
+    def play_mstk_sound(self):
+        if self.audio_service:
+            from PyQt5.QtCore import QMetaObject, Qt
+            QMetaObject.invokeMethod(self.audio_service, "play_mstk_sound", Qt.QueuedConnection)
         
     def stop_all_sounds(self):
-        self.audio_service.stop_all_sounds()
+        if self.audio_service:
+            from PyQt5.QtCore import QMetaObject, Qt
+            QMetaObject.invokeMethod(self.audio_service, "stop_all_sounds", Qt.QueuedConnection)
         
     def pause_all_sounds(self):
-        self.audio_service.pause_all_sounds()
-        
-    def get_player_state(self, player_name: str):
-        return self.audio_service.get_player_state(player_name)
+        if self.audio_service:
+            from PyQt5.QtCore import QMetaObject, Qt
+            QMetaObject.invokeMethod(self.audio_service, "pause_all_sounds", Qt.QueuedConnection)
         
     def is_player_playing(self, player_name: str):
-        return self.audio_service.is_player_playing(player_name)
+        # Read-only method - safe to call directly
+        if self.audio_service:
+            return self.audio_service.is_player_playing(player_name)
+        return False
         
     def get_available_players(self):
-        return self.audio_service.get_available_players()
+        # Read-only method - safe to call directly
+        if self.audio_service:
+            return self.audio_service.get_available_players()
+        return []
         
     def update_audio_file(self, player_name: str, audio_file: str):
-        self.audio_service.update_audio_file(player_name, audio_file)
+        if self.audio_service:
+            from PyQt5.QtCore import QMetaObject, Qt, Q_ARG
+            QMetaObject.invokeMethod(self.audio_service, "update_audio_file", Qt.QueuedConnection, 
+                                    Q_ARG(str, player_name), Q_ARG(str, audio_file))
         
     def set_player_loop(self, player_name: str, loop: bool):
-        self.audio_service.set_player_loop(player_name, loop)
+        if self.audio_service:
+            from PyQt5.QtCore import QMetaObject, Qt, Q_ARG
+            QMetaObject.invokeMethod(self.audio_service, "set_player_loop", Qt.QueuedConnection,
+                                    Q_ARG(str, player_name), Q_ARG(bool, loop))
         
     def get_player_loop(self, player_name: str):
-        return self.audio_service.get_player_loop(player_name)
+        # Read-only method - safe to call directly
+        if self.audio_service:
+            return self.audio_service.get_player_loop(player_name)
+        return False
+    
+    def are_critical_players_ready(self):
+        """Check if all critical audio players are ready for playback"""
+        # With pygame.mixer, sounds are pre-loaded in RAM, always ready
+        return True if self.audio_service else False
 
 
 # Example usage and testing
 if __name__ == "__main__":
     import sys
     from PyQt5.QtWidgets import QApplication
+    from PyQt5.QtCore import QTimer
     
     app = QApplication(sys.argv)
     
     # Create audio service thread
     audio_files = {
         'continuous': 'Assets/mp3/2066.wav',
-        'inactive_game': 'Assets/mp3/2066.wav',
-        'active_game': 'Assets/mp3/2066.wav'
+        'inactive_game': 'Assets/mp3/game-music-loop-inactive.mp3',
+        'active_game': 'Assets/mp3/game-music-loop-active.mp3',
+        'crct_sound': 'Assets/mp3/correct.mp3',
+        'mstk_sound': 'Assets/mp3/2066.wav'
     }
     
     audio_thread = AudioServiceThread(audio_files)
     
     # Connect signals
-    audio_thread.service_ready.connect(lambda: print("Audio service ready!"))
-    audio_thread.service_error.connect(lambda error: print(f"Audio service error: {error}"))
-    audio_thread.player_state_changed.connect(
-        lambda name, state: print(f"Player {name} state: {state}")
-    )
+    audio_thread.service_ready.connect(lambda: print("✅ Audio service ready!"))
+    audio_thread.service_error.connect(lambda error: print(f"❌ Audio service error: {error}"))
     
     # Start the thread
     audio_thread.start()
+    print("🚀 Starting audio service thread...")
     
-    # Wait for service to be ready
-    audio_thread.service_ready.wait()
+    # Test sounds after a delay using QTimer
+    QTimer.singleShot(1000, audio_thread.play_inactive_game_sound)
+    QTimer.singleShot(3000, audio_thread.play_active_game_sound)
+    QTimer.singleShot(4000, audio_thread.play_crct_sound)
+    QTimer.singleShot(5000, audio_thread.play_mstk_sound)
+    QTimer.singleShot(7000, audio_thread.stop_all_sounds)
+    QTimer.singleShot(8000, app.quit)
     
-    # Test the service
-    print("Testing audio service...")
-    
-    # Test continuous sound
-    audio_thread.play_continuous_sound()
-    
-    # Test other sounds after a delay
-    import time
-    time.sleep(2)
-    audio_thread.play_inactive_game_sound()
-    
-    time.sleep(2)
-    audio_thread.play_active_game_sound()
-    
-    time.sleep(5)
-    audio_thread.stop_all_sounds()
-    
-    # Clean up
-    audio_thread.stop()
-    app.quit()
+    sys.exit(app.exec_())

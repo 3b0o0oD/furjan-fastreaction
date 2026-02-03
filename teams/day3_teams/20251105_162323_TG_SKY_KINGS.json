@@ -1,0 +1,30 @@
+{
+  "team_name": "TG SKY KINGS",
+  "timestamp": "2025-11-05 16:23:23",
+  "total_score": 3675,
+  "backend_payload": {
+    "gameResultID": "e6ec5379-d965-4f43-8707-c9df8c34dd8c",
+    "individualScore": [
+      {
+        "userID": "b05ee619-8df6-4298-9bbe-6907b13d54b2",
+        "nodeID": 1,
+        "score": 921
+      },
+      {
+        "userID": "74094336-fc07-4e93-a22b-8d857b0f5856",
+        "nodeID": 2,
+        "score": 918
+      },
+      {
+        "userID": "eb154889-b5f2-4ba3-9a0c-7b34b0e610be",
+        "nodeID": 3,
+        "score": 918
+      },
+      {
+        "userID": "8611a9fb-93e7-40f0-bb8b-5df1ce827861",
+        "nodeID": 4,
+        "score": 918
+      }
+    ]
+  }
+}

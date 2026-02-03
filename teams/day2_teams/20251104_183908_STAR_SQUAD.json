@@ -1,0 +1,30 @@
+{
+  "team_name": "STAR SQUAD",
+  "timestamp": "2025-11-04 18:39:08",
+  "total_score": 7300,
+  "backend_payload": {
+    "gameResultID": "b9962e12-ab51-4615-82dd-a7f034fa1945",
+    "individualScore": [
+      {
+        "userID": "409deab5-2384-4913-8958-aaa89b77084a",
+        "nodeID": 1,
+        "score": 1825
+      },
+      {
+        "userID": "a5a186cd-df93-4145-b337-9f012a4a7ad7",
+        "nodeID": 2,
+        "score": 1825
+      },
+      {
+        "userID": "a6cd0bed-0fbd-4883-8f93-7c6ec0a62e2c",
+        "nodeID": 3,
+        "score": 1825
+      },
+      {
+        "userID": "31dcd1be-709e-46cb-b775-4a3940ac6ed0",
+        "nodeID": 4,
+        "score": 1825
+      }
+    ]
+  }
+}

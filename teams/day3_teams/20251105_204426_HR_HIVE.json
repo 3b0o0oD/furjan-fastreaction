@@ -1,0 +1,30 @@
+{
+  "team_name": "HR HIVE",
+  "timestamp": "2025-11-05 20:44:26",
+  "total_score": 2825,
+  "backend_payload": {
+    "gameResultID": "15e254b9-c006-4506-9328-43ef6a469d37",
+    "individualScore": [
+      {
+        "userID": "07b4e878-c8de-456e-bfa9-6704dae4e497",
+        "nodeID": 1,
+        "score": 707
+      },
+      {
+        "userID": "b6502eca-2965-4578-b5e1-6c88fbaf5e91",
+        "nodeID": 2,
+        "score": 706
+      },
+      {
+        "userID": "a44b3b04-b86c-4881-b97d-82825cd4722d",
+        "nodeID": 3,
+        "score": 706
+      },
+      {
+        "userID": "6ad8d1ab-b254-4eab-9822-9ba40ba73261",
+        "nodeID": 4,
+        "score": 706
+      }
+    ]
+  }
+}

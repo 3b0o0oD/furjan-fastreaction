@@ -1,0 +1,30 @@
+{
+  "team_name": "VEERA",
+  "timestamp": "2025-11-06 00:08:48",
+  "total_score": 8275,
+  "backend_payload": {
+    "gameResultID": "6035692a-69b0-49ad-a6cb-7c51af972376",
+    "individualScore": [
+      {
+        "userID": "dcc1437b-dc0f-47f9-ab43-b8a8608cc512",
+        "nodeID": 1,
+        "score": 2071
+      },
+      {
+        "userID": "0f33848d-342d-449b-9e26-165eedc77618",
+        "nodeID": 2,
+        "score": 2068
+      },
+      {
+        "userID": "566a9089-121a-49a7-996e-6227eef645e5",
+        "nodeID": 3,
+        "score": 2068
+      },
+      {
+        "userID": "c495dda9-ea4e-426d-a3c6-d11935375100",
+        "nodeID": 4,
+        "score": 2068
+      }
+    ]
+  }
+}

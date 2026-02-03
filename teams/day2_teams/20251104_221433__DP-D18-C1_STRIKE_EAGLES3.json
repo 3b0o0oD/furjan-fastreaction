@@ -1,0 +1,30 @@
+{
+  "team_name": " DP-D18-C1 STRIKE EAGLES3",
+  "timestamp": "2025-11-04 22:14:33",
+  "total_score": 1075,
+  "backend_payload": {
+    "gameResultID": "186731f8-bae7-47a9-95e5-d891be772d88",
+    "individualScore": [
+      {
+        "userID": "414a8302-584a-4d31-b738-67ca6f84fcf5",
+        "nodeID": 1,
+        "score": 271
+      },
+      {
+        "userID": "8bd41254-330f-4c07-a702-56a591fd7b75",
+        "nodeID": 2,
+        "score": 268
+      },
+      {
+        "userID": "4af09a1b-b7da-4db2-8204-b72fdd14a1c6",
+        "nodeID": 3,
+        "score": 268
+      },
+      {
+        "userID": "33ea84ba-a785-4fb8-877d-50e677eb7ac0",
+        "nodeID": 4,
+        "score": 268
+      }
+    ]
+  }
+}

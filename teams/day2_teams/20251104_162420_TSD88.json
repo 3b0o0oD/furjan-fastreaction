@@ -1,0 +1,30 @@
+{
+  "team_name": "TSD88",
+  "timestamp": "2025-11-04 16:24:20",
+  "total_score": 2575,
+  "backend_payload": {
+    "gameResultID": "59dccba1-c32f-4da9-9d0f-e061847c72f5",
+    "individualScore": [
+      {
+        "userID": "f46cf6a4-3a06-49c8-9b8e-dc01c9e00f3e",
+        "nodeID": 1,
+        "score": 646
+      },
+      {
+        "userID": "ec15e7dc-dc76-4bbe-b831-2a2a5aaf3b31",
+        "nodeID": 2,
+        "score": 643
+      },
+      {
+        "userID": "2fb4c1f7-bd57-4b4b-bfe9-42dd01da48c1",
+        "nodeID": 3,
+        "score": 643
+      },
+      {
+        "userID": "d2048791-dffe-462b-ab94-6fd2aed25018",
+        "nodeID": 4,
+        "score": 643
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "team_name": "ALAUKIK",
+  "timestamp": "2025-11-05 19:29:43",
+  "total_score": 4400,
+  "backend_payload": {
+    "gameResultID": "0c5e6857-6cd2-4d76-981a-59d657ca71be",
+    "individualScore": [
+      {
+        "userID": "ef9ebab5-dfe2-411c-b311-e95ce7a8ac38",
+        "nodeID": 1,
+        "score": 1100
+      },
+      {
+        "userID": "8f84d86b-4636-4d0a-94f8-2dac1d0be62e",
+        "nodeID": 2,
+        "score": 1100
+      },
+      {
+        "userID": "d5cf9c9e-2083-49bf-b16b-16766e7a0966",
+        "nodeID": 3,
+        "score": 1100
+      },
+      {
+        "userID": "4c938270-4d3d-4e30-ac95-6952c186cab4",
+        "nodeID": 4,
+        "score": 1100
+      }
+    ]
+  }
+}

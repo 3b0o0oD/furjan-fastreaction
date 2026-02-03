@@ -1,0 +1,30 @@
+{
+  "team_name": "SHARK",
+  "timestamp": "2025-11-07 01:17:05",
+  "total_score": 5475,
+  "backend_payload": {
+    "gameResultID": "f8f4d4a7-529d-42b9-8ed4-aa669cb06445",
+    "individualScore": [
+      {
+        "userID": "ce33c724-5293-40e7-9bd5-007a8e704dea",
+        "nodeID": 1,
+        "score": 1371
+      },
+      {
+        "userID": "649a9f77-9141-4f95-ac01-c9c42dfa639d",
+        "nodeID": 2,
+        "score": 1368
+      },
+      {
+        "userID": "0a86c0da-b1f8-4839-b18d-8699c96b097b",
+        "nodeID": 3,
+        "score": 1368
+      },
+      {
+        "userID": "1b62f592-80ca-42f9-9ce6-55891e952314",
+        "nodeID": 4,
+        "score": 1368
+      }
+    ]
+  }
+}

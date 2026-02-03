@@ -1,0 +1,30 @@
+{
+  "team_name": "CHAMPS",
+  "timestamp": "2025-11-07 01:37:29",
+  "total_score": 0,
+  "backend_payload": {
+    "gameResultID": "feaa3984-f3fc-4773-b2d5-a3dc7def78fb",
+    "individualScore": [
+      {
+        "userID": "f5e9e19a-cbe3-4c29-a86f-356740146d5e",
+        "nodeID": 1,
+        "score": 0
+      },
+      {
+        "userID": "11aacda3-7a4a-4ec9-9284-0136af8c41cd",
+        "nodeID": 2,
+        "score": 0
+      },
+      {
+        "userID": "db3a1cd8-fcf1-4fab-80b2-b56900f613f7",
+        "nodeID": 3,
+        "score": 0
+      },
+      {
+        "userID": "1b803f09-7d7f-4acc-9fb5-4670d37c0e3b",
+        "nodeID": 4,
+        "score": 0
+      }
+    ]
+  }
+}

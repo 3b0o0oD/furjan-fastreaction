@@ -1,0 +1,30 @@
+{
+  "team_name": "MASTI QUEENS",
+  "timestamp": "2025-11-07 01:24:17",
+  "total_score": 12925,
+  "backend_payload": {
+    "gameResultID": "8e00cfaf-4405-4a06-965a-544a8e1b462a",
+    "individualScore": [
+      {
+        "userID": "15957c45-eb78-47af-a670-2a34104a889a",
+        "nodeID": 1,
+        "score": 3232
+      },
+      {
+        "userID": "0b69cbd4-c5f2-4111-adfa-e29c6b32de49",
+        "nodeID": 2,
+        "score": 3231
+      },
+      {
+        "userID": "4a3b17a9-649f-4387-a866-beec9a8f5143",
+        "nodeID": 3,
+        "score": 3231
+      },
+      {
+        "userID": "4ad43fdb-9978-4568-83db-773f5d8c313a",
+        "nodeID": 4,
+        "score": 3231
+      }
+    ]
+  }
+}

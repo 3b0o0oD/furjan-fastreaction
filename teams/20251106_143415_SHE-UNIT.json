@@ -1,0 +1,30 @@
+{
+  "team_name": "SHE-UNIT",
+  "timestamp": "2025-11-06 14:34:15",
+  "total_score": 10000,
+  "backend_payload": {
+    "gameResultID": "0163042c-0f49-4f84-ab6d-14fc985b904c",
+    "individualScore": [
+      {
+        "userID": "21530e9e-48ce-4a5a-adbf-121579ca4b06",
+        "nodeID": 1,
+        "score": 2500
+      },
+      {
+        "userID": "fd874e84-48a8-44b5-981d-1885347c1405",
+        "nodeID": 2,
+        "score": 2500
+      },
+      {
+        "userID": "19321edc-db13-4942-aa3b-4302b21e9d5c",
+        "nodeID": 3,
+        "score": 2500
+      },
+      {
+        "userID": "dd7fadc4-7c06-4ebb-82e6-b6208c24d5c0",
+        "nodeID": 4,
+        "score": 2500
+      }
+    ]
+  }
+}

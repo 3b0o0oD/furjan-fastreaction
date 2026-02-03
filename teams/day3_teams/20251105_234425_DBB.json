@@ -1,0 +1,30 @@
+{
+  "team_name": "DBB",
+  "timestamp": "2025-11-05 23:44:25",
+  "total_score": 425,
+  "backend_payload": {
+    "gameResultID": "74e76d43-fd2d-4b91-b2b9-76c7e3591a40",
+    "individualScore": [
+      {
+        "userID": "64029c67-6f02-4e27-8ba8-54d360693747",
+        "nodeID": 1,
+        "score": 107
+      },
+      {
+        "userID": "561b40c7-5791-4edd-8018-aa2b91f81936",
+        "nodeID": 2,
+        "score": 106
+      },
+      {
+        "userID": "ebf826c7-b4ad-4b0c-8d9f-7781abd27cd9",
+        "nodeID": 3,
+        "score": 106
+      },
+      {
+        "userID": "c0ba3111-e845-48bd-b1cf-4561874e86b2",
+        "nodeID": 4,
+        "score": 106
+      }
+    ]
+  }
+}

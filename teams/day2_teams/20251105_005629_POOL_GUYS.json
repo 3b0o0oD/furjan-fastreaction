@@ -1,0 +1,30 @@
+{
+  "team_name": "POOL GUYS",
+  "timestamp": "2025-11-05 00:56:29",
+  "total_score": 8500,
+  "backend_payload": {
+    "gameResultID": "9fb3177c-36b1-4148-b1e1-a91be6c423bd",
+    "individualScore": [
+      {
+        "userID": "5a39ec7b-b6b2-4efa-9022-bb4f7afaab65",
+        "nodeID": 1,
+        "score": 2125
+      },
+      {
+        "userID": "31344c66-815f-4390-a5a6-7121070b9752",
+        "nodeID": 2,
+        "score": 2125
+      },
+      {
+        "userID": "e429c56f-9694-474b-af80-9a6769ba7e60",
+        "nodeID": 3,
+        "score": 2125
+      },
+      {
+        "userID": "79e6fbba-204c-4cbc-888f-8d0e03363baa",
+        "nodeID": 4,
+        "score": 2125
+      }
+    ]
+  }
+}

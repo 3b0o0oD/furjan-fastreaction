@@ -1,0 +1,30 @@
+{
+  "team_name": "DP-D18-A IRON140",
+  "timestamp": "2025-11-06 15:05:14",
+  "total_score": 2425,
+  "backend_payload": {
+    "gameResultID": "47993fb7-9c3c-4674-abad-41de354a6b6c",
+    "individualScore": [
+      {
+        "userID": "372ced83-b526-4037-afba-acad0d5b8422",
+        "nodeID": 1,
+        "score": 607
+      },
+      {
+        "userID": "1f6be4a0-0114-4441-a443-e558d0faa2a5",
+        "nodeID": 2,
+        "score": 606
+      },
+      {
+        "userID": "02577522-dff3-4731-b2cb-27cba2217fad",
+        "nodeID": 3,
+        "score": 606
+      },
+      {
+        "userID": "2cb6836e-91e7-4962-84b8-86ba09fb457b",
+        "nodeID": 4,
+        "score": 606
+      }
+    ]
+  }
+}

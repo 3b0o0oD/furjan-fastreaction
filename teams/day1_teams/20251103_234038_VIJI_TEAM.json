@@ -1,0 +1,30 @@
+{
+  "team_name": "VIJI TEAM",
+  "timestamp": "2025-11-03 23:40:38",
+  "total_score": 9725,
+  "backend_payload": {
+    "gameResultID": "56cfede1-0737-4e04-9931-d371043123f8",
+    "individualScore": [
+      {
+        "userID": "ea14dcb6-8431-4b00-ac28-ef7566d3539f",
+        "nodeID": 1,
+        "score": 2432
+      },
+      {
+        "userID": "45cf12a3-325f-4e5b-b962-e96b2df19700",
+        "nodeID": 2,
+        "score": 2431
+      },
+      {
+        "userID": "428fe8d5-9f0a-4d90-ad9f-87fe43a4e2ce",
+        "nodeID": 3,
+        "score": 2431
+      },
+      {
+        "userID": "0ec01a7d-6afc-4a71-9891-1cc58d44aa76",
+        "nodeID": 4,
+        "score": 2431
+      }
+    ]
+  }
+}

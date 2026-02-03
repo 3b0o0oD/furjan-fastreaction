@@ -1,0 +1,30 @@
+{
+  "team_name": "THE GOVERNMENT OF DUBAI LEGAL AFFAIRS DEPARTMENT",
+  "timestamp": "2025-11-03 16:07:14",
+  "total_score": 4750,
+  "backend_payload": {
+    "gameResultID": "1d4f847d-fd67-441c-b937-fd3cabb256c2",
+    "individualScore": [
+      {
+        "userID": "cd508bec-7184-40f2-a35d-8c2a492be2f2",
+        "nodeID": 1,
+        "score": 1189
+      },
+      {
+        "userID": "6c57251c-e847-47eb-870e-983c37d2854e",
+        "nodeID": 2,
+        "score": 1187
+      },
+      {
+        "userID": "b682a902-0913-4cab-a724-4888782b3b82",
+        "nodeID": 3,
+        "score": 1187
+      },
+      {
+        "userID": "d1e08176-7457-4af1-b24f-708ee2ab3d4f",
+        "nodeID": 4,
+        "score": 1187
+      }
+    ]
+  }
+}

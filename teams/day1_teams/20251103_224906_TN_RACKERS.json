@@ -1,0 +1,30 @@
+{
+  "team_name": "TN RACKERS",
+  "timestamp": "2025-11-03 22:49:06",
+  "total_score": 7625,
+  "backend_payload": {
+    "gameResultID": "ac59d2e6-d03e-4798-9d10-fefc50e42e82",
+    "individualScore": [
+      {
+        "userID": "e0c4c322-2bc4-4155-86cd-9de18c3d0c08",
+        "nodeID": 1,
+        "score": 1907
+      },
+      {
+        "userID": "58b5b5fa-a7a7-4790-9b7b-7e7f21f39af4",
+        "nodeID": 2,
+        "score": 1906
+      },
+      {
+        "userID": "2bb483b5-a189-4643-bde8-45d862f96efc",
+        "nodeID": 3,
+        "score": 1906
+      },
+      {
+        "userID": "a53bac86-c115-476d-a9cf-da3428a2b033",
+        "nodeID": 4,
+        "score": 1906
+      }
+    ]
+  }
+}

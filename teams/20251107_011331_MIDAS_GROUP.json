@@ -1,0 +1,30 @@
+{
+  "team_name": "MIDAS GROUP",
+  "timestamp": "2025-11-07 01:13:31",
+  "total_score": 14500,
+  "backend_payload": {
+    "gameResultID": "49bed447-6f23-4a26-8b02-fb4fde1e2ce9",
+    "individualScore": [
+      {
+        "userID": "58b5b5fa-a7a7-4790-9b7b-7e7f21f39af4",
+        "nodeID": 1,
+        "score": 3625
+      },
+      {
+        "userID": "8c81a506-fc63-4b89-8485-66f9b8e0cc82",
+        "nodeID": 2,
+        "score": 3625
+      },
+      {
+        "userID": "f9875686-2f06-4303-ac49-e7e7c6e5f3fa",
+        "nodeID": 3,
+        "score": 3625
+      },
+      {
+        "userID": "2bb483b5-a189-4643-bde8-45d862f96efc",
+        "nodeID": 4,
+        "score": 3625
+      }
+    ]
+  }
+}

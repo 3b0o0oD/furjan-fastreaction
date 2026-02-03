@@ -1,0 +1,30 @@
+{
+  "team_name": "ANSARI TEAM",
+  "timestamp": "2025-11-04 01:34:17",
+  "total_score": 6700,
+  "backend_payload": {
+    "gameResultID": "0194e711-5014-41c4-937e-424c66cab347",
+    "individualScore": [
+      {
+        "userID": "5f2a1758-ff66-4fab-b8bd-07813a4afef7",
+        "nodeID": 1,
+        "score": 1675
+      },
+      {
+        "userID": "cb275f77-7d5e-4c74-8141-47c09672a55d",
+        "nodeID": 2,
+        "score": 1675
+      },
+      {
+        "userID": "64797f5a-75f4-463c-bd30-4b35f659b9d6",
+        "nodeID": 3,
+        "score": 1675
+      },
+      {
+        "userID": "4a22a705-e96d-41df-b577-778479c75f8a",
+        "nodeID": 4,
+        "score": 1675
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "team_name": "EMINENT GROUP",
+  "timestamp": "2025-11-05 00:24:55",
+  "total_score": 8025,
+  "backend_payload": {
+    "gameResultID": "73103d8e-318e-4fb0-ae4c-009920948461",
+    "individualScore": [
+      {
+        "userID": "eddaada3-f4de-4aea-954c-22d9b533f94d",
+        "nodeID": 1,
+        "score": 2007
+      },
+      {
+        "userID": "81cfc190-eebd-4bcb-bba7-a60f0e539a29",
+        "nodeID": 2,
+        "score": 2006
+      },
+      {
+        "userID": "6646cf33-f424-4e27-bf54-1db9be560c85",
+        "nodeID": 3,
+        "score": 2006
+      },
+      {
+        "userID": "3f54139b-7085-400b-9d20-41abd1148154",
+        "nodeID": 4,
+        "score": 2006
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "team_name": "GOOD GIRLS",
+  "timestamp": "2025-11-03 20:42:08",
+  "total_score": 6325,
+  "backend_payload": {
+    "gameResultID": "43ef490e-9752-40c9-93ae-391ac0b18a4e",
+    "individualScore": [
+      {
+        "userID": "a163fe8b-11a6-440b-9995-94973dc82b91",
+        "nodeID": 1,
+        "score": 1582
+      },
+      {
+        "userID": "4aa45ae5-3482-497d-895d-482c6f0515c7",
+        "nodeID": 2,
+        "score": 1581
+      },
+      {
+        "userID": "b2fb42e2-50a7-4a2c-9970-2dafa13c8080",
+        "nodeID": 3,
+        "score": 1581
+      },
+      {
+        "userID": "4a3b17a9-649f-4387-a866-beec9a8f5143",
+        "nodeID": 4,
+        "score": 1581
+      }
+    ]
+  }
+}

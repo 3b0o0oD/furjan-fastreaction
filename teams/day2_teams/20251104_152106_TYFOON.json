@@ -1,0 +1,30 @@
+{
+  "team_name": "TYFOON",
+  "timestamp": "2025-11-04 15:21:06",
+  "total_score": 3875,
+  "backend_payload": {
+    "gameResultID": "878efe2e-6889-4001-aedc-558a78f169ae",
+    "individualScore": [
+      {
+        "userID": "ffd3697c-1cc5-458d-9304-57a17db1dfd5",
+        "nodeID": 1,
+        "score": 971
+      },
+      {
+        "userID": "313c4089-8d22-448a-875e-a3fe6550bff4",
+        "nodeID": 2,
+        "score": 968
+      },
+      {
+        "userID": "f7b99d81-fcf3-44dd-b3d4-95551cad40d3",
+        "nodeID": 3,
+        "score": 968
+      },
+      {
+        "userID": "5ff27ae9-dcd6-40b4-ba0b-804b5a7cb7e8",
+        "nodeID": 4,
+        "score": 968
+      }
+    ]
+  }
+}

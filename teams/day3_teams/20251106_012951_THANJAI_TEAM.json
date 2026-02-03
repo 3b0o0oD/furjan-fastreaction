@@ -1,0 +1,30 @@
+{
+  "team_name": "THANJAI TEAM",
+  "timestamp": "2025-11-06 01:29:51",
+  "total_score": 4850,
+  "backend_payload": {
+    "gameResultID": "e89ad321-00f6-4304-81e5-3c4a911e2894",
+    "individualScore": [
+      {
+        "userID": "ff120cc8-e002-4faa-aa29-be774a66ec09",
+        "nodeID": 1,
+        "score": 1214
+      },
+      {
+        "userID": "03da6a2a-d83c-4e5c-89a5-c299a74b7182",
+        "nodeID": 2,
+        "score": 1212
+      },
+      {
+        "userID": "73a24ecb-9c8d-4046-9d10-52b2556a2701",
+        "nodeID": 3,
+        "score": 1212
+      },
+      {
+        "userID": "c2bebd39-c625-432d-ae30-0dac3974b7d1",
+        "nodeID": 4,
+        "score": 1212
+      }
+    ]
+  }
+}

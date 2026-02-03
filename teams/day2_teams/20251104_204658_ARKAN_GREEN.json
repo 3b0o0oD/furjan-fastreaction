@@ -1,0 +1,30 @@
+{
+  "team_name": "ARKAN GREEN",
+  "timestamp": "2025-11-04 20:46:58",
+  "total_score": 5400,
+  "backend_payload": {
+    "gameResultID": "970191a8-902b-489e-8e85-7da0876454a5",
+    "individualScore": [
+      {
+        "userID": "3bacd4b5-0dc6-4e64-b502-ad4c8c8633cd",
+        "nodeID": 1,
+        "score": 1350
+      },
+      {
+        "userID": "9c53e4c2-aebb-4336-a268-98e612026786",
+        "nodeID": 2,
+        "score": 1350
+      },
+      {
+        "userID": "75dd9a72-a17b-4d8f-a175-550659fb3501",
+        "nodeID": 3,
+        "score": 1350
+      },
+      {
+        "userID": "76efb443-b80e-4b4f-a1bf-6f6259b31939",
+        "nodeID": 4,
+        "score": 1350
+      }
+    ]
+  }
+}

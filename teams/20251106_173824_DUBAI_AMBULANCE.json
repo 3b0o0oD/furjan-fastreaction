@@ -1,0 +1,30 @@
+{
+  "team_name": "DUBAI AMBULANCE",
+  "timestamp": "2025-11-06 17:38:24",
+  "total_score": 3950,
+  "backend_payload": {
+    "gameResultID": "c8cd4320-5183-44c5-89f2-2ed0b2d53b7b",
+    "individualScore": [
+      {
+        "userID": "2a69bf26-9a0b-4141-8903-1121bb86b57f",
+        "nodeID": 1,
+        "score": 989
+      },
+      {
+        "userID": "9aad7c66-ba0f-4e8e-94d7-b6114fb7148d",
+        "nodeID": 2,
+        "score": 987
+      },
+      {
+        "userID": "d398d781-288c-4532-af5f-761f2b993e0b",
+        "nodeID": 3,
+        "score": 987
+      },
+      {
+        "userID": "6b7ae7f4-5880-478d-bcf2-dddec93a30e5",
+        "nodeID": 4,
+        "score": 987
+      }
+    ]
+  }
+}

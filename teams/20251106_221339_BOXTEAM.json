@@ -1,0 +1,30 @@
+{
+  "team_name": "BOXTEAM",
+  "timestamp": "2025-11-06 22:13:39",
+  "total_score": 8725,
+  "backend_payload": {
+    "gameResultID": "f90b1d2f-0342-4681-b187-f75704bc05da",
+    "individualScore": [
+      {
+        "userID": "51496d8c-cf6d-4133-9bcc-a72b05a04e78",
+        "nodeID": 1,
+        "score": 2182
+      },
+      {
+        "userID": "5e160be8-31b1-41dc-a0a9-a11d5607c7dc",
+        "nodeID": 2,
+        "score": 2181
+      },
+      {
+        "userID": "3365563f-6a42-424c-90e2-6a133f4c5d52",
+        "nodeID": 3,
+        "score": 2181
+      },
+      {
+        "userID": "f6c328eb-8cb5-49ff-b529-8a5cbf97b0af",
+        "nodeID": 4,
+        "score": 2181
+      }
+    ]
+  }
+}

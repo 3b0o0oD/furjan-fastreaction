@@ -1,0 +1,30 @@
+{
+  "team_name": "AUDIX",
+  "timestamp": "2025-11-06 21:42:51",
+  "total_score": 12125,
+  "backend_payload": {
+    "gameResultID": "7e7a0232-e109-44f0-b280-5218fbc60917",
+    "individualScore": [
+      {
+        "userID": "10494842-981d-4658-b2bd-40e42a003975",
+        "nodeID": 1,
+        "score": 3032
+      },
+      {
+        "userID": "3ca9b08c-87ec-4833-8c25-8c1edbf41ee3",
+        "nodeID": 2,
+        "score": 3031
+      },
+      {
+        "userID": "2b204cd3-011e-47d2-a82a-b26c3407b9b6",
+        "nodeID": 3,
+        "score": 3031
+      },
+      {
+        "userID": "0b1dac19-6281-404d-a6c7-5a5455b56fe1",
+        "nodeID": 4,
+        "score": 3031
+      }
+    ]
+  }
+}

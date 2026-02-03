@@ -1,0 +1,30 @@
+{
+  "team_name": "KNGT",
+  "timestamp": "2025-11-06 16:32:22",
+  "total_score": 0,
+  "backend_payload": {
+    "gameResultID": "d3c0792d-1155-46e1-af81-f62fb0b9c230",
+    "individualScore": [
+      {
+        "userID": "8740e1dd-0ae3-4b3d-afea-58ee7e6edce1",
+        "nodeID": 1,
+        "score": 0
+      },
+      {
+        "userID": "c9e369c0-0127-43ea-b123-6c4f269d7d3b",
+        "nodeID": 2,
+        "score": 0
+      },
+      {
+        "userID": "46b8d9ba-cc73-4c54-b405-dc4ddd4efc3d",
+        "nodeID": 3,
+        "score": 0
+      },
+      {
+        "userID": "f8e1d443-d91f-4ce2-a243-610f4e83590e",
+        "nodeID": 4,
+        "score": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "team_name": "NIKI BATCH",
+  "timestamp": "2025-11-03 17:04:29",
+  "total_score": 1450,
+  "backend_payload": {
+    "gameResultID": "57bb664c-f7db-4970-b64e-13062649b78f",
+    "individualScore": [
+      {
+        "userID": "4a3b17a9-649f-4387-a866-beec9a8f5143",
+        "nodeID": 1,
+        "score": 364
+      },
+      {
+        "userID": "15957c45-eb78-47af-a670-2a34104a889a",
+        "nodeID": 2,
+        "score": 362
+      },
+      {
+        "userID": "b2fb42e2-50a7-4a2c-9970-2dafa13c8080",
+        "nodeID": 3,
+        "score": 362
+      },
+      {
+        "userID": "a163fe8b-11a6-440b-9995-94973dc82b91",
+        "nodeID": 4,
+        "score": 362
+      }
+    ]
+  }
+}

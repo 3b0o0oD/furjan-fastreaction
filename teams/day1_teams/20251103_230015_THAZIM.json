@@ -1,0 +1,30 @@
+{
+  "team_name": "THAZIM",
+  "timestamp": "2025-11-03 23:00:15",
+  "total_score": 9850,
+  "backend_payload": {
+    "gameResultID": "5b18a378-eeac-4d5d-8f1a-b4766ab89ee7",
+    "individualScore": [
+      {
+        "userID": "e5e02f10-a68b-4615-8ed3-a4e0131d868e",
+        "nodeID": 1,
+        "score": 2464
+      },
+      {
+        "userID": "d6217361-fad5-4b36-adf0-2565ebe19c15",
+        "nodeID": 2,
+        "score": 2462
+      },
+      {
+        "userID": "769c5b25-9a13-4148-8156-16721d969db9",
+        "nodeID": 3,
+        "score": 2462
+      },
+      {
+        "userID": "6a0ff41e-7596-44ed-b18a-680c607ba04f",
+        "nodeID": 4,
+        "score": 2462
+      }
+    ]
+  }
+}

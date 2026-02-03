@@ -1,0 +1,30 @@
+{
+  "team_name": "PRETTY TELUGU WOMEN",
+  "timestamp": "2025-11-05 15:55:23",
+  "total_score": 5400,
+  "backend_payload": {
+    "gameResultID": "a84cff11-2359-4f36-b484-84e76e3dc7d1",
+    "individualScore": [
+      {
+        "userID": "ad2fed5f-0062-485a-ace8-40e678da36fb",
+        "nodeID": 1,
+        "score": 1350
+      },
+      {
+        "userID": "b5c890e7-15df-4a0b-b64f-9c49b6fd11ea",
+        "nodeID": 2,
+        "score": 1350
+      },
+      {
+        "userID": "ffb649dd-dd6f-480a-8d9b-93165aa94a40",
+        "nodeID": 3,
+        "score": 1350
+      },
+      {
+        "userID": "ff3c5670-18e4-4df8-b35d-4d346c9a46ef",
+        "nodeID": 4,
+        "score": 1350
+      }
+    ]
+  }
+}

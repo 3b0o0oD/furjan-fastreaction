@@ -1,0 +1,30 @@
+{
+  "team_name": "AJGY",
+  "timestamp": "2025-11-03 18:34:43",
+  "total_score": 250,
+  "backend_payload": {
+    "gameResultID": "a73c8957-09bb-45f4-891d-fb7d2fe6af71",
+    "individualScore": [
+      {
+        "userID": "c9984388-c6fe-46af-a985-3fc5b732c790",
+        "nodeID": 1,
+        "score": 64
+      },
+      {
+        "userID": "e82a9e3d-ba8c-4f14-a1ca-814bbb7e84d7",
+        "nodeID": 2,
+        "score": 62
+      },
+      {
+        "userID": "cafb62ea-76e5-4626-a35b-068081dd131e",
+        "nodeID": 3,
+        "score": 62
+      },
+      {
+        "userID": "64797f5a-75f4-463c-bd30-4b35f659b9d6",
+        "nodeID": 4,
+        "score": 62
+      }
+    ]
+  }
+}

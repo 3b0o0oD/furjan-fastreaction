@@ -1,0 +1,30 @@
+{
+  "team_name": "CTRL ALT  CELEBRATE",
+  "timestamp": "2025-11-05 00:36:41",
+  "total_score": 2400,
+  "backend_payload": {
+    "gameResultID": "da226d5a-7284-4b77-b0d9-8b3d6a7342f9",
+    "individualScore": [
+      {
+        "userID": "62346b2a-37e4-477b-99c4-0c34a958215a",
+        "nodeID": 1,
+        "score": 600
+      },
+      {
+        "userID": "0d6ab6e1-3b8a-4a2c-823e-b01ae3828d23",
+        "nodeID": 2,
+        "score": 600
+      },
+      {
+        "userID": "e4754852-fb27-4b9c-af0d-53cb8e48a48f",
+        "nodeID": 3,
+        "score": 600
+      },
+      {
+        "userID": "f05f94e3-f6cc-408f-bc5d-bd287d50a95b",
+        "nodeID": 4,
+        "score": 600
+      }
+    ]
+  }
+}

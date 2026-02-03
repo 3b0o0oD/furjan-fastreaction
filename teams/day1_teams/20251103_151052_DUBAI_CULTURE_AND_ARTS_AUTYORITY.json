@@ -1,0 +1,30 @@
+{
+  "team_name": "DUBAI CULTURE AND ARTS AUTYORITY",
+  "timestamp": "2025-11-03 15:10:52",
+  "total_score": 4350,
+  "backend_payload": {
+    "gameResultID": "af6e0acc-22a4-4274-adf7-af8fe5553e8e",
+    "individualScore": [
+      {
+        "userID": "986269f2-2232-44b6-8de2-8bb104456084",
+        "nodeID": 1,
+        "score": 1089
+      },
+      {
+        "userID": "fd67bd7b-2323-4276-9fe9-135d00d0f038",
+        "nodeID": 2,
+        "score": 1087
+      },
+      {
+        "userID": "4bc03718-00e2-41c0-b19a-cb4f8dd30134",
+        "nodeID": 3,
+        "score": 1087
+      },
+      {
+        "userID": "357af6b7-896c-4edb-b353-67620d7983f8",
+        "nodeID": 4,
+        "score": 1087
+      }
+    ]
+  }
+}

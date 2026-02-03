@@ -1,0 +1,30 @@
+{
+  "team_name": "VOSTOK TEAM 2",
+  "timestamp": "2025-11-04 16:11:25",
+  "total_score": 5025,
+  "backend_payload": {
+    "gameResultID": "9add6c93-99ee-4dd2-bfab-20b38a8a907c",
+    "individualScore": [
+      {
+        "userID": "2aee1811-e048-497b-a3d8-75f4bf786064",
+        "nodeID": 1,
+        "score": 1257
+      },
+      {
+        "userID": "289ed99f-a710-4626-ac07-8cd4d0fa970c",
+        "nodeID": 2,
+        "score": 1256
+      },
+      {
+        "userID": "9acc5a5e-4999-496f-afbb-d405fb619614",
+        "nodeID": 3,
+        "score": 1256
+      },
+      {
+        "userID": "d55a9fa3-14db-4cd0-9280-65097b799a8b",
+        "nodeID": 4,
+        "score": 1256
+      }
+    ]
+  }
+}

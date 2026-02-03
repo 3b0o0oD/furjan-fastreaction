@@ -1,0 +1,30 @@
+{
+  "team_name": "HAGI",
+  "timestamp": "2025-11-04 20:13:11",
+  "total_score": 3125,
+  "backend_payload": {
+    "gameResultID": "a2274f80-3274-410f-b2fb-0b7a2412faff",
+    "individualScore": [
+      {
+        "userID": "0f33848d-342d-449b-9e26-165eedc77618",
+        "nodeID": 1,
+        "score": 782
+      },
+      {
+        "userID": "dcc1437b-dc0f-47f9-ab43-b8a8608cc512",
+        "nodeID": 2,
+        "score": 781
+      },
+      {
+        "userID": "10b8ac94-3220-40ef-9964-aaf6e26c3160",
+        "nodeID": 3,
+        "score": 781
+      },
+      {
+        "userID": "f7acb1d2-aba8-4852-8fa3-eaf6b0730a9b",
+        "nodeID": 4,
+        "score": 781
+      }
+    ]
+  }
+}

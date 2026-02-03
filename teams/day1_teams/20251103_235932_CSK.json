@@ -1,0 +1,30 @@
+{
+  "team_name": "CSK",
+  "timestamp": "2025-11-03 23:59:32",
+  "total_score": 6750,
+  "backend_payload": {
+    "gameResultID": "0daf9cdd-4ba4-468a-9ed3-8c421f828f8b",
+    "individualScore": [
+      {
+        "userID": "4a11a2d9-a4a0-41f7-bdb7-ed69ea4f7ceb",
+        "nodeID": 1,
+        "score": 1689
+      },
+      {
+        "userID": "9a6f39c7-c6c3-46e2-b3af-a02786fdf43a",
+        "nodeID": 2,
+        "score": 1687
+      },
+      {
+        "userID": "be5a75ce-8002-421e-a1dc-b15efac844bf",
+        "nodeID": 3,
+        "score": 1687
+      },
+      {
+        "userID": "118aa479-c764-4ec5-8f4e-d24f155ba076",
+        "nodeID": 4,
+        "score": 1687
+      }
+    ]
+  }
+}

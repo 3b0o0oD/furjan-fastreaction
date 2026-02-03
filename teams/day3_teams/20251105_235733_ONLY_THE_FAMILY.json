@@ -1,0 +1,30 @@
+{
+  "team_name": "ONLY THE FAMILY",
+  "timestamp": "2025-11-05 23:57:33",
+  "total_score": 4975,
+  "backend_payload": {
+    "gameResultID": "3899d5d2-8812-489f-a627-09a28603e5c0",
+    "individualScore": [
+      {
+        "userID": "038d7fe6-223f-4307-ae4c-08cfde2f63ea",
+        "nodeID": 1,
+        "score": 1246
+      },
+      {
+        "userID": "f610a227-0542-48b5-85b5-a026c38acc42",
+        "nodeID": 2,
+        "score": 1243
+      },
+      {
+        "userID": "1484c9e1-29eb-465e-97f3-f3787453b419",
+        "nodeID": 3,
+        "score": 1243
+      },
+      {
+        "userID": "7ba4c871-6f5b-47a3-bc6e-1955bad17eae",
+        "nodeID": 4,
+        "score": 1243
+      }
+    ]
+  }
+}

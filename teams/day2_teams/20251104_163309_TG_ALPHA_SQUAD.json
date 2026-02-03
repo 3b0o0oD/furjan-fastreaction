@@ -1,0 +1,30 @@
+{
+  "team_name": "TG ALPHA SQUAD",
+  "timestamp": "2025-11-04 16:33:09",
+  "total_score": 5150,
+  "backend_payload": {
+    "gameResultID": "90245f75-0c0f-4f7e-a082-7c829498865e",
+    "individualScore": [
+      {
+        "userID": "ecef0acd-2a35-4cad-b45e-0ff363a63223",
+        "nodeID": 1,
+        "score": 1289
+      },
+      {
+        "userID": "b0b83ec7-5cdf-4d40-baa3-ed737b620660",
+        "nodeID": 2,
+        "score": 1287
+      },
+      {
+        "userID": "f49f62a1-fcf5-4ce9-9d81-2c04cbc45031",
+        "nodeID": 3,
+        "score": 1287
+      },
+      {
+        "userID": "c612ba5f-c7af-4b54-ace6-5427509caa22",
+        "nodeID": 4,
+        "score": 1287
+      }
+    ]
+  }
+}

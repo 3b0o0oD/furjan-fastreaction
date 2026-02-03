@@ -1,0 +1,30 @@
+{
+  "team_name": "BDUL RAZAQ",
+  "timestamp": "2025-11-03 21:12:35",
+  "total_score": 6275,
+  "backend_payload": {
+    "gameResultID": "c2b4e8ba-ee52-45fb-8891-495bfad5e622",
+    "individualScore": [
+      {
+        "userID": "10a6c631-3f43-4877-8e62-9ad6d0d8f644",
+        "nodeID": 1,
+        "score": 1571
+      },
+      {
+        "userID": "f6854014-4db8-43c0-a2d4-916acdf63c2e",
+        "nodeID": 2,
+        "score": 1568
+      },
+      {
+        "userID": "a727a969-c857-41fb-a6da-aa0636fa4ddb",
+        "nodeID": 3,
+        "score": 1568
+      },
+      {
+        "userID": "35ca2b83-4a89-4c8c-9b41-c4a661b055e4",
+        "nodeID": 4,
+        "score": 1568
+      }
+    ]
+  }
+}

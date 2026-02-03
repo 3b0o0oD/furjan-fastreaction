@@ -1,0 +1,30 @@
+{
+  "team_name": "PX HUYS",
+  "timestamp": "2025-11-04 15:38:13",
+  "total_score": 3025,
+  "backend_payload": {
+    "gameResultID": "bfcb18eb-8789-431f-8988-b454d7ef6cda",
+    "individualScore": [
+      {
+        "userID": "216d3143-0960-43dc-801a-dd496db56335",
+        "nodeID": 1,
+        "score": 757
+      },
+      {
+        "userID": "4291d480-a260-4355-bfa2-3b7777142e45",
+        "nodeID": 2,
+        "score": 756
+      },
+      {
+        "userID": "17071085-c4e8-438d-a071-b3a88da27e0f",
+        "nodeID": 3,
+        "score": 756
+      },
+      {
+        "userID": "043cdc18-5329-4823-8c0a-980ae5b830c7",
+        "nodeID": 4,
+        "score": 756
+      }
+    ]
+  }
+}

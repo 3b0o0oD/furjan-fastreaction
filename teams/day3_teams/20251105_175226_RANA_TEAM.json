@@ -1,0 +1,30 @@
+{
+  "team_name": "RANA TEAM",
+  "timestamp": "2025-11-05 17:52:26",
+  "total_score": 12300,
+  "backend_payload": {
+    "gameResultID": "39333751-7c40-4c1f-a748-5dac092d162c",
+    "individualScore": [
+      {
+        "userID": "f243c8e6-5529-45fd-99c0-b42950d1515b",
+        "nodeID": 1,
+        "score": 3075
+      },
+      {
+        "userID": "eb6aede5-d86a-4e01-ad98-e9116eb219ed",
+        "nodeID": 2,
+        "score": 3075
+      },
+      {
+        "userID": "a7c26adb-f449-4d1d-b68a-413aaf367143",
+        "nodeID": 3,
+        "score": 3075
+      },
+      {
+        "userID": "c29cad45-43c0-4d55-896a-c1d22c01a3f5",
+        "nodeID": 4,
+        "score": 3075
+      }
+    ]
+  }
+}

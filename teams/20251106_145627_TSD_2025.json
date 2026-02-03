@@ -1,0 +1,30 @@
+{
+  "team_name": "TSD 2025",
+  "timestamp": "2025-11-06 14:56:27",
+  "total_score": 2375,
+  "backend_payload": {
+    "gameResultID": "ec71f190-606d-4ad3-8919-db690418a37d",
+    "individualScore": [
+      {
+        "userID": "74e65fe8-d549-4d48-bd4c-6e295cacdf87",
+        "nodeID": 1,
+        "score": 596
+      },
+      {
+        "userID": "5549cfca-2448-4ae0-a093-85bad4372b02",
+        "nodeID": 2,
+        "score": 593
+      },
+      {
+        "userID": "dff15d9a-e80f-4100-b78a-b522634f3626",
+        "nodeID": 3,
+        "score": 593
+      },
+      {
+        "userID": "bcf848ab-cac3-499f-a1a0-a3ee4e7a8dff",
+        "nodeID": 4,
+        "score": 593
+      }
+    ]
+  }
+}

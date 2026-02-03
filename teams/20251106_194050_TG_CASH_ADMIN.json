@@ -1,0 +1,30 @@
+{
+  "team_name": "TG CASH ADMIN",
+  "timestamp": "2025-11-06 19:40:50",
+  "total_score": 2525,
+  "backend_payload": {
+    "gameResultID": "9dc662cc-d54d-4b87-b673-32a57107f9a3",
+    "individualScore": [
+      {
+        "userID": "62f4e50c-5b8c-4726-b9f8-ae630f0a2f63",
+        "nodeID": 1,
+        "score": 632
+      },
+      {
+        "userID": "e338c1b8-1153-434a-a4c2-dd90a625a652",
+        "nodeID": 2,
+        "score": 631
+      },
+      {
+        "userID": "80c382d2-002c-4d13-bdb6-013c6c1d37af",
+        "nodeID": 3,
+        "score": 631
+      },
+      {
+        "userID": "b5020a88-2abe-47ea-b380-beb8506b0133",
+        "nodeID": 4,
+        "score": 631
+      }
+    ]
+  }
+}

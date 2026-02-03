@@ -1,0 +1,30 @@
+{
+  "team_name": "HEROS",
+  "timestamp": "2025-11-06 20:01:39",
+  "total_score": 4825,
+  "backend_payload": {
+    "gameResultID": "8ba80f6c-6247-41aa-8ba6-41e2e6cdd301",
+    "individualScore": [
+      {
+        "userID": "abd6ace9-753e-42d3-b6df-11d337530a7d",
+        "nodeID": 1,
+        "score": 1207
+      },
+      {
+        "userID": "91645db8-214e-4c7e-bbc7-be6f0d55de13",
+        "nodeID": 2,
+        "score": 1206
+      },
+      {
+        "userID": "2768848e-0a6b-43d6-8a07-9f2a44477b2b",
+        "nodeID": 3,
+        "score": 1206
+      },
+      {
+        "userID": "45be1674-18f4-49de-aacc-6ad7f6c1c8ab",
+        "nodeID": 4,
+        "score": 1206
+      }
+    ]
+  }
+}

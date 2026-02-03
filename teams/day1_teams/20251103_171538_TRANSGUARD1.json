@@ -1,0 +1,30 @@
+{
+  "team_name": "TRANSGUARD1",
+  "timestamp": "2025-11-03 17:15:38",
+  "total_score": 525,
+  "backend_payload": {
+    "gameResultID": "2c7b588b-acec-4ee0-83e5-ab5dcdc6a586",
+    "individualScore": [
+      {
+        "userID": "aa341e17-7edf-4ffe-80e1-962d5399b63b",
+        "nodeID": 1,
+        "score": 132
+      },
+      {
+        "userID": "47a76886-e569-4ea6-901f-fa41d8d6f7b3",
+        "nodeID": 2,
+        "score": 131
+      },
+      {
+        "userID": "d440e28b-d35e-4dfb-b847-fbad9e906b84",
+        "nodeID": 3,
+        "score": 131
+      },
+      {
+        "userID": "8f965bf9-ac46-4d8b-8838-597a0aa135c4",
+        "nodeID": 4,
+        "score": 131
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "team_name": "JU JA",
+  "timestamp": "2025-11-04 23:00:08",
+  "total_score": 10500,
+  "backend_payload": {
+    "gameResultID": "714518af-0c74-4ab5-a7e1-f7cd5c07171c",
+    "individualScore": [
+      {
+        "userID": "62195f7f-6829-4578-8baf-57c326ab90ba",
+        "nodeID": 1,
+        "score": 2625
+      },
+      {
+        "userID": "62d3216b-e7a3-433c-86b5-50a08a219c21",
+        "nodeID": 2,
+        "score": 2625
+      },
+      {
+        "userID": "5ea4dbae-9dc3-4efc-bc7f-de4703a6b969",
+        "nodeID": 3,
+        "score": 2625
+      },
+      {
+        "userID": "f52ac7ec-7ca6-406f-af44-5a69a6b1d34a",
+        "nodeID": 4,
+        "score": 2625
+      }
+    ]
+  }
+}

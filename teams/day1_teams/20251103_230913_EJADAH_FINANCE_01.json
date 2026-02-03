@@ -1,0 +1,30 @@
+{
+  "team_name": "EJADAH FINANCE 01",
+  "timestamp": "2025-11-03 23:09:13",
+  "total_score": 3100,
+  "backend_payload": {
+    "gameResultID": "b8568c76-bd98-4623-8933-ba34daf8a9ef",
+    "individualScore": [
+      {
+        "userID": "c1c80f44-42e0-4504-a1d4-80e326394a2b",
+        "nodeID": 1,
+        "score": 775
+      },
+      {
+        "userID": "f6ca4224-b60a-45be-bb07-9a67b5616680",
+        "nodeID": 2,
+        "score": 775
+      },
+      {
+        "userID": "c7109b56-e11c-4de5-ae8e-1a8a7ab96166",
+        "nodeID": 3,
+        "score": 775
+      },
+      {
+        "userID": "bdf30279-0b8d-46f0-8a5e-36330a19e9eb",
+        "nodeID": 4,
+        "score": 775
+      }
+    ]
+  }
+}

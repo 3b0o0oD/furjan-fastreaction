@@ -1,0 +1,30 @@
+{
+  "team_name": "EMARAT TSD 16",
+  "timestamp": "2025-11-05 14:32:54",
+  "total_score": 4900,
+  "backend_payload": {
+    "gameResultID": "c89cc316-568d-4534-a9f2-f90c380c3eed",
+    "individualScore": [
+      {
+        "userID": "5e947fe6-ad8b-4d8e-95fb-d02fe3e34397",
+        "nodeID": 1,
+        "score": 1225
+      },
+      {
+        "userID": "8aff1c70-2e05-447b-8630-cece7d100fd9",
+        "nodeID": 2,
+        "score": 1225
+      },
+      {
+        "userID": "69515e5c-0694-4577-9d5e-29a64cac1073",
+        "nodeID": 3,
+        "score": 1225
+      },
+      {
+        "userID": "9a54417b-fb9d-4f40-a929-686cf184da44",
+        "nodeID": 4,
+        "score": 1225
+      }
+    ]
+  }
+}

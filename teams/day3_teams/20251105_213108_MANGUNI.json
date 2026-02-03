@@ -1,0 +1,30 @@
+{
+  "team_name": "MANGUNI",
+  "timestamp": "2025-11-05 21:31:08",
+  "total_score": 4900,
+  "backend_payload": {
+    "gameResultID": "544b410c-e17c-4604-b4b6-6ead0d70f5ab",
+    "individualScore": [
+      {
+        "userID": "638adc47-dca3-455f-a7a9-8ae59f2275fb",
+        "nodeID": 1,
+        "score": 1225
+      },
+      {
+        "userID": "d35c4971-0f70-4fa8-8cf7-ff5ea9256a89",
+        "nodeID": 2,
+        "score": 1225
+      },
+      {
+        "userID": "09cc09b9-34e7-468d-a7ef-bbd516fc144e",
+        "nodeID": 3,
+        "score": 1225
+      },
+      {
+        "userID": "9e748b08-c243-4f70-9ce1-bfe0713575d2",
+        "nodeID": 4,
+        "score": 1225
+      }
+    ]
+  }
+}

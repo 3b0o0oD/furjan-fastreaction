@@ -1,0 +1,30 @@
+{
+  "team_name": "VOSTOK TEAM 16",
+  "timestamp": "2025-11-03 22:21:08",
+  "total_score": 8100,
+  "backend_payload": {
+    "gameResultID": "c890d119-7c2b-4613-a076-dd9ff0648a88",
+    "individualScore": [
+      {
+        "userID": "62346b2a-37e4-477b-99c4-0c34a958215a",
+        "nodeID": 1,
+        "score": 2025
+      },
+      {
+        "userID": "df2d1be8-bd34-4565-9f9f-6ed7b2e655e7",
+        "nodeID": 2,
+        "score": 2025
+      },
+      {
+        "userID": "40b85b6e-5143-4c53-81a9-d283704e0ede",
+        "nodeID": 3,
+        "score": 2025
+      },
+      {
+        "userID": "e08caa9a-70e0-47bc-85b6-0963660dff45",
+        "nodeID": 4,
+        "score": 2025
+      }
+    ]
+  }
+}

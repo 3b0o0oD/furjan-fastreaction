@@ -1,0 +1,30 @@
+{
+  "team_name": "LAHORE QALANDARS",
+  "timestamp": "2025-11-06 16:11:01",
+  "total_score": 5925,
+  "backend_payload": {
+    "gameResultID": "b7091d15-8d22-4094-8047-7c72694705c4",
+    "individualScore": [
+      {
+        "userID": "8a7bd84a-8d30-4b4e-9595-d723c19495bb",
+        "nodeID": 1,
+        "score": 1482
+      },
+      {
+        "userID": "092188aa-7148-498a-8f51-58c2591b807a",
+        "nodeID": 2,
+        "score": 1481
+      },
+      {
+        "userID": "f0571de1-d76b-4ae0-b97c-9aea5792915d",
+        "nodeID": 3,
+        "score": 1481
+      },
+      {
+        "userID": "c4510f65-0fe2-4022-b6ff-f55d7550fe20",
+        "nodeID": 4,
+        "score": 1481
+      }
+    ]
+  }
+}

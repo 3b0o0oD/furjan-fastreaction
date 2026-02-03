@@ -1,0 +1,30 @@
+{
+  "team_name": "HARSHU",
+  "timestamp": "2025-11-03 21:27:58",
+  "total_score": 7625,
+  "backend_payload": {
+    "gameResultID": "d8f3d8c0-4a77-4ee8-9ff0-b52fcf852bce",
+    "individualScore": [
+      {
+        "userID": "db3a1cd8-fcf1-4fab-80b2-b56900f613f7",
+        "nodeID": 1,
+        "score": 1907
+      },
+      {
+        "userID": "4ad43fdb-9978-4568-83db-773f5d8c313a",
+        "nodeID": 2,
+        "score": 1906
+      },
+      {
+        "userID": "4e1e957a-e686-460c-8aa2-4108be6b7ab3",
+        "nodeID": 3,
+        "score": 1906
+      },
+      {
+        "userID": "6a9a59f7-f23e-4da0-927f-cbfc365dabf0",
+        "nodeID": 4,
+        "score": 1906
+      }
+    ]
+  }
+}

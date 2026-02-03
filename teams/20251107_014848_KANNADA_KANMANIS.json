@@ -1,0 +1,30 @@
+{
+  "team_name": "KANNADA KANMANIS",
+  "timestamp": "2025-11-07 01:48:48",
+  "total_score": 0,
+  "backend_payload": {
+    "gameResultID": "66f24f15-9352-4156-a218-626930ef267f",
+    "individualScore": [
+      {
+        "userID": "b4968adc-a530-4596-a8dc-ab514f3a557e",
+        "nodeID": 1,
+        "score": 0
+      },
+      {
+        "userID": "cda856a5-2db6-4469-9796-51c31f099eb5",
+        "nodeID": 2,
+        "score": 0
+      },
+      {
+        "userID": "25dac388-7200-42c8-b237-03e0ea134a24",
+        "nodeID": 3,
+        "score": 0
+      },
+      {
+        "userID": "1cc76771-8d14-466d-8653-ff9cac008d81",
+        "nodeID": 4,
+        "score": 0
+      }
+    ]
+  }
+}

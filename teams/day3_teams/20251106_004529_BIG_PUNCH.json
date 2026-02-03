@@ -1,0 +1,30 @@
+{
+  "team_name": "BIG PUNCH",
+  "timestamp": "2025-11-06 00:45:29",
+  "total_score": 12900,
+  "backend_payload": {
+    "gameResultID": "62ceb100-fe3d-478f-9140-21a68a9a6582",
+    "individualScore": [
+      {
+        "userID": "ae7e4b8c-d3fd-4919-9bf0-7c11deff41e9",
+        "nodeID": 1,
+        "score": 3225
+      },
+      {
+        "userID": "65160539-3388-44e4-a3d6-9c877d405ed2",
+        "nodeID": 2,
+        "score": 3225
+      },
+      {
+        "userID": "7b3ec316-36e7-4831-b522-3281378e8420",
+        "nodeID": 3,
+        "score": 3225
+      },
+      {
+        "userID": "75810880-b431-42b9-b707-e82b3d5f594e",
+        "nodeID": 4,
+        "score": 3225
+      }
+    ]
+  }
+}

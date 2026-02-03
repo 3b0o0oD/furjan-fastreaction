@@ -1,0 +1,30 @@
+{
+  "team_name": "ASTER VOLUNTEERS",
+  "timestamp": "2025-11-06 17:59:18",
+  "total_score": 4675,
+  "backend_payload": {
+    "gameResultID": "d1305953-9f07-4bc5-82b0-25978ab51e2e",
+    "individualScore": [
+      {
+        "userID": "ff170ddd-fc36-4db7-a606-c522d01e4b8f",
+        "nodeID": 1,
+        "score": 1171
+      },
+      {
+        "userID": "4b6b8cb6-3723-4062-b3ea-e13004a1bcde",
+        "nodeID": 2,
+        "score": 1168
+      },
+      {
+        "userID": "334b1dd1-14c6-49a5-bafc-bea41aca0603",
+        "nodeID": 3,
+        "score": 1168
+      },
+      {
+        "userID": "c3380764-e448-4da7-bd0d-2d22dbe8c1fd",
+        "nodeID": 4,
+        "score": 1168
+      }
+    ]
+  }
+}

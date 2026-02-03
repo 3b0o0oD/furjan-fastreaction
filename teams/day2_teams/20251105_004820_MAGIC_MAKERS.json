@@ -1,0 +1,30 @@
+{
+  "team_name": "MAGIC MAKERS",
+  "timestamp": "2025-11-05 00:48:20",
+  "total_score": 275,
+  "backend_payload": {
+    "gameResultID": "bcb5b906-58e2-47c2-b318-ee2415f7c3c5",
+    "individualScore": [
+      {
+        "userID": "d7d10a7d-5069-49d0-86ea-3a4cb96b5376",
+        "nodeID": 1,
+        "score": 71
+      },
+      {
+        "userID": "d753acd4-4acb-4c89-b6da-458965d5c3f5",
+        "nodeID": 2,
+        "score": 68
+      },
+      {
+        "userID": "3ff171a0-387c-4959-be99-d14bdf0f8457",
+        "nodeID": 3,
+        "score": 68
+      },
+      {
+        "userID": "4f853c41-33e3-4bf5-a909-02198c5ff674",
+        "nodeID": 4,
+        "score": 68
+      }
+    ]
+  }
+}

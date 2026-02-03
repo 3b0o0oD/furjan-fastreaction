@@ -1,0 +1,30 @@
+{
+  "team_name": "RAMADAN TEAM",
+  "timestamp": "2025-11-05 21:39:16",
+  "total_score": 7425,
+  "backend_payload": {
+    "gameResultID": "405bb098-3c46-4645-a95d-542f8b1302ef",
+    "individualScore": [
+      {
+        "userID": "8e9a1c44-5e88-400d-83b1-4f533a7842d2",
+        "nodeID": 1,
+        "score": 1857
+      },
+      {
+        "userID": "46073c96-f199-4954-85d4-f502da7418db",
+        "nodeID": 2,
+        "score": 1856
+      },
+      {
+        "userID": "d8ef4188-75d9-48d7-8773-e9d2e9e31605",
+        "nodeID": 3,
+        "score": 1856
+      },
+      {
+        "userID": "bc5e047d-5dd3-4a22-9ffb-9ad79328d459",
+        "nodeID": 4,
+        "score": 1856
+      }
+    ]
+  }
+}

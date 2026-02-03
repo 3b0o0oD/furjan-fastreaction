@@ -1,0 +1,30 @@
+{
+  "team_name": "HIGH POWER SERVI",
+  "timestamp": "2025-11-05 20:09:26",
+  "total_score": 5150,
+  "backend_payload": {
+    "gameResultID": "867c3ccd-ddcc-4bb0-8479-6ce54fffa9f4",
+    "individualScore": [
+      {
+        "userID": "ded926af-f9de-48f8-ad22-1dbec26e76aa",
+        "nodeID": 1,
+        "score": 1289
+      },
+      {
+        "userID": "ee1519ef-fdf8-47d8-9435-e7d04e393ab3",
+        "nodeID": 2,
+        "score": 1287
+      },
+      {
+        "userID": "b35d58b6-636f-43e6-a8bf-00b7f3b865cf",
+        "nodeID": 3,
+        "score": 1287
+      },
+      {
+        "userID": "6fb8bbec-4e95-4b00-88b6-35090b5802e8",
+        "nodeID": 4,
+        "score": 1287
+      }
+    ]
+  }
+}

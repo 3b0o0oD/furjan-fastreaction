@@ -1,0 +1,30 @@
+{
+  "team_name": "TG YOUTH",
+  "timestamp": "2025-11-04 18:14:58",
+  "total_score": 3825,
+  "backend_payload": {
+    "gameResultID": "2670730c-8b9a-4517-b454-5eecbf95ce12",
+    "individualScore": [
+      {
+        "userID": "7a2cff4a-603b-4673-a9f9-bfa6a7ae0021",
+        "nodeID": 1,
+        "score": 957
+      },
+      {
+        "userID": "dad027c5-cbdb-4629-988f-6dd51513751d",
+        "nodeID": 2,
+        "score": 956
+      },
+      {
+        "userID": "1ac64933-e50b-493a-90bb-63dd84372ff0",
+        "nodeID": 3,
+        "score": 956
+      },
+      {
+        "userID": "47231891-a395-4504-aae5-2a4ffefe905d",
+        "nodeID": 4,
+        "score": 956
+      }
+    ]
+  }
+}

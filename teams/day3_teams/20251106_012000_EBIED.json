@@ -1,0 +1,30 @@
+{
+  "team_name": "EBIED",
+  "timestamp": "2025-11-06 01:20:00",
+  "total_score": 11950,
+  "backend_payload": {
+    "gameResultID": "144bdc7d-3280-4793-8894-93e4ac860653",
+    "individualScore": [
+      {
+        "userID": "f22dfa37-ad5e-4494-8255-5d0db4d1dcf8",
+        "nodeID": 1,
+        "score": 2989
+      },
+      {
+        "userID": "1c77ad52-ebee-453f-987b-18ebf504d701",
+        "nodeID": 2,
+        "score": 2987
+      },
+      {
+        "userID": "fb85dbd3-b2b2-4bc6-8b51-7f9326d1cdeb",
+        "nodeID": 3,
+        "score": 2987
+      },
+      {
+        "userID": "cff3097c-409a-49e8-933c-f90beb733df3",
+        "nodeID": 4,
+        "score": 2987
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "team_name": "AL FALAHI",
+  "timestamp": "2025-11-06 13:56:53",
+  "total_score": 0,
+  "backend_payload": {
+    "gameResultID": "f100e721-929d-433f-8268-ebceb2dcce85",
+    "individualScore": [
+      {
+        "userID": "4ea8d87e-fd91-4c53-aa3a-609711f1fdae",
+        "nodeID": 1,
+        "score": 0
+      },
+      {
+        "userID": "cbff34cd-88b1-4602-b81b-6c88b46afd2e",
+        "nodeID": 2,
+        "score": 0
+      },
+      {
+        "userID": "7ec25f1a-9731-4abf-858b-570d4d1445ef",
+        "nodeID": 3,
+        "score": 0
+      },
+      {
+        "userID": "a52d73d0-a301-4ac0-bbf8-f2ec2d8536b6",
+        "nodeID": 4,
+        "score": 0
+      }
+    ]
+  }
+}

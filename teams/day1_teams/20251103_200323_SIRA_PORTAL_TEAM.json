@@ -1,0 +1,30 @@
+{
+  "team_name": "SIRA PORTAL TEAM",
+  "timestamp": "2025-11-03 20:03:23",
+  "total_score": 5825,
+  "backend_payload": {
+    "gameResultID": "c4902790-0ed1-47d5-a324-c95594201aad",
+    "individualScore": [
+      {
+        "userID": "bb7f806b-3de1-44b5-a111-87e46be1083e",
+        "nodeID": 1,
+        "score": 1457
+      },
+      {
+        "userID": "aba734ff-dee1-482d-9453-9b4dd3d20733",
+        "nodeID": 2,
+        "score": 1456
+      },
+      {
+        "userID": "80833aac-c4bd-4fa3-b16a-182142bd435a",
+        "nodeID": 3,
+        "score": 1456
+      },
+      {
+        "userID": "183be0f7-72a3-4033-a678-c514b79ee5a7",
+        "nodeID": 4,
+        "score": 1456
+      }
+    ]
+  }
+}

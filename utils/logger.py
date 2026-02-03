@@ -85,7 +85,7 @@ def create_file_handler(log_level: int) -> Optional[logging.FileHandler]:
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         
         # Create filename in the format: cagegame_YYYYMMDD_HHMMSS.log
-        log_filename = f"cagegame_{timestamp}.log"
+        log_filename = f"fast_reaction_game_{timestamp}.log"
         log_filepath = os.path.join(logs_dir, log_filename)
         
         # Create file handler

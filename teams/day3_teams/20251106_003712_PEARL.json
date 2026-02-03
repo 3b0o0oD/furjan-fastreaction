@@ -1,0 +1,30 @@
+{
+  "team_name": "PEARL",
+  "timestamp": "2025-11-06 00:37:12",
+  "total_score": 11750,
+  "backend_payload": {
+    "gameResultID": "8923e084-9e47-422a-8233-5b34e4b6dfc8",
+    "individualScore": [
+      {
+        "userID": "58b5b5fa-a7a7-4790-9b7b-7e7f21f39af4",
+        "nodeID": 1,
+        "score": 2939
+      },
+      {
+        "userID": "2bb483b5-a189-4643-bde8-45d862f96efc",
+        "nodeID": 2,
+        "score": 2937
+      },
+      {
+        "userID": "8c81a506-fc63-4b89-8485-66f9b8e0cc82",
+        "nodeID": 3,
+        "score": 2937
+      },
+      {
+        "userID": "602a345a-5e58-4017-aaa4-db5538b62531",
+        "nodeID": 4,
+        "score": 2937
+      }
+    ]
+  }
+}

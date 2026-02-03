@@ -1,0 +1,30 @@
+{
+  "team_name": "TG HAWKS",
+  "timestamp": "2025-11-04 16:37:18",
+  "total_score": 6475,
+  "backend_payload": {
+    "gameResultID": "3228170a-3053-4f1f-8a9d-877d75dbec28",
+    "individualScore": [
+      {
+        "userID": "606901b2-135b-4df0-a9b8-25e75005a243",
+        "nodeID": 1,
+        "score": 1621
+      },
+      {
+        "userID": "385b224b-1b07-424a-85f9-fdcdee7b2326",
+        "nodeID": 2,
+        "score": 1618
+      },
+      {
+        "userID": "a66d42c8-fe89-46bb-ace1-8e4c49e03a88",
+        "nodeID": 3,
+        "score": 1618
+      },
+      {
+        "userID": "6a7c31fe-26f5-4ac0-9779-67c4fd85932b",
+        "nodeID": 4,
+        "score": 1618
+      }
+    ]
+  }
+}

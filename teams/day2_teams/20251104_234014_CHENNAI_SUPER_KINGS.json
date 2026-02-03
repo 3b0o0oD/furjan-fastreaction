@@ -1,0 +1,30 @@
+{
+  "team_name": "CHENNAI SUPER KINGS",
+  "timestamp": "2025-11-04 23:40:14",
+  "total_score": 1975,
+  "backend_payload": {
+    "gameResultID": "a489c4a6-1acf-41a8-ad74-626a23724a75",
+    "individualScore": [
+      {
+        "userID": "ba14dc11-427f-4d7a-b7f8-165e9231feb4",
+        "nodeID": 1,
+        "score": 496
+      },
+      {
+        "userID": "428fe8d5-9f0a-4d90-ad9f-87fe43a4e2ce",
+        "nodeID": 2,
+        "score": 493
+      },
+      {
+        "userID": "64787994-79ac-4a77-8bd4-499d5b3e9856",
+        "nodeID": 3,
+        "score": 493
+      },
+      {
+        "userID": "f35b9442-0fc5-48b5-9a17-5aac174c0124",
+        "nodeID": 4,
+        "score": 493
+      }
+    ]
+  }
+}

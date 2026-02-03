@@ -1,0 +1,30 @@
+{
+  "team_name": "TRANSGURD RISERS",
+  "timestamp": "2025-11-03 19:28:04",
+  "total_score": 5350,
+  "backend_payload": {
+    "gameResultID": "d3a20bb6-4810-482e-8a31-073a6f09a128",
+    "individualScore": [
+      {
+        "userID": "cd0328ce-e5b6-486c-877f-21a27b890361",
+        "nodeID": 1,
+        "score": 1339
+      },
+      {
+        "userID": "98f4edac-0bd2-4739-86d7-053bf9892613",
+        "nodeID": 2,
+        "score": 1337
+      },
+      {
+        "userID": "8473defb-fd4b-4663-bd4f-11e45ebc7fb5",
+        "nodeID": 3,
+        "score": 1337
+      },
+      {
+        "userID": "4ebe4cd9-3d4c-4d7f-b140-d5e3aae766f3",
+        "nodeID": 4,
+        "score": 1337
+      }
+    ]
+  }
+}

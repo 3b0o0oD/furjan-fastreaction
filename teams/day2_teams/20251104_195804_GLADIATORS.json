@@ -1,0 +1,30 @@
+{
+  "team_name": "GLADIATORS",
+  "timestamp": "2025-11-04 19:58:04",
+  "total_score": 6475,
+  "backend_payload": {
+    "gameResultID": "fe51e3bb-d028-4b40-8d0d-f3be10a3992a",
+    "individualScore": [
+      {
+        "userID": "a0facc82-02af-47ab-bf33-0b6d215d2127",
+        "nodeID": 1,
+        "score": 1621
+      },
+      {
+        "userID": "84d84bf8-a182-40d1-9198-00db1acd2202",
+        "nodeID": 2,
+        "score": 1618
+      },
+      {
+        "userID": "b19e4128-a11d-4db1-91be-f5218aabe175",
+        "nodeID": 3,
+        "score": 1618
+      },
+      {
+        "userID": "fb5d3457-f88e-4fdd-be73-0f29e2b760a1",
+        "nodeID": 4,
+        "score": 1618
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "team_name": "LA3BANT",
+  "timestamp": "2025-11-06 01:16:04",
+  "total_score": 6025,
+  "backend_payload": {
+    "gameResultID": "d6286950-93a6-459e-b087-c335a07fcc5c",
+    "individualScore": [
+      {
+        "userID": "371b4ea5-1f77-4d37-b4c5-d07964d3359e",
+        "nodeID": 1,
+        "score": 1507
+      },
+      {
+        "userID": "f9cd4b18-7755-42d4-af05-59d5e271ac11",
+        "nodeID": 2,
+        "score": 1506
+      },
+      {
+        "userID": "fbcbea63-43a4-469b-b72c-ef4f7dde6867",
+        "nodeID": 3,
+        "score": 1506
+      },
+      {
+        "userID": "11989035-b246-409a-bd1b-bb2e7981cb14",
+        "nodeID": 4,
+        "score": 1506
+      }
+    ]
+  }
+}

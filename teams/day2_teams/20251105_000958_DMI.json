@@ -1,0 +1,30 @@
+{
+  "team_name": "DMI",
+  "timestamp": "2025-11-05 00:09:58",
+  "total_score": 8175,
+  "backend_payload": {
+    "gameResultID": "1320b94f-befb-40e2-9a97-d5780899871b",
+    "individualScore": [
+      {
+        "userID": "450c7756-97cc-4ff1-967d-608b3e6c3993",
+        "nodeID": 1,
+        "score": 2046
+      },
+      {
+        "userID": "5e81891c-f592-4850-bf7a-c0a273e14e2f",
+        "nodeID": 2,
+        "score": 2043
+      },
+      {
+        "userID": "ea6b7516-0e22-44ab-b224-09b1b7a8f6bb",
+        "nodeID": 3,
+        "score": 2043
+      },
+      {
+        "userID": "a07636b3-4cef-4a9f-9c61-02ccf8b2e01c",
+        "nodeID": 4,
+        "score": 2043
+      }
+    ]
+  }
+}

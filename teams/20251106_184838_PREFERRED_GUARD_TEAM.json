@@ -1,0 +1,30 @@
+{
+  "team_name": "PREFERRED GUARD TEAM",
+  "timestamp": "2025-11-06 18:48:38",
+  "total_score": 4525,
+  "backend_payload": {
+    "gameResultID": "391c0c8c-c18f-4f0c-b705-afd71dd4c719",
+    "individualScore": [
+      {
+        "userID": "53bbffcc-4632-4e62-ae97-1377e55e83cc",
+        "nodeID": 1,
+        "score": 1132
+      },
+      {
+        "userID": "dbbc29ba-0e52-4f8e-b4b2-7c5e2b84d0d5",
+        "nodeID": 2,
+        "score": 1131
+      },
+      {
+        "userID": "2e927b1f-602f-4f78-9648-c966ca3202f2",
+        "nodeID": 3,
+        "score": 1131
+      },
+      {
+        "userID": "6df6401b-aa35-461c-85d5-66518a4f89f9",
+        "nodeID": 4,
+        "score": 1131
+      }
+    ]
+  }
+}

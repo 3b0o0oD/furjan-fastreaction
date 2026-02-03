@@ -1,0 +1,30 @@
+{
+  "team_name": "DEWA",
+  "timestamp": "2025-11-04 20:28:44",
+  "total_score": 7150,
+  "backend_payload": {
+    "gameResultID": "ca9dceee-cd6c-4c8e-b1da-814c363fe268",
+    "individualScore": [
+      {
+        "userID": "2695868f-1b7e-4ebd-a2ef-4d8e7d985b31",
+        "nodeID": 1,
+        "score": 1789
+      },
+      {
+        "userID": "d61515fd-0c44-495d-a198-5e9a52123545",
+        "nodeID": 2,
+        "score": 1787
+      },
+      {
+        "userID": "decc802b-d5ea-4242-a0d3-ea0f02910c43",
+        "nodeID": 3,
+        "score": 1787
+      },
+      {
+        "userID": "07851677-4af9-494a-9d05-4b743dea1b0c",
+        "nodeID": 4,
+        "score": 1787
+      }
+    ]
+  }
+}

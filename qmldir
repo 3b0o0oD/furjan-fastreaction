@@ -1,0 +1,8 @@
+module FastReaction
+Active_screen_FastReaction.ui 1.0 Active_screen_FastReaction.ui.qml
+CircularTimer 1.0 CircularTimer.qml
+CircularTimer_enhanced 1.0 CircularTimer_enhanced.qml
+Leaderboard_screen_enhanced 1.0 Leaderboard_screen_enhanced.qml
+Leaderboard_screen_enhanced_old 1.0 Leaderboard_screen_enhanced_old.qml
+Teamname_screen_new.ui 1.0 Teamname_screen_new.ui.qml
+Teamscore_screen.ui 1.0 Teamscore_screen.ui.qml

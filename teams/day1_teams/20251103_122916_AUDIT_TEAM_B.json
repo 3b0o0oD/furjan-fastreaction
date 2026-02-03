@@ -1,0 +1,30 @@
+{
+  "team_name": "AUDIT TEAM B",
+  "timestamp": "2025-11-03 12:29:16",
+  "total_score": 0,
+  "backend_payload": {
+    "gameResultID": "87bfb73c-5b51-403e-a993-b3c1c2114ed0",
+    "individualScore": [
+      {
+        "userID": "8275a657-0525-4094-bb40-07d0948f9af6",
+        "nodeID": 1,
+        "score": 0
+      },
+      {
+        "userID": "5559ded0-d1d0-4d00-83a9-9b7b7ad76147",
+        "nodeID": 2,
+        "score": 0
+      },
+      {
+        "userID": "9800358f-2b6c-4a24-ba90-e6e29aeaf44f",
+        "nodeID": 3,
+        "score": 0
+      },
+      {
+        "userID": "5c5966bc-b991-4f97-89eb-fbe2c18bc551",
+        "nodeID": 4,
+        "score": 0
+      }
+    ]
+  }
+}

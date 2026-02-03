@@ -1,0 +1,30 @@
+{
+  "team_name": "CMT TEAM",
+  "timestamp": "2025-11-05 14:36:48",
+  "total_score": 3200,
+  "backend_payload": {
+    "gameResultID": "15251e16-7333-4844-b785-678e5c7fe86e",
+    "individualScore": [
+      {
+        "userID": "6fb76374-80c4-420f-bc8d-6661e0e57604",
+        "nodeID": 1,
+        "score": 800
+      },
+      {
+        "userID": "ae14bc22-d710-4c88-85cd-fe4fceb2d963",
+        "nodeID": 2,
+        "score": 800
+      },
+      {
+        "userID": "a022930a-a1ab-4c58-a8b4-037fa30ac2f6",
+        "nodeID": 3,
+        "score": 800
+      },
+      {
+        "userID": "dc075e6c-1cfd-4329-a909-a3809e4d63b3",
+        "nodeID": 4,
+        "score": 800
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "team_name": "PRIDE",
+  "timestamp": "2025-11-06 18:03:00",
+  "total_score": 3425,
+  "backend_payload": {
+    "gameResultID": "3fc05aca-7802-4251-a130-cfa5196a7aa5",
+    "individualScore": [
+      {
+        "userID": "66a8d111-b1cc-47a5-9d31-320cd2459e32",
+        "nodeID": 1,
+        "score": 857
+      },
+      {
+        "userID": "e0a066a7-a0d1-4958-a464-2afaa81ceb59",
+        "nodeID": 2,
+        "score": 856
+      },
+      {
+        "userID": "ed34a43f-0619-47a0-a3a5-57d0a814cc04",
+        "nodeID": 3,
+        "score": 856
+      },
+      {
+        "userID": "d4a0b148-3087-4187-ad99-f6bbea426b5f",
+        "nodeID": 4,
+        "score": 856
+      }
+    ]
+  }
+}

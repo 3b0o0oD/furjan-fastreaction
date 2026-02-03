@@ -7,7 +7,7 @@ from requests.exceptions import ConnectionError, Timeout, RequestException
 import time   
 import numpy as np
 import json
-from PyQt5.QtGui import QMovie,QPainter, QColor, QFont,QFontDatabase ,QImage, QPixmap,QPen, QPainterPath , QPolygonF, QBrush, QRadialGradient, QLinearGradient, QSurfaceFormat
+from PyQt5.QtGui import QPainter, QColor, QFont,QFontDatabase ,QImage, QPixmap,QPen, QPainterPath , QPolygonF, QBrush, QRadialGradient, QLinearGradient, QSurfaceFormat
 from PyQt5.QtCore import QTimer,Qt, pyqtSignal, pyqtSlot ,QThread , QTime,QSize,QRectF,QPointF, QUrl, QObject
 from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget ,QGridLayout,QLabel,QPushButton,QVBoxLayout,QHBoxLayout,QTableWidget,QTableWidgetItem,QHeaderView,QFrame
 from PyQt5.QtQuickWidgets import QQuickWidget
@@ -141,9 +141,9 @@ class SimpleSerialThread(QThread):
     """
     # Qt signals for thread communication
     data_received = pyqtSignal(str)  # Emitted when data is received
-    connection_status_changed = pyqtSignal(bool)  # Emitted when connection status changes
-    error_occurred = pyqtSignal(str)  # Emitted when an error occurs
-    
+    # connection_status_changed = pyqtSignal(bool)  # Emitted when connection status changes
+    # error_occurred = pyqtSignal(str)  # Emitted when an error occurs
+    # 
     def __init__(self, config):
         super().__init__()
         self.config = config
@@ -178,15 +178,15 @@ class SimpleSerialThread(QThread):
             )
             self.connected = True
             self.reconnect_attempts = 0  # Reset reconnect attempts on successful connection
-            self.connection_status_changed.emit(True)
+            # self.connection_status_changed.emit(True)
             logger.info(f" Serial connected to {self.port}")
             return True
         except Exception as e:
             self.connected = False
-            self.connection_status_changed.emit(False)
+            # self.connection_status_changed.emit(False)
             error_msg = f" Failed to connect to {self.port}: {e}"
             logger.error(error_msg)
-            self.error_occurred.emit(error_msg)
+            # self.error_occurred.emit(error_msg)
             return False
     
     def disconnect(self):
@@ -197,7 +197,7 @@ class SimpleSerialThread(QThread):
             try:
                 self.serial_connection.close()
                 self.connected = False
-                self.connection_status_changed.emit(False)
+                # self.connection_status_changed.emit(False)
                 logger.info(f" Serial disconnected from {self.port}")
             except Exception as e:
                 logger.warning(f"️  Error disconnecting serial: {e}")
@@ -212,7 +212,7 @@ class SimpleSerialThread(QThread):
         
         if max_attempts > 0 and self.reconnect_attempts > max_attempts:
             logger.error(f" Maximum reconnection attempts ({max_attempts}) reached for {self.port}")
-            self.error_occurred.emit(f"Maximum reconnection attempts reached")
+            # self.error_occurred.emit(f"Maximum reconnection attempts reached")
             return False
         
         logger.info(f" Attempting to reconnect to {self.port} (attempt {self.reconnect_attempts})")
@@ -223,14 +223,19 @@ class SimpleSerialThread(QThread):
         self.reconnect_attempts = 0
         return self.reconnect()
     
-    def read_line(self) -> str | None:
-        """Read a single line from serial port"""
+    from typing import Optional
+
+    def read_line(self) -> Optional[str]:
+
+        """Read a single line from serial port - BIDIRECTIONAL"""
         if not self.serial_connection or not self.serial_connection.is_open:
             return None
         
         try:
             if self.serial_connection.in_waiting > 0:
                 line = self.serial_connection.readline().decode('utf-8', errors='ignore').strip()
+                if line:
+                    logger.debug(f"📥 [BIDIRECTIONAL] RECEIVED: {line}")
                 return line if line else None
         except Exception as e:
             logger.warning(f"️  Error reading serial data: {e}")
@@ -238,15 +243,100 @@ class SimpleSerialThread(QThread):
         
         return None
     
+    def send_data(self, data: str) -> bool:
+        """Send data via serial port - BIDIRECTIONAL COMMUNICATION"""
+        if not self.serial_connection or not self.serial_connection.is_open:
+            logger.warning("️  Cannot send data: serial connection not open")
+            return False
+        
+        try:
+            # BIDIRECTIONAL: Send data while still able to receive
+            # logger.info()
+            # self.serial_connection.write(data.encode("utf-8"))
+            data_bytes = bytearray(data, 'utf-8')
+            self.serial_connection.write(data_bytes)
+            self.serial_connection.flush()  # Ensure data is sent immediately
+            
+            logger.debug(f"📤 [BIDIRECTIONAL] SENT: {data.strip()}")
+            return True
+            
+        except Exception as e:
+            logger.error(f" Error sending serial data: {e}")
+            return False
+    
     def start_monitoring(self):
-        """Start monitoring serial data"""
+        """Start monitoring serial data and send start signal - WAIT FOR OK RESPONSE"""
         self.is_monitoring = True
-        logger.info(" Serial monitoring started")
+        
+        # BIDIRECTIONAL: Send "Start" signal via serial and wait for OK response
+        if self.send_data("Start\n"):
+            logger.info("📤 Serial monitoring started - sent 'Start' signal, waiting for 'OK' response...")
+            
+            # Wait for OK response for up to 5 seconds
+            import time
+            start_time = time.time()
+            ok_received = False
+            
+            
+            if self.serial_connection and self.serial_connection.in_waiting > 0:
+                try:
+                    response = self.serial_connection.readline().strip()
+                    if response:
+                        logger.info(f"📥 Received response: '{response}'")
+                        if response.upper() == "OK":
+                            ok_received = True
+                            logger.info("✅ Received 'OK' - serial communication confirmed!")
+                            
+                        else:
+                            logger.warning(f"⚠️ Expected 'OK' but received: '{response}'")
+                except Exception as e:
+                    logger.error(f"❌ Error reading OK response: {e}")
+                        
+                
+            
+            if not ok_received:
+                logger.warning("⚠️ Did not receive 'OK' response within 5 seconds - continuing anyway")
+        else:
+            logger.warning("️❌ Serial monitoring started but failed to send start signal")
+        
+        logger.info("🚀 Serial monitoring started (BIDIRECTIONAL) - ready to receive scores and events")
     
     def stop_monitoring(self):
-        """Stop monitoring serial data"""
+        """Stop monitoring serial data and send stop signal - WAIT FOR OK RESPONSE"""
         self.is_monitoring = False
-        logger.info(" Serial monitoring stopped")
+        
+        # BIDIRECTIONAL: Send "Stop" signal via serial and wait for OK response
+        if self.send_data("Stop\n\n"):
+            logger.info("📤 Serial monitoring stopped - sent 'Stop' signal, waiting for 'OK' response...")
+            
+            # Wait for OK response for up to 3 seconds
+            import time
+            start_time = time.time()
+            ok_received = False
+            
+            while time.time() - start_time < .1 and not ok_received:
+                if self.serial_connection and self.serial_connection.in_waiting > 0:
+                    try:
+                        response = self.serial_connection.readline().decode('utf-8', errors='ignore').strip()
+                        if response:
+                            logger.info(f"📥 Received response: '{response}'")
+                            if response.upper() == "OK":
+                                ok_received = True
+                                logger.info("✅ Received 'OK' - stop confirmed!")
+                                break
+                            else:
+                                logger.warning(f"⚠️ Expected 'OK' but received: '{response}'")
+                    except Exception as e:
+                        logger.error(f"❌ Error reading OK response: {e}")
+                        break
+                time.sleep(0.1)
+            
+            if not ok_received:
+                logger.warning("⚠️ Did not receive 'OK' response for stop within 3 seconds")
+        else:
+            logger.warning("️❌ Serial monitoring stopped but failed to send stop signal")
+        
+        logger.info("🛑 Serial monitoring stopped (BIDIRECTIONAL)")
     
     def run(self):
         """Main thread loop for reading serial data with automatic reconnection"""
@@ -264,8 +354,14 @@ class SimpleSerialThread(QThread):
             try:
                 if self.connected and self.is_monitoring:
                     data = self.read_line()
+                    # data expected:
+                    # Sc{score}\n
+                    # Mstk\n
+                    # Ok\n
+                    # Crct\n
+                    # Miss\n
                     if data:
-                        logger.debug(f" Serial data received: {data}")
+                        logger.info(f" Serial data received: {data}")
                         self.data_received.emit(data)
                 elif not self.connected and self.auto_reconnect:
                     # Attempt reconnection
@@ -280,14 +376,22 @@ class SimpleSerialThread(QThread):
                                 logger.error(" Giving up on reconnection attempts")
                                 break
                 
-                # Small delay to prevent excessive CPU usage
-                self.msleep(50)
+                # Adaptive delay to prevent excessive CPU usage while maintaining responsiveness
+                # Reduce delay when actively receiving data to minimize sound latency
+                if self.connected and self.is_monitoring:
+                    # Check if we have data waiting - if so, use shorter delay
+                    if self.serial_connection and self.serial_connection.in_waiting > 0:
+                        self.msleep(5)  # Very short delay when data is available
+                    else:
+                        self.msleep(20)  # Slightly longer delay when no data
+                else:
+                    self.msleep(50)  # Normal delay when not monitoring
                 
             except Exception as e:
                 logger.error(f" Error in serial thread loop: {e}")
-                self.error_occurred.emit(str(e))
+                # self.error_occurred.emit(str(e))
                 self.connected = False
-                self.connection_status_changed.emit(False)
+                # self.connection_status_changed.emit(False)
                 
                 # If auto-reconnect is disabled, break the loop
                 if not self.auto_reconnect:
@@ -317,6 +421,14 @@ class SimpleSerialThread(QThread):
         
         logger.debug(" SimpleSerial thread stopped successfully")
     
+    def send_score_update(self, score: int) -> bool:
+        """Send score update via serial - BIDIRECTIONAL"""
+        return self.send_data(f"Sc{score}")
+    
+    def send_game_event(self, event: str) -> bool:
+        """Send game event (Miss, Ok, Crct, Mstk) via serial - BIDIRECTIONAL"""
+        return self.send_data(event)
+    
     def get_status(self) -> dict:
         """Get current connection status and configuration"""
         return {
@@ -330,14 +442,7 @@ class SimpleSerialThread(QThread):
             'should_stop': self.should_stop
         }
     
-    def manual_connect(self) -> bool:
-        """Manually connect to serial port (useful for testing)"""
-        return self.connect()
     
-    def manual_disconnect(self):
-        """Manually disconnect from serial port"""
-        self.disconnect()
-
 
 class MqttThread(QThread):
     message_signal = pyqtSignal(str)
@@ -1040,7 +1145,7 @@ class Final_Screen(QtWidgets.QMainWindow):
 
     def setupTimer(self):
         # Start the GIF
-        self.movie.start()
+        pass
     
     def setupUi(self, Home):
         Home.setObjectName("Home")
@@ -1049,25 +1154,25 @@ class Final_Screen(QtWidgets.QMainWindow):
         Home.setAutoFillBackground(False)
         
         self.centralwidget = QtWidgets.QWidget(Home)
-        Home.setGeometry(0, 0, QtWidgets.QDesktopWidget().screenGeometry().width(), QtWidgets.QDesktopWidget().screenGeometry().height())
+        # Home.setGeometry(0, 0, QtWidgets.QDesktopWidget().screenGeometry().width(), QtWidgets.QDesktopWidget().screenGeometry().height())
+        Home.setGeometry(0, 0, 3840, 2160)
         print(Home.geometry().width())
         self.font_family = self.load_custom_font("Assets/Fonts/GOTHIC.TTF")
         self.font_family_good = self.load_custom_font("Assets/Fonts/good_times_rg.ttf")
 
         if Home.geometry().width() > 1920:
-            self.movie = QMovie("Assets/1k/FastReaction_final.gif")
-            self.movie.setCacheMode(QMovie.CacheAll)
+            self.background_pixmap = QPixmap("Assets/1k/FastReaction_final.png")
             self.scale = 2
         else:
-            self.movie = QMovie("Assets/1k/FastReaction_final.gif")
-            self.movie.setCacheMode(QMovie.CacheAll)
+            self.background_pixmap = QPixmap("Assets/1k/FastReaction_final.png")
             self.scale = 1
         
         self.Background = QtWidgets.QLabel(self.centralwidget)
         self.Background.setScaledContents(True)
         self.Background.setGeometry(0, 0, Home.geometry().width(), Home.geometry().height())
         self.Background.setText("")
-        self.Background.setMovie(self.movie)
+        self.background_pixmap = self.background_pixmap.scaled(self.Background.size(), Qt.KeepAspectRatio, Qt.SmoothTransformation)
+        self.Background.setPixmap(self.background_pixmap)
         self.Background.setSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
         
         self.TimerWidget(self.centralwidget)
@@ -1350,15 +1455,6 @@ class Final_Screen(QtWidgets.QMainWindow):
     def closeEvent(self, event):
         logger.info(" Final screen closing...")
         
-        # Safely stop movie
-        if hasattr(self, 'movie') and self.movie:
-            try:
-                self.movie.stop()
-                self.movie.setCacheMode(QMovie.CacheNone)
-                self.movie = None
-                logger.debug(" Movie cleaned up")
-            except Exception as e:
-                logger.warning(f"️  Error stopping movie: {e}")
         
         # Safely stop timers (if they exist)
         if hasattr(self, 'timer') and self.timer:
@@ -1441,7 +1537,7 @@ class Final_Screen(QtWidgets.QMainWindow):
             if hasattr(self, 'Background') and self.Background is not None:
                 try:
                     self.Background.clear()
-                    self.Background.setMovie(None)  # Remove movie reference
+                    self.Background.setPixmap(QPixmap())  # Remove pixmap reference
                     self.Background.deleteLater()
                     logger.debug(" Background cleared")
                 except (RuntimeError, AttributeError):
@@ -1476,9 +1572,17 @@ class Final_Screen(QtWidgets.QMainWindow):
 
 class Active_screen(QWidget):
     """Complete Active Screen implementation"""
-    
+    # signals for Miss OK Crct Mstk
+    miss_signal = pyqtSignal()
+    ok_signal = pyqtSignal()
+    crct_signal = pyqtSignal()
+    mstk_signal = pyqtSignal()
     def __init__(self, serial_thread=None):
         super().__init__()
+        
+        # Audio signal debouncing to prevent rapid-fire sound issues
+        self.last_audio_signal_time = {}
+        self.audio_debounce_interval = 100  # Minimum 100ms between same audio signals
         
         # Initialize MQTT thread
         self.mqtt_thread = MqttThread('localhost')
@@ -1493,8 +1597,8 @@ class Active_screen(QWidget):
             # Connect to serial signals
             try:
                 self.serial_thread.data_received.connect(self.on_serial_data_received)
-                self.serial_thread.connection_status_changed.connect(self.on_serial_connection_status_changed)
-                self.serial_thread.error_occurred.connect(self.on_serial_error)
+                # self.serial_thread.connection_status_changed.connect(self.on_serial_connection_status_changed)
+                # self.serial_thread.error_occurred.connect(self.on_serial_error)
                 logger.info(" Serial signals connected to Active_screen")
             except Exception as e:
                 logger.warning(f"️  Failed to connect serial signals: {e}")
@@ -1506,6 +1610,23 @@ class Active_screen(QWidget):
         
         # Track circular timer widget initialization state
         self.circular_timer_initialized = False
+        
+    def _should_emit_audio_signal(self, signal_type: str) -> bool:
+        """Check if enough time has passed since last audio signal to prevent rapid-fire sounds"""
+        import time
+        current_time = time.time() * 1000  # Convert to milliseconds
+        
+        if signal_type not in self.last_audio_signal_time:
+            self.last_audio_signal_time[signal_type] = 0
+            
+        time_since_last = current_time - self.last_audio_signal_time[signal_type]
+        
+        if time_since_last >= self.audio_debounce_interval:
+            self.last_audio_signal_time[signal_type] = current_time
+            return True
+        else:
+            logger.debug(f"Audio signal {signal_type} debounced (last: {time_since_last:.1f}ms ago)")
+            return False
         
     def init_mqtt_thread(self):
         """Initialize or reinitialize MQTT thread if needed"""
@@ -1572,12 +1693,30 @@ class Active_screen(QWidget):
             self.circular_timer_widget.setAttribute(Qt.WA_TranslucentBackground, True)
             self.circular_timer_widget.setResizeMode(QQuickWidget.SizeRootObjectToView)
             
-            # Set the timer size and position (center-right area)
-            timer_size = int(800 * self.scale)
+            # Set the timer size and position (center-right area) with enhanced scaling
+            base_timer_size = 800
+            timer_size = int(base_timer_size * self.scale)
+            
+            # Calculate responsive positioning based on screen size
+            screen_width = self.centralwidget.width()
+            screen_height = self.centralwidget.height()
+            
+            # Position timer responsively - adjust based on screen size
+            x_position = int(200 * self.scale)  # Base position from left
+            y_position = int(160 * self.scale)  # Base position from top
+            
+            # For very wide screens, position timer more towards the center-right
+            if screen_width >= 3840:
+                x_position = int(screen_width * 0.15)  # 15% from left edge
+                y_position = int(screen_height * 0.15)  # 15% from top
+            elif screen_width >= 2560:
+                x_position = int(screen_width * 0.12)  # 12% from left edge  
+                y_position = int(screen_height * 0.15)  # 15% from top
+                
             self.circular_timer_widget.setGeometry(QtCore.QRect(
-                int(200 * self.scale),  # Position on the right side
-                int(160 * self.scale),   # Vertical center
-                timer_size+200,
+                x_position,
+                y_position,
+                timer_size + int(200 * self.scale),  # Add padding scaled appropriately
                 timer_size 
             ))
             
@@ -1698,39 +1837,111 @@ class Active_screen(QWidget):
             
             # Process the serial data based on your game logic
             # Example: if data contains score information
+             # data expected:
+                    # Sc{score}\n
+                    # Mstk\n
+                    # Ok\n
+                    # Crct\n
+                    # Miss\n
+
             global scored, serial_scoring_active, gameStarted
             
             if gameStarted:  # Only update score if game is active
-                if data.isdigit():
-                    # Simple numeric data - could be score increment
-                    
-                    scored = int(data)
+                if data.lower().startswith("sc"):
+                    scored = int(data.split("Sc")[1])
                     serial_scoring_active = True
-                    logger.info(f" Score updated via serial: +{data} (total: {scored})")
+                    logger.info(f"📥 Score updated via serial: +{data} (total: {scored})")
                     
                     # Update the score display if the label exists
-                    if hasattr(self, 'label_Score'):
-                        self.label_Score.setText(f"Score: {scored}")
-                
-                elif data.lower() == "win":
-                    # Game win condition received via serial
-                    global gamefinished
-                    gamefinished = True
-                    serial_scoring_active = True
-                    logger.info(" Win condition received via serial")
+                    # if hasattr(self, 'label_Score'):
+                    self.label_Score.setText(f"Score: {scored}")
                     
-                elif data.lower() == "hit" or data.lower() == "point":
-                    # Hit/point detected
-                    scored += 1
+
+                    # BIDIRECTIONAL: Send acknowledgment back
+                    # if self.serial_thread:
+                    #     self.serial_thread.send_data("ScoreReceived")
+                        
+                elif data.lower().startswith("mstk"):
                     serial_scoring_active = True
-                    logger.info(f" Hit detected via serial! Score: {scored}")
-                    
-                    # Update the score display
-                    if hasattr(self, 'label_Score'):
-                        self.label_Score.setText(f"Score: {scored}")
+                    logger.info(f"📥 Mstk updated via serial")
+                    # Use debouncing to prevent rapid-fire audio signals
+                    if self._should_emit_audio_signal("mstk"):
+                        logger.info("🔔 Emitting mstk_signal")
+                        self.mstk_signal.emit()
+                    else:
+                        logger.debug("⏭️ Mstk signal debounced (too soon)")
+                    # BIDIRECTIONAL: Send acknowledgment back
+                    # if self.serial_thread:
+                    #     self.serial_thread.send_data("MstkReceived")
+                        
+                elif data.lower().startswith("ok"):
+                    serial_scoring_active = True
+                    logger.info(f"📥 Ok updated via serial")
+                    # Use debouncing to prevent rapid-fire audio signals
+                    if self._should_emit_audio_signal("ok"):
+                        self.ok_signal.emit()
+                    # BIDIRECTIONAL: Send acknowledgment back
+                    # if self.serial_thread:
+                    #     self.serial_thread.send_data("OkReceived")
+                        
+                elif data.lower().startswith("crct"):
+                    serial_scoring_active = True
+                    logger.info(f"📥 Crct updated via serial")
+                    # Use debouncing to prevent rapid-fire audio signals
+                    if self._should_emit_audio_signal("crct"):
+                        logger.info("🔔 Emitting crct_signal")
+                        self.crct_signal.emit()
+                    else:
+                        logger.debug("⏭️ Crct signal debounced (too soon)")
+                    # BIDIRECTIONAL: Send acknowledgment back
+                    # if self.serial_thread:
+                    #     self.serial_thread.send_data("CrctReceived")
+                        
+                elif data.lower().startswith("miss"):
+                    serial_scoring_active = True
+                    logger.info(f"📥 Miss updated via serial")
+                    # Use debouncing to prevent rapid-fire audio signals
+                    if self._should_emit_audio_signal("miss"):
+                        self.miss_signal.emit()
+                    # BIDIRECTIONAL: Send acknowledgment back
+                    # if self.serial_thread:
+                    #     self.serial_thread.send_data("MissReceived")
+                        
                 else:
-                    # Custom data processing - you can extend this based on your needs
-                    logger.debug(f" Custom serial data: {data}")
+                    logger.debug(f"📥 Custom serial data: {data}")
+                    # BIDIRECTIONAL: Send acknowledgment for unknown data
+                    # if self.serial_thread:
+                    #     self.serial_thread.send_data(f"DataReceived:{data}")
+                # if data.isdigit():
+                #     # Simple numeric data - could be score increment
+                    
+                #     scored = int(data)
+                #     serial_scoring_active = True
+                #     logger.info(f" Score updated via serial: +{data} (total: {scored})")
+                    
+                #     # Update the score display if the label exists
+                #     if hasattr(self, 'label_Score'):
+                #         self.label_Score.setText(f"Score: {scored}")
+                
+                # elif data.lower() == "win":
+                #     # Game win condition received via serial
+                #     global gamefinished
+                #     gamefinished = True
+                #     serial_scoring_active = True
+                #     logger.info(" Win condition received via serial")
+                    
+                # elif data.lower() == "hit" or data.lower() == "point":
+                #     # Hit/point detected
+                #     scored += 1
+                #     serial_scoring_active = True
+                #     logger.info(f" Hit detected via serial! Score: {scored}")
+                    
+                #     # Update the score display
+                #     if hasattr(self, 'label_Score'):
+                #         self.label_Score.setText(f"Score: {scored}")
+                # else:
+                #     # Custom data processing - you can extend this based on your needs
+                #     logger.debug(f" Custom serial data: {data}")
             else:
                 logger.debug(f" Serial data received but game not active: {data}")
                 
@@ -1755,13 +1966,11 @@ class Active_screen(QWidget):
         print(MainWindow.geometry().width())
 
         if MainWindow.geometry().width() > 1920:
-            self.movie = QMovie("Assets/1k/FastReaction_Activeee.gif")
-            self.movie.setCacheMode(QMovie.CacheAll)
+            self.background_pixmap = QPixmap("Assets/1k/FastReaction_Activeee.png")
             print("1")
             self.scale = 2
         else:
-            self.movie = QMovie("Assets/1k/FastReaction_Activeee.gif")
-            self.movie.setCacheMode(QMovie.CacheAll)
+            self.background_pixmap = QPixmap("Assets/1k/FastReaction_Activeee.png")
             print("2")
             self.scale = 1
         
@@ -1776,7 +1985,9 @@ class Active_screen(QWidget):
             TimerValue = 30000
 
         self.centralwidget = QtWidgets.QWidget(MainWindow)
+        
         MainWindow.setCentralWidget(self.centralwidget)
+
         
         # Load fonts
         self.font_family = self.load_custom_font("Assets/Fonts/GOTHIC.TTF")
@@ -1787,8 +1998,8 @@ class Active_screen(QWidget):
         self.Background.setGeometry(QtCore.QRect(0, 0, 1920*self.scale, 1080*self.scale))
         self.Background.setText("")
         self.Background.setScaledContents(True)
-        self.Background.setMovie(self.movie)
-        self.movie.start()
+        self.background_pixmap = self.background_pixmap.scaled(self.Background.size(), Qt.KeepAspectRatio, Qt.SmoothTransformation)
+        self.Background.setPixmap(self.background_pixmap)
        
         
 
@@ -1800,7 +2011,7 @@ class Active_screen(QWidget):
         self.TeamNameLabel.setText(teamName)
         self.TeamNameLabel.setAlignment(QtCore.Qt.AlignCenter)
         font = QtGui.QFont()
-        font.setPointSize(30*self.scale)
+        font.setPointSize(27*self.scale)
         font.setFamily(self.font_family_good)
         self.TeamNameLabel.setFont(font)
         self.TeamNameLabel.setStyleSheet("color: rgb(255,255,255);")
@@ -1813,11 +2024,28 @@ class Active_screen(QWidget):
         self.label_Score.setAlignment(QtCore.Qt.AlignCenter)
         self.label_Score.setText("Score: "+str(scored))
         font = QtGui.QFont()
-        font.setPointSize(39*self.scale)
+        font.setPointSize(25*self.scale)
         font.setFamily(self.font_family_good)
         self.label_Score.setFont(font)
         self.label_Score.setStyleSheet("color: rgb(255,255,255);")
         
+
+        # # label for indicator of serial connection and 
+        # self.label_serial_connection = QtWidgets.QLabel(self.centralwidget)
+        # self.label_serial_connection.setGeometry(QtCore.QRect(1089*self.scale, 378*self.scale, 557*self.scale, 122*self.scale))
+        # self.label_serial_connection.setAlignment(QtCore.Qt.AlignCenter)
+        # self.label_serial_connection.setText("Serial Connection: ")
+        # font = QtGui.QFont()
+        # font.setPointSize(30*self.scale)
+        # font.setFamily(self.font_family_good)
+        # self.label_serial_connection.setFont(font)
+        # self.label_serial_connection.setStyleSheet("color: rgb(255,255,255);")
+
+        # if self.serial_thread.connected:
+        #     self.label_serial_connection.setText("Serial Connection: Connected")
+        # else:
+        #     self.label_serial_connection.setText("Serial Connection: Disconnected")
+
         # Timer label (replacing LCD)
         # self.label_timer = QtWidgets.QLabel(self.centralwidget)
         # self.label_timer.setGeometry(QtCore.QRect(708*self.scale, 770*self.scale, 503*self.scale, 158*self.scale))
@@ -1880,6 +2108,10 @@ class Active_screen(QWidget):
         
     def update_timer(self):
         global RemainingTime
+        # if self.serial_thread.connected:
+        #     self.label_serial_connection.setText("Serial Connection: Connected")
+        # else:
+        #     self.label_serial_connection.setText("Serial Connection: Disconnected")
         
         self.countdown_time -= 1
         if gamefinished == True:
@@ -1899,7 +2131,18 @@ class Active_screen(QWidget):
             # Change timer color to red when time's up
             # self.label_timer.setStyleSheet("color: rgb(244,28,23);")
         
-        self.label_Score.setText("Score: "+str(scored))
+        # Update score display
+        # self.label_Score.setText("Score: "+str(scored))
+        
+        # BIDIRECTIONAL: Send score updates via serial
+        # if hasattr(self, 'serial_thread') and self.serial_thread and hasattr(self, 'last_sent_score'):
+        #     if not hasattr(self, 'last_sent_score') or self.last_sent_score != scored:
+        #         if self.serial_thread.send_score_update(scored):
+        #             logger.debug(f"📤 Sent score update: {scored}")
+        #             self.last_sent_score = scored
+        # elif not hasattr(self, 'last_sent_score'):
+        #     self.last_sent_score = scored
+        
         RemainingTime = self.countdown_time
         # self.set_timer_text(self.countdown_time)
         
@@ -1918,13 +2161,14 @@ class Active_screen(QWidget):
         # Start serial monitoring if available
         if self.serial_thread:
             self.serial_thread.start_monitoring()
+            
             logger.info(" Serial monitoring started for game")
         
         # Start circular timer
         try:
             if hasattr(self, 'circular_timer_backend') and self.circular_timer_backend and self.circular_timer_initialized:
                 self.circular_timer_backend.start_countdown()
-                logger.debug(" Circular timer started")
+                logger.info(" Circular timer started")
         except Exception as e:
             logger.error(f" Error starting circular timer: {e}")
         
@@ -2015,7 +2259,6 @@ class Active_screen(QWidget):
         self.TimerGame.start(TimerValue)
         print("restart")
         
-    def stop_movie(self):
         self.TimerGame.stop()
         
     def load_custom_font(self, font_path):
@@ -2068,15 +2311,6 @@ class Active_screen(QWidget):
         #     except Exception as e:
         #         logger.warning(f"️  Error stopping media player: {e}")
         
-        # Safely stop movie
-        if hasattr(self, 'movie') and self.movie:
-            try:
-                self.movie.stop()
-                self.movie.setCacheMode(QMovie.CacheNone)
-                self.movie = None
-                logger.debug(" Movie cleaned up")
-            except Exception as e:
-                logger.warning(f"️  Error stopping movie: {e}")
         
         # Stop and cleanup MQTT thread
         if hasattr(self, 'mqtt_thread') and self.mqtt_thread:
@@ -2108,14 +2342,49 @@ class Active_screen(QWidget):
                 # Disconnect signals only
                 try:
                     self.serial_thread.data_received.disconnect(self.on_serial_data_received)
-                    self.serial_thread.connection_status_changed.disconnect(self.on_serial_connection_status_changed)
-                    self.serial_thread.error_occurred.disconnect(self.on_serial_error)
+                    # self.serial_thread.connection_status_changed.disconnect(self.on_serial_connection_status_changed)
+                    # self.serial_thread.error_occurred.disconnect(self.on_serial_error)
                     logger.debug(" Serial signals disconnected")
                 except:
                     pass
                 # Don't set to None or stop - it's managed by MainApp
             except Exception as e:
                 logger.warning(f"️  Error disconnecting Serial signals: {e}")
+        
+        # Disconnect audio signals (they are managed by MainApp and need proper cleanup)
+        try:
+            # # These signals are connected in MainApp.start_Active_screen() and need to be cleaned up
+            # if hasattr(self, 'miss_signal'):
+            #     try:
+            #         self.miss_signal.disconnect()
+            #         logger.debug(" miss_signal disconnected")
+            #     except:
+            #         pass
+            
+            # if hasattr(self, 'ok_signal'):
+            #     try:
+            #         self.ok_signal.disconnect()
+            #         logger.debug(" ok_signal disconnected")
+            #     except:
+            #         pass
+            
+            if hasattr(self, 'crct_signal'):
+                try:
+                    self.crct_signal.disconnect()
+                    logger.debug(" crct_signal disconnected")
+                except:
+                    pass
+            
+            if hasattr(self, 'mstk_signal'):
+                try:
+                    self.mstk_signal.disconnect()
+                    logger.debug(" mstk_signal disconnected")
+                except:
+                    pass
+                    
+            logger.debug(" Audio signals cleaned up")
+        except Exception as e:
+            logger.warning(f"️  Error disconnecting audio signals: {e}")
         
         # Reset global game state
         global gameStarted
@@ -2229,14 +2498,12 @@ class TeamMember_screen(QtWidgets.QMainWindow):
         self.font_family_good = self.load_custom_font("Assets/Fonts/good_times_rg.ttf")
         
         if Home.geometry().width() > 1920:
-            self.movie = QMovie("Assets/1k/FastReaction_TeamMembers.gif")
-            self.movie.setCacheMode(QMovie.CacheAll)
+            self.background_pixmap = QPixmap("Assets/1k/FastReaction_TeamMembers.png")
             self.scale = 2
             global scaled
             scaled = 2
         else:
-            self.movie = QMovie("Assets/1k/FastReaction_TeamMembers.gif")
-            self.movie.setCacheMode(QMovie.CacheAll)
+            self.background_pixmap = QPixmap("Assets/1k/FastReaction_TeamMembers.png")
             self.scale = 1  
             scaled = 1
         
@@ -2244,7 +2511,8 @@ class TeamMember_screen(QtWidgets.QMainWindow):
         self.Background.setScaledContents(True)
         self.Background.setGeometry(0, 0, Home.geometry().width(), Home.geometry().height())
         self.Background.setText("")
-        self.Background.setMovie(self.movie)
+        self.background_pixmap = self.background_pixmap.scaled(self.Background.size(), Qt.KeepAspectRatio, Qt.SmoothTransformation)
+        self.Background.setPixmap(self.background_pixmap)
         self.Background.setSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
         
         #label 
@@ -2472,7 +2740,6 @@ class TeamMember_screen(QtWidgets.QMainWindow):
         self.LeaderboardTable.update()
         Home.setCentralWidget(self.centralwidget)
         
-        self.movie.start()
         
         self.retranslateUi(Home)
         # self.play_audio()
@@ -2540,15 +2807,6 @@ class TeamMember_screen(QtWidgets.QMainWindow):
             except Exception as e:
                 logger.warning(f"️  Error stopping timer: {e}")
         
-        # Stop and cleanup movie
-        if hasattr(self, 'movie') and self.movie:
-            try:
-                self.movie.stop()
-                self.movie.setCacheMode(QMovie.CacheNone)
-                self.movie = None
-                logger.debug(" Movie cleaned up")
-            except Exception as e:
-                logger.warning(f"️  Error stopping movie: {e}")
         
         # Stop media player
         # if hasattr(self, 'player') and self.player:
@@ -2580,7 +2838,7 @@ class TeamMember_screen(QtWidgets.QMainWindow):
         if hasattr(self, 'Background') and self.Background:
             try:
                 self.Background.clear()
-                self.Background.setMovie(None)
+                self.Background.setPixmap(QPixmap())
                 self.Background.deleteLater()
                 self.Background = None
                 logger.debug(" Background cleared")
@@ -2657,14 +2915,12 @@ class Home_screen(QtWidgets.QMainWindow):
         self.font_family_good = self.load_custom_font("Assets/Fonts/good_times_rg.ttf")
         
         if Home.geometry().width() > 1920:
-            self.movie = QMovie("Assets/1k/FastReaction_GameName.gif")
-            self.movie.setCacheMode(QMovie.CacheAll)
+            self.background_pixmap = QPixmap("Assets/1k/FastReaction_GameName.png")
             self.scale = 2
             global scaled
             scaled = 2
         else:
-            self.movie = QMovie("Assets/1k/FastReaction_GameName.gif")
-            self.movie.setCacheMode(QMovie.CacheAll)
+            self.background_pixmap = QPixmap("Assets/1k/FastReaction_GameName.png")
             self.scale = 1  
             scaled = 1
         
@@ -2672,7 +2928,8 @@ class Home_screen(QtWidgets.QMainWindow):
         self.Background.setScaledContents(True)
         self.Background.setGeometry(0, 0, Home.geometry().width(), Home.geometry().height())
         self.Background.setText("")
-        self.Background.setMovie(self.movie)
+        self.background_pixmap = self.background_pixmap.scaled(self.Background.size(), Qt.KeepAspectRatio, Qt.SmoothTransformation)
+        self.Background.setPixmap(self.background_pixmap)
         self.Background.setSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
         
         # Create leaderboard table
@@ -2935,7 +3192,6 @@ class Home_screen(QtWidgets.QMainWindow):
         self.timer.timeout.connect(self.Inactive)
         self.timer.start(11000)
         
-        self.movie.start()
         
        
         
@@ -2960,26 +3216,26 @@ class Home_screen(QtWidgets.QMainWindow):
         # Set default data
         __sortingEnabled = self.LeaderboardTable.isSortingEnabled()
         self.LeaderboardTable.setSortingEnabled(False)
-        item = self.LeaderboardTable.item(0, 0)
-        item.setText(_translate("Home", "Team 1"))
-        item = self.LeaderboardTable.item(0, 1)
-        item.setText(_translate("Home", "5"))
-        item = self.LeaderboardTable.item(1, 0)
-        item.setText(_translate("Home", "Team 2"))
-        item = self.LeaderboardTable.item(1, 1)
-        item.setText(_translate("Home", "6"))
-        item = self.LeaderboardTable.item(2, 0)
-        item.setText(_translate("Home", "Team 3"))
-        item = self.LeaderboardTable.item(2, 1)
-        item.setText(_translate("Home", "548"))
-        item = self.LeaderboardTable.item(3, 0)
-        item.setText(_translate("Home", "Team 5"))
-        item = self.LeaderboardTable.item(3, 1)
-        item.setText(_translate("Home", "2"))
-        item = self.LeaderboardTable.item(4, 0)
-        item.setText(_translate("Home", "Team 55"))
-        item = self.LeaderboardTable.item(4, 1)
-        item.setText(_translate("Home", "55"))
+        # item = self.LeaderboardTable.item(0, 0)
+        # # item.setText(_translate("Home", "Team 1"))
+        # item = self.LeaderboardTable.item(0, 1)
+        # item.setText(_translate("Home", "5"))
+        # item = self.LeaderboardTable.item(1, 0)
+        # # item.setText(_translate("Home", "Team 2"))
+        # item = self.LeaderboardTable.item(1, 1)
+        # item.setText(_translate("Home", "6"))
+        # # item = self.LeaderboardTable.item(2, 0)
+        # item.setText(_translate("Home", "Team 3"))
+        # item = self.LeaderboardTable.item(2, 1)
+        # item.setText(_translate("Home", "548"))
+        # item = self.LeaderboardTable.item(3, 0)
+        # item.setText(_translate("Home", "Team 5"))
+        # item = self.LeaderboardTable.item(3, 1)
+        # item.setText(_translate("Home", "2"))
+        # item = self.LeaderboardTable.item(4, 0)
+        # item.setText(_translate("Home", "Team 55"))
+        # item = self.LeaderboardTable.item(4, 1)
+        # item.setText(_translate("Home", "55"))
         self.LeaderboardTable.setSortingEnabled(__sortingEnabled)
     
     def showTable(self):
@@ -3009,13 +3265,19 @@ class Home_screen(QtWidgets.QMainWindow):
         self.timer.stop()
         self.timer3.start(9000)
         if scaled == 1:
-            self.movie = QMovie("Assets/1k/FastReaction_inActive.gif")
-            self.movie.setCacheMode(QMovie.CacheAll)
+            self.background_pixmap = QPixmap("Assets/1k/FastReaction_inActive.png")
         else:
-            self.movie = QMovie("Assets/1k/FastReaction_inActive.gif")
-            self.movie.setCacheMode(QMovie.CacheAll)
-        self.Background.setMovie(self.movie)
-        self.movie.start()
+            self.background_pixmap = QPixmap("Assets/1k/FastReaction_inActive.png")
+        
+        try:
+            if hasattr(self, 'Background') and self.Background:
+                self.background_pixmap = self.background_pixmap.scaled(self.Background.size(), Qt.KeepAspectRatio, Qt.SmoothTransformation)
+                self.Background.setPixmap(self.background_pixmap)
+                logger.debug(" Intro image loaded successfully")
+        except (RuntimeError, AttributeError):
+            logger.debug("Background widget already deleted, skipping pixmap operations")
+        # self.background_pixmap = self.background_pixmap.scaled(self.Background.size(), Qt.KeepAspectRatio, Qt.SmoothTransformation)
+        # self.Background.setPixmap(self.background_pixmap)
         # Safe table show - check if widget still exists
         try:
             if hasattr(self, 'LeaderboardTable') and self.LeaderboardTable:
@@ -3044,22 +3306,20 @@ class Home_screen(QtWidgets.QMainWindow):
         except (RuntimeError, AttributeError):
             logger.debug("LeaderboardTable already deleted, skipping hide()")
             
-        # Load intro movie with proper scaling
+        # Load intro image with proper scaling
         if scaled == 1:
-            self.movie = QMovie("Assets/1k/FastReaction_GameName.gif")
-            self.movie.setCacheMode(QMovie.CacheAll)
+            self.background_pixmap = QPixmap("Assets/1k/FastReaction_GameName.png")
         else:
-            self.movie = QMovie("Assets/1k/FastReaction_GameName.gif")
-            self.movie.setCacheMode(QMovie.CacheAll)
+            self.background_pixmap = QPixmap("Assets/1k/FastReaction_GameName.png")
             
-        # Safe background and movie operations
+        # Safe background and pixmap operations
         try:
             if hasattr(self, 'Background') and self.Background:
-                self.Background.setMovie(self.movie)
-                self.movie.start()
-                logger.debug(" Intro movie started successfully")
+                self.background_pixmap = self.background_pixmap.scaled(self.Background.size(), Qt.KeepAspectRatio, Qt.SmoothTransformation)
+                self.Background.setPixmap(self.background_pixmap)
+                logger.debug(" Intro image loaded successfully")
         except (RuntimeError, AttributeError):
-            logger.debug("Background widget already deleted, skipping movie operations")
+            logger.debug("Background widget already deleted, skipping pixmap operations")
             
         # Safe timer restart with proper error handling
         try:
@@ -3106,15 +3366,6 @@ class Home_screen(QtWidgets.QMainWindow):
             except Exception as e:
                 logger.warning(f"️  Error stopping timer3: {e}")
         
-        # Stop and cleanup movie
-        if hasattr(self, 'movie') and self.movie:
-            try:
-                self.movie.stop()
-                self.movie.setCacheMode(QMovie.CacheNone)
-                self.movie = None
-                logger.debug(" Movie cleaned up")
-            except Exception as e:
-                logger.warning(f"️  Error stopping movie: {e}")
         
         # # Stop media player if it exists
         # if hasattr(self, 'player') and self.player:
@@ -3152,7 +3403,7 @@ class Home_screen(QtWidgets.QMainWindow):
             if hasattr(self, 'Background') and self.Background is not None:
                 try:
                     self.Background.clear()
-                    self.Background.setMovie(None)  # Remove movie reference
+                    self.Background.setPixmap(QPixmap())  # Remove pixmap reference
                     self.Background.deleteLater()
                     logger.debug(" Background cleared")
                 except (RuntimeError, AttributeError):
@@ -3238,7 +3489,8 @@ class MainApp(QtWidgets.QMainWindow):
         self.mainWindow.setObjectName("Home")
         self.mainWindow.setWindowTitle("Fast Reaction Game - Complete")
         self.mainWindow.setFixedSize(self.sized.width(), self.sized.height())
-        self.mainWindow.setWindowFlags(QtCore.Qt.FramelessWindowHint )
+        print(self.sized.width(), self.sized.height())
+        self.mainWindow.setWindowFlags(QtCore.Qt.FramelessWindowHint)
         
         # Initialize GameManager with new API
         try:
@@ -3283,27 +3535,40 @@ class MainApp(QtWidgets.QMainWindow):
         audio_files = {
             'continuous': 'Assets/mp3/2066.wav',
             'inactive_game': 'Assets/mp3/game-music-loop-inactive.mp3',
-            'active_game': 'Assets/mp3/game-music-loop-active.mp3'
+            # correct.mp3
+# correct_2.mp3
+# miss.mp3
+# wrong-answer.mp3
+# wrong-answer_2.mp3
+            'active_game': 'Assets/mp3/game-music-loop-active.mp3',
+            'miss_sound': 'Assets/mp3/miss.mp3',
+            'ok_sound': 'Assets/mp3/game-music-loop-active.mp3',
+            'crct_sound': 'Assets/mp3/correct.mp3',
+            'mstk_sound': 'Assets/mp3/wrong-answer.mp3'
         }
         
         self.audio_thread = AudioServiceThread(audio_files)
         
-        # Connect signals
-        self.audio_thread.service_ready.connect(lambda: print("Audio service ready!"))
-        self.audio_thread.service_error.connect(lambda error: print(f"Audio service error: {error}"))
-        self.audio_thread.player_state_changed.connect(
-            lambda name, state: print(f"Player {name} state: {state}")
-        )
-
+        # Connect signals - use service_ready to play audio only when ready
+        self.audio_thread.service_ready.connect(self._on_audio_service_ready)
+        # self.audio_thread.service_error.connect(lambda error: print(f"Audio service error: {error}"))
+        # self.audio_thread.player_state_changed.connect(
+        #     lambda name, state: print(f"Player {name} state: {state}")
+        # )
+# Connect audio signals for sound effects (optional - game continues even if this fails)
+        if not self._connect_active_screen_audio_signals():
+            logger.warning("️  Some or all active screen audio signals could not be connected")
+        
         self.start_Home_screen()
 
-
-         # Start the thread
+        # Start the thread (audio will play when service_ready signal is emitted)
         self.audio_thread.start()
-        # Test the service
-        print("Testing audio service...")
-        
-        # Test continuous sound
+        print("🚀 Starting audio service thread...")
+    
+    def _on_audio_service_ready(self):
+        """Called when audio service is fully initialized and ready"""
+        logger.info("✅ Audio service ready - starting inactive game sound")
+        # Now it's safe to play audio
         self.audio_thread.play_inactive_game_sound()
 
         """
@@ -3311,6 +3576,8 @@ class MainApp(QtWidgets.QMainWindow):
         """
         # ------------------------------
         # self.start_Active_screen()
+        # self.serial_thread.start_monitoring()
+        # self.serial_thread.serial_connection.write("Start\n".encode('utf-8'))
         # self.ui_active.start_game()
         # ------------------------------
         # self.start_final_screen()
@@ -3327,12 +3594,11 @@ class MainApp(QtWidgets.QMainWindow):
         # Force stop all timers before transition
         self._force_stop_all_timers()
         
-        # Clean up previous screens
+        # Clean up previous screens (this now includes stopping all audio)
         self._cleanup_previous_screens()
         
-        self.audio_thread.stop_continuous_sound()
-        self.audio_thread.stop_active_game_sound()
-        self.audio_thread.play_inactive_game_sound()
+        # Small delay to ensure audio cleanup is complete, then start inactive sound
+        QTimer.singleShot(100, self._start_inactive_audio_for_home)
 
         # Reset global game state
         global list_players_score, list_players_name, scored, serial_scoring_active
@@ -3365,11 +3631,11 @@ class MainApp(QtWidgets.QMainWindow):
     def start_TeamMember_screen(self):
         logger.info(" Starting TeamMember Screen")
         
-        # Clean up previous screens
+        # Clean up previous screens (this now includes stopping all audio)
         self._cleanup_previous_screens()
-        self.audio_thread.stop_continuous_sound()
-        self.audio_thread.stop_active_game_sound()
-        self.audio_thread.play_inactive_game_sound()
+        
+        # Small delay to ensure audio cleanup is complete, then start inactive sound
+        QTimer.singleShot(100, self._start_inactive_audio_for_teammember)
         
         # Initialize team member screen with error handling
         if hasattr(self, 'ui_team_member') and self.ui_team_member:
@@ -3463,7 +3729,11 @@ class MainApp(QtWidgets.QMainWindow):
                     logger.info(" Last resort home screen setup successful")
             except Exception as last_resort_error:
                 logger.error(f" Last resort home screen setup failed: {last_resort_error}")
-    
+
+        if self.serial_thread:
+            self.serial_thread.stop_monitoring()
+            logger.info(" Serial monitoring stopped for game")
+        
     def _reset_active_screen_state(self):
         """Reset Active_screen state without recreating objects to avoid resource conflicts (from CAGE)"""
         try:
@@ -3526,6 +3796,16 @@ class MainApp(QtWidgets.QMainWindow):
                 
             except Exception as e:
                 logger.warning(f"️  Error resetting UI state: {e}")
+            
+            # Reconnect audio signals after reset
+            try:
+                logger.info("Reconnecting audio signals after reset...")
+                if self._connect_active_screen_audio_signals():
+                    logger.info(" Audio signals reconnected successfully")
+                else:
+                    logger.warning("️  Failed to reconnect some audio signals")
+            except Exception as e:
+                logger.error(f" Error reconnecting audio signals: {e}")
                 
             logger.info(" Active_screen state reset completed without object recreation")
             
@@ -3559,6 +3839,9 @@ class MainApp(QtWidgets.QMainWindow):
     def _cleanup_previous_screens(self):
         """Safely cleanup any previous screen resources"""
         logger.info(" Cleaning up previous screens...")
+        
+        # CRITICAL: Stop ALL audio first to prevent overlapping sounds
+        self._stop_all_audio()
         
         # Clean up active screen
         if hasattr(self, 'ui_active') and self.ui_active:
@@ -3604,22 +3887,143 @@ class MainApp(QtWidgets.QMainWindow):
         
         logger.info(" Previous screens cleaned up")
     
+    def _stop_all_audio(self):
+        """Stop all audio to prevent overlapping sounds during screen transitions"""
+        try:
+            logger.info("🔇 Stopping all audio to prevent overlaps...")
+            self.audio_thread.stop_all_sounds()
+            logger.info("✅ All audio stopped successfully")
+        except Exception as e:
+            logger.warning(f"⚠️ Error stopping audio: {e}")
+    
+    def _start_inactive_audio_for_teammember(self):
+        """Start inactive audio specifically for team member screen"""
+        try:
+            logger.info("🎵 Starting inactive audio for team member screen...")
+            self.audio_thread.play_inactive_game_sound()
+            logger.info("✅ Inactive audio started for team member screen")
+        except Exception as e:
+            logger.warning(f"⚠️ Error starting inactive audio: {e}")
+    
+    def _start_inactive_audio_for_home(self):
+        """Start inactive audio specifically for home screen"""
+        try:
+            logger.info("🎵 Starting inactive audio for home screen...")
+            self.audio_thread.play_inactive_game_sound()
+            logger.info("✅ Inactive audio started for home screen")
+        except Exception as e:
+            logger.warning(f"⚠️ Error starting inactive audio: {e}")
+    
+    def _start_inactive_audio_for_final(self):
+        """Start inactive audio specifically for final screen"""
+        try:
+            logger.info("🎵 Starting inactive audio for final screen...")
+            self.audio_thread.play_inactive_game_sound()
+            logger.info("✅ Inactive audio started for final screen")
+        except Exception as e:
+            logger.warning(f"⚠️ Error starting inactive audio: {e}")
+    
+    def _start_active_audio_for_game(self):
+        """Start active audio specifically for active game screen"""
+        try:
+            logger.info("🎵 Starting active audio for game screen...")
+            self.audio_thread.play_active_game_sound()
+            logger.info("✅ Active audio started for game screen")
+        except Exception as e:
+            logger.warning(f"⚠️ Error starting active audio: {e}")
+    
+    # def _active_screen_miss_signal_sound(self):
+    #     # self.audio_thread.play_miss_sound()
+    #     print("miss")
+    # def _active_screen_ok_signal_sound(self):
+    #     # self.audio_thread.play_ok_sound()
+    #     print("Played ok sound")
+    def _active_screen_crct_signal_sound(self):
+        logger.info("🔊 CRCT signal received - playing correct sound")
+        self.audio_thread.play_crct_sound()
+    def _active_screen_mstk_signal_sound(self):
+        logger.info("🔊 MSTK signal received - playing mistake sound")
+        self.audio_thread.play_mstk_sound()
+    
+    def _connect_active_screen_audio_signals(self):
+        """Connect audio signals from Active_screen to MainApp audio handlers with proper disconnect-first pattern"""
+        connected_count = 0
+        
+        if not hasattr(self, 'ui_active') or not self.ui_active:
+            logger.warning("️  ui_active not available for audio signal connections")
+            return False
+        
+        # Try to connect crct_signal (correct sound)
+        if hasattr(self.ui_active, 'crct_signal'):
+            try:
+                self.ui_active.crct_signal.disconnect(self._active_screen_crct_signal_sound)
+            except:
+                pass  # Ignore if not connected
+            
+            try:
+                self.ui_active.crct_signal.connect(self._active_screen_crct_signal_sound)
+                connected_count += 1
+                logger.debug(" Connected crct_signal for correct sound")
+            except Exception as e:
+                logger.warning(f"️  Could not connect crct_signal: {e}")
+        else:
+            logger.debug(" crct_signal not available on ui_active")
+        
+        # Try to connect mstk_signal (mistake sound)
+        if hasattr(self.ui_active, 'mstk_signal'):
+            try:
+                self.ui_active.mstk_signal.disconnect(self._active_screen_mstk_signal_sound)
+            except:
+                pass  # Ignore if not connected
+            
+            try:
+                self.ui_active.mstk_signal.connect(self._active_screen_mstk_signal_sound)
+                connected_count += 1
+                logger.debug(" Connected mstk_signal for mistake sound")
+            except Exception as e:
+                logger.warning(f"️  Could not connect mstk_signal: {e}")
+        else:
+            logger.debug(" mstk_signal not available on ui_active")
+        
+        if connected_count > 0:
+            logger.info(f" Active screen audio signals connected ({connected_count} signals)")
+            return True
+        else:
+            logger.warning("️  No active screen audio signals were connected")
+            return False
+
     def start_Active_screen(self):
         logger.info(" Starting Active Screen")
         
-        # Safely close home screen
-        self.audio_thread.stop_continuous_sound()
-        self.audio_thread.stop_inactive_game_sound()
-        self.audio_thread.play_active_game_sound()
-        if hasattr(self, 'ui_home') and self.ui_home:
-            try:
-                self.ui_home.close()
-            except Exception as e:
-                logger.warning(f"️  Error closing home screen: {e}")
+        # Reconnect audio signals to ensure they work after cancellation
+        try:
+            logger.info("Reconnecting audio signals for Active screen...")
+            if self._connect_active_screen_audio_signals():
+                logger.info(" Audio signals reconnected successfully")
+            else:
+                logger.warning("️  Failed to reconnect some audio signals")
+        except Exception as e:
+            logger.error(f" Error reconnecting audio signals: {e}")
+        
+        # Check if critical audio players are ready (non-blocking check)
+        if hasattr(self, 'audio_thread') and self.audio_thread:
+            if not self.audio_thread.are_critical_players_ready():
+                logger.warning("⚠️ Critical audio players not fully ready yet, proceeding anyway")
+            else:
+                logger.info("✅ All critical audio players are ready")
+        
         # Initialize active screen with error handling
         if hasattr(self, 'ui_active') and self.ui_active:
             try:
                 # Reinitialize mqtt thread
+                self.ui_active.setupUi(self.mainWindow)
+# Safely close home screen
+                
+                # Stop all audio first, then start active game sound after delay
+                self._stop_all_audio()
+                QTimer.singleShot(50, self._start_active_audio_for_game)
+                
+                
                 self.ui_active.init_mqtt_thread()
                 
                 # Ensure circular timer widget is properly initialized for new game
@@ -3660,26 +4064,26 @@ class MainApp(QtWidgets.QMainWindow):
                         
                         # Ensure signals are connected (disconnect first to avoid duplicates, then reconnect)
                         try:
-                            # Safely disconnect existing connections
+                            # Safely disconnect existing serial connections
                             self.serial_thread.data_received.disconnect(self.ui_active.on_serial_data_received)
                         except:
                             pass  # Ignore if not connected
                         
-                        try:
-                            self.serial_thread.connection_status_changed.disconnect(self.ui_active.on_serial_connection_status_changed)
-                        except:
-                            pass  # Ignore if not connected
+                        # try:
+                        #     self.serial_thread.connection_status_changed.disconnect(self.ui_active.on_serial_connection_status_changed)
+                        # except:
+                        #     pass  # Ignore if not connected
                         
-                        try:
-                            self.serial_thread.error_occurred.disconnect(self.ui_active.on_serial_error)
-                        except:
-                            pass  # Ignore if not connected
+                        # try:
+                        #     self.serial_thread.error_occurred.disconnect(self.ui_active.on_serial_error)
+                        # except:
+                        #     pass  # Ignore if not connected
                         
-                        # Reconnect signals
+                        # Reconnect serial signals
                         self.serial_thread.data_received.connect(self.ui_active.on_serial_data_received)
-                        self.serial_thread.connection_status_changed.connect(self.ui_active.on_serial_connection_status_changed)
-                        self.serial_thread.error_occurred.connect(self.ui_active.on_serial_error)
-                        logger.debug(" Serial signals ensured connected")
+                        # self.serial_thread.connection_status_changed.connect(self.ui_active.on_serial_connection_status_changed)
+                        # self.serial_thread.error_occurred.connect(self.ui_active.on_serial_error)
+                        logger.debug(" Serial and audio signals ensured connected")
                         
                         logger.debug(" Serial thread properly configured for Active_screen")
                     except Exception as e:
@@ -3687,9 +4091,9 @@ class MainApp(QtWidgets.QMainWindow):
                 else:
                     logger.info("ℹ️  Serial thread not available (disabled in config or failed to initialize)")
                 
+                
                 # Setup and show the active screen
-                self.ui_active.setupUi(self.mainWindow)
-                self.mainWindow.show()
+                # self.mainWindow.show()
                 logger.debug(" Active screen started successfully")
             except Exception as e:
                 logger.error(f" Error setting up active screen: {e}")
@@ -3697,6 +4101,12 @@ class MainApp(QtWidgets.QMainWindow):
         else:
             logger.error(" ui_active not properly initialized")
             return
+
+        if hasattr(self, 'ui_home') and self.ui_home:
+            try:
+                self.ui_home.close()
+            except Exception as e:
+                logger.warning(f"️  Error closing home screen: {e}")
         
         quit_shortcut = QtWidgets.QShortcut(QtGui.QKeySequence('q'), self.mainWindow)
         quit_shortcut.activated.connect(self.close_application)
@@ -3707,9 +4117,10 @@ class MainApp(QtWidgets.QMainWindow):
         try:
             # Close any current screens safely
             self._close_current_screen()
-            self.audio_thread.stop_continuous_sound()
-            self.audio_thread.stop_active_game_sound()
-            self.audio_thread.stop_inactive_game_sound()
+            
+            # Stop all audio first, then start inactive after delay
+            self._stop_all_audio()
+            QTimer.singleShot(100, self._start_inactive_audio_for_final)
             # Setup and show final screen
             self.ui_final.setupUi(self.mainWindow)
             self.mainWindow.show()

@@ -1,0 +1,30 @@
+{
+  "team_name": "HAGI SAB",
+  "timestamp": "2025-11-05 20:24:54",
+  "total_score": 7700,
+  "backend_payload": {
+    "gameResultID": "d206ff0c-234c-4ec1-86ae-01bb3565528b",
+    "individualScore": [
+      {
+        "userID": "0f33848d-342d-449b-9e26-165eedc77618",
+        "nodeID": 1,
+        "score": 1925
+      },
+      {
+        "userID": "f7acb1d2-aba8-4852-8fa3-eaf6b0730a9b",
+        "nodeID": 2,
+        "score": 1925
+      },
+      {
+        "userID": "566a9089-121a-49a7-996e-6227eef645e5",
+        "nodeID": 3,
+        "score": 1925
+      },
+      {
+        "userID": "8c4f2c2d-1b41-4390-9d31-db57d809074f",
+        "nodeID": 4,
+        "score": 1925
+      }
+    ]
+  }
+}

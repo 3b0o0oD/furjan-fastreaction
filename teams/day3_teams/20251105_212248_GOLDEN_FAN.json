@@ -1,0 +1,30 @@
+{
+  "team_name": "GOLDEN FAN",
+  "timestamp": "2025-11-05 21:22:48",
+  "total_score": 8600,
+  "backend_payload": {
+    "gameResultID": "803305df-b777-426d-a4a6-ca079d1cdba7",
+    "individualScore": [
+      {
+        "userID": "9e3d959b-981a-468d-86f1-b1eddac8a15e",
+        "nodeID": 1,
+        "score": 2150
+      },
+      {
+        "userID": "99c30815-a0e8-457d-b0dd-725a6ad2f30f",
+        "nodeID": 2,
+        "score": 2150
+      },
+      {
+        "userID": "fece2138-642f-42a7-acb3-2dfe9270df00",
+        "nodeID": 3,
+        "score": 2150
+      },
+      {
+        "userID": "5b403b50-cdc0-471d-92ef-0a8324db050b",
+        "nodeID": 4,
+        "score": 2150
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "team_name": "TG CASH TEAM 25",
+  "timestamp": "2025-11-06 19:26:21",
+  "total_score": 3400,
+  "backend_payload": {
+    "gameResultID": "0c22887b-00de-4d58-8c27-fde9e4c84e06",
+    "individualScore": [
+      {
+        "userID": "78b7c2ef-c64c-42ae-b99a-833f8f354dda",
+        "nodeID": 1,
+        "score": 850
+      },
+      {
+        "userID": "0954be1c-e5e7-4f5e-a1a5-f058205b9a1a",
+        "nodeID": 2,
+        "score": 850
+      },
+      {
+        "userID": "954e3a23-7ab8-4bdd-9c3f-42f32e6eb969",
+        "nodeID": 3,
+        "score": 850
+      },
+      {
+        "userID": "84f2a6e4-247b-4061-a8b2-af60a73453aa",
+        "nodeID": 4,
+        "score": 850
+      }
+    ]
+  }
+}

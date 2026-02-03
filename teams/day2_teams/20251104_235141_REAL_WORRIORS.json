@@ -1,0 +1,30 @@
+{
+  "team_name": "REAL WORRIORS",
+  "timestamp": "2025-11-04 23:51:41",
+  "total_score": 8150,
+  "backend_payload": {
+    "gameResultID": "279c70b0-fd11-4aef-83f6-78d348ee56ff",
+    "individualScore": [
+      {
+        "userID": "8c81a506-fc63-4b89-8485-66f9b8e0cc82",
+        "nodeID": 1,
+        "score": 2039
+      },
+      {
+        "userID": "b240f977-6b34-4323-966b-85b5434814d8",
+        "nodeID": 2,
+        "score": 2037
+      },
+      {
+        "userID": "9ae31e39-63c6-460d-9279-205a19a4c2ce",
+        "nodeID": 3,
+        "score": 2037
+      },
+      {
+        "userID": "f71e98b9-507a-432f-91f2-be174fbf746d",
+        "nodeID": 4,
+        "score": 2037
+      }
+    ]
+  }
+}

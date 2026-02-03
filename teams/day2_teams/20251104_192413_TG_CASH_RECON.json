@@ -1,0 +1,30 @@
+{
+  "team_name": "TG CASH RECON",
+  "timestamp": "2025-11-04 19:24:13",
+  "total_score": 575,
+  "backend_payload": {
+    "gameResultID": "9f77c0f5-af98-49b6-b0e1-b2b156bbb501",
+    "individualScore": [
+      {
+        "userID": "a0b7ed50-a39e-41c7-9f8c-a55b6198feb5",
+        "nodeID": 1,
+        "score": 146
+      },
+      {
+        "userID": "8a5ccfed-6136-41d2-815f-0e7e98d53e6a",
+        "nodeID": 2,
+        "score": 143
+      },
+      {
+        "userID": "f75b49c5-f8f2-43fb-a99c-d4952147de92",
+        "nodeID": 3,
+        "score": 143
+      },
+      {
+        "userID": "24a95215-2919-4d48-87d1-f39065a433f2",
+        "nodeID": 4,
+        "score": 143
+      }
+    ]
+  }
+}

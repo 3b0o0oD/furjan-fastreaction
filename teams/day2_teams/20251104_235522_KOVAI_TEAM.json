@@ -1,0 +1,30 @@
+{
+  "team_name": "KOVAI TEAM",
+  "timestamp": "2025-11-04 23:55:22",
+  "total_score": 15800,
+  "backend_payload": {
+    "gameResultID": "29dc564e-adf6-42d6-aff8-65941be5c19f",
+    "individualScore": [
+      {
+        "userID": "59ea5c6a-3803-4d13-b304-ba8a1fb282a2",
+        "nodeID": 1,
+        "score": 3950
+      },
+      {
+        "userID": "60cd8b67-514a-468b-ab78-21f2de33c10a",
+        "nodeID": 2,
+        "score": 3950
+      },
+      {
+        "userID": "cd8d982a-6c8d-4736-b4eb-82266b27aeaa",
+        "nodeID": 3,
+        "score": 3950
+      },
+      {
+        "userID": "b9ee7def-f6b8-41da-b6f8-adc1bcf7bacb",
+        "nodeID": 4,
+        "score": 3950
+      }
+    ]
+  }
+}
