@@ -1,6 +1,4 @@
 import QtQuick 2.12
-import QtQuick.Shapes 1.0
-import QtGraphicalEffects 1.0
 
 Item {
     id: _Active_screen_FastReaction_2
@@ -96,73 +94,85 @@ Item {
         source: "Assets/Fonts/MyriadPro-Regular.otf"
     }
 
+    // Background image
+    Image {
+        id: backgroundImage
+        x: 0
+        y: 0
+        width: 1920
+        height: 1080
+        source: "Assets/1k/light-background-with-logo_leaderboard.png"
+        fillMode: Image.PreserveAspectCrop
+        asynchronous: true
+    }
+
     
     // mascot left
-    Item {
-        id: mascot_l
+    // Item {
+    //     id: mascot_l
 
-        x: -3
-        y: 684.66
+    //     x: -3
+    //     y: 684.66
 
-        height: 361.34
-        width: 314
+    //     height: 361.34
+    //     width: 314
 
-        Image {
-            id: mascot_stand
+    //     Image {
+    //         id: mascot_stand
 
-            y: 306.21
+    //         y: 306.21
 
-            source: "Assets/mascot_stand_5.png"
-        }
-        Image {
-            id: mascot
+    //         source: "Assets/mascot_stand_5.png"
+    //     }
+    //     Image {
+    //         id: mascot
 
-            x: 74.31
+    //         x: 74.31
 
-            source: "Assets/mascot_5.png"
-        }
-        Image {
-            id: stand_light
+    //         source: "Assets/mascot_5.png"
+    //     }
+    //     Image {
+    //         id: stand_light
 
-            x: 19.77
-            y: 142.02
+    //         x: 19.77
+    //         y: 142.02
 
-            source: "Assets/stand_light_5.png"
-        }
-    }
-    // logo
-    Item {
-        id: logo
+    //         source: "Assets/stand_light_5.png"
+    //     }
+    // }
+    // // logo
+    // Item {
+    //     id: logo
 
-        x: 740
-        y: 919
+    //     x: 740
+    //     y: 919
 
-        height: 110
-        width: 441
+    //     height: 110
+    //     width: 441
 
-        Image {
-            id: uxe_logo
+    //     Image {
+    //         id: uxe_logo
 
-            x: 330
-            y: 35
+    //         x: 330
+    //         y: 35
 
-            source: "Assets/uxe_logo_4.png"
-        }
-        Image {
-            id: sira_logo
+    //         source: "Assets/uxe_logo_4.png"
+    //     }
+    //     Image {
+    //         id: sira_logo
 
-            x: 161
+    //         x: 161
 
-            source: "Assets/sira_logo_4.png"
-        }
-        Image {
-            id: emarat_alaman_logo
+    //         source: "Assets/sira_logo_4.png"
+    //     }
+    //     Image {
+    //         id: emarat_alaman_logo
 
-            y: 7
+    //         y: 7
 
-            source: "Assets/emarat_alaman_logo_4.png"
-        }
-    }
+    //         source: "Assets/emarat_alaman_logo_4.png"
+    //     }
+    // }
     // team name
     Text {
         id: team_Name
@@ -182,14 +192,6 @@ Item {
 
         style: Text.Outline
         styleColor: "#091B73"
-         layer.enabled: true
-        layer.effect: DropShadow {
-            horizontalOffset: 6
-            verticalOffset: 4
-            radius: 4
-            samples: 17
-            color: "#091B73"
-        }
     }
     // time
     Text {
@@ -210,15 +212,6 @@ Item {
 
         style: Text.Outline
         styleColor: "#091B73"
-        
-        layer.enabled: true
-        layer.effect: DropShadow {
-            horizontalOffset: 6
-            verticalOffset: 4
-            radius: 4
-            samples: 17
-            color: "#091B73"
-        }
 
         
     }
@@ -243,14 +236,6 @@ Item {
 
         style: Text.Outline
         styleColor: "#091B73"
-         layer.enabled: true
-        layer.effect: DropShadow {
-            horizontalOffset: 6
-            verticalOffset: 4
-            radius: 4
-            samples: 17
-            color: "#091B73"
-        }
     }
     // correct button image
     Image{

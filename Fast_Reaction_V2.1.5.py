@@ -2819,12 +2819,12 @@ class TeamMember_screen(QtWidgets.QMainWindow):
         self.font_family_good = self.load_custom_font("Assets/Fonts/good_times_rg.ttf")
         
         if Home.geometry().width() > 1920:
-            background_gif_path = "Assets/1k/background.gif"
+            background_path = "Assets/1k/background.png"
             self.scale = 2
             global scaled
             scaled = 2
         else:
-            background_gif_path = "Assets/1k/background.gif"
+            background_path = "Assets/1k/background.png"
             self.scale = 1  
             scaled = 1
         
@@ -2835,38 +2835,16 @@ class TeamMember_screen(QtWidgets.QMainWindow):
         # Add black background to mask loading delays
         self.Background.setStyleSheet("background-color: black;")
         
-        # Initialize background_movie as None for safety
-        self.background_movie = None
-        
-        # Safe movie creation and assignment
+        # Load static background image (PNG)
         try:
-            self.background_movie = QMovie(background_gif_path)
-            if self.background_movie.isValid():
-                self.background_movie.setCacheMode(QMovie.CacheAll)
-                # Set speed to normal (100% speed)
-                self.background_movie.setSpeed(100)
-                try:
-                    self.background_movie.jumpToFrame(0)
-                except Exception:
-                    pass
-                try:
-                    self.Background.setPixmap(self.background_movie.currentPixmap())
-                except Exception:
-                    pass
-                self.Background.setMovie(self.background_movie)
-                self.background_movie.start()
+            background_pixmap = QPixmap(background_path)
+            if not background_pixmap.isNull():
+                self.Background.setPixmap(background_pixmap)
+                logger.info(f"Loaded background image: {background_path}")
             else:
-                logger.warning(f"Invalid GIF file: {background_gif_path}")
-                try:
-                    fallback_pixmap = QPixmap(background_gif_path)
-                    if not fallback_pixmap.isNull():
-                        self.Background.setPixmap(fallback_pixmap)
-                        logger.info("Loaded static background image as fallback")
-                except Exception:
-                    pass
+                logger.warning(f"Failed to load background image: {background_path}")
         except Exception as e:
-            logger.error(f"Error loading background movie: {e}")
-            self.background_movie = None
+            logger.error(f"Error loading background image: {e}")
             
         self.Background.setSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
         
@@ -3152,12 +3130,12 @@ class Home_screen(QtWidgets.QMainWindow):
         self.font_family_good = self.load_custom_font("Assets/Fonts/good_times_rg.ttf")
         
         if Home.geometry().width() > 1920:
-            background_gif_path = "Assets/1k/Fast_Reaction.gif"
+            background_gif_path = "Assets/1k/Fast_Reaction.png"
             self.scale = 2
             global scaled
             scaled = 2
         else:
-            background_gif_path = "Assets/1k/Fast_Reaction.gif"
+            background_gif_path = "Assets/1k/Fast_Reaction.png"
             self.scale = 1  
             scaled = 1
         
@@ -3215,8 +3193,8 @@ class Home_screen(QtWidgets.QMainWindow):
         
         # QML Leaderboard (transparent, full screen overlay)
         try:
-            # Create as child of mainWindow (Home) not centralwidget for proper z-order
-            self.leaderboard_qml = QQuickWidget(Home)
+            # Create as child of centralwidget so it stacks with background content
+            self.leaderboard_qml = QQuickWidget(self.centralwidget)
             self.leaderboard_qml.setClearColor(QtCore.Qt.transparent)
             fmt = QSurfaceFormat()
             fmt.setAlphaBufferSize(8)
@@ -3224,7 +3202,7 @@ class Home_screen(QtWidgets.QMainWindow):
             self.leaderboard_qml.setAttribute(QtCore.Qt.WA_TranslucentBackground, False)
             self.leaderboard_qml.setAttribute(QtCore.Qt.WA_NoSystemBackground, False)
             self.leaderboard_qml.setAttribute(QtCore.Qt.WA_OpaquePaintEvent, False)
-            self.leaderboard_qml.setAttribute(QtCore.Qt.WA_AlwaysStackOnTop, False)
+            self.leaderboard_qml.setAttribute(QtCore.Qt.WA_AlwaysStackOnTop, True)
             self.leaderboard_qml.setResizeMode(QQuickWidget.SizeRootObjectToView)
 
             import os
@@ -3244,7 +3222,7 @@ class Home_screen(QtWidgets.QMainWindow):
             list_top5_FastReaction.clear()
             list_top5_FastReaction.extend(leaderboard)
             # Geometry full screen (1920x1080 base, scale adapt if needed)
-            self.leaderboard_qml.setGeometry(QtCore.QRect(0, 0, Home.geometry().width(), Home.geometry().height()))
+            self.leaderboard_qml.setGeometry(QtCore.QRect(0, 0, self.centralwidget.width(), self.centralwidget.height()))
 
             # Seed initial data from list_top5_FastReaction
             try:
@@ -3319,6 +3297,10 @@ class Home_screen(QtWidgets.QMainWindow):
     def showTable(self):
         try:
             if hasattr(self, 'leaderboard_qml') and self.leaderboard_qml:
+                try:
+                    self.leaderboard_qml.setGeometry(self.centralwidget.rect())
+                except Exception:
+                    pass
                 self.leaderboard_qml.show()
                 self.leaderboard_qml.raise_()
                 logger.info("Leaderboard table shown")
@@ -3460,9 +3442,9 @@ class Home_screen(QtWidgets.QMainWindow):
             
         # Load intro image with proper scaling
         if scaled == 1:
-            background_gif_path = "Assets/1k/Fast_Reaction.gif"
+            background_gif_path = "Assets/1k/Fast_Reaction.png"
         else:
-            background_gif_path = "Assets/1k/Fast_Reaction.gif"
+            background_gif_path = "Assets/1k/Fast_Reaction.png"
             
         # Safe background and pixmap operations
         # Use safe movie replacement method
@@ -3789,7 +3771,7 @@ class MainApp(QtWidgets.QMainWindow):
         # self.serial_thread.serial_connection.write("Start\n".encode('utf-8'))
         # self.ui_active.start_game()
         # ------------------------------
-        # self.start_final_screen()
+        # self.start_final_screen()  # TESTING: Show team score screen
 
         # Start game manager after delay 
         QtCore.QTimer.singleShot(5000, self.game_manager.start)

@@ -1,10 +1,9 @@
 import QtQuick 2.12
-import QtQuick.Controls 2.12
 
 Item {
     id: _leaderboard_screen
-    width: 3840
-    height: 2160
+    implicitWidth: 1920
+    implicitHeight: 1080
     clip: true
     visible: true
 
@@ -107,7 +106,7 @@ Item {
 
     Image {
         anchors.fill: parent
-        source: "Assets/1k/background.gif"
+        source: "Assets/1k/dashboard-background.png"
         fillMode: Image.PreserveAspectCrop
         asynchronous: true
     }
@@ -119,8 +118,13 @@ Item {
         anchors.centerIn: parent
         z: 2
 
-        property real scaleFactor: Math.min(_leaderboard_screen.width / 1920, _leaderboard_screen.height / 1080)
-        scale: scaleFactor
+        property real scaleFactor: {
+            var w = _leaderboard_screen.width
+            var h = _leaderboard_screen.height
+            if (w <= 0 || h <= 0) return 1
+            return Math.min(w / 1920, h / 1080)
+        }
+        scale: Math.max(0.01, scaleFactor)
 
         Rectangle {
             id: mainContainer
@@ -147,13 +151,20 @@ Item {
                         GradientStop { position: 1.0; color: Qt.rgba(152 / 255, 68 / 255, 33 / 255, 0.2) }
                     }
 
-                    Column {
+                    Item {
                         anchors.fill: parent
-                        anchors.margins: 32
-                        spacing: 16
+                        anchors.leftMargin: 32
+                        anchors.rightMargin: 32
+                        anchors.topMargin: 38
+                        anchors.bottomMargin: 32
 
                         Column {
-                            spacing: 8
+                            id: topSection
+                            anchors.left: parent.left
+                            anchors.right: parent.right
+                            anchors.top: parent.top
+                            spacing: 32
+
                             Text {
                                 text: "Top Performers"
                                 font.family: "Myriad Pro"
@@ -163,211 +174,227 @@ Item {
                                 font.capitalization: Font.AllUppercase
                                 font.letterSpacing: 2
                             }
+
+                            Column {
+                                width: parent.width
+                                spacing: 16
+
+                                // 1st place
+                                Rectangle {
+                                    radius: 10
+                                    border.color: Qt.rgba(168 / 255, 92 / 255, 76 / 255, 0.4)
+                                    border.width: 1
+                                    gradient: Gradient {
+                                        GradientStop { position: 0.0; color: Qt.rgba(168 / 255, 92 / 255, 76 / 255, 0.3) }
+                                        GradientStop { position: 1.0; color: Qt.rgba(119 / 255, 32 / 255, 46 / 255, 0.2) }
+                                    }
+                                    height: 78
+                                    width: parent.width
+
+                                    Row {
+                                        anchors.fill: parent
+                                        anchors.margins: 19
+                                        spacing: 16
+
+                                        Rectangle {
+                                            width: 45
+                                            height: 45
+                                            radius: 6
+                                            gradient: Gradient {
+                                                GradientStop { position: 0.0; color: colorPrimary }
+                                                GradientStop { position: 1.0; color: colorDark }
+                                            }
+                                            Text {
+                                                anchors.centerIn: parent
+                                                text: "1"
+                                                font.family: "Myriad Pro"
+                                                font.pixelSize: 19
+                                                font.weight: Font.Black
+                                                color: colorLight
+                                            }
+                                        }
+
+                                        Column {
+                                            spacing: 3
+                                            width: parent.width - 70
+                                            Text {
+                                                text: goldName
+                                                font.family: "Myriad Pro"
+                                                font.pixelSize: 18
+                                                font.weight: Font.Bold
+                                                color: colorLight
+                                                elide: Text.ElideRight
+                                            }
+                                            Text {
+                                                text: goldScore + " points"
+                                                font.family: "Myriad Pro"
+                                                font.pixelSize: 11
+                                                color: Qt.rgba(224 / 255, 191 / 255, 162 / 255, 0.6)
+                                            }
+                                        }
+                                    }
+                                }
+
+                                // 2nd place
+                                Rectangle {
+                                    radius: 10
+                                    border.color: Qt.rgba(224 / 255, 191 / 255, 162 / 255, 0.1)
+                                    border.width: 1
+                                    color: Qt.rgba(224 / 255, 191 / 255, 162 / 255, 0.05)
+                                    height: 70
+                                    width: parent.width
+
+                                    Row {
+                                        anchors.fill: parent
+                                        anchors.margins: 16
+                                        spacing: 13
+
+                                        Rectangle {
+                                            width: 38
+                                            height: 38
+                                            radius: 6
+                                            color: Qt.rgba(224 / 255, 191 / 255, 162 / 255, 0.1)
+                                            border.color: Qt.rgba(224 / 255, 191 / 255, 162 / 255, 0.2)
+                                            border.width: 1
+                                            Text {
+                                                anchors.centerIn: parent
+                                                text: "2"
+                                                font.family: "Myriad Pro"
+                                                font.pixelSize: 16
+                                                font.weight: Font.Bold
+                                                color: Qt.rgba(224 / 255, 191 / 255, 162 / 255, 0.7)
+                                            }
+                                        }
+
+                                        Column {
+                                            spacing: 2
+                                            width: parent.width - 60
+                                            Text {
+                                                text: silverName
+                                                font.family: "Myriad Pro"
+                                                font.pixelSize: 14
+                                                font.weight: Font.DemiBold
+                                                color: Qt.rgba(224 / 255, 191 / 255, 162 / 255, 0.9)
+                                                elide: Text.ElideRight
+                                            }
+                                            Text {
+                                                text: silverScore + " points"
+                                                font.family: "Myriad Pro"
+                                                font.pixelSize: 10
+                                                color: Qt.rgba(224 / 255, 191 / 255, 162 / 255, 0.5)
+                                            }
+                                        }
+                                    }
+                                }
+
+                                // 3rd place
+                                Rectangle {
+                                    radius: 10
+                                    border.color: Qt.rgba(224 / 255, 191 / 255, 162 / 255, 0.08)
+                                    border.width: 1
+                                    color: Qt.rgba(224 / 255, 191 / 255, 162 / 255, 0.03)
+                                    height: 70
+                                    width: parent.width
+
+                                    Row {
+                                        anchors.fill: parent
+                                        anchors.margins: 16
+                                        spacing: 13
+
+                                        Rectangle {
+                                            width: 38
+                                            height: 38
+                                            radius: 6
+                                            color: Qt.rgba(224 / 255, 191 / 255, 162 / 255, 0.05)
+                                            border.color: Qt.rgba(224 / 255, 191 / 255, 162 / 255, 0.1)
+                                            border.width: 1
+                                            Text {
+                                                anchors.centerIn: parent
+                                                text: "3"
+                                                font.family: "Myriad Pro"
+                                                font.pixelSize: 16
+                                                font.weight: Font.Bold
+                                                color: Qt.rgba(224 / 255, 191 / 255, 162 / 255, 0.5)
+                                            }
+                                        }
+
+                                        Column {
+                                            spacing: 2
+                                            width: parent.width - 60
+                                            Text {
+                                                text: bronzeName
+                                                font.family: "Myriad Pro"
+                                                font.pixelSize: 14
+                                                font.weight: Font.DemiBold
+                                                color: Qt.rgba(224 / 255, 191 / 255, 162 / 255, 0.7)
+                                                elide: Text.ElideRight
+                                            }
+                                            Text {
+                                                text: bronzeScore + " points"
+                                                font.family: "Myriad Pro"
+                                                font.pixelSize: 10
+                                                color: Qt.rgba(224 / 255, 191 / 255, 162 / 255, 0.4)
+                                            }
+                                        }
+                                    }
+                                }
+                            }
                         }
 
-                        Column {
-                            spacing: 16
+                        Item {
+                            id: lastPlayedSection
+                            anchors.left: parent.left
+                            anchors.right: parent.right
+                            anchors.bottom: parent.bottom
+                            height: 120
 
-                            // 1st place
                             Rectangle {
-                                radius: 10
-                                border.color: Qt.rgba(168 / 255, 92 / 255, 76 / 255, 0.4)
-                                border.width: 1
-                                gradient: Gradient {
-                                    GradientStop { position: 0.0; color: Qt.rgba(168 / 255, 92 / 255, 76 / 255, 0.3) }
-                                    GradientStop { position: 1.0; color: Qt.rgba(119 / 255, 32 / 255, 46 / 255, 0.2) }
-                                }
-                                height: 78
                                 width: parent.width
+                                height: 1
+                                color: Qt.rgba(224 / 255, 191 / 255, 162 / 255, 0.1)
+                                anchors.top: parent.top
+                            }
 
-                                Row {
-                                    anchors.fill: parent
-                                    anchors.margins: 16
-                                    spacing: 16
+                            Column {
+                                anchors.left: parent.left
+                                anchors.right: parent.right
+                                anchors.top: parent.top
+                                anchors.topMargin: 16
+                                spacing: 8
 
-                                    Rectangle {
-                                        width: 45
-                                        height: 45
-                                        radius: 6
-                                        gradient: Gradient {
-                                            GradientStop { position: 0.0; color: colorPrimary }
-                                            GradientStop { position: 1.0; color: colorDark }
-                                        }
-                                        Text {
-                                            anchors.centerIn: parent
-                                            text: "1"
-                                            font.family: "Myriad Pro"
-                                            font.pixelSize: 19
-                                            font.weight: Font.Black
-                                            color: colorLight
-                                        }
-                                    }
-
-                                    Column {
-                                        spacing: 3
-                                        width: parent.width - 70
-                                        Text {
-                                            text: goldName
-                                            font.family: "Myriad Pro"
-                                            font.pixelSize: 18
-                                            font.weight: Font.Bold
-                                            color: colorLight
-                                            elide: Text.ElideRight
-                                        }
-                                        Text {
-                                            text: goldScore + " points"
-                                            font.family: "Myriad Pro"
-                                            font.pixelSize: 11
-                                            color: Qt.rgba(224 / 255, 191 / 255, 162 / 255, 0.6)
-                                        }
-                                    }
+                                Text {
+                                    text: "Recent Activity"
+                                    font.family: "Myriad Pro"
+                                    font.pixelSize: 9
+                                    font.weight: Font.DemiBold
+                                    color: Qt.rgba(224 / 255, 191 / 255, 162 / 255, 0.4)
+                                    font.capitalization: Font.AllUppercase
+                                    font.letterSpacing: 2
                                 }
-                            }
 
-                            // 2nd place
-                            Rectangle {
-                                radius: 10
-                                border.color: Qt.rgba(224 / 255, 191 / 255, 162 / 255, 0.1)
-                                border.width: 1
-                                color: Qt.rgba(224 / 255, 191 / 255, 162 / 255, 0.05)
-                                height: 70
-                                width: parent.width
-
-                                Row {
-                                    anchors.fill: parent
-                                    anchors.margins: 14
-                                    spacing: 13
-
-                                    Rectangle {
-                                        width: 38
-                                        height: 38
-                                        radius: 6
-                                        color: Qt.rgba(224 / 255, 191 / 255, 162 / 255, 0.1)
-                                        border.color: Qt.rgba(224 / 255, 191 / 255, 162 / 255, 0.2)
-                                        border.width: 1
-                                        Text {
-                                            anchors.centerIn: parent
-                                            text: "2"
-                                            font.family: "Myriad Pro"
-                                            font.pixelSize: 16
-                                            font.weight: Font.Bold
-                                            color: Qt.rgba(224 / 255, 191 / 255, 162 / 255, 0.7)
-                                        }
-                                    }
-
-                                    Column {
-                                        spacing: 2
-                                        width: parent.width - 60
-                                        Text {
-                                            text: silverName
-                                            font.family: "Myriad Pro"
-                                            font.pixelSize: 14
-                                            font.weight: Font.DemiBold
-                                            color: Qt.rgba(224 / 255, 191 / 255, 162 / 255, 0.9)
-                                            elide: Text.ElideRight
-                                        }
-                                        Text {
-                                            text: silverScore + " points"
-                                            font.family: "Myriad Pro"
-                                            font.pixelSize: 10
-                                            color: Qt.rgba(224 / 255, 191 / 255, 162 / 255, 0.5)
-                                        }
-                                    }
-                                }
-                            }
-
-                            // 3rd place
-                            Rectangle {
-                                radius: 10
-                                border.color: Qt.rgba(224 / 255, 191 / 255, 162 / 255, 0.08)
-                                border.width: 1
-                                color: Qt.rgba(224 / 255, 191 / 255, 162 / 255, 0.03)
-                                height: 70
-                                width: parent.width
-
-                                Row {
-                                    anchors.fill: parent
-                                    anchors.margins: 14
-                                    spacing: 13
-
-                                    Rectangle {
-                                        width: 38
-                                        height: 38
-                                        radius: 6
-                                        color: Qt.rgba(224 / 255, 191 / 255, 162 / 255, 0.05)
-                                        border.color: Qt.rgba(224 / 255, 191 / 255, 162 / 255, 0.1)
-                                        border.width: 1
-                                        Text {
-                                            anchors.centerIn: parent
-                                            text: "3"
-                                            font.family: "Myriad Pro"
-                                            font.pixelSize: 16
-                                            font.weight: Font.Bold
-                                            color: Qt.rgba(224 / 255, 191 / 255, 162 / 255, 0.5)
-                                        }
-                                    }
-
-                                    Column {
-                                        spacing: 2
-                                        width: parent.width - 60
-                                        Text {
-                                            text: bronzeName
-                                            font.family: "Myriad Pro"
-                                            font.pixelSize: 14
-                                            font.weight: Font.DemiBold
-                                            color: Qt.rgba(224 / 255, 191 / 255, 162 / 255, 0.7)
-                                            elide: Text.ElideRight
-                                        }
-                                        Text {
-                                            text: bronzeScore + " points"
-                                            font.family: "Myriad Pro"
-                                            font.pixelSize: 10
-                                            color: Qt.rgba(224 / 255, 191 / 255, 162 / 255, 0.4)
-                                        }
-                                    }
-                                }
-                            }
-                        }
-
-                        Item { width: 1; height: 1 }
-
-                        Column {
-                            spacing: 8
-
-                            Rectangle { width: parent.width; height: 1; color: Qt.rgba(224 / 255, 191 / 255, 162 / 255, 0.1) }
-
-                            Text {
-                                text: "Recent Activity"
-                                font.family: "Myriad Pro"
-                                font.pixelSize: 9
-                                font.weight: Font.DemiBold
-                                color: Qt.rgba(224 / 255, 191 / 255, 162 / 255, 0.4)
-                                font.capitalization: Font.AllUppercase
-                                font.letterSpacing: 2
-                            }
-
-                            Text {
-                                text: lastPlayerName
-                                font.family: "Myriad Pro"
-                                font.pixelSize: 13
-                                font.weight: Font.DemiBold
-                                color: colorLight
-                                elide: Text.ElideRight
-                            }
-
-                            Row {
-                                spacing: 19
-
-                                Row {
-                                    spacing: 4
-                                    Text { text: "Score "; font.family: "Myriad Pro"; font.pixelSize: 10; color: Qt.rgba(224 / 255, 191 / 255, 162 / 255, 0.4) }
-                                    Text { text: lastPlayerScore; font.family: "Myriad Pro"; font.pixelSize: 11; font.weight: Font.DemiBold; color: Qt.rgba(224 / 255, 191 / 255, 162 / 255, 0.8) }
+                                Text {
+                                    text: lastPlayerName
+                                    font.family: "Myriad Pro"
+                                    font.pixelSize: 13
+                                    font.weight: Font.DemiBold
+                                    color: colorLight
+                                    elide: Text.ElideRight
                                 }
 
                                 Row {
-                                    spacing: 4
-                                    Text { text: "Rank "; font.family: "Myriad Pro"; font.pixelSize: 10; color: Qt.rgba(224 / 255, 191 / 255, 162 / 255, 0.4) }
-                                    Text { text: "#" + lastPlayerRank; font.family: "Myriad Pro"; font.pixelSize: 11; font.weight: Font.DemiBold; color: Qt.rgba(224 / 255, 191 / 255, 162 / 255, 0.8) }
+                                    spacing: 19
+
+                                    Row {
+                                        spacing: 4
+                                        Text { text: "Score "; font.family: "Myriad Pro"; font.pixelSize: 10; color: Qt.rgba(224 / 255, 191 / 255, 162 / 255, 0.4) }
+                                        Text { text: lastPlayerScore; font.family: "Myriad Pro"; font.pixelSize: 11; font.weight: Font.DemiBold; color: Qt.rgba(224 / 255, 191 / 255, 162 / 255, 0.8) }
+                                    }
+
+                                    Row {
+                                        spacing: 4
+                                        Text { text: "Rank "; font.family: "Myriad Pro"; font.pixelSize: 10; color: Qt.rgba(224 / 255, 191 / 255, 162 / 255, 0.4) }
+                                        Text { text: "#" + lastPlayerRank; font.family: "Myriad Pro"; font.pixelSize: 11; font.weight: Font.DemiBold; color: Qt.rgba(224 / 255, 191 / 255, 162 / 255, 0.8) }
+                                    }
                                 }
                             }
                         }
@@ -383,7 +410,7 @@ Item {
                     Column {
                         anchors.fill: parent
                         anchors.margins: 38
-                        spacing: 16
+                        spacing: 26
 
                         Column {
                             spacing: 10
@@ -407,57 +434,71 @@ Item {
                             }
                         }
 
-                        // Table header
-                        Row {
+                        Item {
+                            id: headerContainer
                             width: parent.width
-                            height: 32
-                            spacing: 17
+                            height: 49
 
-                            Text {
-                                width: 81
-                                text: "Rank"
-                                font.family: "Myriad Pro"
-                                font.pixelSize: 12
-                                font.weight: Font.DemiBold
-                                color: Qt.rgba(224 / 255, 191 / 255, 162 / 255, 0.4)
-                                font.capitalization: Font.AllUppercase
-                                font.letterSpacing: 1
+                            Row {
+                                anchors.left: parent.left
+                                anchors.right: parent.right
+                                anchors.top: parent.top
+                                anchors.leftMargin: 17
+                                anchors.rightMargin: 17
+                                height: 32
+                                spacing: 17
+
+                                Text {
+                                    width: 81
+                                    text: "Rank"
+                                    font.family: "Myriad Pro"
+                                    font.pixelSize: 12
+                                    font.weight: Font.DemiBold
+                                    color: Qt.rgba(224 / 255, 191 / 255, 162 / 255, 0.4)
+                                    font.capitalization: Font.AllUppercase
+                                    font.letterSpacing: 1
+                                }
+                                Text {
+                                    width: parent.width - 81 - 141 - 320 - 51
+                                    text: "Team"
+                                    font.family: "Myriad Pro"
+                                    font.pixelSize: 12
+                                    font.weight: Font.DemiBold
+                                    color: Qt.rgba(224 / 255, 191 / 255, 162 / 255, 0.4)
+                                    font.capitalization: Font.AllUppercase
+                                    font.letterSpacing: 1
+                                }
+                                Text {
+                                    width: 141
+                                    text: "Score"
+                                    font.family: "Myriad Pro"
+                                    font.pixelSize: 12
+                                    font.weight: Font.DemiBold
+                                    color: Qt.rgba(224 / 255, 191 / 255, 162 / 255, 0.4)
+                                    horizontalAlignment: Text.AlignRight
+                                    font.capitalization: Font.AllUppercase
+                                    font.letterSpacing: 1
+                                }
+                                Text {
+                                    width: 320
+                                    text: "Org Type"
+                                    font.family: "Myriad Pro"
+                                    font.pixelSize: 12
+                                    font.weight: Font.DemiBold
+                                    color: Qt.rgba(224 / 255, 191 / 255, 162 / 255, 0.4)
+                                    horizontalAlignment: Text.AlignRight
+                                    font.capitalization: Font.AllUppercase
+                                    font.letterSpacing: 1
+                                }
                             }
-                            Text {
-                                width: parent.width - 81 - 141 - 320 - 51
-                                text: "Team"
-                                font.family: "Myriad Pro"
-                                font.pixelSize: 12
-                                font.weight: Font.DemiBold
-                                color: Qt.rgba(224 / 255, 191 / 255, 162 / 255, 0.4)
-                                font.capitalization: Font.AllUppercase
-                                font.letterSpacing: 1
-                            }
-                            Text {
-                                width: 141
-                                text: "Score"
-                                font.family: "Myriad Pro"
-                                font.pixelSize: 12
-                                font.weight: Font.DemiBold
-                                color: Qt.rgba(224 / 255, 191 / 255, 162 / 255, 0.4)
-                                horizontalAlignment: Text.AlignRight
-                                font.capitalization: Font.AllUppercase
-                                font.letterSpacing: 1
-                            }
-                            Text {
-                                width: 320
-                                text: "Org Type"
-                                font.family: "Myriad Pro"
-                                font.pixelSize: 12
-                                font.weight: Font.DemiBold
-                                color: Qt.rgba(224 / 255, 191 / 255, 162 / 255, 0.4)
-                                horizontalAlignment: Text.AlignRight
-                                font.capitalization: Font.AllUppercase
-                                font.letterSpacing: 1
+
+                            Rectangle {
+                                width: parent.width
+                                height: 1
+                                color: Qt.rgba(224 / 255, 191 / 255, 162 / 255, 0.1)
+                                anchors.bottom: parent.bottom
                             }
                         }
-
-                        Rectangle { width: parent.width; height: 1; color: Qt.rgba(224 / 255, 191 / 255, 162 / 255, 0.1) }
 
                         Column {
                             width: parent.width
@@ -468,15 +509,26 @@ Item {
                                 delegate: Item {
                                     width: parent.width
                                     height: 56
+                                    property bool hovered: false
 
                                     Rectangle {
                                         anchors.fill: parent
-                                        color: "transparent"
+                                        color: hovered ? Qt.rgba(224 / 255, 191 / 255, 162 / 255, 0.03) : "transparent"
+                                    }
+
+                                    MouseArea {
+                                        anchors.fill: parent
+                                        hoverEnabled: true
+                                        onEntered: hovered = true
+                                        onExited: hovered = false
                                     }
 
                                     Row {
-                                        anchors.fill: parent
-                                        anchors.margins: 12
+                                        anchors.left: parent.left
+                                        anchors.right: parent.right
+                                        anchors.verticalCenter: parent.verticalCenter
+                                        anchors.leftMargin: 17
+                                        anchors.rightMargin: 17
                                         spacing: 17
 
                                         Text {

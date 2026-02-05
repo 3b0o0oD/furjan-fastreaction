@@ -1,0 +1,30 @@
+{
+  "team_name": "Test My One",
+  "timestamp": "2026-02-05 11:41:45",
+  "total_score": 125,
+  "backend_payload": {
+    "gameResultID": "03a9b7ca-698c-4d12-b2a1-27e8c9adfe30",
+    "individualScore": [
+      {
+        "userID": "7aa2c151-3b13-43a2-b09c-8357ccc5aebe",
+        "nodeID": 1,
+        "score": 32
+      },
+      {
+        "userID": "e59db406-58a8-49af-b937-27e0c041db80",
+        "nodeID": 2,
+        "score": 31
+      },
+      {
+        "userID": "b41791f1-0191-41f4-b799-41ed3fa48573",
+        "nodeID": 3,
+        "score": 31
+      },
+      {
+        "userID": "1c5fccbb-8144-4641-b8fb-a87780ca0fcf",
+        "nodeID": 4,
+        "score": 31
+      }
+    ]
+  }
+}

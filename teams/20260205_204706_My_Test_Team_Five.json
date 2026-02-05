@@ -1,0 +1,30 @@
+{
+  "team_name": "My Test Team Five",
+  "timestamp": "2026-02-05 20:47:06",
+  "total_score": 0,
+  "backend_payload": {
+    "gameResultID": "b0477849-d1d3-41ed-b22e-b5028c331704",
+    "individualScore": [
+      {
+        "userID": "3cd7f4b9-5d60-473a-a04b-0ef9c0237018",
+        "nodeID": 1,
+        "score": 0
+      },
+      {
+        "userID": "141def49-408f-4f73-87a8-9016c93a486e",
+        "nodeID": 2,
+        "score": 0
+      },
+      {
+        "userID": "97eff873-d3b2-4564-879c-7aa0b265265f",
+        "nodeID": 3,
+        "score": 0
+      },
+      {
+        "userID": "3025beb9-3f72-46ac-bdb7-2e9cd60d24c8",
+        "nodeID": 4,
+        "score": 0
+      }
+    ]
+  }
+}

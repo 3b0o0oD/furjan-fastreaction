@@ -29,10 +29,10 @@ class TeamNameBackend(QObject):
         self.team_name_en: str = "The Shogun"
         # 4 players for the Teamname screen
         self.players: List[Dict[str, str]] = [
-            {"name": "hamasa", "avatar": "assets/avatar_img_13.png"},
-            {"name": "Name 2", "avatar": "assets/avatar_img_14.png"},
-            {"name": "Name 3", "avatar": "assets/avatar_img_15.png"},
-            {"name": "Name 4", "avatar": "assets/avatar_img_16.png"},
+            {"name": "Player 1", "avatar": "Assets/avatar_img_1@2x.png"},
+            {"name": "Player 2", "avatar": "Assets/avatar_img_2@2x.png"},
+            {"name": "Player 3", "avatar": "Assets/avatar_img_3@2x.png"},
+            {"name": "Player 4", "avatar": "Assets/avatar_img_4@2x.png"},
         ]
 
         # self._emit_initial_state()

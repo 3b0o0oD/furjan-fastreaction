@@ -1,0 +1,30 @@
+{
+  "team_name": "Bate Man",
+  "timestamp": "2026-02-05 20:43:02",
+  "total_score": 3425,
+  "backend_payload": {
+    "gameResultID": "682d07e0-cf53-44e7-840f-00039a44f759",
+    "individualScore": [
+      {
+        "userID": "b1f924b1-c30f-4eed-afbf-65021827cc6f",
+        "nodeID": 1,
+        "score": 857
+      },
+      {
+        "userID": "4bba9a14-3b43-45e5-97ad-a88f4dad1d56",
+        "nodeID": 2,
+        "score": 856
+      },
+      {
+        "userID": "93219df2-732f-4a51-a883-8aa6fbaa41fe",
+        "nodeID": 3,
+        "score": 856
+      },
+      {
+        "userID": "45826a91-743d-4308-a31a-a839a469526c",
+        "nodeID": 4,
+        "score": 856
+      }
+    ]
+  }
+}

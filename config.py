@@ -40,7 +40,7 @@ class APIConfig:
     game_name: str = "Fast Reaction"
     
     # Production API
-    base_url: str = "https://dev-ferjan-api.azurewebsites.net/"
+    base_url: str = "https://prod-ferjan-api.azurewebsites.net/"
     email: str = "eaa25admin@gmail.com"
     password: str = "qhv#1kGI$" 
     game_id: str = "73a92ae9-995d-4eed-a60d-217b7ce54643"  
