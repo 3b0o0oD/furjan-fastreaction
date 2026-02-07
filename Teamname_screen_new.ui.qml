@@ -118,8 +118,8 @@ Item {
                     font.pixelSize: 72
                     font.weight: Font.Black
                     font.capitalization: Font.AllUppercase
-                    font.letterSpacing: 8
-                    color: colorDark
+                    font.letterSpacing: 3
+                    color: colorLight
                     anchors.horizontalCenter: parent.horizontalCenter
                     horizontalAlignment: Text.AlignHCenter
                     
@@ -169,7 +169,7 @@ Item {
                 spacing: 40
 
                 Repeater {
-                    model: 4
+                    model: 3
 
                     // Player Card
                     Rectangle {
