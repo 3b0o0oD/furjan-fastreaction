@@ -1,0 +1,25 @@
+{
+  "team_name": "ميرة و ذياب",
+  "timestamp": "2026-02-07 22:16:26",
+  "total_score": 150,
+  "backend_payload": {
+    "gameResultID": "3fedf4de-a63a-4c30-8d15-c031ba4a0ee5",
+    "individualScore": [
+      {
+        "userID": "0e00564f-bea7-488d-9881-0898b76268f4",
+        "nodeID": 1,
+        "score": 50
+      },
+      {
+        "userID": "cdf97576-8619-463c-b706-3d5c8669763c",
+        "nodeID": 2,
+        "score": 50
+      },
+      {
+        "userID": "a1934e4c-6bab-4689-bac7-da41c0897229",
+        "nodeID": 3,
+        "score": 50
+      }
+    ]
+  }
+}

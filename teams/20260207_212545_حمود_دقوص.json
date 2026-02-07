@@ -1,0 +1,25 @@
+{
+  "team_name": "حمود دقوص",
+  "timestamp": "2026-02-07 21:25:45",
+  "total_score": 3575,
+  "backend_payload": {
+    "gameResultID": "c0ca6ac7-3e1a-4550-a975-74ee7d0c78e0",
+    "individualScore": [
+      {
+        "userID": "ba44e15f-ec6c-40c1-a818-8675a5878f05",
+        "nodeID": 1,
+        "score": 1193
+      },
+      {
+        "userID": "8eb871ec-28f2-4d94-aa07-8d82c4bd2e4b",
+        "nodeID": 2,
+        "score": 1191
+      },
+      {
+        "userID": "91f96f64-583c-480f-b6eb-9ca476f26990",
+        "nodeID": 3,
+        "score": 1191
+      }
+    ]
+  }
+}

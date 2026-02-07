@@ -1,0 +1,25 @@
+{
+  "team_name": "بنات",
+  "timestamp": "2026-02-07 21:49:34",
+  "total_score": 4600,
+  "backend_payload": {
+    "gameResultID": "38f6e66c-2e0d-42de-b041-7f09bda78864",
+    "individualScore": [
+      {
+        "userID": "f10cc2ab-091f-4c9c-b079-564f1e9a932a",
+        "nodeID": 1,
+        "score": 1534
+      },
+      {
+        "userID": "f303a998-daa7-4b9f-b919-4bd8c2b0dc87",
+        "nodeID": 2,
+        "score": 1533
+      },
+      {
+        "userID": "8c043d3f-c895-49bc-ab36-c7b6862436bf",
+        "nodeID": 3,
+        "score": 1533
+      }
+    ]
+  }
+}

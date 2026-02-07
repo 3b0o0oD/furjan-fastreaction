@@ -1,0 +1,25 @@
+{
+  "team_name": "ايرون مان",
+  "timestamp": "2026-02-07 22:35:19",
+  "total_score": 0,
+  "backend_payload": {
+    "gameResultID": "d4ec0c17-8900-4907-8e49-a44b1daa8803",
+    "individualScore": [
+      {
+        "userID": "d39dcf85-0902-4a54-86b2-14a1786e58cd",
+        "nodeID": 1,
+        "score": 0
+      },
+      {
+        "userID": "e48ba1b5-772e-4c83-a996-c6156ec9c09c",
+        "nodeID": 2,
+        "score": 0
+      },
+      {
+        "userID": "b2f2b6b8-35a7-4636-8ca3-95dd9d5e2f65",
+        "nodeID": 3,
+        "score": 0
+      }
+    ]
+  }
+}

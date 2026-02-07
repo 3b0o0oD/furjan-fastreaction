@@ -1,0 +1,25 @@
+{
+  "team_name": "فراشات",
+  "timestamp": "2026-02-07 22:47:10",
+  "total_score": 150,
+  "backend_payload": {
+    "gameResultID": "09abfb5c-be8f-4c0b-b0a5-542ab44185f9",
+    "individualScore": [
+      {
+        "userID": "d243f27f-f87f-46ff-bda9-2836e5cbd9d1",
+        "nodeID": 1,
+        "score": 50
+      },
+      {
+        "userID": "b3a83460-a5fd-43ed-b3a0-380a7b5a491e",
+        "nodeID": 2,
+        "score": 50
+      },
+      {
+        "userID": "065f0d85-e43a-4dd5-bf0c-75f6d3f0ecf9",
+        "nodeID": 3,
+        "score": 50
+      }
+    ]
+  }
+}

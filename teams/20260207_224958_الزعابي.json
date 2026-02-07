@@ -1,0 +1,25 @@
+{
+  "team_name": "الزعابي",
+  "timestamp": "2026-02-07 22:49:58",
+  "total_score": 50,
+  "backend_payload": {
+    "gameResultID": "5cb03862-e42a-41eb-82c9-1bf061831379",
+    "individualScore": [
+      {
+        "userID": "d7180ebd-c635-4a8a-8b1e-9a047600d6f7",
+        "nodeID": 1,
+        "score": 18
+      },
+      {
+        "userID": "e35b8ae4-302c-48eb-b2af-f214369508ca",
+        "nodeID": 2,
+        "score": 16
+      },
+      {
+        "userID": "bf8cec44-a2af-4b73-8198-cc918efadddd",
+        "nodeID": 3,
+        "score": 16
+      }
+    ]
+  }
+}

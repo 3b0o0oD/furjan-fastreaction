@@ -1,0 +1,25 @@
+{
+  "team_name": "فريق خالد و عبدالرحمن",
+  "timestamp": "2026-02-07 22:22:21",
+  "total_score": 400,
+  "backend_payload": {
+    "gameResultID": "5a2e2a28-ecec-4d06-acab-5767ddb61193",
+    "individualScore": [
+      {
+        "userID": "e4fabf81-662d-4343-80a7-68a0411179ee",
+        "nodeID": 1,
+        "score": 134
+      },
+      {
+        "userID": "73ab24bc-9d30-4e1e-9ecf-1e89b1fe9b41",
+        "nodeID": 2,
+        "score": 133
+      },
+      {
+        "userID": "610e848f-6e0a-4915-9b9b-95413c3d9b9d",
+        "nodeID": 3,
+        "score": 133
+      }
+    ]
+  }
+}

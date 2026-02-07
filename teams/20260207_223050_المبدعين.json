@@ -1,0 +1,25 @@
+{
+  "team_name": "المبدعين",
+  "timestamp": "2026-02-07 22:30:50",
+  "total_score": 50,
+  "backend_payload": {
+    "gameResultID": "94a6bf8e-ec75-4759-89e1-c4755116f3ef",
+    "individualScore": [
+      {
+        "userID": "ca9bb7b3-1ede-480f-aa15-125a3f62bce7",
+        "nodeID": 1,
+        "score": 18
+      },
+      {
+        "userID": "3bd4128d-fca1-45c3-ae5f-da1fc2920187",
+        "nodeID": 2,
+        "score": 16
+      },
+      {
+        "userID": "87d0d4c5-0b74-4c0c-9b09-4562305815ed",
+        "nodeID": 3,
+        "score": 16
+      }
+    ]
+  }
+}

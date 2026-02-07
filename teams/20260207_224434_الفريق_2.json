@@ -1,0 +1,25 @@
+{
+  "team_name": "الفريق 2",
+  "timestamp": "2026-02-07 22:44:34",
+  "total_score": 3275,
+  "backend_payload": {
+    "gameResultID": "0c639e95-ef07-4722-8c29-733801650e26",
+    "individualScore": [
+      {
+        "userID": "77500a44-27ae-4238-a270-470e534072d7",
+        "nodeID": 1,
+        "score": 1093
+      },
+      {
+        "userID": "fc3eadb1-d434-4870-b78c-37b388e3946b",
+        "nodeID": 2,
+        "score": 1091
+      },
+      {
+        "userID": "091c5a21-fe1e-46cc-89f6-b45d2cea9f8b",
+        "nodeID": 3,
+        "score": 1091
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "team_name": "مهرجان الفرجان",
+  "timestamp": "2026-02-07 21:43:09",
+  "total_score": 5225,
+  "backend_payload": {
+    "gameResultID": "3cdc5d5b-e8f5-4f02-943a-73e1bb9126fd",
+    "individualScore": [
+      {
+        "userID": "cfe53d84-6fc9-4da6-9963-f68a8a70da37",
+        "nodeID": 1,
+        "score": 1743
+      },
+      {
+        "userID": "1d74628e-3ee5-42c2-9bd3-4fa25ab472c7",
+        "nodeID": 2,
+        "score": 1741
+      },
+      {
+        "userID": "a2e0b412-98af-42d0-a613-5f043f390091",
+        "nodeID": 3,
+        "score": 1741
+      }
+    ]
+  }
+}

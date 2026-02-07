@@ -1,0 +1,25 @@
+{
+  "team_name": "قدها و نص",
+  "timestamp": "2026-02-07 22:06:50",
+  "total_score": 150,
+  "backend_payload": {
+    "gameResultID": "dea65b49-5a25-456f-a1d5-1e89710df921",
+    "individualScore": [
+      {
+        "userID": "3edbde0a-e9a9-48ca-9a4e-2d7944f062ff",
+        "nodeID": 1,
+        "score": 50
+      },
+      {
+        "userID": "d0b5ada8-a0dd-4deb-b779-2d832f0bb062",
+        "nodeID": 2,
+        "score": 50
+      },
+      {
+        "userID": "2523b9a5-1062-4457-9c40-5031aa90731c",
+        "nodeID": 3,
+        "score": 50
+      }
+    ]
+  }
+}

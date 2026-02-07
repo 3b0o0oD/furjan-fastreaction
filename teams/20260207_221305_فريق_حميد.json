@@ -1,0 +1,25 @@
+{
+  "team_name": "فريق حميد",
+  "timestamp": "2026-02-07 22:13:05",
+  "total_score": 3325,
+  "backend_payload": {
+    "gameResultID": "c40b7c5c-3490-4830-9e22-f45f8d197197",
+    "individualScore": [
+      {
+        "userID": "44a37761-36c3-497b-8d58-15cf97a39392",
+        "nodeID": 1,
+        "score": 1109
+      },
+      {
+        "userID": "7e97c5d9-16da-4f32-a96a-40c844b9d216",
+        "nodeID": 2,
+        "score": 1108
+      },
+      {
+        "userID": "23bb29bc-478f-44cd-9517-32ba409a256f",
+        "nodeID": 3,
+        "score": 1108
+      }
+    ]
+  }
+}
