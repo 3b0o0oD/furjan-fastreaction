@@ -1,0 +1,25 @@
+{
+  "team_name": "الغلا",
+  "timestamp": "2026-02-06 01:28:56",
+  "total_score": 17725,
+  "backend_payload": {
+    "gameResultID": "b81779c3-ac61-4117-a36b-352f8d3be185",
+    "individualScore": [
+      {
+        "userID": "a59ba2e9-bbf1-4a7e-8076-8dd8c01a8b4b",
+        "nodeID": 1,
+        "score": 5909
+      },
+      {
+        "userID": "6013f05f-8a9d-4fee-bfe5-6231b26247c6",
+        "nodeID": 2,
+        "score": 5908
+      },
+      {
+        "userID": "b5ae8838-64f9-464f-9ecf-fce439f328f9",
+        "nodeID": 3,
+        "score": 5908
+      }
+    ]
+  }
+}

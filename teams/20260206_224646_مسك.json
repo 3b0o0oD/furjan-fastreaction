@@ -1,0 +1,25 @@
+{
+  "team_name": "مسك",
+  "timestamp": "2026-02-06 22:46:46",
+  "total_score": 3025,
+  "backend_payload": {
+    "gameResultID": "715aecd0-67fe-4e7a-8998-cd9c980d44d7",
+    "individualScore": [
+      {
+        "userID": "8c4939d4-fc0a-401b-8174-64eed3db4562",
+        "nodeID": 1,
+        "score": 1009
+      },
+      {
+        "userID": "b47381d7-11af-4a38-9fb3-beac303a7c7e",
+        "nodeID": 2,
+        "score": 1008
+      },
+      {
+        "userID": "f4bbc350-5339-457e-94e7-596692c5e7f8",
+        "nodeID": 3,
+        "score": 1008
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "team_name": "شباب زعبيل",
+  "timestamp": "2026-02-06 01:13:32",
+  "total_score": 4975,
+  "backend_payload": {
+    "gameResultID": "1bd25790-4a0e-4b61-aec4-68ef47572618",
+    "individualScore": [
+      {
+        "userID": "c7379ec0-6450-4e12-b459-242091be77b4",
+        "nodeID": 1,
+        "score": 1659
+      },
+      {
+        "userID": "850d970b-9873-4818-8aae-df7e6c60eef1",
+        "nodeID": 2,
+        "score": 1658
+      },
+      {
+        "userID": "0039f21d-b3c3-4703-b17f-71b19c3a332f",
+        "nodeID": 3,
+        "score": 1658
+      }
+    ]
+  }
+}

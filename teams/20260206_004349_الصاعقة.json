@@ -1,0 +1,25 @@
+{
+  "team_name": "الصاعقة",
+  "timestamp": "2026-02-06 00:43:49",
+  "total_score": 14425,
+  "backend_payload": {
+    "gameResultID": "a52b6199-f5aa-4aeb-9eb6-7282ab5113dc",
+    "individualScore": [
+      {
+        "userID": "1430937c-f1c1-4cb9-9a65-f5ffb2899c74",
+        "nodeID": 1,
+        "score": 4809
+      },
+      {
+        "userID": "c0cb8b02-84f2-4a0a-9a6e-6ec6860a8444",
+        "nodeID": 2,
+        "score": 4808
+      },
+      {
+        "userID": "89fd4238-fcef-4f67-bc7d-c9c84acde755",
+        "nodeID": 3,
+        "score": 4808
+      }
+    ]
+  }
+}

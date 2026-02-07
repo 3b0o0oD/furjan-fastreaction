@@ -1,0 +1,25 @@
+{
+  "team_name": "ميمي",
+  "timestamp": "2026-02-06 00:56:55",
+  "total_score": 7950,
+  "backend_payload": {
+    "gameResultID": "deaf699c-c7a9-4a2d-97d1-c36e0518ae04",
+    "individualScore": [
+      {
+        "userID": "4a2ef503-ea2b-4e34-8a73-a210087d64db",
+        "nodeID": 1,
+        "score": 2650
+      },
+      {
+        "userID": "05c8d2ea-98cf-4d46-b4c8-41f62b1dbf4c",
+        "nodeID": 2,
+        "score": 2650
+      },
+      {
+        "userID": "81706524-a545-40c9-8c14-b19d8184f295",
+        "nodeID": 3,
+        "score": 2650
+      }
+    ]
+  }
+}

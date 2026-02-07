@@ -1,0 +1,25 @@
+{
+  "team_name": "م م ح",
+  "timestamp": "2026-02-07 01:26:17",
+  "total_score": 0,
+  "backend_payload": {
+    "gameResultID": "24a15741-d672-4fa8-b60c-0e4f00c78cc7",
+    "individualScore": [
+      {
+        "userID": "32da2d50-24e5-48bf-a9b8-d87bd6863141",
+        "nodeID": 1,
+        "score": 0
+      },
+      {
+        "userID": "5e16cd81-4a20-4c40-95c3-48761bd7c046",
+        "nodeID": 2,
+        "score": 0
+      },
+      {
+        "userID": "2de91835-a54a-4eae-8f0e-16e814bf18ae",
+        "nodeID": 3,
+        "score": 0
+      }
+    ]
+  }
+}

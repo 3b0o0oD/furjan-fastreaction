@@ -1,0 +1,25 @@
+{
+  "team_name": "العوضي",
+  "timestamp": "2026-02-07 02:29:12",
+  "total_score": 9475,
+  "backend_payload": {
+    "gameResultID": "586d51dc-08e0-49ff-962c-185109708b2b",
+    "individualScore": [
+      {
+        "userID": "dc88f0a8-5669-427f-ad9e-8a25bd7a8c35",
+        "nodeID": 1,
+        "score": 3159
+      },
+      {
+        "userID": "5ce71336-22a9-4675-8628-272789e9c668",
+        "nodeID": 2,
+        "score": 3158
+      },
+      {
+        "userID": "f7bcf39c-bced-4a65-b4b7-76a82e5b2b42",
+        "nodeID": 3,
+        "score": 3158
+      }
+    ]
+  }
+}

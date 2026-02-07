@@ -1,0 +1,25 @@
+{
+  "team_name": "الابطال 2",
+  "timestamp": "2026-02-06 23:09:55",
+  "total_score": 750,
+  "backend_payload": {
+    "gameResultID": "1e121619-8b24-4292-b8f7-3bd591c6df8e",
+    "individualScore": [
+      {
+        "userID": "5a6689ad-74dd-4031-8654-0bce02f7fc8c",
+        "nodeID": 1,
+        "score": 250
+      },
+      {
+        "userID": "970b9b29-9cec-4730-a842-e56d38cff25a",
+        "nodeID": 2,
+        "score": 250
+      },
+      {
+        "userID": "680f08e2-e5be-4005-91ff-ab78889b3b31",
+        "nodeID": 3,
+        "score": 250
+      }
+    ]
+  }
+}

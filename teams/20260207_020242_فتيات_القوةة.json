@@ -1,0 +1,25 @@
+{
+  "team_name": "فتيات القوةة",
+  "timestamp": "2026-02-07 02:02:42",
+  "total_score": 9950,
+  "backend_payload": {
+    "gameResultID": "2dd1f668-1a94-47de-a140-4bbccb3a3b09",
+    "individualScore": [
+      {
+        "userID": "3431f82b-243a-4942-aec2-1711ebf8b1a2",
+        "nodeID": 1,
+        "score": 3318
+      },
+      {
+        "userID": "86fb3049-f6e1-4100-9f2f-52bc02ddfc85",
+        "nodeID": 2,
+        "score": 3316
+      },
+      {
+        "userID": "6c2240ca-bb3b-4293-9a98-0ebcf1d6b911",
+        "nodeID": 3,
+        "score": 3316
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "team_name": "الام العصر",
+  "timestamp": "2026-02-07 01:55:06",
+  "total_score": 6925,
+  "backend_payload": {
+    "gameResultID": "af96459b-d648-4179-a1f5-749f35164576",
+    "individualScore": [
+      {
+        "userID": "1248a14c-9ae4-4cca-9ff7-be077de1df0d",
+        "nodeID": 1,
+        "score": 2309
+      },
+      {
+        "userID": "32aace83-6931-4953-93c7-e5caf51169d7",
+        "nodeID": 2,
+        "score": 2308
+      },
+      {
+        "userID": "40dd0728-3ee3-40f5-a21a-2f26e6f58e02",
+        "nodeID": 3,
+        "score": 2308
+      }
+    ]
+  }
+}

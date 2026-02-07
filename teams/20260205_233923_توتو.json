@@ -1,0 +1,25 @@
+{
+  "team_name": "توتو",
+  "timestamp": "2026-02-05 23:39:23",
+  "total_score": 9550,
+  "backend_payload": {
+    "gameResultID": "99686276-30bf-492e-8cb7-c51ca310d671",
+    "individualScore": [
+      {
+        "userID": "69f5def4-0132-4ae6-81fc-89c691ee6a5d",
+        "nodeID": 1,
+        "score": 3184
+      },
+      {
+        "userID": "fed15b97-efb9-4a4b-b40f-dd4ebca1dfd2",
+        "nodeID": 2,
+        "score": 3183
+      },
+      {
+        "userID": "2c600976-98a7-4f94-933e-e66c74c221dd",
+        "nodeID": 3,
+        "score": 3183
+      }
+    ]
+  }
+}

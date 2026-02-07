@@ -1,0 +1,25 @@
+{
+  "team_name": "الصقور",
+  "timestamp": "2026-02-06 23:06:53",
+  "total_score": 2125,
+  "backend_payload": {
+    "gameResultID": "852b1b7f-e773-44d3-9343-c3557abeec0d",
+    "individualScore": [
+      {
+        "userID": "bdfac4c0-3764-48f3-878f-a83aaa8f0474",
+        "nodeID": 1,
+        "score": 709
+      },
+      {
+        "userID": "82c11f83-2403-43e1-a19e-fe514707d65f",
+        "nodeID": 2,
+        "score": 708
+      },
+      {
+        "userID": "48825c0f-1913-4eb3-b4bc-91f2e67e2ed6",
+        "nodeID": 3,
+        "score": 708
+      }
+    ]
+  }
+}

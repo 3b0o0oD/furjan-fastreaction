@@ -1,0 +1,25 @@
+{
+  "team_name": "حور",
+  "timestamp": "2026-02-06 01:21:29",
+  "total_score": 13775,
+  "backend_payload": {
+    "gameResultID": "44ceef7b-922e-4539-b770-0f8eff1cca22",
+    "individualScore": [
+      {
+        "userID": "e4e9886e-12de-4ff6-b41a-fc9d6748b5f8",
+        "nodeID": 1,
+        "score": 4593
+      },
+      {
+        "userID": "9b5305bf-e275-4613-8777-dd673bc2ac2f",
+        "nodeID": 2,
+        "score": 4591
+      },
+      {
+        "userID": "5fafb31b-68f7-4a51-a228-562359fcf9fa",
+        "nodeID": 3,
+        "score": 4591
+      }
+    ]
+  }
+}

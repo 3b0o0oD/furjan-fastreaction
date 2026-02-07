@@ -1,0 +1,25 @@
+{
+  "team_name": "نينجا",
+  "timestamp": "2026-02-06 01:17:40",
+  "total_score": 10425,
+  "backend_payload": {
+    "gameResultID": "bfbefd92-e170-42cf-ae43-3d21140dca01",
+    "individualScore": [
+      {
+        "userID": "dcae78a4-4df0-4a93-9c3e-2196a89fa5d2",
+        "nodeID": 1,
+        "score": 3475
+      },
+      {
+        "userID": "095acf77-5188-468c-aee0-42637c0e9ff4",
+        "nodeID": 2,
+        "score": 3475
+      },
+      {
+        "userID": "c33a213c-0bc7-4f59-b507-2b8a79d2666c",
+        "nodeID": 3,
+        "score": 3475
+      }
+    ]
+  }
+}

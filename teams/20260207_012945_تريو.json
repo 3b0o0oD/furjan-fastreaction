@@ -1,0 +1,25 @@
+{
+  "team_name": "تريو",
+  "timestamp": "2026-02-07 01:29:45",
+  "total_score": 3750,
+  "backend_payload": {
+    "gameResultID": "ec79c71f-983e-4f7e-ba50-13cc149fe54d",
+    "individualScore": [
+      {
+        "userID": "0009fa33-dccc-4a14-a31f-b0fbb6032fc0",
+        "nodeID": 1,
+        "score": 1250
+      },
+      {
+        "userID": "2302d292-69cb-4d91-87fd-15f2557d6026",
+        "nodeID": 2,
+        "score": 1250
+      },
+      {
+        "userID": "39816efd-0679-43aa-992b-50eb104e7c99",
+        "nodeID": 3,
+        "score": 1250
+      }
+    ]
+  }
+}

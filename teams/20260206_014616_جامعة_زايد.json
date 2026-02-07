@@ -1,0 +1,25 @@
+{
+  "team_name": "جامعة زايد",
+  "timestamp": "2026-02-06 01:46:16",
+  "total_score": 14000,
+  "backend_payload": {
+    "gameResultID": "c58362c0-39e6-4815-8f13-a1cde88d8cf0",
+    "individualScore": [
+      {
+        "userID": "e19c850c-4f36-4339-a8a9-249fe9099109",
+        "nodeID": 1,
+        "score": 4668
+      },
+      {
+        "userID": "729858ea-5a70-47e6-bc28-56ad6837a0a4",
+        "nodeID": 2,
+        "score": 4666
+      },
+      {
+        "userID": "1d6820e3-0074-4f31-9b97-8dd261f51174",
+        "nodeID": 3,
+        "score": 4666
+      }
+    ]
+  }
+}

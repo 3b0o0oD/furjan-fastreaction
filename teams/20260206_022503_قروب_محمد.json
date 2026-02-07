@@ -1,0 +1,25 @@
+{
+  "team_name": "قروب محمد",
+  "timestamp": "2026-02-06 02:25:03",
+  "total_score": 4875,
+  "backend_payload": {
+    "gameResultID": "6301a531-0e0d-4abc-86a0-aaf7f1d7f506",
+    "individualScore": [
+      {
+        "userID": "5b5dedc0-6951-48c1-8e5b-ef6752053ae9",
+        "nodeID": 1,
+        "score": 1625
+      },
+      {
+        "userID": "ed620f0a-8973-4bd5-917a-44a324345716",
+        "nodeID": 2,
+        "score": 1625
+      },
+      {
+        "userID": "6fe2c6f6-8890-4cb9-b725-8ee273417c73",
+        "nodeID": 3,
+        "score": 1625
+      }
+    ]
+  }
+}

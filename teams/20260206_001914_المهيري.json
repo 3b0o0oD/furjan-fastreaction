@@ -1,0 +1,25 @@
+{
+  "team_name": "المهيري",
+  "timestamp": "2026-02-06 00:19:14",
+  "total_score": 10200,
+  "backend_payload": {
+    "gameResultID": "a69d0daf-62c0-4811-ace8-2a6669a8bfb1",
+    "individualScore": [
+      {
+        "userID": "7276a2eb-7a18-457e-b51d-84f0b21d7276",
+        "nodeID": 1,
+        "score": 3400
+      },
+      {
+        "userID": "27d1489d-5005-4cde-bbb6-a7cacc1b4994",
+        "nodeID": 2,
+        "score": 3400
+      },
+      {
+        "userID": "1dfcc223-3e7f-47c3-b35d-4dc3ff92b79b",
+        "nodeID": 3,
+        "score": 3400
+      }
+    ]
+  }
+}

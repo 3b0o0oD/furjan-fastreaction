@@ -1,0 +1,25 @@
+{
+  "team_name": "سترونج",
+  "timestamp": "2026-02-06 23:59:10",
+  "total_score": 3275,
+  "backend_payload": {
+    "gameResultID": "e4b971cc-be77-454e-94ce-de86276fc710",
+    "individualScore": [
+      {
+        "userID": "7ca4d4b7-302b-4505-bb72-f263d72e8825",
+        "nodeID": 1,
+        "score": 1093
+      },
+      {
+        "userID": "70b34a16-ba30-45b8-91d0-16097933d895",
+        "nodeID": 2,
+        "score": 1091
+      },
+      {
+        "userID": "2af87f80-f269-42b8-bac7-9cd1db98bae2",
+        "nodeID": 3,
+        "score": 1091
+      }
+    ]
+  }
+}

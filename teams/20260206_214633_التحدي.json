@@ -1,0 +1,25 @@
+{
+  "team_name": "التحدي",
+  "timestamp": "2026-02-06 21:46:33",
+  "total_score": 8800,
+  "backend_payload": {
+    "gameResultID": "dd4f5421-7ede-45e9-a69e-6b17d87f1c38",
+    "individualScore": [
+      {
+        "userID": "1c1a8572-2186-4cdf-bfd8-e0c65d07f772",
+        "nodeID": 1,
+        "score": 2934
+      },
+      {
+        "userID": "0fdbc54e-ca91-4b78-99f6-b91e439da52d",
+        "nodeID": 2,
+        "score": 2933
+      },
+      {
+        "userID": "6a76338c-2066-424f-856d-4e5c9eea3803",
+        "nodeID": 3,
+        "score": 2933
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "team_name": "الحلوات",
+  "timestamp": "2026-02-07 00:23:38",
+  "total_score": 1550,
+  "backend_payload": {
+    "gameResultID": "786253cc-f888-4e93-9aa7-147d59551e77",
+    "individualScore": [
+      {
+        "userID": "19cfc040-67e8-4eb7-a61b-0e63414c9c5d",
+        "nodeID": 1,
+        "score": 518
+      },
+      {
+        "userID": "80d0c57c-94ff-4bb9-88de-25d7aebbb170",
+        "nodeID": 2,
+        "score": 516
+      },
+      {
+        "userID": "6f1efaa2-0470-47e2-8e30-d7d3eab90562",
+        "nodeID": 3,
+        "score": 516
+      }
+    ]
+  }
+}

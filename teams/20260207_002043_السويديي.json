@@ -1,0 +1,25 @@
+{
+  "team_name": "السويديي",
+  "timestamp": "2026-02-07 00:20:43",
+  "total_score": 9650,
+  "backend_payload": {
+    "gameResultID": "8aba7bd7-4f88-4158-80cc-674c48f32998",
+    "individualScore": [
+      {
+        "userID": "2b58955a-ba6f-40ac-86b7-1b2a00a6c391",
+        "nodeID": 1,
+        "score": 3218
+      },
+      {
+        "userID": "5e509590-b6a9-4d0c-aeb2-4e3710a614bb",
+        "nodeID": 2,
+        "score": 3216
+      },
+      {
+        "userID": "0429a98a-4f30-4bc6-b028-926a26a94367",
+        "nodeID": 3,
+        "score": 3216
+      }
+    ]
+  }
+}

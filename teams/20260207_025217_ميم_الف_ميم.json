@@ -1,0 +1,25 @@
+{
+  "team_name": "ميم الف ميم",
+  "timestamp": "2026-02-07 02:52:17",
+  "total_score": 6675,
+  "backend_payload": {
+    "gameResultID": "6edee194-c9cf-427f-9e0a-fd5d0ba2c426",
+    "individualScore": [
+      {
+        "userID": "2af162f9-8203-4c30-8531-72e69564eaba",
+        "nodeID": 1,
+        "score": 2225
+      },
+      {
+        "userID": "036fec2a-e234-448f-b1c1-f2c880cd341d",
+        "nodeID": 2,
+        "score": 2225
+      },
+      {
+        "userID": "1b5327fa-6105-44cf-bbbd-02a003f4bc94",
+        "nodeID": 3,
+        "score": 2225
+      }
+    ]
+  }
+}

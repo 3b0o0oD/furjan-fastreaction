@@ -1,0 +1,25 @@
+{
+  "team_name": "فهد",
+  "timestamp": "2026-02-07 00:08:22",
+  "total_score": 3475,
+  "backend_payload": {
+    "gameResultID": "549df3f5-9575-4414-be9c-8c2a2496cc01",
+    "individualScore": [
+      {
+        "userID": "0fa42901-103b-44cb-a8fd-4d48e5b2c120",
+        "nodeID": 1,
+        "score": 1159
+      },
+      {
+        "userID": "2905187c-cfe9-425a-8fca-731da8b9953b",
+        "nodeID": 2,
+        "score": 1158
+      },
+      {
+        "userID": "bbe93414-0c31-4754-a08f-7328c6d5d7d4",
+        "nodeID": 3,
+        "score": 1158
+      }
+    ]
+  }
+}

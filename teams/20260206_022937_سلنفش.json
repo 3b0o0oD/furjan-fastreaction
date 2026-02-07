@@ -1,0 +1,25 @@
+{
+  "team_name": "سلنفش",
+  "timestamp": "2026-02-06 02:29:37",
+  "total_score": 12775,
+  "backend_payload": {
+    "gameResultID": "9e6dc3a6-4bec-4d56-b347-1017a6866251",
+    "individualScore": [
+      {
+        "userID": "8597debb-53bf-4045-bd2f-c5087ba46399",
+        "nodeID": 1,
+        "score": 4259
+      },
+      {
+        "userID": "aaab73bb-b06e-4e2a-8eae-b801787c7346",
+        "nodeID": 2,
+        "score": 4258
+      },
+      {
+        "userID": "9280420f-ca24-460e-88a8-aa31277e4ea3",
+        "nodeID": 3,
+        "score": 4258
+      }
+    ]
+  }
+}

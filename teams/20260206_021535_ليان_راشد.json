@@ -1,0 +1,25 @@
+{
+  "team_name": "ليان راشد",
+  "timestamp": "2026-02-06 02:15:35",
+  "total_score": 15200,
+  "backend_payload": {
+    "gameResultID": "4dece464-75e3-415c-83f9-c706323c6cd7",
+    "individualScore": [
+      {
+        "userID": "bbca3cf5-e93e-4a57-8f29-b392b23145ac",
+        "nodeID": 1,
+        "score": 5068
+      },
+      {
+        "userID": "7fd864af-77b3-48aa-a548-497df0c9428d",
+        "nodeID": 2,
+        "score": 5066
+      },
+      {
+        "userID": "02520992-e32b-4d3c-932d-13511233a953",
+        "nodeID": 3,
+        "score": 5066
+      }
+    ]
+  }
+}

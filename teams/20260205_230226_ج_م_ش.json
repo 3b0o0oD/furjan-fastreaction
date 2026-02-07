@@ -1,0 +1,25 @@
+{
+  "team_name": "ج م ش",
+  "timestamp": "2026-02-05 23:02:26",
+  "total_score": 11550,
+  "backend_payload": {
+    "gameResultID": "aaa9b413-d27c-48c1-9305-3a5466219faa",
+    "individualScore": [
+      {
+        "userID": "757c349f-30eb-48a4-8895-e7031237fcd8",
+        "nodeID": 1,
+        "score": 3850
+      },
+      {
+        "userID": "870ec402-9068-4381-b1b7-1a4642ad699c",
+        "nodeID": 2,
+        "score": 3850
+      },
+      {
+        "userID": "f033763b-6ce4-4023-9d71-62e5366aceee",
+        "nodeID": 3,
+        "score": 3850
+      }
+    ]
+  }
+}

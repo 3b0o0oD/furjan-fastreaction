@@ -1,0 +1,25 @@
+{
+  "team_name": "بن نبهان",
+  "timestamp": "2026-02-06 22:04:12",
+  "total_score": 1775,
+  "backend_payload": {
+    "gameResultID": "9ad4b10a-f17b-4b23-a137-4c5035a67f17",
+    "individualScore": [
+      {
+        "userID": "08673434-203f-49d3-9675-4998229a74b2",
+        "nodeID": 1,
+        "score": 593
+      },
+      {
+        "userID": "740f83a7-2af9-463f-bc9e-312596233f99",
+        "nodeID": 2,
+        "score": 591
+      },
+      {
+        "userID": "d23916e0-83f6-4566-b224-7064445bee2c",
+        "nodeID": 3,
+        "score": 591
+      }
+    ]
+  }
+}

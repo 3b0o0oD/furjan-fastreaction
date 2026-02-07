@@ -1,0 +1,25 @@
+{
+  "team_name": "خالد",
+  "timestamp": "2026-02-06 23:26:36",
+  "total_score": 8700,
+  "backend_payload": {
+    "gameResultID": "4fe9d6c4-e8e3-41be-af7c-4925f9d1be81",
+    "individualScore": [
+      {
+        "userID": "5a0618fd-cc4e-4aae-b0f8-2dbab7426cea",
+        "nodeID": 1,
+        "score": 2900
+      },
+      {
+        "userID": "adb70651-c6a3-45df-8b31-db4d2f9ec8f5",
+        "nodeID": 2,
+        "score": 2900
+      },
+      {
+        "userID": "503eb1cf-10b2-463a-a762-04c0a6e6876e",
+        "nodeID": 3,
+        "score": 2900
+      }
+    ]
+  }
+}

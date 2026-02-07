@@ -57,7 +57,7 @@ class APIConfig:
 @dataclass
 class GameConfig:
     """Game configuration settings"""
-    timer_value: int = 180300  # Default timer value in milliseconds
+    timer_value: int = 90150  # Default timer value in milliseconds
     final_screen_timer: int = 15000  # Final screen display time
     
 

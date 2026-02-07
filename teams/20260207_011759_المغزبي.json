@@ -1,0 +1,25 @@
+{
+  "team_name": "المغزبي",
+  "timestamp": "2026-02-07 01:17:59",
+  "total_score": 5150,
+  "backend_payload": {
+    "gameResultID": "654d7fb0-528e-4e76-b95c-394cd6bfa18c",
+    "individualScore": [
+      {
+        "userID": "a9648c10-d593-48bb-b760-86c90a06fb25",
+        "nodeID": 1,
+        "score": 1718
+      },
+      {
+        "userID": "b58b4d5f-e24d-4ed6-99fd-3701912da280",
+        "nodeID": 2,
+        "score": 1716
+      },
+      {
+        "userID": "1e03c0c4-9a1c-4e4a-9e4b-72d7a3f8b689",
+        "nodeID": 3,
+        "score": 1716
+      }
+    ]
+  }
+}

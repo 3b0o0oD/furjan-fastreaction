@@ -1,0 +1,25 @@
+{
+  "team_name": "محظوظ",
+  "timestamp": "2026-02-06 22:12:24",
+  "total_score": 1950,
+  "backend_payload": {
+    "gameResultID": "ebd8b118-b283-4f66-96b9-5c1c741bab42",
+    "individualScore": [
+      {
+        "userID": "77db1b07-11d3-4918-bef9-41ec6a075002",
+        "nodeID": 1,
+        "score": 650
+      },
+      {
+        "userID": "3b482796-3f6d-4130-8055-a5df3741336c",
+        "nodeID": 2,
+        "score": 650
+      },
+      {
+        "userID": "c6755d70-34fe-4a88-86eb-2f4ab28764d8",
+        "nodeID": 3,
+        "score": 650
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "team_name": "ستيش",
+  "timestamp": "2026-02-06 22:53:50",
+  "total_score": 1250,
+  "backend_payload": {
+    "gameResultID": "f2d88b7a-62cd-4e35-bb19-f7e8abd84cae",
+    "individualScore": [
+      {
+        "userID": "bbbff04b-5c6d-482d-886e-6e003df89db1",
+        "nodeID": 1,
+        "score": 418
+      },
+      {
+        "userID": "ab50e9d9-e07f-4d67-95e9-15879bad6096",
+        "nodeID": 2,
+        "score": 416
+      },
+      {
+        "userID": "de30b791-65a2-4311-a4b6-98ada98e3b95",
+        "nodeID": 3,
+        "score": 416
+      }
+    ]
+  }
+}

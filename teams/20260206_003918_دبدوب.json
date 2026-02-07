@@ -1,0 +1,25 @@
+{
+  "team_name": "دبدوب",
+  "timestamp": "2026-02-06 00:39:18",
+  "total_score": 4600,
+  "backend_payload": {
+    "gameResultID": "7cda6947-94bf-44e0-bb88-cc46b0b09aea",
+    "individualScore": [
+      {
+        "userID": "43dde218-5285-4249-882f-1865c9314a5a",
+        "nodeID": 1,
+        "score": 1534
+      },
+      {
+        "userID": "dcfb9221-f1f7-49b1-ae04-8763e9b22d73",
+        "nodeID": 2,
+        "score": 1533
+      },
+      {
+        "userID": "73bc6f0f-a3d6-4b52-83e6-2be37b3b82b8",
+        "nodeID": 3,
+        "score": 1533
+      }
+    ]
+  }
+}

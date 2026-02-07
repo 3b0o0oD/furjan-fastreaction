@@ -1,0 +1,25 @@
+{
+  "team_name": "زورو",
+  "timestamp": "2026-02-06 22:09:54",
+  "total_score": 6150,
+  "backend_payload": {
+    "gameResultID": "8af01fd0-72e6-4865-a4bf-24cc07acbf97",
+    "individualScore": [
+      {
+        "userID": "a2481e06-ffa6-48a1-a786-4cd3a9f7f797",
+        "nodeID": 1,
+        "score": 2050
+      },
+      {
+        "userID": "bc339d68-69d1-4083-bb5a-50f8e1d805e7",
+        "nodeID": 2,
+        "score": 2050
+      },
+      {
+        "userID": "26946cb7-f4d1-42ea-a0e4-86f97c7768c9",
+        "nodeID": 3,
+        "score": 2050
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "team_name": "بن عمير",
+  "timestamp": "2026-02-06 01:07:27",
+  "total_score": 12400,
+  "backend_payload": {
+    "gameResultID": "f7e5b880-9dbb-4754-8b9d-0a8ea94d342a",
+    "individualScore": [
+      {
+        "userID": "be89f9c6-a141-4d07-8300-ab719ba0d8f9",
+        "nodeID": 1,
+        "score": 4134
+      },
+      {
+        "userID": "cb409ad2-a36d-4218-a1ac-b07811e089b9",
+        "nodeID": 2,
+        "score": 4133
+      },
+      {
+        "userID": "741069dc-8446-461c-9e4e-d40a54d05716",
+        "nodeID": 3,
+        "score": 4133
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "team_name": "يو اكس اي",
+  "timestamp": "2026-02-05 22:51:47",
+  "total_score": 450,
+  "backend_payload": {
+    "gameResultID": "41d136ce-24e4-4fa3-b1b9-05efeced9a80",
+    "individualScore": [
+      {
+        "userID": "41200101-5822-429e-9238-66130fc795df",
+        "nodeID": 1,
+        "score": 150
+      },
+      {
+        "userID": "2235bb1a-a204-473c-b3b6-3eda9fb1ac13",
+        "nodeID": 2,
+        "score": 150
+      },
+      {
+        "userID": "d6b2c5b1-1408-4612-8c7c-686b64413170",
+        "nodeID": 3,
+        "score": 150
+      }
+    ]
+  }
+}

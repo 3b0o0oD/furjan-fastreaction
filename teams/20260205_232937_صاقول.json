@@ -1,0 +1,25 @@
+{
+  "team_name": "صاقول",
+  "timestamp": "2026-02-05 23:29:37",
+  "total_score": 15625,
+  "backend_payload": {
+    "gameResultID": "b422d834-bef6-4a72-9420-b13dce90f31e",
+    "individualScore": [
+      {
+        "userID": "d7c8f3a9-e953-4e8b-b380-becbee83c367",
+        "nodeID": 1,
+        "score": 5209
+      },
+      {
+        "userID": "3fc6f058-a1b9-4e69-994b-f6b2058b5867",
+        "nodeID": 2,
+        "score": 5208
+      },
+      {
+        "userID": "2c9321fa-8e1d-44df-8a98-8ff9c2dcab0a",
+        "nodeID": 3,
+        "score": 5208
+      }
+    ]
+  }
+}

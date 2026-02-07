@@ -1,0 +1,25 @@
+{
+  "team_name": "الوصل",
+  "timestamp": "2026-02-06 00:32:57",
+  "total_score": 12775,
+  "backend_payload": {
+    "gameResultID": "d0edfd1a-b5d2-479b-9fb7-097950074961",
+    "individualScore": [
+      {
+        "userID": "375a3f09-1acb-46db-bc4a-d86e434d203f",
+        "nodeID": 1,
+        "score": 4259
+      },
+      {
+        "userID": "a86d1cee-bee2-4ed8-912a-2c3bb1c45e1c",
+        "nodeID": 2,
+        "score": 4258
+      },
+      {
+        "userID": "3475b47e-ec99-4cb3-ab97-84bb9aedaba2",
+        "nodeID": 3,
+        "score": 4258
+      }
+    ]
+  }
+}

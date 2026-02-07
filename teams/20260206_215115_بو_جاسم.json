@@ -1,0 +1,25 @@
+{
+  "team_name": "بو جاسم",
+  "timestamp": "2026-02-06 21:51:15",
+  "total_score": 1800,
+  "backend_payload": {
+    "gameResultID": "c6b7925e-811c-4ab0-a5e6-3505ca96fd5b",
+    "individualScore": [
+      {
+        "userID": "b8344b9d-f390-4e1c-97d7-fc29706bd9ab",
+        "nodeID": 1,
+        "score": 600
+      },
+      {
+        "userID": "dc211e15-f5ba-48c3-93a3-c0f0ff3ab214",
+        "nodeID": 2,
+        "score": 600
+      },
+      {
+        "userID": "4c51b027-78d0-46e0-9d22-0b855d4aeb78",
+        "nodeID": 3,
+        "score": 600
+      }
+    ]
+  }
+}

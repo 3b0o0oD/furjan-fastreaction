@@ -1,0 +1,25 @@
+{
+  "team_name": "شارجه تيم",
+  "timestamp": "2026-02-07 00:36:07",
+  "total_score": 125,
+  "backend_payload": {
+    "gameResultID": "fc7cfe13-2504-4e72-a6b8-ffad8e051e2b",
+    "individualScore": [
+      {
+        "userID": "6bf4fc81-b577-427e-b852-e389a55fe303",
+        "nodeID": 1,
+        "score": 43
+      },
+      {
+        "userID": "26deeba2-fc8e-46fb-8f4e-c3c8cde89789",
+        "nodeID": 2,
+        "score": 41
+      },
+      {
+        "userID": "7997c47e-5d03-473f-8e50-55bcb916a8c7",
+        "nodeID": 3,
+        "score": 41
+      }
+    ]
+  }
+}

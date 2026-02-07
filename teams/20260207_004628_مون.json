@@ -1,0 +1,25 @@
+{
+  "team_name": "مون",
+  "timestamp": "2026-02-07 00:46:28",
+  "total_score": 375,
+  "backend_payload": {
+    "gameResultID": "f2b90f98-df58-4a7f-be52-2eb033ad5a0b",
+    "individualScore": [
+      {
+        "userID": "2c057ff1-b058-4c33-acb4-d07d7b4ae16d",
+        "nodeID": 1,
+        "score": 125
+      },
+      {
+        "userID": "432b073a-43c9-4a58-96f5-7ac8e9d4e84a",
+        "nodeID": 2,
+        "score": 125
+      },
+      {
+        "userID": "81a26ab2-8524-49e3-ad78-c64713d729c5",
+        "nodeID": 3,
+        "score": 125
+      }
+    ]
+  }
+}

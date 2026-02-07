@@ -1,0 +1,25 @@
+{
+  "team_name": "فريق النور",
+  "timestamp": "2026-02-06 21:53:54",
+  "total_score": 425,
+  "backend_payload": {
+    "gameResultID": "ffb15e47-50b1-4f04-8861-2d4785a3adc3",
+    "individualScore": [
+      {
+        "userID": "ec6a6626-4930-4788-a435-597c366ca337",
+        "nodeID": 1,
+        "score": 143
+      },
+      {
+        "userID": "d5407db2-c76c-43c7-be02-f352f24cbf46",
+        "nodeID": 2,
+        "score": 141
+      },
+      {
+        "userID": "7d9111f3-89e1-4bda-a6a7-d51a3f635a8a",
+        "nodeID": 3,
+        "score": 141
+      }
+    ]
+  }
+}

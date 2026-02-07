@@ -1,0 +1,25 @@
+{
+  "team_name": "البدواوي",
+  "timestamp": "2026-02-06 22:17:05",
+  "total_score": 7350,
+  "backend_payload": {
+    "gameResultID": "54e4306e-0700-4caa-a92c-ff977510bd5a",
+    "individualScore": [
+      {
+        "userID": "2f21b254-ea63-4746-9667-f12e79aa203e",
+        "nodeID": 1,
+        "score": 2450
+      },
+      {
+        "userID": "63ce8430-87d8-4080-b679-e222492d9077",
+        "nodeID": 2,
+        "score": 2450
+      },
+      {
+        "userID": "941e1c4d-bb5a-46fa-a494-7c61ae1539b1",
+        "nodeID": 3,
+        "score": 2450
+      }
+    ]
+  }
+}

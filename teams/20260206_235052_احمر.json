@@ -1,0 +1,25 @@
+{
+  "team_name": "احمر",
+  "timestamp": "2026-02-06 23:50:52",
+  "total_score": 0,
+  "backend_payload": {
+    "gameResultID": "e6cf6f6e-b29d-4233-9e71-eab928be21b9",
+    "individualScore": [
+      {
+        "userID": "fd089dd7-3042-4a27-b076-aa74388b34b8",
+        "nodeID": 1,
+        "score": 0
+      },
+      {
+        "userID": "db1dbb1e-9116-4bf1-82f2-2939eb22c031",
+        "nodeID": 2,
+        "score": 0
+      },
+      {
+        "userID": "2ae3ae0d-c8b8-4a11-ba34-107a80547b85",
+        "nodeID": 3,
+        "score": 0
+      }
+    ]
+  }
+}

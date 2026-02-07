@@ -1,0 +1,25 @@
+{
+  "team_name": "البنا",
+  "timestamp": "2026-02-06 22:22:06",
+  "total_score": 4700,
+  "backend_payload": {
+    "gameResultID": "fd07930e-dd93-45d6-bc9c-818542ea3414",
+    "individualScore": [
+      {
+        "userID": "779a9468-d6ee-4bd4-9e87-5e4c470936ad",
+        "nodeID": 1,
+        "score": 1568
+      },
+      {
+        "userID": "45d808a0-bd7c-40a4-ba81-8d46315e51da",
+        "nodeID": 2,
+        "score": 1566
+      },
+      {
+        "userID": "ba004648-b262-487b-9f91-88696cf164f3",
+        "nodeID": 3,
+        "score": 1566
+      }
+    ]
+  }
+}

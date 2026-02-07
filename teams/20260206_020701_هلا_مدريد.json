@@ -1,0 +1,25 @@
+{
+  "team_name": "هلا مدريد",
+  "timestamp": "2026-02-06 02:07:01",
+  "total_score": 27800,
+  "backend_payload": {
+    "gameResultID": "f21f7e02-cb53-4602-9b30-e114dbb5f3b0",
+    "individualScore": [
+      {
+        "userID": "909b9809-01d4-4fb6-97db-13f8366e8b2a",
+        "nodeID": 1,
+        "score": 9268
+      },
+      {
+        "userID": "346bf3fa-5b59-404f-870a-9dfd53884f81",
+        "nodeID": 2,
+        "score": 9266
+      },
+      {
+        "userID": "e85ff361-5287-48c3-9090-15cb55923ebd",
+        "nodeID": 3,
+        "score": 9266
+      }
+    ]
+  }
+}

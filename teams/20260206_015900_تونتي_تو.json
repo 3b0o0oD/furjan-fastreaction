@@ -1,0 +1,25 @@
+{
+  "team_name": "تونتي تو",
+  "timestamp": "2026-02-06 01:59:00",
+  "total_score": 6475,
+  "backend_payload": {
+    "gameResultID": "73762e93-4e82-4402-8f93-262ea70629f7",
+    "individualScore": [
+      {
+        "userID": "555f48d2-4d7b-47bc-9394-d1079af0707e",
+        "nodeID": 1,
+        "score": 2159
+      },
+      {
+        "userID": "e08a8d55-2711-41fc-b71f-6ba6470b66e7",
+        "nodeID": 2,
+        "score": 2158
+      },
+      {
+        "userID": "a17e2c56-efb2-4670-8b00-025afb9cd132",
+        "nodeID": 3,
+        "score": 2158
+      }
+    ]
+  }
+}

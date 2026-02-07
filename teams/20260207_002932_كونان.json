@@ -1,0 +1,25 @@
+{
+  "team_name": "كونان",
+  "timestamp": "2026-02-07 00:29:32",
+  "total_score": 6325,
+  "backend_payload": {
+    "gameResultID": "96b0138e-b552-4098-8fd2-39efab817913",
+    "individualScore": [
+      {
+        "userID": "1ee30cae-06c3-4330-abd6-1270f6248cfd",
+        "nodeID": 1,
+        "score": 2109
+      },
+      {
+        "userID": "04bf25de-a5f3-44f5-966b-133215b2547c",
+        "nodeID": 2,
+        "score": 2108
+      },
+      {
+        "userID": "bbac8e51-92f8-4f29-bd23-e891e7745661",
+        "nodeID": 3,
+        "score": 2108
+      }
+    ]
+  }
+}

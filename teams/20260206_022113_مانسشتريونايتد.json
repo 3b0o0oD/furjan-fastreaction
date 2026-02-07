@@ -1,0 +1,25 @@
+{
+  "team_name": "مانسشتريونايتد",
+  "timestamp": "2026-02-06 02:21:13",
+  "total_score": 6900,
+  "backend_payload": {
+    "gameResultID": "92619f0a-3066-4985-bc58-33e416fa9b20",
+    "individualScore": [
+      {
+        "userID": "4eb5028b-0293-4f36-bbda-e3ff12f90fc7",
+        "nodeID": 1,
+        "score": 2300
+      },
+      {
+        "userID": "0559080e-423a-4254-946c-1306b5ed8693",
+        "nodeID": 2,
+        "score": 2300
+      },
+      {
+        "userID": "9ea1119b-f83b-46dc-9604-c36a9fef9ada",
+        "nodeID": 3,
+        "score": 2300
+      }
+    ]
+  }
+}

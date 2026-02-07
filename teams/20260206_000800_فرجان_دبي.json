@@ -1,0 +1,25 @@
+{
+  "team_name": "فرجان دبي",
+  "timestamp": "2026-02-06 00:08:00",
+  "total_score": 11450,
+  "backend_payload": {
+    "gameResultID": "76bfd2be-b7ad-4fa7-bf31-257a2f4ef736",
+    "individualScore": [
+      {
+        "userID": "d0334185-ff92-4dd1-9ff3-41c4e48c3b6c",
+        "nodeID": 1,
+        "score": 3818
+      },
+      {
+        "userID": "a7630e8a-f1cc-41ee-82c2-b5da8763be32",
+        "nodeID": 2,
+        "score": 3816
+      },
+      {
+        "userID": "12da5089-a6ba-437e-8b0f-2dd1c73ca7d5",
+        "nodeID": 3,
+        "score": 3816
+      }
+    ]
+  }
+}

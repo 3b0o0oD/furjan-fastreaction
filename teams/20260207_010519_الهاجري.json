@@ -1,0 +1,25 @@
+{
+  "team_name": "الهاجري",
+  "timestamp": "2026-02-07 01:05:19",
+  "total_score": 525,
+  "backend_payload": {
+    "gameResultID": "7655f408-37bc-40c9-aa07-362b59abf3a7",
+    "individualScore": [
+      {
+        "userID": "10c6e90e-c2db-47f0-8ccd-5a6ef6707815",
+        "nodeID": 1,
+        "score": 175
+      },
+      {
+        "userID": "a998fd2f-281b-4684-aca1-d36535539d5c",
+        "nodeID": 2,
+        "score": 175
+      },
+      {
+        "userID": "61b7e38a-acfc-4880-849b-3c5d0b7512c2",
+        "nodeID": 3,
+        "score": 175
+      }
+    ]
+  }
+}

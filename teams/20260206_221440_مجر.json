@@ -1,0 +1,25 @@
+{
+  "team_name": "مجر",
+  "timestamp": "2026-02-06 22:14:40",
+  "total_score": 6225,
+  "backend_payload": {
+    "gameResultID": "cf990c43-61f9-43dc-808c-fd63fa15fd89",
+    "individualScore": [
+      {
+        "userID": "efb02f1d-04a6-4cef-9780-515eb4ef14e2",
+        "nodeID": 1,
+        "score": 2075
+      },
+      {
+        "userID": "3afa79a9-56c6-4f9e-99f5-2a70e241f073",
+        "nodeID": 2,
+        "score": 2075
+      },
+      {
+        "userID": "cb054d6a-ef62-4f90-a34b-77c81c1e95ce",
+        "nodeID": 3,
+        "score": 2075
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "team_name": "مريم",
+  "timestamp": "2026-02-06 00:29:18",
+  "total_score": 7025,
+  "backend_payload": {
+    "gameResultID": "efe3d1b8-b62b-4d17-a26f-bb4b519c0396",
+    "individualScore": [
+      {
+        "userID": "c9f0a15f-8c2e-4817-8ac8-9f08cce76fdc",
+        "nodeID": 1,
+        "score": 2343
+      },
+      {
+        "userID": "75de774d-c58f-4702-8cd0-c0e8aa937983",
+        "nodeID": 2,
+        "score": 2341
+      },
+      {
+        "userID": "ce4c8e66-fdb3-42ba-96ae-93ea6d8a50cc",
+        "nodeID": 3,
+        "score": 2341
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "team_name": "دبي",
+  "timestamp": "2026-02-06 23:54:43",
+  "total_score": 10000,
+  "backend_payload": {
+    "gameResultID": "bc27312a-1609-4138-9e49-5f19bdb7f129",
+    "individualScore": [
+      {
+        "userID": "80c56338-d779-4cce-b158-a42634147601",
+        "nodeID": 1,
+        "score": 3334
+      },
+      {
+        "userID": "ebfd3417-64b2-4cd2-883a-94c05e6aa82c",
+        "nodeID": 2,
+        "score": 3333
+      },
+      {
+        "userID": "fd00cb6e-4136-4e6c-bdee-38b1cd5f6933",
+        "nodeID": 3,
+        "score": 3333
+      }
+    ]
+  }
+}

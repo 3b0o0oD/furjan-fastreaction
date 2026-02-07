@@ -1,0 +1,25 @@
+{
+  "team_name": "شباب الاهلي",
+  "timestamp": "2026-02-06 01:41:12",
+  "total_score": 20675,
+  "backend_payload": {
+    "gameResultID": "badb0506-c124-4db1-91f1-ed4a00210959",
+    "individualScore": [
+      {
+        "userID": "2f9a77b1-6801-43ba-b1d8-58ec776ac4ee",
+        "nodeID": 1,
+        "score": 6893
+      },
+      {
+        "userID": "c2161edc-7ff2-4f24-a4a6-3ee68dc07537",
+        "nodeID": 2,
+        "score": 6891
+      },
+      {
+        "userID": "102b709b-0a8d-4265-94d6-fa7176f08a6f",
+        "nodeID": 3,
+        "score": 6891
+      }
+    ]
+  }
+}

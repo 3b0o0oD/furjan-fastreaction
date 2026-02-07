@@ -1,0 +1,25 @@
+{
+  "team_name": "جمال",
+  "timestamp": "2026-02-06 01:36:34",
+  "total_score": 12000,
+  "backend_payload": {
+    "gameResultID": "565325d8-37ed-492c-855b-0e43d1c3cd76",
+    "individualScore": [
+      {
+        "userID": "76ddc54a-b58f-4456-a514-b38b36087aa2",
+        "nodeID": 1,
+        "score": 4000
+      },
+      {
+        "userID": "bb7842d0-472d-4323-a7fa-8de027ed497b",
+        "nodeID": 2,
+        "score": 4000
+      },
+      {
+        "userID": "32e93113-704c-4ccd-b6cd-34216adea44c",
+        "nodeID": 3,
+        "score": 4000
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "team_name": "الغرشوب",
+  "timestamp": "2026-02-06 23:04:24",
+  "total_score": 6050,
+  "backend_payload": {
+    "gameResultID": "1aaa8a7f-bfca-422c-8c10-88a4d4102934",
+    "individualScore": [
+      {
+        "userID": "c76a501a-cb2c-4266-b2c6-5994c2a71f98",
+        "nodeID": 1,
+        "score": 2018
+      },
+      {
+        "userID": "564d5998-114c-4fb0-9a4c-194eb5b30207",
+        "nodeID": 2,
+        "score": 2016
+      },
+      {
+        "userID": "171c72c9-574b-460e-8fdf-822eee09a8c4",
+        "nodeID": 3,
+        "score": 2016
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "team_name": "الابراج",
+  "timestamp": "2026-02-07 00:11:14",
+  "total_score": 3675,
+  "backend_payload": {
+    "gameResultID": "c8787185-e3e5-4cf2-8f2d-24ce92a1fac1",
+    "individualScore": [
+      {
+        "userID": "c5a50945-5530-44df-b2d7-5baa11c227a5",
+        "nodeID": 1,
+        "score": 1225
+      },
+      {
+        "userID": "ad1e71a1-10e2-4bdb-9d46-f652bf1f2866",
+        "nodeID": 2,
+        "score": 1225
+      },
+      {
+        "userID": "de943822-fbbc-42bf-9e9c-6791b84785f7",
+        "nodeID": 3,
+        "score": 1225
+      }
+    ]
+  }
+}

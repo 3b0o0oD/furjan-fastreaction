@@ -1,0 +1,25 @@
+{
+  "team_name": "القحطاني",
+  "timestamp": "2026-02-06 02:03:11",
+  "total_score": 9675,
+  "backend_payload": {
+    "gameResultID": "bdcb6a27-0a69-44d0-adde-de9c57bce5f2",
+    "individualScore": [
+      {
+        "userID": "257b4495-61dc-4a7d-b6ef-5c4f9e328299",
+        "nodeID": 1,
+        "score": 3225
+      },
+      {
+        "userID": "65a2d71d-39c7-445c-a2e9-323163065704",
+        "nodeID": 2,
+        "score": 3225
+      },
+      {
+        "userID": "a7248cb6-3f5c-4570-b5ef-b3a3e4d17165",
+        "nodeID": 3,
+        "score": 3225
+      }
+    ]
+  }
+}

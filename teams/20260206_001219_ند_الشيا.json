@@ -1,0 +1,25 @@
+{
+  "team_name": "ند الشيا",
+  "timestamp": "2026-02-06 00:12:19",
+  "total_score": 275,
+  "backend_payload": {
+    "gameResultID": "d38a99f4-dc8b-41f7-a50b-d1ffdaf93b46",
+    "individualScore": [
+      {
+        "userID": "686049ae-4301-4007-ac59-cc3031c8df9c",
+        "nodeID": 1,
+        "score": 93
+      },
+      {
+        "userID": "ca9cd34a-2a84-40f2-9e1c-a624774541ff",
+        "nodeID": 2,
+        "score": 91
+      },
+      {
+        "userID": "07281f5d-4b53-407b-986b-5758969008bf",
+        "nodeID": 3,
+        "score": 91
+      }
+    ]
+  }
+}

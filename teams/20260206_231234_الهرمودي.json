@@ -1,0 +1,25 @@
+{
+  "team_name": "الهرمودي",
+  "timestamp": "2026-02-06 23:12:34",
+  "total_score": 3025,
+  "backend_payload": {
+    "gameResultID": "02a154c7-839f-41bb-955d-edc5b818c098",
+    "individualScore": [
+      {
+        "userID": "ca84cf14-11f4-44a9-9e93-69effc5e48a3",
+        "nodeID": 1,
+        "score": 1009
+      },
+      {
+        "userID": "42879547-9045-425e-af78-1c1f6bc6be42",
+        "nodeID": 2,
+        "score": 1008
+      },
+      {
+        "userID": "124e89c0-8df0-4458-a830-cc13737c7b4d",
+        "nodeID": 3,
+        "score": 1008
+      }
+    ]
+  }
+}

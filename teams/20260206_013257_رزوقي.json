@@ -1,0 +1,25 @@
+{
+  "team_name": "رزوقي",
+  "timestamp": "2026-02-06 01:32:57",
+  "total_score": 8600,
+  "backend_payload": {
+    "gameResultID": "cacbb10e-5f94-4f24-bf93-646a275595d9",
+    "individualScore": [
+      {
+        "userID": "f174143f-7de5-467f-8b0c-b49767d61b1b",
+        "nodeID": 1,
+        "score": 2868
+      },
+      {
+        "userID": "7c483667-075f-4e17-9744-8764a898cda9",
+        "nodeID": 2,
+        "score": 2866
+      },
+      {
+        "userID": "21fc38aa-3101-4137-8cef-7fd1607c8b8f",
+        "nodeID": 3,
+        "score": 2866
+      }
+    ]
+  }
+}

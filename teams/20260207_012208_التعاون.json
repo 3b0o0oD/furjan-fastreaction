@@ -1,0 +1,25 @@
+{
+  "team_name": "التعاون",
+  "timestamp": "2026-02-07 01:22:08",
+  "total_score": 6025,
+  "backend_payload": {
+    "gameResultID": "694ac204-da45-480c-b8c6-72805eb737cd",
+    "individualScore": [
+      {
+        "userID": "61c3d22d-f95d-4e6c-b79a-c9088350ba76",
+        "nodeID": 1,
+        "score": 2009
+      },
+      {
+        "userID": "ee0d209b-d850-4910-9be6-25087d2118d2",
+        "nodeID": 2,
+        "score": 2008
+      },
+      {
+        "userID": "b8ceb62d-c4bf-48c6-9e08-cab4ad82bd00",
+        "nodeID": 3,
+        "score": 2008
+      }
+    ]
+  }
+}

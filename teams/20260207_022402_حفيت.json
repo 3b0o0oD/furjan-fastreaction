@@ -1,0 +1,25 @@
+{
+  "team_name": "حفيت",
+  "timestamp": "2026-02-07 02:24:02",
+  "total_score": 3900,
+  "backend_payload": {
+    "gameResultID": "ac81978e-d122-4eee-9d2b-0ba811fa930f",
+    "individualScore": [
+      {
+        "userID": "9dfb5c85-78f6-4e50-88b9-f3c469542ad3",
+        "nodeID": 1,
+        "score": 1300
+      },
+      {
+        "userID": "9c088f39-fc94-4139-a526-e0bfe340e4b1",
+        "nodeID": 2,
+        "score": 1300
+      },
+      {
+        "userID": "4a217b2a-bd2c-442b-9c3b-f4372d4974cb",
+        "nodeID": 3,
+        "score": 1300
+      }
+    ]
+  }
+}

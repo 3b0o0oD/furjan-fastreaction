@@ -1,0 +1,25 @@
+{
+  "team_name": "الاهلي",
+  "timestamp": "2026-02-06 23:20:07",
+  "total_score": 8850,
+  "backend_payload": {
+    "gameResultID": "334bbc95-4839-4766-8c8d-387949f62293",
+    "individualScore": [
+      {
+        "userID": "c2b53f54-fe36-4acd-bd27-628251d3bc43",
+        "nodeID": 1,
+        "score": 2950
+      },
+      {
+        "userID": "d5f21dba-6cf2-4260-ab9a-23e2652c9a72",
+        "nodeID": 2,
+        "score": 2950
+      },
+      {
+        "userID": "bf3fe0eb-1c70-4b4b-a4fa-67fef2730246",
+        "nodeID": 3,
+        "score": 2950
+      }
+    ]
+  }
+}

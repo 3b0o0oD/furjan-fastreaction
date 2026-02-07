@@ -1,0 +1,25 @@
+{
+  "team_name": "كيزا",
+  "timestamp": "2026-02-07 00:49:06",
+  "total_score": 4800,
+  "backend_payload": {
+    "gameResultID": "eb4c6ecb-f1ce-4048-ba4e-b8794e32e20a",
+    "individualScore": [
+      {
+        "userID": "b5e195d5-21e8-45fc-8b5d-d153b20ede0b",
+        "nodeID": 1,
+        "score": 1600
+      },
+      {
+        "userID": "dbc5df42-feb5-4ed8-83f8-8bdca1328598",
+        "nodeID": 2,
+        "score": 1600
+      },
+      {
+        "userID": "9afb3004-e001-4eb7-90fd-d63d0a5a91aa",
+        "nodeID": 3,
+        "score": 1600
+      }
+    ]
+  }
+}

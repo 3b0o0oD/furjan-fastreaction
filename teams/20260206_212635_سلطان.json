@@ -1,0 +1,25 @@
+{
+  "team_name": "سلطان",
+  "timestamp": "2026-02-06 21:26:35",
+  "total_score": 0,
+  "backend_payload": {
+    "gameResultID": "b540c984-3f98-4e16-ac49-aed2da7f3daf",
+    "individualScore": [
+      {
+        "userID": "7623a961-2ac5-46ac-933c-f23daed73de2",
+        "nodeID": 1,
+        "score": 0
+      },
+      {
+        "userID": "4c50116e-6456-4564-9fd2-d64c31c92cad",
+        "nodeID": 2,
+        "score": 0
+      },
+      {
+        "userID": "ac554b6f-8e6b-47be-a11c-bb3ab66e391f",
+        "nodeID": 3,
+        "score": 0
+      }
+    ]
+  }
+}
