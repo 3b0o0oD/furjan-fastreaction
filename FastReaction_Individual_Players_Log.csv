@@ -12877,3 +12877,9 @@ timestamp,game_result_id,user_id,node_id,individual_score,submission_success,sta
 2026-02-07 22:52:49,24c251a0-3488-4fcb-86a6-e4490098a9ca,d7180ebd-c635-4a8a-8b1e-9a047600d6f7,1,143,True,submitted_success
 2026-02-07 22:52:49,24c251a0-3488-4fcb-86a6-e4490098a9ca,e35b8ae4-302c-48eb-b2af-f214369508ca,2,141,True,submitted_success
 2026-02-07 22:52:49,24c251a0-3488-4fcb-86a6-e4490098a9ca,bf8cec44-a2af-4b73-8198-cc918efadddd,3,141,True,submitted_success
+2026-02-07 22:55:27,67716489-afc8-4aff-b26d-9c85b91f25e8,9e510abf-40c7-4acb-9967-db590f9bc21b,1,893,,pre_submission
+2026-02-07 22:55:27,67716489-afc8-4aff-b26d-9c85b91f25e8,73fa8ea4-7db5-40d0-bbf7-ab227467eccd,2,891,,pre_submission
+2026-02-07 22:55:27,67716489-afc8-4aff-b26d-9c85b91f25e8,4a5c33df-ee6f-4472-b652-29a4a5221cc1,3,891,,pre_submission
+2026-02-07 22:55:28,67716489-afc8-4aff-b26d-9c85b91f25e8,9e510abf-40c7-4acb-9967-db590f9bc21b,1,893,True,submitted_success
+2026-02-07 22:55:28,67716489-afc8-4aff-b26d-9c85b91f25e8,73fa8ea4-7db5-40d0-bbf7-ab227467eccd,2,891,True,submitted_success
+2026-02-07 22:55:28,67716489-afc8-4aff-b26d-9c85b91f25e8,4a5c33df-ee6f-4472-b652-29a4a5221cc1,3,891,True,submitted_success

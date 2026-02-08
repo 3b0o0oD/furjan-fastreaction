@@ -1,0 +1,25 @@
+{
+  "team_name": "الشباب",
+  "timestamp": "2026-02-07 22:55:27",
+  "total_score": 2675,
+  "backend_payload": {
+    "gameResultID": "67716489-afc8-4aff-b26d-9c85b91f25e8",
+    "individualScore": [
+      {
+        "userID": "9e510abf-40c7-4acb-9967-db590f9bc21b",
+        "nodeID": 1,
+        "score": 893
+      },
+      {
+        "userID": "73fa8ea4-7db5-40d0-bbf7-ab227467eccd",
+        "nodeID": 2,
+        "score": 891
+      },
+      {
+        "userID": "4a5c33df-ee6f-4472-b652-29a4a5221cc1",
+        "nodeID": 3,
+        "score": 891
+      }
+    ]
+  }
+}
